@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-01T16:45:30.815643",
+  "generated_at": "2026-02-01T16:49:43.263603",
   "tasks": {
     "active": [
       {
@@ -33,8 +33,8 @@
         "title": "[F] 책 추천 쇼츠 채널 만들기",
         "progress": 0,
         "assignee": "벤지",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
-        "last_updated": "2026-02-01T16:10:48.623653",
+        "thread_link": "https://rafykim.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
+        "last_updated": "2026-02-01T16:49:40.064286",
         "summary": "** 🟢 진행 중 (승인 완료! 구축 시작)"
       }
     ],
@@ -46,8 +46,8 @@
         "title": "슬랙 앱 홈탭 vs 웹 대시보드 조사",
         "progress": 0,
         "assignee": "벤지",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769908592574059?thread_ts=1769908592.574059",
-        "last_updated": "2026-02-01T14:44:50.961829",
+        "thread_link": "https://rafykim.slack.com/archives/C0AC14SM0UT/p1769908592574059?thread_ts=1769908592.574059",
+        "last_updated": "2026-02-01T16:49:40.054424",
         "summary": "** 🟢 진행 중 (조사 대기)"
       },
       {
