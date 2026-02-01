@@ -1,0 +1,94 @@
+{
+  "generated_at": "2026-02-01T14:36:01.615463",
+  "tasks": {
+    "active": [
+      {
+        "id": "thread-1769908592-574059",
+        "filename": "thread-1769908592-574059.md",
+        "status": "active",
+        "title": "슬랙 앱 홈탭 vs 웹 대시보드 조사",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": "https://rafykim.slack.com/archives/C0AC14SM0UT/p1769908592574059?thread_ts=1769908592.574059",
+        "last_updated": "2026-02-01T11:31:17.140589",
+        "summary": "** 🟢 진행 중 (조사 대기)"
+      },
+      {
+        "id": "C-ryan-investment-analysis",
+        "filename": "C-ryan-investment-analysis.md",
+        "status": "active",
+        "title": "[C] 라이언 투자 분석",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-01-31T10:05:18.517881",
+        "summary": "** 🟡 대기 (정보 필요)"
+      }
+    ],
+    "waiting": [
+      {
+        "id": "thread-1769842367730509",
+        "filename": "thread-1769842367730509.md",
+        "status": "waiting",
+        "title": "[F] 책 추천 쇼츠 채널 만들기",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-01-31T21:18:42.364862",
+        "summary": "** 🟢 진행 중 (승인 완료! 구축 시작)"
+      }
+    ],
+    "completed": [
+      {
+        "id": "A-benji-growth-system",
+        "filename": "A-benji-growth-system.md",
+        "status": "completed",
+        "title": "[A] 벤지 성장 시스템 구축",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-01-31T23:19:49.988033",
+        "summary": "** 🟢 진행 중 (야간 집중 루틴 완료!)"
+      },
+      {
+        "id": "D-one-second-choice-video-fix",
+        "filename": "D-one-second-choice-video-fix.md",
+        "status": "completed",
+        "title": "[D] \"1초 선택\" 영상 생성 문제 해결",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-01-31T15:53:31.469382",
+        "summary": "** ✅ 완료"
+      },
+      {
+        "id": "E-multi-thread-parallel-task-strategy",
+        "filename": "E-multi-thread-parallel-task-strategy.md",
+        "status": "completed",
+        "title": "[E] 멀티 스레드 병렬 작업 전략 수립",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-01-31T14:22:29.003577",
+        "summary": "추적"
+      },
+      {
+        "id": "B-youtube-channel-setup",
+        "filename": "B-youtube-channel-setup.md",
+        "status": "completed",
+        "title": "[B] 유튜브 채널 세팅 - \"1초 선택\"",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-01-31T10:38:52.376244",
+        "summary": "** 🟢 진행 중"
+      }
+    ]
+  },
+  "stats": {
+    "total": 7,
+    "active": 2,
+    "waiting": 1,
+    "completed": 4
+  }
+}

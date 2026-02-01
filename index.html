@@ -3,291 +3,348 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🌱 벤지 상태</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+    <title>🌱 벤지 대시보드</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             min-height: 100vh;
-            color: #fff;
+            color: #e0e0e0;
             padding: 20px;
         }
-        .container { max-width: 600px; margin: 0 auto; }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+        
         h1 {
-            text-align: center;
+            font-size: 2.5rem;
             margin-bottom: 10px;
-            font-size: 2em;
         }
-        .current-activity {
-            text-align: center;
-            margin-bottom: 25px;
-            padding: 15px;
-            background: rgba(74, 222, 128, 0.2);
-            border-radius: 12px;
-            border: 1px solid rgba(74, 222, 128, 0.3);
+        
+        .subtitle {
+            color: #888;
+            font-size: 0.9rem;
         }
-        .current-activity .emoji { font-size: 1.5em; margin-right: 8px; }
-        .current-activity .task { font-weight: 600; }
-        .current-activity .status { opacity: 0.8; font-size: 0.9em; }
-        .live-dot {
-            display: inline-block;
-            width: 8px;
-            height: 8px;
-            background: #4ade80;
-            border-radius: 50%;
-            margin-left: 8px;
-            animation: pulse-dot 1.5s infinite;
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 30px 0;
         }
-        @keyframes pulse-dot {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.5; transform: scale(0.8); }
-        }
-        .card {
-            background: rgba(255,255,255,0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 16px;
+        
+        .stat-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
             padding: 20px;
-            margin-bottom: 20px;
-            border: 1px solid rgba(255,255,255,0.1);
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
-        .card h2 {
-            font-size: 1.2em;
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        .stat-card.active .stat-number { color: #4ade80; }
+        .stat-card.waiting .stat-number { color: #fbbf24; }
+        .stat-card.completed .stat-number { color: #60a5fa; }
+        
+        .section {
+            margin: 30px 0;
+        }
+        
+        .section-title {
+            font-size: 1.3rem;
             margin-bottom: 15px;
             display: flex;
             align-items: center;
             gap: 10px;
         }
-        .card h2 .emoji { font-size: 1.4em; }
-        .task {
-            background: rgba(255,255,255,0.05);
+        
+        .task-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .task-card {
+            background: rgba(255, 255, 255, 0.05);
             border-radius: 12px;
-            padding: 15px;
-            margin-bottom: 10px;
-            transition: all 0.3s ease;
+            padding: 15px 20px;
+            border-left: 4px solid;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
-        .task:last-child { margin-bottom: 0; }
-        .task-title { font-weight: 600; margin-bottom: 5px; }
-        .task-status { font-size: 0.85em; opacity: 0.8; }
-        .task-meta { font-size: 0.8em; opacity: 0.6; margin-top: 8px; }
-        .status-active { border-left: 4px solid #4ade80; }
-        .status-waiting { border-left: 4px solid #fbbf24; }
-        .status-completed { border-left: 4px solid #60a5fa; }
-        .footer {
-            text-align: center;
-            margin-top: 20px;
+        
+        .task-card:hover {
+            transform: translateX(5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
         }
-        .update-time {
-            opacity: 0.5;
-            font-size: 0.85em;
+        
+        .task-card.active { border-left-color: #4ade80; }
+        .task-card.waiting { border-left-color: #fbbf24; }
+        .task-card.completed { border-left-color: #60a5fa; }
+        
+        .task-title {
+            font-weight: 600;
+            margin-bottom: 5px;
         }
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+        
+        .task-meta {
+            display: flex;
             gap: 15px;
-            margin-bottom: 20px;
+            font-size: 0.85rem;
+            color: #888;
+            flex-wrap: wrap;
         }
-        .stat {
-            background: rgba(255,255,255,0.1);
-            border-radius: 12px;
-            padding: 20px;
-            text-align: center;
-            transition: all 0.3s ease;
+        
+        .task-link {
+            color: #60a5fa;
+            text-decoration: none;
         }
-        .stat-number { font-size: 2.5em; font-weight: 700; }
-        .stat-label { font-size: 0.85em; opacity: 0.7; margin-top: 5px; }
-        .stat-active .stat-number { color: #4ade80; }
-        .stat-waiting .stat-number { color: #fbbf24; }
-        .stat-completed .stat-number { color: #60a5fa; }
-        .pulse-icon {
-            display: inline-block;
-            color: #4ade80;
-            animation: pulse-icon 2s infinite;
+        
+        .task-link:hover {
+            text-decoration: underline;
         }
-        @keyframes pulse-icon {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.3; }
-        }
-        .refresh-note {
-            font-size: 0.75em;
-            opacity: 0.4;
+        
+        .progress-bar {
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
             margin-top: 10px;
+            overflow: hidden;
         }
-        .connection-status {
-            font-size: 0.75em;
-            opacity: 0.6;
-            margin-top: 5px;
+        
+        .progress-fill {
+            height: 100%;
+            background: #4ade80;
+            border-radius: 2px;
+            transition: width 0.3s;
         }
-        .connection-status.connected { color: #4ade80; }
-        .connection-status.error { color: #f87171; }
-        .fade-update {
-            animation: fade-in 0.5s ease;
-        }
-        @keyframes fade-in {
-            from { opacity: 0.5; }
-            to { opacity: 1; }
-        }
+        
         .empty-state {
             text-align: center;
-            opacity: 0.5;
-            padding: 20px;
-            font-style: italic;
+            padding: 30px;
+            color: #666;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .connection-status {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .connection-status.connected {
+            background: rgba(74, 222, 128, 0.2);
+            color: #4ade80;
+        }
+        
+        .connection-status.error {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
+        }
+        
+        .pulse {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        
+        .connected .pulse { background: #4ade80; }
+        .error .pulse { background: #ef4444; }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        .last-update {
+            text-align: center;
+            color: #666;
+            font-size: 0.85rem;
+            margin-top: 30px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🌱 벤지 상태 <span class="live-dot"></span></h1>
+        <header>
+            <h1>🌱 벤지 대시보드</h1>
+            <p class="subtitle">실시간 작업 현황</p>
+        </header>
         
-        <div class="current-activity" id="currentActivity">
-            <span class="emoji">🔧</span>
-            <span class="task">대시보드 구현</span>
-            <div class="status">실시간 연동 작업 중</div>
-        </div>
-        
-        <div class="stats" id="stats">
-            <div class="stat stat-active">
-                <div class="stat-number" id="statActive">-</div>
+        <div class="stats">
+            <div class="stat-card active">
+                <div class="stat-number" id="stat-active">-</div>
                 <div class="stat-label">진행 중</div>
             </div>
-            <div class="stat stat-waiting">
-                <div class="stat-number" id="statWaiting">-</div>
+            <div class="stat-card waiting">
+                <div class="stat-number" id="stat-waiting">-</div>
                 <div class="stat-label">대기 중</div>
             </div>
-            <div class="stat stat-completed">
-                <div class="stat-number" id="statCompleted">-</div>
+            <div class="stat-card completed">
+                <div class="stat-number" id="stat-completed">-</div>
                 <div class="stat-label">완료</div>
             </div>
         </div>
-
-        <div class="card">
-            <h2><span class="emoji">🟢</span>진행 중</h2>
-            <div id="activeTasks">
+        
+        <div class="section">
+            <h2 class="section-title">🟢 진행 중</h2>
+            <div class="task-list" id="active-tasks">
                 <div class="empty-state">로딩 중...</div>
             </div>
         </div>
-
-        <div class="card">
-            <h2><span class="emoji">⏳</span>대기 중</h2>
-            <div id="waitingTasks">
+        
+        <div class="section">
+            <h2 class="section-title">⏳ 대기 중</h2>
+            <div class="task-list" id="waiting-tasks">
                 <div class="empty-state">로딩 중...</div>
             </div>
         </div>
-
-        <div class="card">
-            <h2><span class="emoji">✅</span>최근 완료</h2>
-            <div id="completedTasks">
+        
+        <div class="section">
+            <h2 class="section-title">✅ 최근 완료</h2>
+            <div class="task-list" id="completed-tasks">
                 <div class="empty-state">로딩 중...</div>
             </div>
         </div>
-
-        <div class="footer">
-            <p class="update-time" id="updateTime">마지막 업데이트: -</p>
-            <p class="connection-status connected" id="connectionStatus">● 연결됨</p>
-            <p class="refresh-note">10초마다 자동 갱신</p>
-        </div>
+        
+        <p class="last-update">마지막 업데이트: <span id="last-update">-</span></p>
     </div>
-
+    
+    <div class="connection-status connected" id="connection-status">
+        <span class="pulse"></span>
+        <span id="connection-text">연결됨</span>
+    </div>
+    
     <script>
-        const STATUS_URL = 'status.json';
-        const REFRESH_INTERVAL = 10000; // 10초
-        let lastData = null;
-
-        function formatTime(isoString) {
+        const DATA_URL = './dashboard-data.json';
+        const REFRESH_INTERVAL = 10000; // 10초마다 갱신
+        
+        function formatDate(isoString) {
+            if (!isoString) return '-';
             const date = new Date(isoString);
             return date.toLocaleString('ko-KR', {
-                month: 'numeric',
+                month: 'short',
                 day: 'numeric',
                 hour: '2-digit',
-                minute: '2-digit',
-                second: '2-digit'
+                minute: '2-digit'
             });
         }
-
-        function renderTask(task, type) {
-            const pulseHtml = task.pulse ? '<span class="pulse-icon">●</span>' : '';
+        
+        function renderTask(task, status) {
+            const threadLink = task.thread_link 
+                ? `<a href="${task.thread_link}" target="_blank" class="task-link">스레드 열기 →</a>`
+                : '';
+            
+            const progressBar = task.progress > 0
+                ? `<div class="progress-bar"><div class="progress-fill" style="width: ${task.progress}%"></div></div>`
+                : '';
+            
             return `
-                <div class="task status-${type} fade-update">
-                    <div class="task-title">${task.title} ${pulseHtml}</div>
-                    <div class="task-status">${task.status}</div>
-                    ${task.meta ? `<div class="task-meta">${task.meta}</div>` : ''}
+                <div class="task-card ${status}">
+                    <div class="task-title">${task.title || task.id}</div>
+                    <div class="task-meta">
+                        <span>📁 ${task.filename}</span>
+                        <span>🕐 ${formatDate(task.last_updated)}</span>
+                        ${threadLink}
+                    </div>
+                    ${task.summary ? `<div class="task-meta" style="margin-top: 5px;">${task.summary}</div>` : ''}
+                    ${progressBar}
                 </div>
             `;
         }
-
-        function renderTasks(tasks, containerId, type) {
+        
+        function renderTasks(tasks, containerId, status) {
             const container = document.getElementById(containerId);
             if (!tasks || tasks.length === 0) {
-                container.innerHTML = '<div class="empty-state">없음</div>';
+                container.innerHTML = '<div class="empty-state">작업 없음</div>';
                 return;
             }
-            container.innerHTML = tasks.map(t => renderTask(t, type)).join('');
+            container.innerHTML = tasks.map(task => renderTask(task, status)).join('');
         }
-
-        function updateUI(data) {
-            // 현재 활동
-            const activity = data.currentActivity;
-            document.getElementById('currentActivity').innerHTML = `
-                <span class="emoji">${activity.emoji}</span>
-                <span class="task">${activity.task}</span>
-                <div class="status">${activity.status}</div>
-            `;
-
-            // 통계
-            document.getElementById('statActive').textContent = data.stats.active;
-            document.getElementById('statWaiting').textContent = data.stats.waiting;
-            document.getElementById('statCompleted').textContent = data.stats.completed;
-
-            // 작업 목록
-            renderTasks(data.active, 'activeTasks', 'active');
-            renderTasks(data.waiting, 'waitingTasks', 'waiting');
-            renderTasks(data.completed, 'completedTasks', 'completed');
-
-            // 업데이트 시간
-            document.getElementById('updateTime').textContent = 
-                `마지막 업데이트: ${formatTime(data.lastUpdate)}`;
-        }
-
-        async function fetchStatus() {
+        
+        async function fetchData() {
             try {
-                const response = await fetch(STATUS_URL + '?t=' + Date.now());
-                if (!response.ok) throw new Error('Fetch failed');
+                const response = await fetch(DATA_URL + '?t=' + Date.now());
+                if (!response.ok) throw new Error('Failed to fetch');
                 
                 const data = await response.json();
                 
-                // 데이터 변경 감지
-                const dataStr = JSON.stringify(data);
-                if (dataStr !== JSON.stringify(lastData)) {
-                    updateUI(data);
-                    lastData = data;
-                }
-
-                // 연결 상태 표시
-                const status = document.getElementById('connectionStatus');
-                status.textContent = '● 연결됨';
-                status.className = 'connection-status connected';
-
+                // 통계 업데이트
+                document.getElementById('stat-active').textContent = data.stats.active;
+                document.getElementById('stat-waiting').textContent = data.stats.waiting;
+                document.getElementById('stat-completed').textContent = data.stats.completed;
+                
+                // 작업 목록 렌더링
+                renderTasks(data.tasks.active, 'active-tasks', 'active');
+                renderTasks(data.tasks.waiting, 'waiting-tasks', 'waiting');
+                renderTasks(data.tasks.completed.slice(0, 5), 'completed-tasks', 'completed');
+                
+                // 마지막 업데이트 시간
+                document.getElementById('last-update').textContent = formatDate(data.generated_at);
+                
+                // 연결 상태 업데이트
+                setConnectionStatus(true);
+                
             } catch (error) {
-                console.error('Status fetch error:', error);
-                const status = document.getElementById('connectionStatus');
-                status.textContent = '● 연결 오류 - 재시도 중...';
-                status.className = 'connection-status error';
+                console.error('데이터 로드 실패:', error);
+                setConnectionStatus(false);
             }
         }
-
-        // 초기 로드
-        fetchStatus();
-
-        // 주기적 갱신
-        setInterval(fetchStatus, REFRESH_INTERVAL);
-
-        // 페이지 포커스 시 즉시 갱신
-        document.addEventListener('visibilitychange', () => {
-            if (!document.hidden) {
-                fetchStatus();
+        
+        function setConnectionStatus(connected) {
+            const statusEl = document.getElementById('connection-status');
+            const textEl = document.getElementById('connection-text');
+            
+            if (connected) {
+                statusEl.className = 'connection-status connected';
+                textEl.textContent = '연결됨';
+            } else {
+                statusEl.className = 'connection-status error';
+                textEl.textContent = '연결 오류';
             }
-        });
+        }
+        
+        // 초기 로드
+        fetchData();
+        
+        // 주기적 갱신
+        setInterval(fetchData, REFRESH_INTERVAL);
     </script>
 </body>
 </html>
