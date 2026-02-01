@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-02-01T16:37:59.684684",
+  "generated_at": "2026-02-01T16:45:22.008885",
   "tasks": {
     "active": [
+      {
+        "id": "test-watcher",
+        "filename": "test-watcher.md",
+        "status": "active",
+        "title": "",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-02-01T16:45:20.545670",
+        "summary": ""
+      },
       {
         "id": "thread-1769931465.411509",
         "filename": "thread-1769931465.411509.md",
@@ -97,8 +108,8 @@
     ]
   },
   "stats": {
-    "total": 8,
-    "active": 2,
+    "total": 9,
+    "active": 3,
     "waiting": 1,
     "completed": 5
   }
