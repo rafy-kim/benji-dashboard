@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-01T17:01:52.976648",
+  "generated_at": "2026-02-01T17:02:45.491528",
   "tasks": {
     "active": [
       {
@@ -25,20 +25,19 @@
         "summary": "** 🟡 대기 (정보 필요)"
       }
     ],
-    "waiting": [
+    "waiting": [],
+    "completed": [
       {
         "id": "thread-1769842367730509",
         "filename": "thread-1769842367730509.md",
-        "status": "waiting",
+        "status": "completed",
         "title": "[F] 책 추천 쇼츠 채널 만들기",
         "progress": 0,
         "assignee": "벤지",
         "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
-        "last_updated": "2026-02-01T16:50:42.200872",
-        "summary": "** 🟢 진행 중 (승인 완료! 구축 시작)"
-      }
-    ],
-    "completed": [
+        "last_updated": "2026-02-01T17:02:44.334868",
+        "summary": "** ✅ 완료 (스레드 이사 → youtube-shorts-book-channel.md로 이어짐)"
+      },
       {
         "id": "thread-1769931465.411509",
         "filename": "thread-1769931465.411509.md",
@@ -110,7 +109,7 @@
   "stats": {
     "total": 9,
     "active": 2,
-    "waiting": 1,
-    "completed": 6
+    "waiting": 0,
+    "completed": 7
   }
 }
