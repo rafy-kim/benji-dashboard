@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-02-01T19:42:45.913344",
+  "generated_at": "2026-02-01T19:50:59.929326",
   "tasks": {
     "active": [
+      {
+        "id": "출산준비-체크리스트",
+        "filename": "출산준비-체크리스트.md",
+        "status": "active",
+        "title": "🍼 출산 준비 체크리스트",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-02-01T19:50:56.706589",
+        "summary": "** 🟡 진행 중"
+      },
       {
         "id": "youtube-shorts-book-channel",
         "filename": "youtube-shorts-book-channel.md",
@@ -107,8 +118,8 @@
     ]
   },
   "stats": {
-    "total": 9,
-    "active": 2,
+    "total": 10,
+    "active": 3,
     "waiting": 0,
     "completed": 7
   }
