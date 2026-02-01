@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-02-02T08:14:20.767779",
+  "generated_at": "2026-02-02T08:15:02.601584",
   "tasks": {
     "active": [
+      {
+        "id": "task-system-improvement",
+        "filename": "task-system-improvement.md",
+        "status": "active",
+        "title": "작업 관리 시스템 개선",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769986395147469",
+        "last_updated": "2026-02-02T08:14:59.371106",
+        "summary": "** | 🟢 진행 중 |"
+      },
       {
         "id": "youtube-shorts-book-channel",
         "filename": "youtube-shorts-book-channel.md",
@@ -36,7 +47,19 @@
         "summary": "** 🟡 대기 (정보 필요)"
       }
     ],
-    "waiting": [],
+    "waiting": [
+      {
+        "id": "ryan-investment",
+        "filename": "ryan-investment.md",
+        "status": "waiting",
+        "title": "라이언 투자 분석",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-02-02T08:14:59.391313",
+        "summary": "** | 🟡 응답 대기 |"
+      }
+    ],
     "completed": [
       {
         "id": "thread-1769842367730509",
@@ -118,9 +141,9 @@
     ]
   },
   "stats": {
-    "total": 10,
-    "active": 3,
-    "waiting": 0,
+    "total": 12,
+    "active": 4,
+    "waiting": 1,
     "completed": 7
   }
 }
