@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-02-01T16:50:45.397310",
+  "generated_at": "2026-02-01T16:54:04.100390",
   "tasks": {
     "active": [
-      {
-        "id": "thread-1769931465.411509",
-        "filename": "thread-1769931465.411509.md",
-        "status": "active",
-        "title": "📋 콘텐츠 채널 테스트",
-        "progress": 0,
-        "assignee": "벤지",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769931465411509",
-        "last_updated": "2026-02-01T16:50:42.205851",
-        "summary": "** 🟢 진행중"
-      },
       {
         "id": "C-ryan-investment-analysis",
         "filename": "C-ryan-investment-analysis.md",
@@ -39,6 +28,17 @@
       }
     ],
     "completed": [
+      {
+        "id": "thread-1769931465.411509",
+        "filename": "thread-1769931465.411509.md",
+        "status": "completed",
+        "title": "📋 콘텐츠 채널 테스트",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769931465411509",
+        "last_updated": "2026-02-01T16:50:42.205851",
+        "summary": "** 🟢 진행중"
+      },
       {
         "id": "B-youtube-channel-setup",
         "filename": "B-youtube-channel-setup.md",
@@ -98,8 +98,8 @@
   },
   "stats": {
     "total": 8,
-    "active": 2,
+    "active": 1,
     "waiting": 1,
-    "completed": 5
+    "completed": 6
   }
 }
