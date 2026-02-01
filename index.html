@@ -41,7 +41,7 @@
         
         .stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
             gap: 15px;
             margin: 30px 0;
         }
@@ -66,6 +66,7 @@
         }
         
         .stat-card.active .stat-number { color: #4ade80; }
+        .stat-card.next .stat-number { color: #a78bfa; }
         .stat-card.waiting .stat-number { color: #fbbf24; }
         .stat-card.completed .stat-number { color: #60a5fa; }
         
@@ -101,12 +102,28 @@
         }
         
         .task-card.active { border-left-color: #4ade80; }
+        .task-card.next { border-left-color: #a78bfa; }
         .task-card.waiting { border-left-color: #fbbf24; }
         .task-card.completed { border-left-color: #60a5fa; }
         
+        .task-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 8px;
+        }
+        
         .task-title {
             font-weight: 600;
-            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        
+        .task-channel {
+            font-size: 0.8rem;
+            color: #888;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2px 8px;
+            border-radius: 4px;
         }
         
         .task-meta {
@@ -115,6 +132,7 @@
             font-size: 0.85rem;
             color: #888;
             flex-wrap: wrap;
+            align-items: center;
         }
         
         .task-link {
@@ -124,6 +142,14 @@
         
         .task-link:hover {
             text-decoration: underline;
+        }
+        
+        .waiting-badge {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
         }
         
         .progress-bar {
@@ -136,23 +162,19 @@
         
         .progress-fill {
             height: 100%;
-            background: #4ade80;
             border-radius: 2px;
             transition: width 0.3s;
         }
+        
+        .task-card.active .progress-fill { background: #4ade80; }
+        .task-card.next .progress-fill { background: #a78bfa; }
+        .task-card.waiting .progress-fill { background: #fbbf24; }
+        .task-card.completed .progress-fill { background: #60a5fa; }
         
         .empty-state {
             text-align: center;
             padding: 30px;
             color: #666;
-        }
-        
-        .status-badge {
-            display: inline-block;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 500;
         }
         
         .connection-status {
@@ -198,6 +220,10 @@
             font-size: 0.85rem;
             margin-top: 30px;
         }
+        
+        .assignee {
+            font-size: 0.85rem;
+        }
     </style>
 </head>
 <body>
@@ -210,27 +236,38 @@
         <div class="stats">
             <div class="stat-card active">
                 <div class="stat-number" id="stat-active">-</div>
-                <div class="stat-label">진행 중</div>
+                <div class="stat-label">🟢 진행 중</div>
+            </div>
+            <div class="stat-card next">
+                <div class="stat-number" id="stat-next">-</div>
+                <div class="stat-label">📋 다음</div>
             </div>
             <div class="stat-card waiting">
                 <div class="stat-number" id="stat-waiting">-</div>
-                <div class="stat-label">대기 중</div>
+                <div class="stat-label">🟡 응답 대기</div>
             </div>
             <div class="stat-card completed">
                 <div class="stat-number" id="stat-completed">-</div>
-                <div class="stat-label">완료</div>
+                <div class="stat-label">✅ 완료</div>
             </div>
         </div>
         
         <div class="section">
-            <h2 class="section-title">🟢 진행 중</h2>
+            <h2 class="section-title">🟢 지금 하는 중</h2>
             <div class="task-list" id="active-tasks">
                 <div class="empty-state">로딩 중...</div>
             </div>
         </div>
         
         <div class="section">
-            <h2 class="section-title">⏳ 대기 중</h2>
+            <h2 class="section-title">📋 다음 할 일</h2>
+            <div class="task-list" id="next-tasks">
+                <div class="empty-state">로딩 중...</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">🟡 응답 대기</h2>
             <div class="task-list" id="waiting-tasks">
                 <div class="empty-state">로딩 중...</div>
             </div>
@@ -268,22 +305,36 @@
         
         function renderTask(task, status) {
             const threadLink = task.thread_link 
-                ? `<a href="${task.thread_link}" target="_blank" class="task-link">스레드 열기 →</a>`
+                ? `<a href="${task.thread_link}" target="_blank" class="task-link">스레드 →</a>`
                 : '';
             
             const progressBar = task.progress > 0
                 ? `<div class="progress-bar"><div class="progress-fill" style="width: ${task.progress}%"></div></div>`
                 : '';
             
+            const channel = task.channel 
+                ? `<span class="task-channel">${task.channel}</span>` 
+                : '';
+            
+            const waitingFor = task.waiting_for
+                ? `<span class="waiting-badge">⏳ ${task.waiting_for} 대기</span>`
+                : '';
+            
+            const assignee = task.assignee 
+                ? `<span class="assignee">👤 ${task.assignee}</span>` 
+                : '';
+            
             return `
                 <div class="task-card ${status}">
-                    <div class="task-title">${task.title || task.id}</div>
+                    <div class="task-header">
+                        <div class="task-title">${task.title || task.id}</div>
+                        ${channel}
+                    </div>
                     <div class="task-meta">
-                        <span>📁 ${task.filename}</span>
-                        <span>🕐 ${formatDate(task.last_updated)}</span>
+                        ${assignee}
+                        ${waitingFor}
                         ${threadLink}
                     </div>
-                    ${task.summary ? `<div class="task-meta" style="margin-top: 5px;">${task.summary}</div>` : ''}
                     ${progressBar}
                 </div>
             `;
@@ -306,14 +357,16 @@
                 const data = await response.json();
                 
                 // 통계 업데이트
-                document.getElementById('stat-active').textContent = data.stats.active;
-                document.getElementById('stat-waiting').textContent = data.stats.waiting;
-                document.getElementById('stat-completed').textContent = data.stats.completed;
+                document.getElementById('stat-active').textContent = data.stats.active || 0;
+                document.getElementById('stat-next').textContent = data.stats.next || 0;
+                document.getElementById('stat-waiting').textContent = data.stats.waiting || 0;
+                document.getElementById('stat-completed').textContent = data.stats.completed || 0;
                 
                 // 작업 목록 렌더링
                 renderTasks(data.tasks.active, 'active-tasks', 'active');
+                renderTasks(data.tasks.next, 'next-tasks', 'next');
                 renderTasks(data.tasks.waiting, 'waiting-tasks', 'waiting');
-                renderTasks(data.tasks.completed.slice(0, 5), 'completed-tasks', 'completed');
+                renderTasks(data.tasks.completed, 'completed-tasks', 'completed');
                 
                 // 마지막 업데이트 시간
                 document.getElementById('last-update').textContent = formatDate(data.generated_at);

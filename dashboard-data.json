@@ -1,115 +1,136 @@
 {
-  "generated_at": "2026-02-02T08:15:06.484551",
+  "generated_at": "2026-02-02T08:15:44.743438",
   "tasks": {
     "active": [
       {
         "id": "task-system-improvement",
         "filename": "task-system-improvement.md",
-        "status": "active",
+        "folder": "active",
         "title": "작업 관리 시스템 개선",
-        "progress": 0,
         "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#벤지-자기계발",
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769986395147469",
+        "waiting_for": null,
         "last_updated": "2026-02-02T08:14:59.371106",
-        "summary": "** | 🟢 진행 중 |"
+        "progress": 40
+      }
+    ],
+    "next": [
+      {
+        "id": "birth-prep",
+        "filename": "birth-prep.md",
+        "folder": "next",
+        "title": "출산 준비 체크리스트",
+        "assignee": "벤지 ↔ 라피",
+        "status": "📋 다음",
+        "channel": "#육아",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1769943029642769",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T08:14:59.416032",
+        "progress": 0
+      },
+      {
+        "id": "book-shorts-channel",
+        "filename": "book-shorts-channel.md",
+        "folder": "next",
+        "title": "YouTube 책 추천 쇼츠 채널",
+        "assignee": "벤지",
+        "status": "📋 다음",
+        "channel": "#콘텐츠",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769941575870289",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T08:14:59.404953",
+        "progress": 75
       }
     ],
     "waiting": [
       {
         "id": "ryan-investment",
         "filename": "ryan-investment.md",
-        "status": "waiting",
+        "folder": "waiting",
         "title": "라이언 투자 분석",
-        "progress": 0,
         "assignee": "벤지",
+        "status": "🟡 응답 대기",
+        "channel": "(미정)",
         "thread_link": null,
+        "waiting_for": "라이언/라피",
         "last_updated": "2026-02-02T08:14:59.391313",
-        "summary": "** | 🟡 응답 대기 |"
+        "progress": 0
       }
     ],
     "completed": [
       {
         "id": "thread-1769842367730509",
         "filename": "thread-1769842367730509.md",
-        "status": "completed",
+        "folder": "completed",
         "title": "[F] 책 추천 쇼츠 채널 만들기",
-        "progress": 0,
         "assignee": "벤지",
+        "status": "",
+        "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
+        "waiting_for": null,
         "last_updated": "2026-02-01T17:02:44.334868",
-        "summary": "** ✅ 완료 (스레드 이사 → youtube-shorts-book-channel.md로 이어짐)"
+        "progress": 0
       },
       {
         "id": "thread-1769931465.411509",
         "filename": "thread-1769931465.411509.md",
-        "status": "completed",
+        "folder": "completed",
         "title": "📋 콘텐츠 채널 테스트",
-        "progress": 0,
         "assignee": "벤지",
+        "status": "",
+        "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769931465411509",
+        "waiting_for": null,
         "last_updated": "2026-02-01T16:50:42.205851",
-        "summary": "** 🟢 진행중"
+        "progress": 75
       },
       {
         "id": "B-youtube-channel-setup",
         "filename": "B-youtube-channel-setup.md",
-        "status": "completed",
+        "folder": "completed",
         "title": "[B] 유튜브 채널 세팅 - \"1초 선택\"",
-        "progress": 0,
         "assignee": "벤지",
+        "status": "",
+        "channel": "",
         "thread_link": null,
+        "waiting_for": null,
         "last_updated": "2026-02-01T16:50:42.192173",
-        "summary": "** 🟢 진행 중"
+        "progress": 0
       },
       {
         "id": "thread-1769908592-574059",
         "filename": "thread-1769908592-574059.md",
-        "status": "completed",
+        "folder": "completed",
         "title": "슬랙 앱 홈탭 vs 웹 대시보드 조사",
-        "progress": 0,
         "assignee": "벤지",
+        "status": "",
+        "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769908592574059?thread_ts=1769908592.574059",
+        "waiting_for": null,
         "last_updated": "2026-02-01T16:50:42.189176",
-        "summary": "** 🟢 진행 중 (조사 대기)"
+        "progress": 0
       },
       {
         "id": "A-benji-growth-system",
         "filename": "A-benji-growth-system.md",
-        "status": "completed",
+        "folder": "completed",
         "title": "[A] 벤지 성장 시스템 구축",
-        "progress": 0,
         "assignee": "벤지",
+        "status": "",
+        "channel": "",
         "thread_link": null,
+        "waiting_for": null,
         "last_updated": "2026-02-01T16:50:42.185657",
-        "summary": "** 🟢 진행 중 (야간 집중 루틴 완료!)"
-      },
-      {
-        "id": "D-one-second-choice-video-fix",
-        "filename": "D-one-second-choice-video-fix.md",
-        "status": "completed",
-        "title": "[D] \"1초 선택\" 영상 생성 문제 해결",
-        "progress": 0,
-        "assignee": "벤지",
-        "thread_link": null,
-        "last_updated": "2026-02-01T16:50:42.181545",
-        "summary": "** ✅ 완료"
-      },
-      {
-        "id": "E-multi-thread-parallel-task-strategy",
-        "filename": "E-multi-thread-parallel-task-strategy.md",
-        "status": "completed",
-        "title": "[E] 멀티 스레드 병렬 작업 전략 수립",
-        "progress": 0,
-        "assignee": "벤지",
-        "thread_link": null,
-        "last_updated": "2026-02-01T16:50:42.177861",
-        "summary": "추적"
+        "progress": 0
       }
     ]
   },
   "stats": {
-    "total": 9,
+    "total": 11,
     "active": 1,
+    "next": 2,
     "waiting": 1,
     "completed": 7
   }
