@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-01T16:50:06.482885",
+  "generated_at": "2026-02-01T16:50:42.233348",
   "tasks": {
     "active": [
       {
@@ -9,8 +9,8 @@
         "title": "📋 콘텐츠 채널 테스트",
         "progress": 0,
         "assignee": "벤지",
-        "thread_link": "https://rafykim.slack.com/archives/C0AC4SF7HMK/p1769931465411509",
-        "last_updated": "2026-02-01T16:37:59.648956",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769931465411509",
+        "last_updated": "2026-02-01T16:50:42.205851",
         "summary": "** 🟢 진행중"
       },
       {
@@ -21,7 +21,7 @@
         "progress": 0,
         "assignee": "벤지",
         "thread_link": null,
-        "last_updated": "2026-01-31T10:05:18.517881",
+        "last_updated": "2026-02-01T16:50:42.203410",
         "summary": "** 🟡 대기 (정보 필요)"
       }
     ],
@@ -33,12 +33,23 @@
         "title": "[F] 책 추천 쇼츠 채널 만들기",
         "progress": 0,
         "assignee": "벤지",
-        "thread_link": "https://rafykim.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
-        "last_updated": "2026-02-01T16:49:40.064286",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
+        "last_updated": "2026-02-01T16:50:42.200872",
         "summary": "** 🟢 진행 중 (승인 완료! 구축 시작)"
       }
     ],
     "completed": [
+      {
+        "id": "B-youtube-channel-setup",
+        "filename": "B-youtube-channel-setup.md",
+        "status": "completed",
+        "title": "[B] 유튜브 채널 세팅 - \"1초 선택\"",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": null,
+        "last_updated": "2026-02-01T16:50:42.192173",
+        "summary": "** 🟢 진행 중"
+      },
       {
         "id": "thread-1769908592-574059",
         "filename": "thread-1769908592-574059.md",
@@ -46,8 +57,8 @@
         "title": "슬랙 앱 홈탭 vs 웹 대시보드 조사",
         "progress": 0,
         "assignee": "벤지",
-        "thread_link": "https://rafykim.slack.com/archives/C0AC14SM0UT/p1769908592574059?thread_ts=1769908592.574059",
-        "last_updated": "2026-02-01T16:49:40.054424",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769908592574059?thread_ts=1769908592.574059",
+        "last_updated": "2026-02-01T16:50:42.189176",
         "summary": "** 🟢 진행 중 (조사 대기)"
       },
       {
@@ -58,7 +69,7 @@
         "progress": 0,
         "assignee": "벤지",
         "thread_link": null,
-        "last_updated": "2026-01-31T23:19:49.988033",
+        "last_updated": "2026-02-01T16:50:42.185657",
         "summary": "** 🟢 진행 중 (야간 집중 루틴 완료!)"
       },
       {
@@ -69,7 +80,7 @@
         "progress": 0,
         "assignee": "벤지",
         "thread_link": null,
-        "last_updated": "2026-01-31T15:53:31.469382",
+        "last_updated": "2026-02-01T16:50:42.181545",
         "summary": "** ✅ 완료"
       },
       {
@@ -80,19 +91,8 @@
         "progress": 0,
         "assignee": "벤지",
         "thread_link": null,
-        "last_updated": "2026-01-31T14:22:29.003577",
+        "last_updated": "2026-02-01T16:50:42.177861",
         "summary": "추적"
-      },
-      {
-        "id": "B-youtube-channel-setup",
-        "filename": "B-youtube-channel-setup.md",
-        "status": "completed",
-        "title": "[B] 유튜브 채널 세팅 - \"1초 선택\"",
-        "progress": 0,
-        "assignee": "벤지",
-        "thread_link": null,
-        "last_updated": "2026-01-31T10:38:52.376244",
-        "summary": "** 🟢 진행 중"
       }
     ]
   },
