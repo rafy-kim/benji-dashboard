@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-02-01T16:54:04.100390",
+  "generated_at": "2026-02-01T16:54:49.856306",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-shorts-book-channel",
+        "filename": "youtube-shorts-book-channel.md",
+        "status": "active",
+        "title": "[F] YouTube Shorts 책 추천 채널",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": "https://rafykim.slack.com/archives/C0AC9RKLCBB/p1769929436762599",
+        "last_updated": "2026-02-01T16:54:46.722806",
+        "summary": "** 🟢 진행 중"
+      },
       {
         "id": "C-ryan-investment-analysis",
         "filename": "C-ryan-investment-analysis.md",
@@ -97,8 +108,8 @@
     ]
   },
   "stats": {
-    "total": 8,
-    "active": 1,
+    "total": 9,
+    "active": 2,
     "waiting": 1,
     "completed": 6
   }
