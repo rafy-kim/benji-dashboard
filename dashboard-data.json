@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T08:15:44.743438",
+  "generated_at": "2026-02-02T08:24:19.212079",
   "tasks": {
     "active": [
       {
@@ -12,8 +12,8 @@
         "channel": "#벤지-자기계발",
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769986395147469",
         "waiting_for": null,
-        "last_updated": "2026-02-02T08:14:59.371106",
-        "progress": 40
+        "last_updated": "2026-02-02T08:17:51.873227",
+        "progress": 86
       }
     ],
     "next": [
@@ -127,11 +127,23 @@
       }
     ]
   },
+  "cron": [
+    {
+      "id": "heartbeat",
+      "name": "💓 하트비트",
+      "schedule": "매 1시간",
+      "description": "작업 데드락 감지, 스레드 이사 체크",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null
+    }
+  ],
   "stats": {
     "total": 11,
     "active": 1,
     "next": 2,
     "waiting": 1,
-    "completed": 7
+    "completed": 7,
+    "cron": 1
   }
 }

@@ -41,33 +41,34 @@
         
         .stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 12px;
             margin: 30px 0;
         }
         
         .stat-card {
             background: rgba(255, 255, 255, 0.05);
             border-radius: 15px;
-            padding: 20px;
+            padding: 15px;
             text-align: center;
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
         
         .stat-number {
-            font-size: 2.5rem;
+            font-size: 2rem;
             font-weight: bold;
             margin-bottom: 5px;
         }
         
         .stat-label {
             color: #888;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
         
         .stat-card.active .stat-number { color: #4ade80; }
         .stat-card.next .stat-number { color: #a78bfa; }
         .stat-card.waiting .stat-number { color: #fbbf24; }
+        .stat-card.cron .stat-number { color: #f472b6; }
         .stat-card.completed .stat-number { color: #60a5fa; }
         
         .section {
@@ -104,6 +105,7 @@
         .task-card.active { border-left-color: #4ade80; }
         .task-card.next { border-left-color: #a78bfa; }
         .task-card.waiting { border-left-color: #fbbf24; }
+        .task-card.cron { border-left-color: #f472b6; }
         .task-card.completed { border-left-color: #60a5fa; }
         
         .task-header {
@@ -150,6 +152,31 @@
             padding: 2px 8px;
             border-radius: 4px;
             font-size: 0.8rem;
+        }
+        
+        .cron-schedule {
+            background: rgba(244, 114, 182, 0.2);
+            color: #f472b6;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        
+        .cron-status {
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .cron-status.enabled {
+            background: rgba(74, 222, 128, 0.2);
+            color: #4ade80;
+        }
+        
+        .cron-status.disabled {
+            background: rgba(239, 68, 68, 0.2);
+            color: #ef4444;
         }
         
         .progress-bar {
@@ -224,6 +251,18 @@
         .assignee {
             font-size: 0.85rem;
         }
+        
+        .cron-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 10px;
+        }
+        
+        .cron-desc {
+            font-size: 0.85rem;
+            color: #aaa;
+            margin-top: 5px;
+        }
     </style>
 </head>
 <body>
@@ -244,7 +283,11 @@
             </div>
             <div class="stat-card waiting">
                 <div class="stat-number" id="stat-waiting">-</div>
-                <div class="stat-label">🟡 응답 대기</div>
+                <div class="stat-label">🟡 대기</div>
+            </div>
+            <div class="stat-card cron">
+                <div class="stat-number" id="stat-cron">-</div>
+                <div class="stat-label">🔄 자동화</div>
             </div>
             <div class="stat-card completed">
                 <div class="stat-number" id="stat-completed">-</div>
@@ -269,6 +312,13 @@
         <div class="section">
             <h2 class="section-title">🟡 응답 대기</h2>
             <div class="task-list" id="waiting-tasks">
+                <div class="empty-state">로딩 중...</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2 class="section-title">🔄 자동화 (크론/하트비트)</h2>
+            <div class="cron-grid" id="cron-jobs">
                 <div class="empty-state">로딩 중...</div>
             </div>
         </div>
@@ -340,6 +390,27 @@
             `;
         }
         
+        function renderCronJob(job) {
+            const statusClass = job.enabled ? 'enabled' : 'disabled';
+            const statusText = job.enabled ? '활성' : '비활성';
+            const lastRun = job.lastRun ? `마지막: ${formatDate(job.lastRun)}` : '';
+            const nextRun = job.nextRun ? `다음: ${formatDate(job.nextRun)}` : '';
+            
+            return `
+                <div class="task-card cron">
+                    <div class="task-header">
+                        <div class="task-title">${job.name || job.id}</div>
+                        <span class="cron-status ${statusClass}">${statusText}</span>
+                    </div>
+                    <div class="task-meta">
+                        <span class="cron-schedule">⏰ ${job.schedule}</span>
+                        ${lastRun ? `<span>${lastRun}</span>` : ''}
+                    </div>
+                    ${job.description ? `<div class="cron-desc">${job.description}</div>` : ''}
+                </div>
+            `;
+        }
+        
         function renderTasks(tasks, containerId, status) {
             const container = document.getElementById(containerId);
             if (!tasks || tasks.length === 0) {
@@ -347,6 +418,15 @@
                 return;
             }
             container.innerHTML = tasks.map(task => renderTask(task, status)).join('');
+        }
+        
+        function renderCronJobs(jobs) {
+            const container = document.getElementById('cron-jobs');
+            if (!jobs || jobs.length === 0) {
+                container.innerHTML = '<div class="empty-state">크론 잡 없음</div>';
+                return;
+            }
+            container.innerHTML = jobs.map(job => renderCronJob(job)).join('');
         }
         
         async function fetchData() {
@@ -360,6 +440,7 @@
                 document.getElementById('stat-active').textContent = data.stats.active || 0;
                 document.getElementById('stat-next').textContent = data.stats.next || 0;
                 document.getElementById('stat-waiting').textContent = data.stats.waiting || 0;
+                document.getElementById('stat-cron').textContent = data.stats.cron || 0;
                 document.getElementById('stat-completed').textContent = data.stats.completed || 0;
                 
                 // 작업 목록 렌더링
@@ -367,6 +448,9 @@
                 renderTasks(data.tasks.next, 'next-tasks', 'next');
                 renderTasks(data.tasks.waiting, 'waiting-tasks', 'waiting');
                 renderTasks(data.tasks.completed, 'completed-tasks', 'completed');
+                
+                // 크론 잡 렌더링
+                renderCronJobs(data.cron || []);
                 
                 // 마지막 업데이트 시간
                 document.getElementById('last-update').textContent = formatDate(data.generated_at);
