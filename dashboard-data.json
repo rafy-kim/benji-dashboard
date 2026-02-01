@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T08:15:02.601584",
+  "generated_at": "2026-02-02T08:15:06.484551",
   "tasks": {
     "active": [
       {
@@ -12,39 +12,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769986395147469",
         "last_updated": "2026-02-02T08:14:59.371106",
         "summary": "** | 🟢 진행 중 |"
-      },
-      {
-        "id": "youtube-shorts-book-channel",
-        "filename": "youtube-shorts-book-channel.md",
-        "status": "active",
-        "title": "[F] YouTube Shorts 책 추천 채널",
-        "progress": 0,
-        "assignee": "벤지",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769941575870289",
-        "last_updated": "2026-02-01T19:51:06.989242",
-        "summary": "** 🟢 진행 중"
-      },
-      {
-        "id": "출산준비-체크리스트",
-        "filename": "출산준비-체크리스트.md",
-        "status": "active",
-        "title": "🍼 출산 준비 체크리스트",
-        "progress": 0,
-        "assignee": "벤지",
-        "thread_link": null,
-        "last_updated": "2026-02-01T19:50:56.706589",
-        "summary": "** 🟡 진행 중"
-      },
-      {
-        "id": "C-ryan-investment-analysis",
-        "filename": "C-ryan-investment-analysis.md",
-        "status": "active",
-        "title": "[C] 라이언 투자 분석",
-        "progress": 0,
-        "assignee": "벤지",
-        "thread_link": null,
-        "last_updated": "2026-02-01T16:50:42.203410",
-        "summary": "** 🟡 대기 (정보 필요)"
       }
     ],
     "waiting": [
@@ -141,8 +108,8 @@
     ]
   },
   "stats": {
-    "total": 12,
-    "active": 4,
+    "total": 9,
+    "active": 1,
     "waiting": 1,
     "completed": 7
   }
