@@ -1,18 +1,7 @@
 {
-  "generated_at": "2026-02-01T14:44:50.999075",
+  "generated_at": "2026-02-01T14:47:41.957820",
   "tasks": {
     "active": [
-      {
-        "id": "thread-1769908592-574059",
-        "filename": "thread-1769908592-574059.md",
-        "status": "active",
-        "title": "슬랙 앱 홈탭 vs 웹 대시보드 조사",
-        "progress": 0,
-        "assignee": "벤지",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769908592574059?thread_ts=1769908592.574059",
-        "last_updated": "2026-02-01T14:44:50.961829",
-        "summary": "** 🟢 진행 중 (조사 대기)"
-      },
       {
         "id": "C-ryan-investment-analysis",
         "filename": "C-ryan-investment-analysis.md",
@@ -33,12 +22,23 @@
         "title": "[F] 책 추천 쇼츠 채널 만들기",
         "progress": 0,
         "assignee": "벤지",
-        "thread_link": null,
-        "last_updated": "2026-01-31T21:18:42.364862",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769842367730509?thread_ts=1769842367.730509",
+        "last_updated": "2026-02-01T14:47:37.869914",
         "summary": "** 🟢 진행 중 (승인 완료! 구축 시작)"
       }
     ],
     "completed": [
+      {
+        "id": "thread-1769908592-574059",
+        "filename": "thread-1769908592-574059.md",
+        "status": "completed",
+        "title": "슬랙 앱 홈탭 vs 웹 대시보드 조사",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769908592574059?thread_ts=1769908592.574059",
+        "last_updated": "2026-02-01T14:44:50.961829",
+        "summary": "** 🟢 진행 중 (조사 대기)"
+      },
       {
         "id": "A-benji-growth-system",
         "filename": "A-benji-growth-system.md",
@@ -87,8 +87,8 @@
   },
   "stats": {
     "total": 7,
-    "active": 2,
+    "active": 1,
     "waiting": 1,
-    "completed": 4
+    "completed": 5
   }
 }
