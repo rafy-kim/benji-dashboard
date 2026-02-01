@@ -17,10 +17,33 @@
         .container { max-width: 600px; margin: 0 auto; }
         h1 {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
             font-size: 2em;
         }
-        h1 span { margin-right: 10px; }
+        .current-activity {
+            text-align: center;
+            margin-bottom: 25px;
+            padding: 15px;
+            background: rgba(74, 222, 128, 0.2);
+            border-radius: 12px;
+            border: 1px solid rgba(74, 222, 128, 0.3);
+        }
+        .current-activity .emoji { font-size: 1.5em; margin-right: 8px; }
+        .current-activity .task { font-weight: 600; }
+        .current-activity .status { opacity: 0.8; font-size: 0.9em; }
+        .live-dot {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #4ade80;
+            border-radius: 50%;
+            margin-left: 8px;
+            animation: pulse-dot 1.5s infinite;
+        }
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
         .card {
             background: rgba(255,255,255,0.1);
             backdrop-filter: blur(10px);
@@ -42,6 +65,7 @@
             border-radius: 12px;
             padding: 15px;
             margin-bottom: 10px;
+            transition: all 0.3s ease;
         }
         .task:last-child { margin-bottom: 0; }
         .task-title { font-weight: 600; margin-bottom: 5px; }
@@ -50,11 +74,13 @@
         .status-active { border-left: 4px solid #4ade80; }
         .status-waiting { border-left: 4px solid #fbbf24; }
         .status-completed { border-left: 4px solid #60a5fa; }
-        .update-time {
+        .footer {
             text-align: center;
+            margin-top: 20px;
+        }
+        .update-time {
             opacity: 0.5;
             font-size: 0.85em;
-            margin-top: 20px;
         }
         .stats {
             display: grid;
@@ -67,91 +93,201 @@
             border-radius: 12px;
             padding: 20px;
             text-align: center;
+            transition: all 0.3s ease;
         }
         .stat-number { font-size: 2.5em; font-weight: 700; }
         .stat-label { font-size: 0.85em; opacity: 0.7; margin-top: 5px; }
         .stat-active .stat-number { color: #4ade80; }
         .stat-waiting .stat-number { color: #fbbf24; }
         .stat-completed .stat-number { color: #60a5fa; }
-        .pulse {
-            animation: pulse 2s infinite;
+        .pulse-icon {
+            display: inline-block;
+            color: #4ade80;
+            animation: pulse-icon 2s infinite;
         }
-        @keyframes pulse {
+        @keyframes pulse-icon {
             0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+            50% { opacity: 0.3; }
         }
         .refresh-note {
-            text-align: center;
             font-size: 0.75em;
             opacity: 0.4;
             margin-top: 10px;
+        }
+        .connection-status {
+            font-size: 0.75em;
+            opacity: 0.6;
+            margin-top: 5px;
+        }
+        .connection-status.connected { color: #4ade80; }
+        .connection-status.error { color: #f87171; }
+        .fade-update {
+            animation: fade-in 0.5s ease;
+        }
+        @keyframes fade-in {
+            from { opacity: 0.5; }
+            to { opacity: 1; }
+        }
+        .empty-state {
+            text-align: center;
+            opacity: 0.5;
+            padding: 20px;
+            font-style: italic;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1><span>🌱</span>벤지 상태</h1>
+        <h1>🌱 벤지 상태 <span class="live-dot"></span></h1>
         
-        <div class="stats">
+        <div class="current-activity" id="currentActivity">
+            <span class="emoji">🔧</span>
+            <span class="task">대시보드 구현</span>
+            <div class="status">실시간 연동 작업 중</div>
+        </div>
+        
+        <div class="stats" id="stats">
             <div class="stat stat-active">
-                <div class="stat-number">2</div>
+                <div class="stat-number" id="statActive">-</div>
                 <div class="stat-label">진행 중</div>
             </div>
             <div class="stat stat-waiting">
-                <div class="stat-number">1</div>
+                <div class="stat-number" id="statWaiting">-</div>
                 <div class="stat-label">대기 중</div>
             </div>
             <div class="stat stat-completed">
-                <div class="stat-number">4</div>
+                <div class="stat-number" id="statCompleted">-</div>
                 <div class="stat-label">완료</div>
             </div>
         </div>
 
         <div class="card">
             <h2><span class="emoji">🟢</span>진행 중</h2>
-            <div class="task status-active">
-                <div class="task-title">대시보드 구현 <span class="pulse">●</span></div>
-                <div class="task-status">Canvas 웹 대시보드 제작 중</div>
-                <div class="task-meta">채널: #벤지-자기계발</div>
-            </div>
-            <div class="task status-active">
-                <div class="task-title">라이언 투자 분석</div>
-                <div class="task-status">🟡 정보 대기 중</div>
-                <div class="task-meta">라이언 요청 내용 확인 필요</div>
+            <div id="activeTasks">
+                <div class="empty-state">로딩 중...</div>
             </div>
         </div>
 
         <div class="card">
             <h2><span class="emoji">⏳</span>대기 중</h2>
-            <div class="task status-waiting">
-                <div class="task-title">책 추천 쇼츠 채널</div>
-                <div class="task-status">승인 완료 - 구축 예정</div>
-                <div class="task-meta">예상 소요: 2-3시간</div>
+            <div id="waitingTasks">
+                <div class="empty-state">로딩 중...</div>
             </div>
         </div>
 
         <div class="card">
             <h2><span class="emoji">✅</span>최근 완료</h2>
-            <div class="task status-completed">
-                <div class="task-title">벤지 성장 시스템</div>
-                <div class="task-status">메모리 시스템 재구성</div>
-            </div>
-            <div class="task status-completed">
-                <div class="task-title">1초 선택 비디오 수정</div>
-                <div class="task-status">영상 문제 해결</div>
-            </div>
-            <div class="task status-completed">
-                <div class="task-title">멀티 스레드 병렬 작업 전략</div>
-                <div class="task-status">작업 관리 체계 확립</div>
-            </div>
-            <div class="task status-completed">
-                <div class="task-title">유튜브 채널 셋업</div>
-                <div class="task-status">shorts 시스템 구축</div>
+            <div id="completedTasks">
+                <div class="empty-state">로딩 중...</div>
             </div>
         </div>
 
-        <p class="update-time">마지막 업데이트: 2026-02-01 11:24 KST</p>
-        <p class="refresh-note">자동 업데이트는 벤지가 주기적으로 수행합니다</p>
+        <div class="footer">
+            <p class="update-time" id="updateTime">마지막 업데이트: -</p>
+            <p class="connection-status connected" id="connectionStatus">● 연결됨</p>
+            <p class="refresh-note">10초마다 자동 갱신</p>
+        </div>
     </div>
+
+    <script>
+        const STATUS_URL = 'status.json';
+        const REFRESH_INTERVAL = 10000; // 10초
+        let lastData = null;
+
+        function formatTime(isoString) {
+            const date = new Date(isoString);
+            return date.toLocaleString('ko-KR', {
+                month: 'numeric',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit'
+            });
+        }
+
+        function renderTask(task, type) {
+            const pulseHtml = task.pulse ? '<span class="pulse-icon">●</span>' : '';
+            return `
+                <div class="task status-${type} fade-update">
+                    <div class="task-title">${task.title} ${pulseHtml}</div>
+                    <div class="task-status">${task.status}</div>
+                    ${task.meta ? `<div class="task-meta">${task.meta}</div>` : ''}
+                </div>
+            `;
+        }
+
+        function renderTasks(tasks, containerId, type) {
+            const container = document.getElementById(containerId);
+            if (!tasks || tasks.length === 0) {
+                container.innerHTML = '<div class="empty-state">없음</div>';
+                return;
+            }
+            container.innerHTML = tasks.map(t => renderTask(t, type)).join('');
+        }
+
+        function updateUI(data) {
+            // 현재 활동
+            const activity = data.currentActivity;
+            document.getElementById('currentActivity').innerHTML = `
+                <span class="emoji">${activity.emoji}</span>
+                <span class="task">${activity.task}</span>
+                <div class="status">${activity.status}</div>
+            `;
+
+            // 통계
+            document.getElementById('statActive').textContent = data.stats.active;
+            document.getElementById('statWaiting').textContent = data.stats.waiting;
+            document.getElementById('statCompleted').textContent = data.stats.completed;
+
+            // 작업 목록
+            renderTasks(data.active, 'activeTasks', 'active');
+            renderTasks(data.waiting, 'waitingTasks', 'waiting');
+            renderTasks(data.completed, 'completedTasks', 'completed');
+
+            // 업데이트 시간
+            document.getElementById('updateTime').textContent = 
+                `마지막 업데이트: ${formatTime(data.lastUpdate)}`;
+        }
+
+        async function fetchStatus() {
+            try {
+                const response = await fetch(STATUS_URL + '?t=' + Date.now());
+                if (!response.ok) throw new Error('Fetch failed');
+                
+                const data = await response.json();
+                
+                // 데이터 변경 감지
+                const dataStr = JSON.stringify(data);
+                if (dataStr !== JSON.stringify(lastData)) {
+                    updateUI(data);
+                    lastData = data;
+                }
+
+                // 연결 상태 표시
+                const status = document.getElementById('connectionStatus');
+                status.textContent = '● 연결됨';
+                status.className = 'connection-status connected';
+
+            } catch (error) {
+                console.error('Status fetch error:', error);
+                const status = document.getElementById('connectionStatus');
+                status.textContent = '● 연결 오류 - 재시도 중...';
+                status.className = 'connection-status error';
+            }
+        }
+
+        // 초기 로드
+        fetchStatus();
+
+        // 주기적 갱신
+        setInterval(fetchStatus, REFRESH_INTERVAL);
+
+        // 페이지 포커스 시 즉시 갱신
+        document.addEventListener('visibilitychange', () => {
+            if (!document.hidden) {
+                fetchStatus();
+            }
+        });
+    </script>
 </body>
 </html>
