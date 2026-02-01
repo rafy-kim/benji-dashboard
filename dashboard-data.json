@@ -1,7 +1,18 @@
 {
-  "generated_at": "2026-02-01T14:47:41.957820",
+  "generated_at": "2026-02-01T16:37:59.684684",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1769931465.411509",
+        "filename": "thread-1769931465.411509.md",
+        "status": "active",
+        "title": "📋 콘텐츠 채널 테스트",
+        "progress": 0,
+        "assignee": "벤지",
+        "thread_link": "https://rafykim.slack.com/archives/C0AC4SF7HMK/p1769931465411509",
+        "last_updated": "2026-02-01T16:37:59.648956",
+        "summary": "** 🟢 진행중"
+      },
       {
         "id": "C-ryan-investment-analysis",
         "filename": "C-ryan-investment-analysis.md",
@@ -22,8 +33,8 @@
         "title": "[F] 책 추천 쇼츠 채널 만들기",
         "progress": 0,
         "assignee": "벤지",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769842367730509?thread_ts=1769842367.730509",
-        "last_updated": "2026-02-01T14:47:37.869914",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
+        "last_updated": "2026-02-01T16:10:48.623653",
         "summary": "** 🟢 진행 중 (승인 완료! 구축 시작)"
       }
     ],
@@ -86,8 +97,8 @@
     ]
   },
   "stats": {
-    "total": 7,
-    "active": 1,
+    "total": 8,
+    "active": 2,
     "waiting": 1,
     "completed": 5
   }
