@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-02T16:25:57.029203",
+  "generated_at": "2026-02-02T16:26:16.654560",
   "tasks": {
     "active": [
-      {
-        "id": "heartbeat-refactoring-emoji-completion",
-        "filename": "heartbeat-refactoring-emoji-completion.md",
-        "folder": "active",
-        "title": "하트비트 리팩토링: ✅ 이모지 자동 완료",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016312119809?thread_ts=1770016312.119809",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:25:52.960129",
-        "progress": 100
-      },
       {
         "id": "slack-command-heartbeat-refactor",
         "filename": "slack-command-heartbeat-refactor.md",
@@ -230,6 +217,19 @@
     ],
     "completed": [
       {
+        "id": "heartbeat-refactoring-emoji-completion",
+        "filename": "heartbeat-refactoring-emoji-completion.md",
+        "folder": "completed",
+        "title": "하트비트 리팩토링: ✅ 이모지 자동 완료",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016312119809?thread_ts=1770016312.119809",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:26:02.735346",
+        "progress": 100
+      },
+      {
         "id": "cron-restoration-heartbeat-learning",
         "filename": "cron-restoration-heartbeat-learning.md",
         "folder": "completed",
@@ -280,170 +280,57 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T15:49:24.953336",
         "progress": 100
-      },
-      {
-        "id": "config-backup-automation",
-        "filename": "config-backup-automation.md",
-        "folder": "completed",
-        "title": "Config 백업 자동화 + 하트비트 1분 주기",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:35:19.612342",
-        "progress": 100
       }
     ]
   },
   "cron": [
     {
-      "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
-      "name": "벤지 데드락 모니터링",
-      "schedule": "크론: */2 * * * *",
-      "description": "하트비트 체크!",
-      "enabled": true,
-      "lastRun": "2026-02-02T16:22:37.874000",
-      "nextRun": "2026-02-02T16:26:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "81dd80b1-c2a2-412d-924e-5bfa0d881c28",
-      "name": "하트비트 (1분)",
-      "schedule": "크론: * * * * *",
-      "description": "HEARTBEAT.md를 읽고 따라 실행해줘. 문제 없으면 HEARTBEAT_OK만 반환.",
-      "enabled": true,
-      "lastRun": "2026-02-02T16:20:37.758000",
-      "nextRun": "2026-02-02T16:26:00",
-      "lastStatus": "skipped"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "09-20시 정각",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-02T16:01:08.597000",
-      "nextRun": "2026-02-02T17:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "35df7167-1222-474b-a5fc-326ef4c88435",
-      "name": "벤지 낮 정리",
-      "schedule": "15시, 21시",
-      "description": "6시간 학습 정리 시간! 1) learning/daily/오늘날짜.md에서 최근 5시간 학습 내용을 분석하고...",
-      "enabled": true,
-      "lastRun": "2026-02-02T15:05:00.325000",
-      "nextRun": "2026-02-02T21:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
-      "name": "벤지 심야 학습",
-      "schedule": "심야 20분마다",
-      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
-      "enabled": true,
-      "lastRun": "2026-02-02T08:40:40.598000",
-      "nextRun": "2026-02-02T21:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "id": "heartbeat",
+      "name": "🫀 하트비트 체크",
+      "schedule": "1분마다",
+      "description": "작업 카드 자동 생성, 데드락 감지, 스레드 이사 체크",
       "enabled": true,
       "lastRun": null,
-      "nextRun": "2026-02-03T00:00:00",
-      "lastStatus": null
+      "nextRun": null,
+      "lastStatus": "OK"
     },
     {
-      "id": "62923dea-9e39-452b-be42-4a0048df2279",
-      "name": "Config 백업 (자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "bash /Users/benji/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해...",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-02-03T00:00:00",
-      "lastStatus": null
-    },
-    {
-      "id": "9621a7f0-b135-41a7-b6ec-b8f9949404bc",
-      "name": "Config 백업 (자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "bash /Users/benji/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해...",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-02-03T00:00:00",
-      "lastStatus": null
-    },
-    {
-      "id": "12c88a17-54e2-4936-a208-72ed20cc134d",
-      "name": "벤지 심야 정리",
-      "schedule": "03시, 09시",
-      "description": "심야 학습 정리 시간! 🌙 1) learning/daily/오늘날짜.md에서 최근 2시간 학습 내용을 분석하...",
-      "enabled": true,
-      "lastRun": "2026-02-02T03:04:31.964000",
-      "nextRun": "2026-02-03T03:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "a8943d21-17da-4772-b018-63fb08e11a7d",
-      "name": "책 추천 자동화",
+      "id": "daily-book",
+      "name": "📚 일일 도서 추천",
       "schedule": "매일 08:00",
-      "description": "📚 매일 아침 책 추천 자동화 시간이야!",
-      "enabled": true,
-      "lastRun": "2026-02-02T08:00:47.216000",
-      "nextRun": "2026-02-03T08:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
-      "name": "책 추천 (매일 08:00)",
-      "schedule": "매일 08:00",
-      "description": "python3 /Users/benji/books/scripts/daily_book_automation.py ...",
+      "description": "새로운 책 추천 및 스크립트 생성",
       "enabled": true,
       "lastRun": null,
-      "nextRun": "2026-02-03T08:00:00",
-      "lastStatus": null
+      "nextRun": null,
+      "lastStatus": "OK"
     },
     {
-      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
-      "name": "투자 브리핑",
+      "id": "investment-brief",
+      "name": "📊 투자 브리핑",
       "schedule": "매일 09:00",
-      "description": "Valley Town (https://www.valley.town/guru/transactions) 거장 매...",
-      "enabled": true,
-      "lastRun": "2026-02-01T09:00:00.233000",
-      "nextRun": "2026-02-03T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "01b8838e-e9be-46a4-be45-6176fcdaac17",
-      "name": "산책 조언",
-      "schedule": "매일 10:00",
-      "description": "산책 조언 생성!",
-      "enabled": true,
-      "lastRun": "2026-02-02T10:00:00.001000",
-      "nextRun": "2026-02-03T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
-      "schedule": "매일 10:00",
-      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
+      "description": "거장 매매 데이터 및 종목 분석",
       "enabled": true,
       "lastRun": null,
-      "nextRun": "2026-02-03T10:00:00",
-      "lastStatus": null
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "weather-morning",
+      "name": "🌤️ 아침 날씨 알림",
+      "schedule": "매일 09:00",
+      "description": "오늘 날씨 및 산책 조언",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
     }
   ],
   "stats": {
     "total": 42,
-    "active": 15,
+    "active": 14,
     "next": 1,
     "waiting": 1,
-    "completed": 25,
-    "cron": 14
+    "completed": 26,
+    "cron": 4
   }
 }
