@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T13:32:17.566641",
+  "generated_at": "2026-02-02T13:32:31.612932",
   "tasks": {
     "active": [
+      {
+        "id": "task-card-auto-generation",
+        "filename": "task-card-auto-generation.md",
+        "folder": "active",
+        "title": "작업 카드 자동 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289?thread_ts=1769990895.428289",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T13:32:19.297862",
+        "progress": 25
+      },
       {
         "id": "youtube-1min-book-video-improvement",
         "filename": "youtube-1min-book-video-improvement.md",
@@ -27,19 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T13:31:10.384128",
         "progress": 20
-      },
-      {
-        "id": "task-card-auto-generation",
-        "filename": "task-card-auto-generation.md",
-        "folder": "active",
-        "title": "작업 카드 자동 생성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289?thread_ts=1769990895.428289",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T13:31:05.891870",
-        "progress": 25
       },
       {
         "id": "birth-preparation-checklist",
