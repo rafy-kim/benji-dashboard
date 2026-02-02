@@ -1,33 +1,7 @@
 {
-  "generated_at": "2026-02-02T17:45:16.636188",
+  "generated_at": "2026-02-02T17:49:22.445534",
   "tasks": {
     "active": [
-      {
-        "id": "learning-schedule-optimization",
-        "filename": "learning-schedule-optimization.md",
-        "folder": "active",
-        "title": "학습 크론 일정 최적화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:45:02.572526",
-        "progress": 100
-      },
-      {
-        "id": "thread-migration-rules-update",
-        "filename": "thread-migration-rules-update.md",
-        "folder": "active",
-        "title": "스레드 이사 규칙 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:45:02.569476",
-        "progress": 100
-      },
       {
         "id": "character-consistency-test",
         "filename": "character-consistency-test.md",
@@ -38,8 +12,8 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
         "waiting_for": null,
-        "last_updated": "2026-02-02T17:38:59.427686",
-        "progress": 60
+        "last_updated": "2026-02-02T17:49:08.322900",
+        "progress": 0
       },
       {
         "id": "youtube-character-consistency-test",
@@ -113,6 +87,58 @@
     ],
     "completed": [
       {
+        "id": "learning-schedule-adjustment",
+        "filename": "learning-schedule-adjustment.md",
+        "folder": "completed",
+        "title": "학습 일정 재조정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T17:49:13.476721",
+        "progress": 0
+      },
+      {
+        "id": "thread-migration-rule-update",
+        "filename": "thread-migration-rule-update.md",
+        "folder": "completed",
+        "title": "스레드 이사 규칙 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T17:49:13.476526",
+        "progress": 0
+      },
+      {
+        "id": "learning-schedule-optimization",
+        "filename": "learning-schedule-optimization.md",
+        "folder": "completed",
+        "title": "학습 크론 일정 최적화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T17:45:02.572526",
+        "progress": 100
+      },
+      {
+        "id": "thread-migration-rules-update",
+        "filename": "thread-migration-rules-update.md",
+        "folder": "completed",
+        "title": "스레드 이사 규칙 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T17:45:02.569476",
+        "progress": 100
+      },
+      {
         "id": "learning-schedule-update",
         "filename": "learning-schedule-update.md",
         "folder": "completed",
@@ -124,58 +150,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T17:27:36.605077",
         "progress": 100
-      },
-      {
-        "id": "heartbeat-period-optimization",
-        "filename": "heartbeat-period-optimization.md",
-        "folder": "completed",
-        "title": "Heartbeat 주기 최적화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:27:36.604896",
-        "progress": 100
-      },
-      {
-        "id": "thread-movement-rule-update",
-        "filename": "thread-movement-rule-update.md",
-        "folder": "completed",
-        "title": "스레드 이사 규칙 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:27:36.604658",
-        "progress": 100
-      },
-      {
-        "id": "learning-schedule-adjustment",
-        "filename": "learning-schedule-adjustment.md",
-        "folder": "completed",
-        "title": "벤지 학습 일정 조정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:19:05.338096",
-        "progress": 100
-      },
-      {
-        "id": "dashboard-external-access",
-        "filename": "dashboard-external-access.md",
-        "folder": "completed",
-        "title": "대시보드 외부 접근 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:12:50.070418",
-        "progress": 0
       }
     ]
   },
@@ -222,11 +196,11 @@
     }
   ],
   "stats": {
-    "total": 55,
-    "active": 6,
+    "total": 56,
+    "active": 4,
     "next": 1,
     "waiting": 1,
-    "completed": 47,
+    "completed": 50,
     "cron": 4
   }
 }
