@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T13:48:30.944988",
+  "generated_at": "2026-02-02T13:51:54.628752",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770004064115589?thread_ts=1770004064.115589",
         "waiting_for": null,
-        "last_updated": "2026-02-02T13:48:28.237856",
+        "last_updated": "2026-02-02T13:51:49.947332",
         "progress": 47
       },
       {
@@ -142,22 +142,22 @@
   },
   "cron": [
     {
-      "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
-      "name": "벤지 데드락 모니터링",
-      "schedule": "10분마다",
-      "description": "하트비트 체크!",
-      "enabled": true,
-      "lastRun": "2026-02-02T13:40:00.002000",
-      "nextRun": "2026-02-02T13:50:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
       "name": "벤지 낮 학습",
       "schedule": "09-20시 정각",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
       "lastRun": "2026-02-02T13:00:00.001000",
+      "nextRun": "2026-02-02T14:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
+      "name": "벤지 데드락 모니터링",
+      "schedule": "10분마다",
+      "description": "하트비트 체크!",
+      "enabled": true,
+      "lastRun": "2026-02-02T13:50:00.004000",
       "nextRun": "2026-02-02T14:00:00",
       "lastStatus": "ok"
     },
