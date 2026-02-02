@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T13:51:54.628752",
+  "generated_at": "2026-02-02T13:58:40.336441",
   "tasks": {
     "active": [
       {
@@ -12,8 +12,8 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770004064115589?thread_ts=1770004064.115589",
         "waiting_for": null,
-        "last_updated": "2026-02-02T13:51:49.947332",
-        "progress": 47
+        "last_updated": "2026-02-02T13:58:35.784745",
+        "progress": 60
       },
       {
         "id": "task-system-v2",
@@ -162,6 +162,66 @@
       "lastStatus": "ok"
     },
     {
+      "id": "ed1885a8-e35f-4415-abc5-4755bbabfec7",
+      "name": "Task 시스템 개선 학습 2/3",
+      "schedule": "1회성",
+      "description": "Task 시스템 개선을 위한 학습 2/3!",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-02T14:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "294acaeb-9232-4a2c-9e03-7ca3bb33c654",
+      "name": "Task 시스템 학습 2",
+      "schedule": "1회성",
+      "description": "Task 시스템 학습 2/3: Heartbeat & Monitoring 패턴",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-02T14:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "4b4741d1-ac8e-4f2a-ae0f-f261b6c19b62",
+      "name": "Task 시스템 개선 학습 3/3",
+      "schedule": "1회성",
+      "description": "Task 시스템 개선을 위한 학습 3/3!",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-02T14:20:00",
+      "lastStatus": null
+    },
+    {
+      "id": "969e78e2-cea2-42e3-8d4e-8780535a4dc1",
+      "name": "Task 시스템 학습 3",
+      "schedule": "1회성",
+      "description": "Task 시스템 학습 3/3: Task Management Best Practices",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-02T14:20:00",
+      "lastStatus": null
+    },
+    {
+      "id": "81623e3d-6ea3-4298-af19-77c631d99a80",
+      "name": "Task 시스템 개선 종합 분석",
+      "schedule": "1회성",
+      "description": "Task 시스템 개선 종합 분석!",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-02T14:40:00",
+      "lastStatus": null
+    },
+    {
+      "id": "04222201-fc4c-4779-893e-ff6cec4ed6f3",
+      "name": "Task 종합 분석",
+      "schedule": "1회성",
+      "description": "Task 종합 분석!",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-02T14:40:00",
+      "lastStatus": null
+    },
+    {
       "id": "35df7167-1222-474b-a5fc-326ef4c88435",
       "name": "벤지 낮 정리",
       "schedule": "15시, 21시",
@@ -228,6 +288,6 @@
     "next": 1,
     "waiting": 1,
     "completed": 15,
-    "cron": 8
+    "cron": 14
   }
 }
