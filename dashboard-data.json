@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T16:12:37.943805",
+  "generated_at": "2026-02-02T16:14:20.515722",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-1min-book-video-improvement",
+        "filename": "youtube-1min-book-video-improvement.md",
+        "folder": "active",
+        "title": "YouTube 1분 책 쇼츠 이미지 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:14:06.450348",
+        "progress": 67
+      },
       {
         "id": "heartbeat-refactoring-emoji-completion",
         "filename": "heartbeat-refactoring-emoji-completion.md",
@@ -13,19 +26,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016312119809?thread_ts=1770016312.119809",
         "waiting_for": null,
         "last_updated": "2026-02-02T16:12:23.799704",
-        "progress": 67
-      },
-      {
-        "id": "youtube-1min-book-video-improvement",
-        "filename": "youtube-1min-book-video-improvement.md",
-        "folder": "active",
-        "title": "YouTube 1분 책 쇼츠 이미지 생성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:09:20.142954",
         "progress": 67
       },
       {
