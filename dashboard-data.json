@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T14:06:16.721547",
+  "generated_at": "2026-02-02T14:13:44.057630",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-1min-book-video-improvement",
+        "filename": "youtube-1min-book-video-improvement.md",
+        "folder": "active",
+        "title": "1분 독서 유튜브 영상 생성 로직 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770004064115589?thread_ts=1770004064.115589",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T14:13:29.357317",
+        "progress": 70
+      },
       {
         "id": "task-management-research",
         "filename": "task-management-research.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T14:06:02.139800",
         "progress": 25
-      },
-      {
-        "id": "youtube-1min-book-video-improvement",
-        "filename": "youtube-1min-book-video-improvement.md",
-        "folder": "active",
-        "title": "1분 독서 유튜브 영상 생성 로직 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770004064115589?thread_ts=1770004064.115589",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:04:33.161946",
-        "progress": 65
       },
       {
         "id": "task-system-v2",
