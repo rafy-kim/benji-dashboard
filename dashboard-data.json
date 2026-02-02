@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-02T09:51:42.347016",
+  "generated_at": "2026-02-02T10:08:55.444443",
   "tasks": {
     "active": [
-      {
-        "id": "slack-channel-config-update",
-        "filename": "slack-channel-config-update.md",
-        "folder": "active",
-        "title": "슬랙 채널 설정 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769990607309929",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T09:51:27.713738",
-        "progress": 100
-      },
       {
         "id": "task-card-auto-generation",
         "filename": "task-card-auto-generation.md",
@@ -25,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289",
         "waiting_for": null,
-        "last_updated": "2026-02-02T09:23:36.375180",
+        "last_updated": "2026-02-02T10:08:40.796018",
         "progress": 25
       },
       {
@@ -38,8 +25,21 @@
         "channel": "#콘텐츠",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769987262530059",
         "waiting_for": null,
-        "last_updated": "2026-02-02T08:39:58.737138",
+        "last_updated": "2026-02-02T10:08:40.792173",
         "progress": 50
+      },
+      {
+        "id": "slack-channel-config-update",
+        "filename": "slack-channel-config-update.md",
+        "folder": "active",
+        "title": "슬랙 채널 설정 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769990607309929",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T09:51:27.713738",
+        "progress": 100
       }
     ],
     "next": [
