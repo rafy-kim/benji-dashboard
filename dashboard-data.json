@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T23:09:49.156276",
+  "generated_at": "2026-02-02T23:18:51.169341",
   "tasks": {
     "active": [
+      {
+        "id": "image-generation-consistency",
+        "filename": "image-generation-consistency.md",
+        "folder": "active",
+        "title": "이미지 생성 일관성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T23:18:47.019137",
+        "progress": 67
+      },
       {
         "id": "youtube-shorts-image-generation",
         "filename": "youtube-shorts-image-generation.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T23:09:45.029651",
         "progress": 60
-      },
-      {
-        "id": "image-generation-consistency",
-        "filename": "image-generation-consistency.md",
-        "folder": "active",
-        "title": "이미지 생성 일관성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T22:59:14.574458",
-        "progress": 50
       },
       {
         "id": "birth-preparation-checklist",
@@ -147,8 +147,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-02T23:08:00.004000",
-      "nextRun": "2026-02-02T23:10:00",
+      "lastRun": "2026-02-02T23:18:00.003000",
+      "nextRun": "2026-02-02T23:20:00",
       "lastStatus": "ok"
     },
     {
