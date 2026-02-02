@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T15:35:33.698363",
+  "generated_at": "2026-02-02T15:35:55.830142",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-1min-book-video-improvement",
+        "filename": "youtube-1min-book-video-improvement.md",
+        "folder": "active",
+        "title": "1분 독서 유튜브 영상 생성 로직 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:35:41.713290",
+        "progress": 70
+      },
       {
         "id": "slack-command-heartbeat-refactor",
         "filename": "slack-command-heartbeat-refactor.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T15:35:19.607535",
         "progress": 20
-      },
-      {
-        "id": "book-3-image-generation",
-        "filename": "book-3-image-generation.md",
-        "folder": "active",
-        "title": "Book #3 이미지 생성",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:35:19.604385",
-        "progress": 0
       },
       {
         "id": "cron-heartbeat-optimization",
@@ -105,19 +105,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T14:51:18.715904",
         "progress": 50
-      },
-      {
-        "id": "youtube-1min-book-video-improvement",
-        "filename": "youtube-1min-book-video-improvement.md",
-        "folder": "active",
-        "title": "1분 독서 유튜브 영상 생성 로직 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:46:52.054955",
-        "progress": 70
       },
       {
         "id": "task-management-research",
@@ -287,8 +274,8 @@
     }
   ],
   "stats": {
-    "total": 34,
-    "active": 11,
+    "total": 33,
+    "active": 10,
     "next": 1,
     "waiting": 1,
     "completed": 21,
