@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-02-02T16:37:18.741788",
+  "generated_at": "2026-02-02T16:43:11.840914",
   "tasks": {
     "active": [
+      {
+        "id": "heartbeat-2min-optimization",
+        "filename": "heartbeat-2min-optimization.md",
+        "folder": "active",
+        "title": "하트비트 주기 최적화 (2분)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:42:57.724975",
+        "progress": 100
+      },
+      {
+        "id": "youtube-shorts-image-upload",
+        "filename": "youtube-shorts-image-upload.md",
+        "folder": "active",
+        "title": "YouTube Shorts 이미지 업로드",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:42:57.722398",
+        "progress": 100
+      },
+      {
+        "id": "cloudflare-tunnel-dashboard",
+        "filename": "cloudflare-tunnel-dashboard.md",
+        "folder": "active",
+        "title": "Cloudflare 터널로 대시보드 외부 공개",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:42:57.719403",
+        "progress": 100
+      },
       {
         "id": "youtube-shorts-image-generation-improvement",
         "filename": "youtube-shorts-image-generation-improvement.md",
@@ -339,8 +378,8 @@
     }
   ],
   "stats": {
-    "total": 47,
-    "active": 15,
+    "total": 50,
+    "active": 18,
     "next": 1,
     "waiting": 1,
     "completed": 30,
