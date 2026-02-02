@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-02-02T13:32:37.542226",
+  "generated_at": "2026-02-02T13:33:44.316072",
   "tasks": {
     "active": [
       {
-        "id": "task-card-auto-generation",
-        "filename": "task-card-auto-generation.md",
+        "id": "task-system-v2",
+        "filename": "task-system-v2.md",
         "folder": "active",
-        "title": "작업 카드 자동 생성 개선",
+        "title": "Task 관리 시스템 개선 v2",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289?thread_ts=1769990895.428289",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770006776171179?thread_ts=1770006776.171179",
         "waiting_for": null,
-        "last_updated": "2026-02-02T13:32:19.297862",
-        "progress": 25
+        "last_updated": "2026-02-02T13:33:39.615205",
+        "progress": 0
       },
       {
         "id": "youtube-1min-book-video-improvement",
@@ -27,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T13:32:11.322853",
         "progress": 33
-      },
-      {
-        "id": "weather-source-improvement",
-        "filename": "weather-source-improvement.md",
-        "folder": "active",
-        "title": "날씨 정보 소스 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABFB203BR/p1769994071575229?thread_ts=1769994071.575229",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T13:31:10.384128",
-        "progress": 20
       },
       {
         "id": "birth-preparation-checklist",
@@ -87,6 +74,19 @@
     ],
     "completed": [
       {
+        "id": "task-card-auto-generation",
+        "filename": "task-card-auto-generation.md",
+        "folder": "completed",
+        "title": "작업 카드 자동 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289?thread_ts=1769990895.428289",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T13:33:39.610726",
+        "progress": 60
+      },
+      {
         "id": "emoji-auto-completion-test",
         "filename": "emoji-auto-completion-test.md",
         "folder": "completed",
@@ -98,6 +98,19 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T13:31:39.197289",
         "progress": 50
+      },
+      {
+        "id": "weather-source-improvement",
+        "filename": "weather-source-improvement.md",
+        "folder": "completed",
+        "title": "날씨 정보 소스 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABFB203BR/p1769994071575229?thread_ts=1769994071.575229",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T13:31:10.384128",
+        "progress": 20
       },
       {
         "id": "book-dashboard-url-update",
@@ -124,32 +137,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T10:08:40.792173",
         "progress": 50
-      },
-      {
-        "id": "slack-channel-config-update",
-        "filename": "slack-channel-config-update.md",
-        "folder": "completed",
-        "title": "슬랙 채널 설정 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769990607309929",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T09:51:27.713738",
-        "progress": 100
-      },
-      {
-        "id": "task-system-improvement",
-        "filename": "task-system-improvement.md",
-        "folder": "completed",
-        "title": "작업 관리 시스템 개선",
-        "assignee": "벤지",
-        "status": "🟢 진행 중",
-        "channel": "#벤지-자기계발",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769986395147469",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T09:38:19.203432",
-        "progress": 100
       }
     ]
   },
@@ -236,11 +223,11 @@
     }
   ],
   "stats": {
-    "total": 19,
-    "active": 4,
+    "total": 20,
+    "active": 3,
     "next": 1,
     "waiting": 1,
-    "completed": 13,
+    "completed": 15,
     "cron": 8
   }
 }
