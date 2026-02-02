@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T12:29:42.840663",
+  "generated_at": "2026-02-02T12:33:14.574138",
   "tasks": {
     "active": [
       {
@@ -56,19 +56,6 @@
       }
     ],
     "next": [
-      {
-        "id": "birth-prep",
-        "filename": "birth-prep.md",
-        "folder": "next",
-        "title": "출산 준비 체크리스트",
-        "assignee": "벤지 ↔ 라피",
-        "status": "📋 다음",
-        "channel": "#육아",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1769943029642769",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T08:14:59.416032",
-        "progress": 0
-      },
       {
         "id": "book-shorts-channel",
         "filename": "book-shorts-channel.md",
@@ -173,8 +160,8 @@
       "schedule": "10분마다",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-02T12:20:00.041000",
-      "nextRun": "2026-02-02T12:30:00",
+      "lastRun": "2026-02-02T12:30:00.013000",
+      "nextRun": "2026-02-02T12:40:00",
       "lastStatus": "ok"
     },
     {
@@ -249,9 +236,9 @@
     }
   ],
   "stats": {
-    "total": 19,
+    "total": 18,
     "active": 4,
-    "next": 2,
+    "next": 1,
     "waiting": 1,
     "completed": 12,
     "cron": 8
