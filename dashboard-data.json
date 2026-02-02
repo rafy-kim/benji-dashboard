@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T09:48:20.380082",
+  "generated_at": "2026-02-02T09:51:42.347016",
   "tasks": {
     "active": [
+      {
+        "id": "slack-channel-config-update",
+        "filename": "slack-channel-config-update.md",
+        "folder": "active",
+        "title": "슬랙 채널 설정 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769990607309929",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T09:51:27.713738",
+        "progress": 100
+      },
       {
         "id": "task-card-auto-generation",
         "filename": "task-card-auto-generation.md",
@@ -140,94 +153,13 @@
       }
     ]
   },
-  "cron": [
-    {
-      "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
-      "name": "벤지 데드락 모니터링",
-      "schedule": "10분마다",
-      "description": "하트비트 체크!",
-      "enabled": true,
-      "lastRun": "2026-02-02T09:40:00.001000",
-      "nextRun": "2026-02-02T09:50:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "01b8838e-e9be-46a4-be45-6176fcdaac17",
-      "name": "산책 조언",
-      "schedule": "매일 10:00",
-      "description": "서울 송파구 올림픽로 435 지역의 오늘 날씨를 확인하고, 시간별 날씨 정보를 기반으로 산책 조언을 제공해주...",
-      "enabled": true,
-      "lastRun": "2026-02-01T10:00:00.065000",
-      "nextRun": "2026-02-02T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "09-20시 정각",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-01T20:00:00.007000",
-      "nextRun": "2026-02-02T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "35df7167-1222-474b-a5fc-326ef4c88435",
-      "name": "벤지 낮 정리",
-      "schedule": "15시, 21시",
-      "description": "6시간 학습 정리 시간! 1) learning/daily/오늘날짜.md에서 최근 5시간 학습 내용을 분석하고...",
-      "enabled": true,
-      "lastRun": "2026-02-01T21:00:00.012000",
-      "nextRun": "2026-02-02T15:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
-      "name": "벤지 심야 학습",
-      "schedule": "심야 20분마다",
-      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
-      "enabled": true,
-      "lastRun": "2026-02-02T08:40:40.598000",
-      "nextRun": "2026-02-02T21:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "12c88a17-54e2-4936-a208-72ed20cc134d",
-      "name": "벤지 심야 정리",
-      "schedule": "03시, 09시",
-      "description": "심야 학습 정리 시간! 🌙 1) learning/daily/오늘날짜.md에서 최근 2시간 학습 내용을 분석하...",
-      "enabled": true,
-      "lastRun": "2026-02-02T03:04:31.964000",
-      "nextRun": "2026-02-03T03:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "a8943d21-17da-4772-b018-63fb08e11a7d",
-      "name": "책 추천 자동화",
-      "schedule": "매일 08:00",
-      "description": "📚 매일 아침 책 추천 자동화 시간이야!",
-      "enabled": true,
-      "lastRun": "2026-02-02T08:00:47.216000",
-      "nextRun": "2026-02-03T08:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
-      "name": "투자 브리핑",
-      "schedule": "매일 09:00",
-      "description": "Valley Town (https://www.valley.town/guru/transactions) 거장 매...",
-      "enabled": true,
-      "lastRun": "2026-02-01T09:00:00.233000",
-      "nextRun": "2026-02-03T09:00:00",
-      "lastStatus": "ok"
-    }
-  ],
+  "cron": [],
   "stats": {
-    "total": 15,
-    "active": 2,
+    "total": 16,
+    "active": 3,
     "next": 2,
     "waiting": 1,
     "completed": 10,
-    "cron": 8
+    "cron": 0
   }
 }
