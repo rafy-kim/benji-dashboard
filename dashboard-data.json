@@ -1,19 +1,45 @@
 {
-  "generated_at": "2026-02-02T16:08:21.296091",
+  "generated_at": "2026-02-02T16:09:34.242993",
   "tasks": {
     "active": [
+      {
+        "id": "cron-restoration-heartbeat-learning",
+        "filename": "cron-restoration-heartbeat-learning.md",
+        "folder": "active",
+        "title": "크론 복원: 하트비트 & 학습 주기",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:09:20.148734",
+        "progress": 100
+      },
+      {
+        "id": "heartbeat-refactoring-emoji-completion",
+        "filename": "heartbeat-refactoring-emoji-completion.md",
+        "folder": "active",
+        "title": "하트비트 리팩토링: ✅ 이모지 자동 완료",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:09:20.146105",
+        "progress": 67
+      },
       {
         "id": "youtube-1min-book-video-improvement",
         "filename": "youtube-1min-book-video-improvement.md",
         "folder": "active",
-        "title": "1분 독서 유튜브 영상 생성 로직 개선",
+        "title": "YouTube 1분 책 쇼츠 이미지 생성 개선",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
         "waiting_for": null,
-        "last_updated": "2026-02-02T16:07:59.892823",
-        "progress": 70
+        "last_updated": "2026-02-02T16:09:20.142954",
+        "progress": 67
       },
       {
         "id": "heartbeat-refactoring",
@@ -326,8 +352,8 @@
     }
   ],
   "stats": {
-    "total": 40,
-    "active": 14,
+    "total": 42,
+    "active": 16,
     "next": 1,
     "waiting": 1,
     "completed": 24,
