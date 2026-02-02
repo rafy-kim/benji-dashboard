@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-02-02T18:09:17.659383",
+  "generated_at": "2026-02-02T18:13:08.114930",
   "tasks": {
     "active": [
+      {
+        "id": "character-consistency-test",
+        "filename": "character-consistency-test.md",
+        "folder": "active",
+        "title": "캐릭터 일관성 테스트 (YouTube Shorts)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T18:12:53.994148",
+        "progress": 40
+      },
+      {
+        "id": "gateway-timeout-fix",
+        "filename": "gateway-timeout-fix.md",
+        "folder": "active",
+        "title": "Gateway 타임아웃 해결 (세션 관리)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T18:12:53.990664",
+        "progress": 50
+      },
       {
         "id": "character-consistency-seedream",
         "filename": "character-consistency-seedream.md",
@@ -40,19 +66,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T18:04:57.520713",
         "progress": 50
-      },
-      {
-        "id": "character-consistency-test",
-        "filename": "character-consistency-test.md",
-        "folder": "active",
-        "title": "캐릭터 일관성 테스트 (Seedream-4.5)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:57:00.054835",
-        "progress": 0
       },
       {
         "id": "agents-heartbeat-update",
@@ -248,8 +261,8 @@
     }
   ],
   "stats": {
-    "total": 61,
-    "active": 8,
+    "total": 62,
+    "active": 9,
     "next": 1,
     "waiting": 1,
     "completed": 51,
