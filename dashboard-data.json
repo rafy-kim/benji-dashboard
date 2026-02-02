@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T20:31:58.122197",
+  "generated_at": "2026-02-02T21:23:49.150317",
   "tasks": {
     "active": [
       {
@@ -16,19 +16,6 @@
         "progress": 50
       },
       {
-        "id": "youtube-books-character-consistency",
-        "filename": "youtube-books-character-consistency.md",
-        "folder": "active",
-        "title": "YouTube Books - 캐릭터 일관성 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T18:20:50.460643",
-        "progress": 50
-      },
-      {
         "id": "gateway-session-cleanup",
         "filename": "gateway-session-cleanup.md",
         "folder": "active",
@@ -40,84 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T18:20:50.457906",
         "progress": 25
-      },
-      {
-        "id": "character-consistency-test",
-        "filename": "character-consistency-test.md",
-        "folder": "active",
-        "title": "캐릭터 일관성 이미지 생성 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p17700204468368?thread_ts=1770020446.836899",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T18:17:04.972031",
-        "progress": 40
-      },
-      {
-        "id": "gateway-timeout-fix",
-        "filename": "gateway-timeout-fix.md",
-        "folder": "active",
-        "title": "Gateway 타임아웃 문제 해결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p17700179604482?thread_ts=1770017960.448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T18:17:04.968814",
-        "progress": 75
-      },
-      {
-        "id": "character-consistency-seedream",
-        "filename": "character-consistency-seedream.md",
-        "folder": "active",
-        "title": "캐릭터 일관성 이미지 생성 (Seedream-4.5)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T18:09:03.565732",
-        "progress": 50
-      },
-      {
-        "id": "learning-cron-wake-mode",
-        "filename": "learning-cron-wake-mode.md",
-        "folder": "active",
-        "title": "학습 크론 wakeMode 변경 및 로컬 웹서버 외부 공개",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T18:04:57.520713",
-        "progress": 50
-      },
-      {
-        "id": "agents-heartbeat-update",
-        "filename": "agents-heartbeat-update.md",
-        "folder": "active",
-        "title": "AGENTS.md / HEARTBEAT.md 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:57:00.049126",
-        "progress": 75
-      },
-      {
-        "id": "youtube-character-consistency-test",
-        "filename": "youtube-character-consistency-test.md",
-        "folder": "active",
-        "title": "YouTube 캐릭터 일관성 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:21:16.555835",
-        "progress": 0
       },
       {
         "id": "youtube-shorts-image-generation",
@@ -191,56 +100,56 @@
         "progress": 100
       },
       {
-        "id": "learning-schedule-update",
-        "filename": "learning-schedule-update.md",
+        "id": "youtube-books-character-consistency",
+        "filename": "youtube-books-character-consistency.md",
         "folder": "completed",
-        "title": "학습 일정 크론 주기 최적화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:57:06.024099",
-        "progress": 100
-      },
-      {
-        "id": "learning-schedule-adjustment",
-        "filename": "learning-schedule-adjustment.md",
-        "folder": "completed",
-        "title": "학습 일정 재조정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T17:49:13.476721",
-        "progress": 0
-      },
-      {
-        "id": "thread-migration-rule-update",
-        "filename": "thread-migration-rule-update.md",
-        "folder": "completed",
-        "title": "스레드 이사 규칙 업데이트",
+        "title": "YouTube Books - 캐릭터 일관성 테스트",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
         "waiting_for": null,
-        "last_updated": "2026-02-02T17:49:13.476526",
-        "progress": 0
+        "last_updated": "2026-02-02T18:20:50.460643",
+        "progress": 50
       },
       {
         "id": "character-consistency-test",
         "filename": "character-consistency-test.md",
         "folder": "completed",
-        "title": "캐릭터 일관성 테스트 (YouTube Shorts)",
+        "title": "캐릭터 일관성 이미지 생성 테스트",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p17700204468368?thread_ts=1770020446.836899",
         "waiting_for": null,
-        "last_updated": "2026-02-02T17:49:08.322900",
-        "progress": 0
+        "last_updated": "2026-02-02T18:17:04.972031",
+        "progress": 40
+      },
+      {
+        "id": "gateway-timeout-fix",
+        "filename": "gateway-timeout-fix.md",
+        "folder": "completed",
+        "title": "Gateway 타임아웃 문제 해결",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p17700179604482?thread_ts=1770017960.448259",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T18:17:04.968814",
+        "progress": 75
+      },
+      {
+        "id": "character-consistency-seedream",
+        "filename": "character-consistency-seedream.md",
+        "folder": "completed",
+        "title": "캐릭터 일관성 이미지 생성 (Seedream-4.5)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899?thread_ts=1770020446.836899",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T18:09:03.565732",
+        "progress": 50
       }
     ]
   },
@@ -248,7 +157,7 @@
     {
       "id": "heartbeat",
       "name": "🫀 하트비트 체크",
-      "schedule": "1분마다",
+      "schedule": "2분마다",
       "description": "작업 카드 자동 생성, 데드락 감지, 스레드 이사 체크",
       "enabled": true,
       "lastRun": null,
@@ -256,8 +165,28 @@
       "lastStatus": "OK"
     },
     {
+      "id": "learning-day",
+      "name": "📚 벤지 낮 학습",
+      "schedule": "09:00-21:00 매 30분",
+      "description": "성장에 필요한 주제를 직접 선정하여 깊이 있게 학습",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "learning-night",
+      "name": "🌙 벤지 심야 학습",
+      "schedule": "21:00-09:00 매 20분",
+      "description": "심야 시간대 자기주도 학습 (라피 휴식 시간 활용)",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
       "id": "daily-book",
-      "name": "📚 일일 도서 추천",
+      "name": "📖 일일 도서 추천",
       "schedule": "매일 08:00",
       "description": "새로운 책 추천 및 스크립트 생성",
       "enabled": true,
@@ -277,8 +206,8 @@
     },
     {
       "id": "weather-morning",
-      "name": "🌤️ 아침 날씨 알림",
-      "schedule": "매일 09:00",
+      "name": "🌤️ 산책 조언",
+      "schedule": "매일 10:00",
       "description": "오늘 날씨 및 산책 조언",
       "enabled": true,
       "lastRun": null,
@@ -287,11 +216,11 @@
     }
   ],
   "stats": {
-    "total": 65,
-    "active": 11,
+    "total": 64,
+    "active": 4,
     "next": 1,
     "waiting": 1,
-    "completed": 52,
-    "cron": 4
+    "completed": 58,
+    "cron": 6
   }
 }
