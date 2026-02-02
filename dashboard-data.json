@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-02-02T18:21:04.555080",
+  "generated_at": "2026-02-02T18:25:09.602666",
   "tasks": {
     "active": [
+      {
+        "id": "image-generation-consistency",
+        "filename": "image-generation-consistency.md",
+        "folder": "active",
+        "title": "이미지 생성 일관성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T18:24:55.494791",
+        "progress": 50
+      },
+      {
+        "id": "gateway-timeout-session-cleanup",
+        "filename": "gateway-timeout-session-cleanup.md",
+        "folder": "active",
+        "title": "Gateway 타임아웃 & 세션 정리",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T18:24:55.491086",
+        "progress": 67
+      },
       {
         "id": "youtube-books-character-consistency",
         "filename": "youtube-books-character-consistency.md",
@@ -274,8 +300,8 @@
     }
   ],
   "stats": {
-    "total": 63,
-    "active": 10,
+    "total": 65,
+    "active": 12,
     "next": 1,
     "waiting": 1,
     "completed": 51,
