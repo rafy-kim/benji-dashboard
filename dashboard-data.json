@@ -1,32 +1,45 @@
 {
-  "generated_at": "2026-02-02T15:49:39.024064",
+  "generated_at": "2026-02-02T16:00:03.479466",
   "tasks": {
     "active": [
       {
-        "id": "heartbeat-optimization-backup",
-        "filename": "heartbeat-optimization-backup.md",
+        "id": "cron-period-adjustment",
+        "filename": "cron-period-adjustment.md",
         "folder": "active",
-        "title": "하트비트 주기 최적화 및 백업 자동화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:49:24.955502",
-        "progress": 100
-      },
-      {
-        "id": "heartbeat-cron-restoration",
-        "filename": "heartbeat-cron-restoration.md",
-        "folder": "active",
-        "title": "하트비트 크론 복원 및 주기 조정",
+        "title": "하트비트 크론 주기 조정",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
         "waiting_for": null,
-        "last_updated": "2026-02-02T15:49:24.953336",
+        "last_updated": "2026-02-02T15:59:49.373286",
         "progress": 100
+      },
+      {
+        "id": "heartbeat-refactoring",
+        "filename": "heartbeat-refactoring.md",
+        "folder": "active",
+        "title": "하트비트 리팩토링 & 자동 완료 시스템",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:59:49.370969",
+        "progress": 50
+      },
+      {
+        "id": "youtube-shorts-image-generation",
+        "filename": "youtube-shorts-image-generation.md",
+        "folder": "active",
+        "title": "YouTube 책 쇼츠 이미지 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:59:49.368089",
+        "progress": 0
       },
       {
         "id": "youtube-book-shorts-image-improvement",
@@ -217,6 +230,32 @@
     ],
     "completed": [
       {
+        "id": "heartbeat-optimization-backup",
+        "filename": "heartbeat-optimization-backup.md",
+        "folder": "completed",
+        "title": "하트비트 주기 최적화 및 백업 자동화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:49:24.955502",
+        "progress": 100
+      },
+      {
+        "id": "heartbeat-cron-restoration",
+        "filename": "heartbeat-cron-restoration.md",
+        "folder": "completed",
+        "title": "하트비트 크론 복원 및 주기 조정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:49:24.953336",
+        "progress": 100
+      },
+      {
         "id": "config-backup-automation",
         "filename": "config-backup-automation.md",
         "folder": "completed",
@@ -254,32 +293,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T14:55:57.427600",
         "progress": 100
-      },
-      {
-        "id": "agents-heartbeat-improvement",
-        "filename": "agents-heartbeat-improvement.md",
-        "folder": "completed",
-        "title": "작업 카드 시스템 핵심 로직 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770006776171179?thread_ts=1770006776.171179",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:35:21.098460",
-        "progress": 100
-      },
-      {
-        "id": "emoji-completion-debugging",
-        "filename": "emoji-completion-debugging.md",
-        "folder": "completed",
-        "title": "이모지 자동 완료 디버깅",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289?thread_ts=1769990895.428289",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:32:25.725141",
-        "progress": 0
       }
     ]
   },
@@ -326,11 +339,11 @@
     }
   ],
   "stats": {
-    "total": 37,
-    "active": 14,
+    "total": 40,
+    "active": 15,
     "next": 1,
     "waiting": 1,
-    "completed": 21,
+    "completed": 23,
     "cron": 4
   }
 }
