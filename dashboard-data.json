@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T15:10:00.258676",
+  "generated_at": "2026-02-02T15:18:24.323884",
   "tasks": {
     "active": [
+      {
+        "id": "cron-heartbeat-optimization",
+        "filename": "cron-heartbeat-optimization.md",
+        "folder": "active",
+        "title": "크론 복원 및 하트비트 주기 최적화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:18:10.225770",
+        "progress": 60
+      },
       {
         "id": "heartbeat-1min-optimization",
         "filename": "heartbeat-1min-optimization.md",
@@ -274,8 +287,8 @@
     }
   ],
   "stats": {
-    "total": 29,
-    "active": 10,
+    "total": 30,
+    "active": 11,
     "next": 1,
     "waiting": 1,
     "completed": 17,
