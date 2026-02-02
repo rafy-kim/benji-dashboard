@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-02-02T12:34:46.258056",
+  "generated_at": "2026-02-02T12:37:29.026111",
   "tasks": {
     "active": [
+      {
+        "id": "task-card-auto-generation",
+        "filename": "task-card-auto-generation.md",
+        "folder": "active",
+        "title": "작업 카드 자동 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289?thread_ts=1769990895.428289",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T12:37:24.260837",
+        "progress": 25
+      },
+      {
+        "id": "emoji-auto-completion-test",
+        "filename": "emoji-auto-completion-test.md",
+        "folder": "active",
+        "title": "✅ 이모지 자동 완료 테스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769998542396089?thread_ts=1769998542.396089",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T12:37:24.248708",
+        "progress": 50
+      },
       {
         "id": "birth-preparation-checklist",
         "filename": "birth-preparation-checklist.md",
@@ -16,19 +42,6 @@
         "progress": 0
       },
       {
-        "id": "emoji-auto-completion-test",
-        "filename": "emoji-auto-completion-test.md",
-        "folder": "active",
-        "title": "✅ 이모지 자동 완료 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769998542396089",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T11:59:47.563947",
-        "progress": 50
-      },
-      {
         "id": "weather-source-improvement",
         "filename": "weather-source-improvement.md",
         "folder": "active",
@@ -40,19 +53,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T10:30:49.924596",
         "progress": 20
-      },
-      {
-        "id": "task-card-auto-generation",
-        "filename": "task-card-auto-generation.md",
-        "folder": "active",
-        "title": "작업 카드 자동 생성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T10:08:40.796018",
-        "progress": 25
       }
     ],
     "next": [
