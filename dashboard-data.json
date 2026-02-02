@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T14:32:40.395502",
+  "generated_at": "2026-02-02T14:35:06.417994",
   "tasks": {
     "active": [
+      {
+        "id": "agents-heartbeat-improvement",
+        "filename": "agents-heartbeat-improvement.md",
+        "folder": "active",
+        "title": "작업 카드 시스템 핵심 로직 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770006776171179?thread_ts=1770006776.171179",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T14:34:51.763979",
+        "progress": 100
+      },
       {
         "id": "emoji-completion-debugging",
         "filename": "emoji-completion-debugging.md",
@@ -168,8 +181,8 @@
   },
   "cron": [],
   "stats": {
-    "total": 22,
-    "active": 5,
+    "total": 23,
+    "active": 6,
     "next": 1,
     "waiting": 1,
     "completed": 15,
