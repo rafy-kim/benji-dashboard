@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T12:33:14.574138",
+  "generated_at": "2026-02-02T12:34:46.258056",
   "tasks": {
     "active": [
       {
@@ -10,9 +10,9 @@
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": null,
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1769943029642769",
         "waiting_for": null,
-        "last_updated": "2026-02-02T12:29:38.077610",
+        "last_updated": "2026-02-02T12:34:41.627463",
         "progress": 0
       },
       {
