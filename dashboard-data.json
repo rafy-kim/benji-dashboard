@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T14:13:44.057630",
+  "generated_at": "2026-02-02T14:32:40.395502",
   "tasks": {
     "active": [
+      {
+        "id": "emoji-completion-debugging",
+        "filename": "emoji-completion-debugging.md",
+        "folder": "active",
+        "title": "이모지 자동 완료 디버깅",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769990895428289?thread_ts=1769990895.428289",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T14:32:25.725141",
+        "progress": 0
+      },
       {
         "id": "youtube-1min-book-video-improvement",
         "filename": "youtube-1min-book-video-improvement.md",
@@ -155,8 +168,8 @@
   },
   "cron": [],
   "stats": {
-    "total": 21,
-    "active": 4,
+    "total": 22,
+    "active": 5,
     "next": 1,
     "waiting": 1,
     "completed": 15,
