@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T16:19:17.127429",
+  "generated_at": "2026-02-02T16:23:11.668654",
   "tasks": {
     "active": [
+      {
+        "id": "heartbeat-refactoring-emoji-completion",
+        "filename": "heartbeat-refactoring-emoji-completion.md",
+        "folder": "active",
+        "title": "하트비트 리팩토링: ✅ 이모지 자동 완료",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016312119809?thread_ts=1770016312.119809",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:22:57.548652",
+        "progress": 75
+      },
       {
         "id": "slack-command-heartbeat-refactor",
         "filename": "slack-command-heartbeat-refactor.md",
@@ -26,19 +39,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
         "waiting_for": null,
         "last_updated": "2026-02-02T16:14:06.450348",
-        "progress": 67
-      },
-      {
-        "id": "heartbeat-refactoring-emoji-completion",
-        "filename": "heartbeat-refactoring-emoji-completion.md",
-        "folder": "active",
-        "title": "하트비트 리팩토링: ✅ 이모지 자동 완료",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016312119809?thread_ts=1770016312.119809",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:12:23.799704",
         "progress": 67
       },
       {
