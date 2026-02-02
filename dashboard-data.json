@@ -1,7 +1,59 @@
 {
-  "generated_at": "2026-02-02T15:35:55.830142",
+  "generated_at": "2026-02-02T15:49:39.024064",
   "tasks": {
     "active": [
+      {
+        "id": "heartbeat-optimization-backup",
+        "filename": "heartbeat-optimization-backup.md",
+        "folder": "active",
+        "title": "하트비트 주기 최적화 및 백업 자동화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:49:24.955502",
+        "progress": 100
+      },
+      {
+        "id": "heartbeat-cron-restoration",
+        "filename": "heartbeat-cron-restoration.md",
+        "folder": "active",
+        "title": "하트비트 크론 복원 및 주기 조정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:49:24.953336",
+        "progress": 100
+      },
+      {
+        "id": "youtube-book-shorts-image-improvement",
+        "filename": "youtube-book-shorts-image-improvement.md",
+        "folder": "active",
+        "title": "YouTube 책 쇼츠 이미지 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:49:24.950781",
+        "progress": 60
+      },
+      {
+        "id": "task-completion-automation",
+        "filename": "task-completion-automation.md",
+        "folder": "active",
+        "title": "작업 완료 자동화 시스템 구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:49:24.947760",
+        "progress": 50
+      },
       {
         "id": "youtube-1min-book-video-improvement",
         "filename": "youtube-1min-book-video-improvement.md",
@@ -274,8 +326,8 @@
     }
   ],
   "stats": {
-    "total": 33,
-    "active": 10,
+    "total": 37,
+    "active": 14,
     "next": 1,
     "waiting": 1,
     "completed": 21,
