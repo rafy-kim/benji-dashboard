@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-02-02T14:47:06.706632",
+  "generated_at": "2026-02-02T14:51:33.342462",
   "tasks": {
     "active": [
+      {
+        "id": "script-writer-backup-and-edit",
+        "filename": "script-writer-backup-and-edit.md",
+        "folder": "active",
+        "title": "script_writer.py 백업 및 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770010591489299?thread_ts=1770010591.489299",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T14:51:18.716783",
+        "progress": 100
+      },
+      {
+        "id": "script-regeneration-execution",
+        "filename": "script-regeneration-execution.md",
+        "folder": "active",
+        "title": "스크립트 재생성 실행",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770010591489299?thread_ts=1770010591.489299",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T14:51:18.715904",
+        "progress": 50
+      },
       {
         "id": "youtube-1min-book-video-improvement",
         "filename": "youtube-1min-book-video-improvement.md",
@@ -168,8 +194,8 @@
   },
   "cron": [],
   "stats": {
-    "total": 23,
-    "active": 5,
+    "total": 25,
+    "active": 7,
     "next": 1,
     "waiting": 1,
     "completed": 16,
