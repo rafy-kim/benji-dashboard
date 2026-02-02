@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-02T14:35:06.417994",
+  "generated_at": "2026-02-02T14:35:35.760726",
   "tasks": {
     "active": [
-      {
-        "id": "agents-heartbeat-improvement",
-        "filename": "agents-heartbeat-improvement.md",
-        "folder": "active",
-        "title": "작업 카드 시스템 핵심 로직 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770006776171179?thread_ts=1770006776.171179",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:34:51.763979",
-        "progress": 100
-      },
       {
         "id": "emoji-completion-debugging",
         "filename": "emoji-completion-debugging.md",
@@ -113,6 +100,19 @@
     ],
     "completed": [
       {
+        "id": "agents-heartbeat-improvement",
+        "filename": "agents-heartbeat-improvement.md",
+        "folder": "completed",
+        "title": "작업 카드 시스템 핵심 로직 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770006776171179?thread_ts=1770006776.171179",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T14:35:21.098460",
+        "progress": 100
+      },
+      {
         "id": "task-card-auto-generation",
         "filename": "task-card-auto-generation.md",
         "folder": "completed",
@@ -163,29 +163,16 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T10:50:45.417318",
         "progress": 100
-      },
-      {
-        "id": "book-coupang-link-fix",
-        "filename": "book-coupang-link-fix.md",
-        "folder": "completed",
-        "title": "책 추천 쿠팡 링크 개선",
-        "assignee": "벤지",
-        "status": "🟢 진행 중",
-        "channel": "#콘텐츠",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769987262530059",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T10:08:40.792173",
-        "progress": 50
       }
     ]
   },
   "cron": [],
   "stats": {
     "total": 23,
-    "active": 6,
+    "active": 5,
     "next": 1,
     "waiting": 1,
-    "completed": 15,
+    "completed": 16,
     "cron": 0
   }
 }
