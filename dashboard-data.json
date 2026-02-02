@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T16:51:15.074884",
+  "generated_at": "2026-02-02T16:57:38.044952",
   "tasks": {
     "active": [
       {
@@ -113,6 +113,19 @@
     ],
     "completed": [
       {
+        "id": "heartbeat-2min-optimization",
+        "filename": "heartbeat-2min-optimization.md",
+        "folder": "completed",
+        "title": "하트비트 주기 최적화 (2분 주기)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:57:23.945404",
+        "progress": 100
+      },
+      {
         "id": "heartbeat-2min-optimization-completion",
         "filename": "heartbeat-2min-optimization-completion.md",
         "folder": "completed",
@@ -124,19 +137,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T16:47:10.904201",
         "progress": 80
-      },
-      {
-        "id": "heartbeat-2min-optimization",
-        "filename": "heartbeat-2min-optimization.md",
-        "folder": "completed",
-        "title": "하트비트 주기 최적화 (2분)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:43:27.344533",
-        "progress": 100
       },
       {
         "id": "cloudflare-tunnel-dashboard",
