@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T14:56:10.121320",
+  "generated_at": "2026-02-02T14:58:00.163451",
   "tasks": {
     "active": [
+      {
+        "id": "dashboard-data-sync",
+        "filename": "dashboard-data-sync.md",
+        "folder": "active",
+        "title": "Dashboard Data Sync 자동화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T14:57:45.546910",
+        "progress": 33
+      },
       {
         "id": "script-regeneration-execution",
         "filename": "script-regeneration-execution.md",
@@ -181,8 +194,8 @@
   },
   "cron": [],
   "stats": {
-    "total": 25,
-    "active": 6,
+    "total": 26,
+    "active": 7,
     "next": 1,
     "waiting": 1,
     "completed": 17,
