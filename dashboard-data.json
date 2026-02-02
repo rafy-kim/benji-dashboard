@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-02-02T14:58:00.163451",
+  "generated_at": "2026-02-02T15:10:00.258676",
   "tasks": {
     "active": [
+      {
+        "id": "heartbeat-1min-optimization",
+        "filename": "heartbeat-1min-optimization.md",
+        "folder": "active",
+        "title": "하트비트 1분 주기 최적화 + 백업 자동화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:09:46.150985",
+        "progress": 86
+      },
+      {
+        "id": "youtube-books-script-regeneration",
+        "filename": "youtube-books-script-regeneration.md",
+        "folder": "active",
+        "title": "YouTube Books 스크립트 재생성",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:09:46.146601",
+        "progress": 40
+      },
+      {
+        "id": "task-emoji-completion-test",
+        "filename": "task-emoji-completion-test.md",
+        "folder": "active",
+        "title": "Task 관리 시스템 이모지 완료 테스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:09:46.144125",
+        "progress": 0
+      },
       {
         "id": "dashboard-data-sync",
         "filename": "dashboard-data-sync.md",
@@ -192,13 +231,54 @@
       }
     ]
   },
-  "cron": [],
+  "cron": [
+    {
+      "id": "heartbeat",
+      "name": "🫀 하트비트 체크",
+      "schedule": "1분마다",
+      "description": "작업 카드 자동 생성, 데드락 감지, 스레드 이사 체크",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "daily-book",
+      "name": "📚 일일 도서 추천",
+      "schedule": "매일 08:00",
+      "description": "새로운 책 추천 및 스크립트 생성",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "investment-brief",
+      "name": "📊 투자 브리핑",
+      "schedule": "매일 09:00",
+      "description": "거장 매매 데이터 및 종목 분석",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "weather-morning",
+      "name": "🌤️ 아침 날씨 알림",
+      "schedule": "매일 09:00",
+      "description": "오늘 날씨 및 산책 조언",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    }
+  ],
   "stats": {
-    "total": 26,
-    "active": 7,
+    "total": 29,
+    "active": 10,
     "next": 1,
     "waiting": 1,
     "completed": 17,
-    "cron": 0
+    "cron": 4
   }
 }
