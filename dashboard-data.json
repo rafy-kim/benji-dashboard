@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T16:34:51.721576",
+  "generated_at": "2026-02-02T16:37:01.976019",
   "tasks": {
     "active": [
+      {
+        "id": "heartbeat-2min-optimization",
+        "filename": "heartbeat-2min-optimization.md",
+        "folder": "active",
+        "title": "Heartbeat 2분 주기 최적화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:36:47.872599",
+        "progress": 75
+      },
       {
         "id": "youtube-shorts-image-generation-improvement",
         "filename": "youtube-shorts-image-generation-improvement.md",
@@ -339,8 +352,8 @@
     }
   ],
   "stats": {
-    "total": 46,
-    "active": 15,
+    "total": 47,
+    "active": 16,
     "next": 1,
     "waiting": 1,
     "completed": 29,
