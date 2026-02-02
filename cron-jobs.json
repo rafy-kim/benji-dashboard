@@ -1,0 +1,44 @@
+{
+  "jobs": [
+    {
+      "id": "heartbeat",
+      "name": "🫀 하트비트 체크",
+      "schedule": "1분마다",
+      "description": "작업 카드 자동 생성, 데드락 감지, 스레드 이사 체크",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "daily-book",
+      "name": "📚 일일 도서 추천",
+      "schedule": "매일 08:00",
+      "description": "새로운 책 추천 및 스크립트 생성",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "investment-brief",
+      "name": "📊 투자 브리핑",
+      "schedule": "매일 09:00",
+      "description": "거장 매매 데이터 및 종목 분석",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "weather-morning",
+      "name": "🌤️ 아침 날씨 알림",
+      "schedule": "매일 09:00",
+      "description": "오늘 날씨 및 산책 조언",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    }
+  ]
+}
