@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T10:08:55.444443",
+  "generated_at": "2026-02-02T10:31:04.640333",
   "tasks": {
     "active": [
+      {
+        "id": "weather-source-improvement",
+        "filename": "weather-source-improvement.md",
+        "folder": "active",
+        "title": "날씨 정보 소스 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABFB203BR/p1769994071575229",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T10:30:49.924596",
+        "progress": 20
+      },
       {
         "id": "task-card-auto-generation",
         "filename": "task-card-auto-generation.md",
@@ -155,8 +168,8 @@
   },
   "cron": [],
   "stats": {
-    "total": 16,
-    "active": 3,
+    "total": 17,
+    "active": 4,
     "next": 2,
     "waiting": 1,
     "completed": 10,
