@@ -1,7 +1,59 @@
 {
-  "generated_at": "2026-02-02T16:26:16.654560",
+  "generated_at": "2026-02-02T16:30:19.404948",
   "tasks": {
     "active": [
+      {
+        "id": "heartbeat-refactoring-phase2",
+        "filename": "heartbeat-refactoring-phase2.md",
+        "folder": "active",
+        "title": "하트비트 리팩토링 Phase 2",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:30:05.315087",
+        "progress": 100
+      },
+      {
+        "id": "youtube-shorts-image-generation-improvement",
+        "filename": "youtube-shorts-image-generation-improvement.md",
+        "folder": "active",
+        "title": "YouTube 쇼츠 이미지 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:30:05.312289",
+        "progress": 67
+      },
+      {
+        "id": "youtube-shorts-image-quality-evaluation",
+        "filename": "youtube-shorts-image-quality-evaluation.md",
+        "folder": "active",
+        "title": "YouTube 쇼츠 이미지 품질 평가 (부의 추월차선)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:30:05.308880",
+        "progress": 0
+      },
+      {
+        "id": "heartbeat-cron-schedule-setup",
+        "filename": "heartbeat-cron-schedule-setup.md",
+        "folder": "active",
+        "title": "하트비트 크론 주기 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:30:05.305039",
+        "progress": 0
+      },
       {
         "id": "slack-command-heartbeat-refactor",
         "filename": "slack-command-heartbeat-refactor.md",
@@ -326,8 +378,8 @@
     }
   ],
   "stats": {
-    "total": 42,
-    "active": 14,
+    "total": 46,
+    "active": 18,
     "next": 1,
     "waiting": 1,
     "completed": 26,
