@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-02-02T16:00:03.479466",
+  "generated_at": "2026-02-02T16:08:08.556988",
   "tasks": {
     "active": [
       {
-        "id": "cron-period-adjustment",
-        "filename": "cron-period-adjustment.md",
+        "id": "youtube-1min-book-video-improvement",
+        "filename": "youtube-1min-book-video-improvement.md",
         "folder": "active",
-        "title": "하트비트 크론 주기 조정",
+        "title": "1분 독서 유튜브 영상 생성 로직 개선",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069",
         "waiting_for": null,
-        "last_updated": "2026-02-02T15:59:49.373286",
-        "progress": 100
+        "last_updated": "2026-02-02T16:07:59.892823",
+        "progress": 70
       },
       {
         "id": "heartbeat-refactoring",
@@ -66,19 +66,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T15:49:24.947760",
         "progress": 50
-      },
-      {
-        "id": "youtube-1min-book-video-improvement",
-        "filename": "youtube-1min-book-video-improvement.md",
-        "folder": "active",
-        "title": "1분 독서 유튜브 영상 생성 로직 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:35:41.713290",
-        "progress": 70
       },
       {
         "id": "slack-command-heartbeat-refactor",
@@ -230,6 +217,19 @@
     ],
     "completed": [
       {
+        "id": "cron-period-adjustment",
+        "filename": "cron-period-adjustment.md",
+        "folder": "completed",
+        "title": "하트비트 크론 주기 조정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T15:59:49.373286",
+        "progress": 100
+      },
+      {
         "id": "heartbeat-optimization-backup",
         "filename": "heartbeat-optimization-backup.md",
         "folder": "completed",
@@ -280,19 +280,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T15:35:19.610051",
         "progress": 100
-      },
-      {
-        "id": "script-writer-backup-and-edit",
-        "filename": "script-writer-backup-and-edit.md",
-        "folder": "completed",
-        "title": "script_writer.py 백업 및 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770010591489299?thread_ts=1770010591.489299",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:55:57.427600",
-        "progress": 100
       }
     ]
   },
@@ -340,10 +327,10 @@
   ],
   "stats": {
     "total": 40,
-    "active": 15,
+    "active": 14,
     "next": 1,
     "waiting": 1,
-    "completed": 23,
+    "completed": 24,
     "cron": 4
   }
 }
