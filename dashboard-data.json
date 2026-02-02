@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T16:30:40.253517",
+  "generated_at": "2026-02-02T16:34:51.721576",
   "tasks": {
     "active": [
       {
@@ -27,32 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T16:30:05.308880",
         "progress": 0
-      },
-      {
-        "id": "heartbeat-cron-schedule-setup",
-        "filename": "heartbeat-cron-schedule-setup.md",
-        "folder": "active",
-        "title": "하트비트 크론 주기 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:30:05.305039",
-        "progress": 0
-      },
-      {
-        "id": "slack-command-heartbeat-refactor",
-        "filename": "slack-command-heartbeat-refactor.md",
-        "folder": "active",
-        "title": "슬랙 명령어 + 하트비트 리팩토링",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:19:03.089641",
-        "progress": 20
       },
       {
         "id": "youtube-1min-book-video-improvement",
@@ -256,6 +230,32 @@
     ],
     "completed": [
       {
+        "id": "heartbeat-cron-schedule-setup",
+        "filename": "heartbeat-cron-schedule-setup.md",
+        "folder": "completed",
+        "title": "하트비트 크론 주기 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:34:37.719077",
+        "progress": 0
+      },
+      {
+        "id": "slack-command-heartbeat-refactor",
+        "filename": "slack-command-heartbeat-refactor.md",
+        "folder": "completed",
+        "title": "슬랙 명령어 + 하트비트 리팩토링",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:34:37.718312",
+        "progress": 20
+      },
+      {
         "id": "heartbeat-refactoring-phase2",
         "filename": "heartbeat-refactoring-phase2.md",
         "folder": "completed",
@@ -292,32 +292,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
         "waiting_for": null,
         "last_updated": "2026-02-02T16:09:20.148734",
-        "progress": 100
-      },
-      {
-        "id": "cron-period-adjustment",
-        "filename": "cron-period-adjustment.md",
-        "folder": "completed",
-        "title": "하트비트 크론 주기 조정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:59:49.373286",
-        "progress": 100
-      },
-      {
-        "id": "heartbeat-optimization-backup",
-        "filename": "heartbeat-optimization-backup.md",
-        "folder": "completed",
-        "title": "하트비트 주기 최적화 및 백업 자동화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:49:24.955502",
         "progress": 100
       }
     ]
@@ -366,10 +340,10 @@
   ],
   "stats": {
     "total": 46,
-    "active": 17,
+    "active": 15,
     "next": 1,
     "waiting": 1,
-    "completed": 27,
+    "completed": 29,
     "cron": 4
   }
 }
