@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-02T16:09:34.242993",
+  "generated_at": "2026-02-02T16:12:37.943805",
   "tasks": {
     "active": [
-      {
-        "id": "cron-restoration-heartbeat-learning",
-        "filename": "cron-restoration-heartbeat-learning.md",
-        "folder": "active",
-        "title": "크론 복원: 하트비트 & 학습 주기",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:09:20.148734",
-        "progress": 100
-      },
       {
         "id": "heartbeat-refactoring-emoji-completion",
         "filename": "heartbeat-refactoring-emoji-completion.md",
@@ -23,9 +10,9 @@
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016312119809?thread_ts=1770016312.119809",
         "waiting_for": null,
-        "last_updated": "2026-02-02T16:09:20.146105",
+        "last_updated": "2026-02-02T16:12:23.799704",
         "progress": 67
       },
       {
@@ -243,6 +230,19 @@
     ],
     "completed": [
       {
+        "id": "cron-restoration-heartbeat-learning",
+        "filename": "cron-restoration-heartbeat-learning.md",
+        "folder": "completed",
+        "title": "크론 복원: 하트비트 & 학습 주기",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:09:20.148734",
+        "progress": 100
+      },
+      {
         "id": "cron-period-adjustment",
         "filename": "cron-period-adjustment.md",
         "folder": "completed",
@@ -293,19 +293,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T15:35:19.612342",
         "progress": 100
-      },
-      {
-        "id": "heartbeat-cron-interval-change",
-        "filename": "heartbeat-cron-interval-change.md",
-        "folder": "completed",
-        "title": "하트비트 크론 주기 변경 (1분 → 2분)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:35:19.610051",
-        "progress": 100
       }
     ]
   },
@@ -353,10 +340,10 @@
   ],
   "stats": {
     "total": 42,
-    "active": 16,
+    "active": 15,
     "next": 1,
     "waiting": 1,
-    "completed": 24,
+    "completed": 25,
     "cron": 4
   }
 }
