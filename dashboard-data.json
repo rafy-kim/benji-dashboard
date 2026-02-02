@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-02T16:30:19.404948",
+  "generated_at": "2026-02-02T16:30:40.253517",
   "tasks": {
     "active": [
-      {
-        "id": "heartbeat-refactoring-phase2",
-        "filename": "heartbeat-refactoring-phase2.md",
-        "folder": "active",
-        "title": "하트비트 리팩토링 Phase 2",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:30:05.315087",
-        "progress": 100
-      },
       {
         "id": "youtube-shorts-image-generation-improvement",
         "filename": "youtube-shorts-image-generation-improvement.md",
@@ -269,6 +256,19 @@
     ],
     "completed": [
       {
+        "id": "heartbeat-refactoring-phase2",
+        "filename": "heartbeat-refactoring-phase2.md",
+        "folder": "completed",
+        "title": "하트비트 리팩토링 Phase 2",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:30:26.146622",
+        "progress": 100
+      },
+      {
         "id": "heartbeat-refactoring-emoji-completion",
         "filename": "heartbeat-refactoring-emoji-completion.md",
         "folder": "completed",
@@ -319,19 +319,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T15:49:24.955502",
         "progress": 100
-      },
-      {
-        "id": "heartbeat-cron-restoration",
-        "filename": "heartbeat-cron-restoration.md",
-        "folder": "completed",
-        "title": "하트비트 크론 복원 및 주기 조정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:49:24.953336",
-        "progress": 100
       }
     ]
   },
@@ -379,10 +366,10 @@
   ],
   "stats": {
     "total": 46,
-    "active": 18,
+    "active": 17,
     "next": 1,
     "waiting": 1,
-    "completed": 26,
+    "completed": 27,
     "cron": 4
   }
 }
