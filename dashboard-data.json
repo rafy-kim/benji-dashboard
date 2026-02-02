@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T16:57:38.044952",
+  "generated_at": "2026-02-02T17:13:04.174489",
   "tasks": {
     "active": [
       {
@@ -16,32 +16,6 @@
         "progress": 0
       },
       {
-        "id": "dashboard-external-access",
-        "filename": "dashboard-external-access.md",
-        "folder": "active",
-        "title": "대시보드 외부 접근 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:46:48.936080",
-        "progress": 0
-      },
-      {
-        "id": "slack-command-heartbeat-refactor",
-        "filename": "slack-command-heartbeat-refactor.md",
-        "folder": "active",
-        "title": "슬랙 명령어 + 하트비트 리팩토링",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:43:22.121510",
-        "progress": 50
-      },
-      {
         "id": "youtube-shorts-image-generation",
         "filename": "youtube-shorts-image-generation.md",
         "folder": "active",
@@ -53,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T16:43:22.118593",
         "progress": 60
-      },
-      {
-        "id": "heartbeat-refactoring",
-        "filename": "heartbeat-refactoring.md",
-        "folder": "active",
-        "title": "하트비트 리팩토링 & 자동 완료 시스템",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:59:49.370969",
-        "progress": 50
       },
       {
         "id": "birth-preparation-checklist",
@@ -112,6 +73,19 @@
       }
     ],
     "completed": [
+      {
+        "id": "dashboard-external-access",
+        "filename": "dashboard-external-access.md",
+        "folder": "completed",
+        "title": "대시보드 외부 접근 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T17:12:50.070418",
+        "progress": 0
+      },
       {
         "id": "heartbeat-2min-optimization",
         "filename": "heartbeat-2min-optimization.md",
@@ -163,19 +137,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T16:43:27.344285",
         "progress": 100
-      },
-      {
-        "id": "heartbeat-cron-schedule-setup",
-        "filename": "heartbeat-cron-schedule-setup.md",
-        "folder": "completed",
-        "title": "하트비트 크론 주기 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239?thread_ts=1770016077.844239",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:34:37.719077",
-        "progress": 0
       }
     ]
   },
@@ -222,11 +183,11 @@
     }
   ],
   "stats": {
-    "total": 49,
-    "active": 6,
+    "total": 48,
+    "active": 3,
     "next": 1,
     "waiting": 1,
-    "completed": 41,
+    "completed": 43,
     "cron": 4
   }
 }
