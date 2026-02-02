@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T16:43:49.147789",
+  "generated_at": "2026-02-02T16:47:01.825802",
   "tasks": {
     "active": [
+      {
+        "id": "dashboard-external-access",
+        "filename": "dashboard-external-access.md",
+        "folder": "active",
+        "title": "대시보드 외부 접근 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:46:48.936080",
+        "progress": 0
+      },
       {
         "id": "slack-command-heartbeat-refactor",
         "filename": "slack-command-heartbeat-refactor.md",
@@ -29,45 +42,6 @@
         "progress": 60
       },
       {
-        "id": "youtube-shorts-image-generation-improvement",
-        "filename": "youtube-shorts-image-generation-improvement.md",
-        "folder": "active",
-        "title": "YouTube 쇼츠 이미지 생성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:30:05.312289",
-        "progress": 67
-      },
-      {
-        "id": "youtube-shorts-image-quality-evaluation",
-        "filename": "youtube-shorts-image-quality-evaluation.md",
-        "folder": "active",
-        "title": "YouTube 쇼츠 이미지 품질 평가 (부의 추월차선)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:30:05.308880",
-        "progress": 0
-      },
-      {
-        "id": "youtube-1min-book-video-improvement",
-        "filename": "youtube-1min-book-video-improvement.md",
-        "folder": "active",
-        "title": "YouTube 1분 책 쇼츠 이미지 생성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:14:06.450348",
-        "progress": 67
-      },
-      {
         "id": "heartbeat-refactoring",
         "filename": "heartbeat-refactoring.md",
         "folder": "active",
@@ -79,123 +53,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T15:59:49.370969",
         "progress": 50
-      },
-      {
-        "id": "youtube-book-shorts-image-improvement",
-        "filename": "youtube-book-shorts-image-improvement.md",
-        "folder": "active",
-        "title": "YouTube 책 쇼츠 이미지 생성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:49:24.950781",
-        "progress": 60
-      },
-      {
-        "id": "task-completion-automation",
-        "filename": "task-completion-automation.md",
-        "folder": "active",
-        "title": "작업 완료 자동화 시스템 구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:49:24.947760",
-        "progress": 50
-      },
-      {
-        "id": "cron-heartbeat-optimization",
-        "filename": "cron-heartbeat-optimization.md",
-        "folder": "active",
-        "title": "크론 복원 및 하트비트 주기 최적화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:18:10.225770",
-        "progress": 60
-      },
-      {
-        "id": "heartbeat-1min-optimization",
-        "filename": "heartbeat-1min-optimization.md",
-        "folder": "active",
-        "title": "하트비트 1분 주기 최적화 + 백업 자동화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:09:46.150985",
-        "progress": 86
-      },
-      {
-        "id": "youtube-books-script-regeneration",
-        "filename": "youtube-books-script-regeneration.md",
-        "folder": "active",
-        "title": "YouTube Books 스크립트 재생성",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:09:46.146601",
-        "progress": 40
-      },
-      {
-        "id": "task-emoji-completion-test",
-        "filename": "task-emoji-completion-test.md",
-        "folder": "active",
-        "title": "Task 관리 시스템 이모지 완료 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979?thread_ts=1770011582.339979",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T15:09:46.144125",
-        "progress": 0
-      },
-      {
-        "id": "dashboard-data-sync",
-        "filename": "dashboard-data-sync.md",
-        "folder": "active",
-        "title": "Dashboard Data Sync 자동화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770011582339979",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:57:45.546910",
-        "progress": 33
-      },
-      {
-        "id": "script-regeneration-execution",
-        "filename": "script-regeneration-execution.md",
-        "folder": "active",
-        "title": "스크립트 재생성 실행",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770010591489299?thread_ts=1770010591.489299",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:51:18.715904",
-        "progress": 50
-      },
-      {
-        "id": "task-management-research",
-        "filename": "task-management-research.md",
-        "folder": "active",
-        "title": "Task Management 리서치 - Kanban 방법론 학습",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T14:06:02.139800",
-        "progress": 25
       },
       {
         "id": "birth-preparation-checklist",
@@ -352,11 +209,11 @@
     }
   ],
   "stats": {
-    "total": 50,
-    "active": 16,
+    "total": 47,
+    "active": 5,
     "next": 1,
     "waiting": 1,
-    "completed": 32,
+    "completed": 40,
     "cron": 4
   }
 }
