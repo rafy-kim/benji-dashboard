@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T10:31:04.640333",
+  "generated_at": "2026-02-02T10:51:00.098343",
   "tasks": {
     "active": [
       {
@@ -27,32 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T10:08:40.796018",
         "progress": 25
-      },
-      {
-        "id": "book-coupang-link-fix",
-        "filename": "book-coupang-link-fix.md",
-        "folder": "active",
-        "title": "책 추천 쿠팡 링크 개선",
-        "assignee": "벤지",
-        "status": "🟢 진행 중",
-        "channel": "#콘텐츠",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769987262530059",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T10:08:40.792173",
-        "progress": 50
-      },
-      {
-        "id": "slack-channel-config-update",
-        "filename": "slack-channel-config-update.md",
-        "folder": "active",
-        "title": "슬랙 채널 설정 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769990607309929",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T09:51:27.713738",
-        "progress": 100
       }
     ],
     "next": [
@@ -100,6 +74,45 @@
     ],
     "completed": [
       {
+        "id": "book-dashboard-url-update",
+        "filename": "book-dashboard-url-update.md",
+        "folder": "completed",
+        "title": "책 DB 대시보드 URL 업데이트 & 42번 위닝 책 링크 작업",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769987262530059",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T10:50:45.417318",
+        "progress": 100
+      },
+      {
+        "id": "book-coupang-link-fix",
+        "filename": "book-coupang-link-fix.md",
+        "folder": "completed",
+        "title": "책 추천 쿠팡 링크 개선",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#콘텐츠",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769987262530059",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T10:08:40.792173",
+        "progress": 50
+      },
+      {
+        "id": "slack-channel-config-update",
+        "filename": "slack-channel-config-update.md",
+        "folder": "completed",
+        "title": "슬랙 채널 설정 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769990607309929",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T09:51:27.713738",
+        "progress": 100
+      },
+      {
         "id": "task-system-improvement",
         "filename": "task-system-improvement.md",
         "folder": "completed",
@@ -110,19 +123,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1769986395147469",
         "waiting_for": null,
         "last_updated": "2026-02-02T09:38:19.203432",
-        "progress": 100
-      },
-      {
-        "id": "slack-channel-config-update",
-        "filename": "slack-channel-config-update.md",
-        "folder": "completed",
-        "title": "슬랙 채널 구성 업데이트",
-        "assignee": "벤지",
-        "status": "✅ 완료",
-        "channel": "#라피-개인",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769990607309929",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T09:21:05.629659",
         "progress": 100
       },
       {
@@ -137,42 +137,16 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T09:10:46.560341",
         "progress": 100
-      },
-      {
-        "id": "thread-1769842367730509",
-        "filename": "thread-1769842367730509.md",
-        "folder": "completed",
-        "title": "[F] 책 추천 쇼츠 채널 만들기",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
-        "waiting_for": null,
-        "last_updated": "2026-02-01T17:02:44.334868",
-        "progress": 0
-      },
-      {
-        "id": "thread-1769931465.411509",
-        "filename": "thread-1769931465.411509.md",
-        "folder": "completed",
-        "title": "📋 콘텐츠 채널 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769931465411509",
-        "waiting_for": null,
-        "last_updated": "2026-02-01T16:50:42.205851",
-        "progress": 75
       }
     ]
   },
   "cron": [],
   "stats": {
     "total": 17,
-    "active": 4,
+    "active": 2,
     "next": 2,
     "waiting": 1,
-    "completed": 10,
+    "completed": 12,
     "cron": 0
   }
 }
