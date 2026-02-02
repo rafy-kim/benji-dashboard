@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T11:59:52.234568",
+  "generated_at": "2026-02-02T12:29:42.840663",
   "tasks": {
     "active": [
+      {
+        "id": "birth-preparation-checklist",
+        "filename": "birth-preparation-checklist.md",
+        "folder": "active",
+        "title": "🍼 출산 준비 체크리스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-02T12:29:38.077610",
+        "progress": 0
+      },
       {
         "id": "emoji-auto-completion-test",
         "filename": "emoji-auto-completion-test.md",
@@ -155,23 +168,23 @@
   },
   "cron": [
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "09-20시 정각",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-02T11:00:00.005000",
-      "nextRun": "2026-02-02T12:00:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
       "name": "벤지 데드락 모니터링",
       "schedule": "10분마다",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-02T11:50:00.008000",
-      "nextRun": "2026-02-02T12:00:00",
+      "lastRun": "2026-02-02T12:20:00.041000",
+      "nextRun": "2026-02-02T12:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 낮 학습",
+      "schedule": "09-20시 정각",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-02T12:00:00.006000",
+      "nextRun": "2026-02-02T13:00:00",
       "lastStatus": "ok"
     },
     {
@@ -236,8 +249,8 @@
     }
   ],
   "stats": {
-    "total": 18,
-    "active": 3,
+    "total": 19,
+    "active": 4,
     "next": 2,
     "waiting": 1,
     "completed": 12,
