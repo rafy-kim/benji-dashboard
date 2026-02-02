@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T16:47:40.060865",
+  "generated_at": "2026-02-02T16:51:15.074884",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-character-consistency-test",
+        "filename": "youtube-character-consistency-test.md",
+        "folder": "active",
+        "title": "YouTube 캐릭터 일관성 테스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770016039861069?thread_ts=1770016039.861069",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:51:01.078131",
+        "progress": 0
+      },
       {
         "id": "dashboard-external-access",
         "filename": "dashboard-external-access.md",
@@ -209,8 +222,8 @@
     }
   ],
   "stats": {
-    "total": 48,
-    "active": 5,
+    "total": 49,
+    "active": 6,
     "next": 1,
     "waiting": 1,
     "completed": 41,
