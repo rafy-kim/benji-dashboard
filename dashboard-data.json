@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T13:36:12.234126",
+  "generated_at": "2026-02-02T13:48:21.360662",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-1min-book-video-improvement",
+        "filename": "youtube-1min-book-video-improvement.md",
+        "folder": "active",
+        "title": "1분 독서 유튜브 영상 생성 로직 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770004064115589?thread_ts=1770004064.115589",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T13:48:16.673959",
+        "progress": 47
+      },
       {
         "id": "task-system-v2",
         "filename": "task-system-v2.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T13:36:07.481668",
         "progress": 0
-      },
-      {
-        "id": "youtube-1min-book-video-improvement",
-        "filename": "youtube-1min-book-video-improvement.md",
-        "folder": "active",
-        "title": "1분 독서 유튜브 영상 생성 로직 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770004064115589?thread_ts=1770004064.115589",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T13:32:11.322853",
-        "progress": 33
       },
       {
         "id": "birth-preparation-checklist",
@@ -147,8 +147,8 @@
       "schedule": "10분마다",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-02T13:30:00.001000",
-      "nextRun": "2026-02-02T13:40:00",
+      "lastRun": "2026-02-02T13:40:00.002000",
+      "nextRun": "2026-02-02T13:50:00",
       "lastStatus": "ok"
     },
     {
