@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-02T16:37:01.976019",
+  "generated_at": "2026-02-02T16:37:18.741788",
   "tasks": {
     "active": [
-      {
-        "id": "heartbeat-2min-optimization",
-        "filename": "heartbeat-2min-optimization.md",
-        "folder": "active",
-        "title": "Heartbeat 2분 주기 최적화",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:36:47.872599",
-        "progress": 75
-      },
       {
         "id": "youtube-shorts-image-generation-improvement",
         "filename": "youtube-shorts-image-generation-improvement.md",
@@ -243,6 +230,19 @@
     ],
     "completed": [
       {
+        "id": "heartbeat-2min-optimization",
+        "filename": "heartbeat-2min-optimization.md",
+        "folder": "completed",
+        "title": "Heartbeat 2분 주기 최적화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770016077844239",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T16:37:04.648128",
+        "progress": 75
+      },
+      {
         "id": "heartbeat-cron-schedule-setup",
         "filename": "heartbeat-cron-schedule-setup.md",
         "folder": "completed",
@@ -293,19 +293,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-02T16:26:02.735346",
         "progress": 100
-      },
-      {
-        "id": "cron-restoration-heartbeat-learning",
-        "filename": "cron-restoration-heartbeat-learning.md",
-        "folder": "completed",
-        "title": "크론 복원: 하트비트 & 학습 주기",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770012784327559?thread_ts=1770012784.327559",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T16:09:20.148734",
-        "progress": 100
       }
     ]
   },
@@ -353,10 +340,10 @@
   ],
   "stats": {
     "total": 47,
-    "active": 16,
+    "active": 15,
     "next": 1,
     "waiting": 1,
-    "completed": 29,
+    "completed": 30,
     "cron": 4
   }
 }
