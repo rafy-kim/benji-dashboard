@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-02T23:18:58.654272",
+  "generated_at": "2026-02-02T23:34:45.595451",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
         "waiting_for": null,
-        "last_updated": "2026-02-02T23:18:56.562874",
+        "last_updated": "2026-02-02T23:34:41.395235",
         "progress": 67
       },
       {
@@ -147,8 +147,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-02T23:18:00.003000",
-      "nextRun": "2026-02-02T23:20:00",
+      "lastRun": "2026-02-02T23:34:00.002000",
+      "nextRun": "2026-02-02T23:36:00",
       "lastStatus": "ok"
     },
     {
@@ -157,18 +157,8 @@
       "schedule": "크론: */20 21-23,0-9 * * *",
       "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-02T23:00:00.014000",
-      "nextRun": "2026-02-02T23:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
-      "enabled": true,
-      "lastRun": "2026-02-02T23:04:42.320000",
-      "nextRun": "2026-02-02T23:30:00",
+      "lastRun": "2026-02-02T23:20:00.015000",
+      "nextRun": "2026-02-02T23:40:00",
       "lastStatus": "ok"
     },
     {
@@ -180,6 +170,16 @@
       "lastRun": null,
       "nextRun": "2026-02-03T00:00:00",
       "lastStatus": null
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
+      "enabled": true,
+      "lastRun": "2026-02-02T23:30:00.016000",
+      "nextRun": "2026-02-03T00:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "12c88a17-54e2-4936-a208-72ed20cc134d",
