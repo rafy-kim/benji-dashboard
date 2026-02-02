@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-02T14:04:51.936286",
+  "generated_at": "2026-02-02T14:06:16.721547",
   "tasks": {
     "active": [
+      {
+        "id": "task-management-research",
+        "filename": "task-management-research.md",
+        "folder": "active",
+        "title": "Task Management 리서치 - Kanban 방법론 학습",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770008014106339?thread_ts=1770008014.106339",
+        "waiting_for": null,
+        "last_updated": "2026-02-02T14:06:02.139800",
+        "progress": 25
+      },
       {
         "id": "youtube-1min-book-video-improvement",
         "filename": "youtube-1min-book-video-improvement.md",
@@ -142,8 +155,8 @@
   },
   "cron": [],
   "stats": {
-    "total": 20,
-    "active": 3,
+    "total": 21,
+    "active": 4,
     "next": 1,
     "waiting": 1,
     "completed": 15,
