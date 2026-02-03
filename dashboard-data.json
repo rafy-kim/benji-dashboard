@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-03T09:01:12.779822",
+  "generated_at": "2026-02-03T09:25:14.756116",
   "tasks": {
     "active": [
+      {
+        "id": "context-memory-optimization",
+        "filename": "context-memory-optimization.md",
+        "folder": "active",
+        "title": "세션/토큰 한도 문제 해결 연구",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770077674361409",
+        "waiting_for": null,
+        "last_updated": "2026-02-03T09:25:00.609327",
+        "progress": 0
+      },
       {
         "id": "dashboard-outage-analysis",
         "filename": "dashboard-outage-analysis.md",
@@ -216,8 +229,8 @@
     }
   ],
   "stats": {
-    "total": 65,
-    "active": 4,
+    "total": 66,
+    "active": 5,
     "next": 1,
     "waiting": 1,
     "completed": 59,
