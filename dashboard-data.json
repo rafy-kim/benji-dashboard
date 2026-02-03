@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-03T23:31:16.368512",
+  "generated_at": "2026-02-03T23:31:29.988925",
   "tasks": {
     "active": [
-      {
-        "id": "book-db-page-redesign",
-        "filename": "book-db-page-redesign.md",
-        "folder": "active",
-        "title": "책 DB 페이지 전면 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-03T23:31:08.944636",
-        "progress": 100
-      },
       {
         "id": "youtube-shorts-image-generation",
         "filename": "youtube-shorts-image-generation.md",
@@ -74,6 +61,19 @@
     ],
     "completed": [
       {
+        "id": "book-db-page-redesign",
+        "filename": "book-db-page-redesign.md",
+        "folder": "completed",
+        "title": "책 DB 페이지 전면 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-03T23:31:17.351753",
+        "progress": 100
+      },
+      {
         "id": "character-master-image-dashboard",
         "filename": "character-master-image-dashboard.md",
         "folder": "completed",
@@ -124,19 +124,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-03T09:35:56.910102",
         "progress": 60
-      },
-      {
-        "id": "gateway-session-cleanup",
-        "filename": "gateway-session-cleanup.md",
-        "folder": "completed",
-        "title": "Gateway 세션 과다 문제 및 자동 정리",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770017960448259?thread_ts=1770017960.448259",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T21:46:20.762267",
-        "progress": 100
       }
     ]
   },
@@ -204,20 +191,20 @@
   ],
   "stats": {
     "total": 68,
-    "active": 3,
+    "active": 2,
     "next": 1,
     "waiting": 1,
-    "completed": 63,
+    "completed": 64,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 2,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 40.0,
     "waiting_count": 1,
-    "completed_today": 4,
+    "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-03T23:31:16.386303"
+    "timestamp": "2026-02-03T23:31:30.009717"
   }
 }
