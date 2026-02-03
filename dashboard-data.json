@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-03T10:19:34.476320",
+  "generated_at": "2026-02-03T12:26:39.990320",
   "tasks": {
     "active": [
+      {
+        "id": "character-master-image-dashboard",
+        "filename": "character-master-image-dashboard.md",
+        "folder": "active",
+        "title": "캐릭터 마스터 이미지 DB 및 대시보드 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
+        "waiting_for": null,
+        "last_updated": "2026-02-03T12:26:35.891611",
+        "progress": 67
+      },
       {
         "id": "birth-preparation-checklist",
         "filename": "birth-preparation-checklist.md",
@@ -160,8 +173,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-03T10:18:00.002000",
-      "nextRun": "2026-02-03T10:20:00",
+      "lastRun": "2026-02-03T12:26:00.002000",
+      "nextRun": "2026-02-03T12:28:00",
       "lastStatus": "ok"
     },
     {
@@ -170,8 +183,8 @@
       "schedule": "크론: 0,30 9-21 * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-03T10:00:00.002000",
-      "nextRun": "2026-02-03T10:30:00",
+      "lastRun": "2026-02-03T12:00:00.004000",
+      "nextRun": "2026-02-03T12:30:00",
       "lastStatus": "ok"
     },
     {
@@ -180,8 +193,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-03T10:02:59.241000",
-      "nextRun": "2026-02-03T10:30:00",
+      "lastRun": "2026-02-03T12:02:40.227000",
+      "nextRun": "2026-02-03T12:30:00",
       "lastStatus": "ok"
     },
     {
@@ -190,8 +203,8 @@
       "schedule": "크론: 0 9,12,15,18,21 * * *",
       "description": "6시간 학습 정리 시간! 1) learning/daily/오늘날짜.md에서 최근 5시간 학습 내용을 분석하고...",
       "enabled": true,
-      "lastRun": "2026-02-03T09:04:09.654000",
-      "nextRun": "2026-02-03T12:00:00",
+      "lastRun": "2026-02-03T12:02:40.227000",
+      "nextRun": "2026-02-03T15:00:00",
       "lastStatus": "skipped"
     },
     {
@@ -266,11 +279,21 @@
     }
   ],
   "stats": {
-    "total": 66,
-    "active": 4,
+    "total": 67,
+    "active": 5,
     "next": 1,
     "waiting": 1,
     "completed": 60,
     "cron": 11
+  },
+  "flow_metrics": {
+    "wip_count": 5,
+    "wip_limit": 5,
+    "wip_utilization": 100.0,
+    "waiting_count": 1,
+    "completed_today": 1,
+    "aging_24h": [],
+    "aging_48h": [],
+    "timestamp": "2026-02-03T12:26:39.992607"
   }
 }
