@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-03T13:03:57.724331",
+  "generated_at": "2026-02-03T14:03:00.942021",
   "tasks": {
     "active": [
+      {
+        "id": "image-generation-consistency",
+        "filename": "image-generation-consistency.md",
+        "folder": "active",
+        "title": "이미지 생성 일관성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
+        "waiting_for": null,
+        "last_updated": "2026-02-03T14:02:46.946595",
+        "progress": 67
+      },
       {
         "id": "character-master-image-dashboard",
         "filename": "character-master-image-dashboard.md",
@@ -27,19 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-03T10:19:30.352253",
         "progress": 0
-      },
-      {
-        "id": "image-generation-consistency",
-        "filename": "image-generation-consistency.md",
-        "folder": "active",
-        "title": "이미지 생성 일관성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T23:45:44.541617",
-        "progress": 67
       },
       {
         "id": "youtube-shorts-image-generation",
@@ -231,6 +231,6 @@
     "completed_today": 2,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-03T13:03:57.726576"
+    "timestamp": "2026-02-03T14:03:00.947227"
   }
 }
