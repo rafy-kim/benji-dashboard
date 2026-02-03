@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-03T23:30:14.650422",
+  "generated_at": "2026-02-03T23:31:16.368512",
   "tasks": {
     "active": [
       {
@@ -12,8 +12,8 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-03T23:30:00.487495",
-        "progress": 0
+        "last_updated": "2026-02-03T23:31:08.944636",
+        "progress": 100
       },
       {
         "id": "youtube-shorts-image-generation",
@@ -218,6 +218,6 @@
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-03T23:30:14.664024"
+    "timestamp": "2026-02-03T23:31:16.386303"
   }
 }
