@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-03T14:06:15.855530",
+  "generated_at": "2026-02-03T14:20:25.714925",
   "tasks": {
     "active": [
       {
@@ -12,8 +12,8 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770095152802639",
         "waiting_for": null,
-        "last_updated": "2026-02-03T14:06:11.779331",
-        "progress": 60
+        "last_updated": "2026-02-03T14:20:21.629348",
+        "progress": 100
       },
       {
         "id": "birth-preparation-checklist",
@@ -134,8 +134,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-03T14:06:00.003000",
-      "nextRun": "2026-02-03T14:08:00",
+      "lastRun": "2026-02-03T14:20:00.002000",
+      "nextRun": "2026-02-03T14:22:00",
       "lastStatus": "ok"
     },
     {
@@ -255,6 +255,6 @@
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-03T14:06:15.858061"
+    "timestamp": "2026-02-03T14:20:25.717549"
   }
 }
