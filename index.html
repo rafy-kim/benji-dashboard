@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🌱 벤지 대시보드</title>
+    
+    <!-- Marked.js for Markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
     <style>
         * {
             margin: 0;
@@ -252,6 +256,88 @@
             font-size: 0.85rem;
         }
         
+        /* Flow Metrics 스타일 */
+        .flow-metrics-section {
+            margin: 25px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .flow-metrics-section .section-title {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        
+        .flow-metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+        }
+        
+        .flow-metric-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .flow-metric-label {
+            font-size: 0.8rem;
+            color: #888;
+            margin-bottom: 8px;
+        }
+        
+        .flow-metric-value {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #e0e0e0;
+        }
+        
+        .flow-metric-value.large {
+            font-size: 1.8rem;
+        }
+        
+        .wip-bar-container {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            margin: 10px 0;
+            overflow: hidden;
+        }
+        
+        .wip-bar {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.5s, background 0.3s;
+        }
+        
+        .wip-bar.safe { background: #4ade80; }
+        .wip-bar.warning { background: #fbbf24; }
+        .wip-bar.danger { background: #ef4444; }
+        
+        .aging-card {
+            grid-column: span 2;
+            background: rgba(251, 191, 36, 0.1);
+            border: 1px solid rgba(251, 191, 36, 0.3);
+        }
+        
+        .aging-list {
+            font-size: 0.85rem;
+            color: #fbbf24;
+            text-align: left;
+        }
+        
+        .aging-item {
+            padding: 5px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .aging-item:last-child {
+            border-bottom: none;
+        }
+        
         .cron-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -262,6 +348,237 @@
             font-size: 0.85rem;
             color: #aaa;
             margin-top: 5px;
+        }
+        
+        /* 모달 스타일 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+        }
+        
+        .modal.show {
+            display: block;
+        }
+        
+        .modal-content {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            margin: 3% auto;
+            padding: 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            width: 90%;
+            max-width: 900px;
+            max-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 10px 50px rgba(0, 0, 0, 0.5);
+        }
+        
+        .modal-header {
+            padding: 20px 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .modal-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #e0e0e0;
+        }
+        
+        .modal-close {
+            color: #888;
+            font-size: 2rem;
+            font-weight: bold;
+            cursor: pointer;
+            background: none;
+            border: none;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.2s;
+        }
+        
+        .modal-close:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+        }
+        
+        .modal-body {
+            padding: 30px;
+            overflow-y: auto;
+            flex: 1;
+        }
+        
+        .modal-loading {
+            text-align: center;
+            padding: 50px;
+            color: #888;
+        }
+        
+        /* 마크다운 스타일 */
+        .markdown-content {
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        
+        .markdown-content h1 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 10px;
+        }
+        
+        .markdown-content h2 {
+            font-size: 1.5rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #4ade80;
+        }
+        
+        .markdown-content h3 {
+            font-size: 1.2rem;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #a78bfa;
+        }
+        
+        .markdown-content p {
+            margin-bottom: 15px;
+        }
+        
+        .markdown-content ul, .markdown-content ol {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .markdown-content li {
+            margin-bottom: 5px;
+        }
+        
+        .markdown-content code {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .markdown-content pre {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin-bottom: 15px;
+        }
+        
+        .markdown-content pre code {
+            background: none;
+            padding: 0;
+        }
+        
+        .markdown-content blockquote {
+            border-left: 4px solid #4ade80;
+            padding-left: 15px;
+            margin-left: 0;
+            color: #aaa;
+            font-style: italic;
+        }
+        
+        .markdown-content a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+        
+        .markdown-content a:hover {
+            text-decoration: underline;
+        }
+        
+        .markdown-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+        
+        .markdown-content th, .markdown-content td {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 8px 12px;
+            text-align: left;
+        }
+        
+        .markdown-content th {
+            background: rgba(255, 255, 255, 0.05);
+            font-weight: 600;
+        }
+        
+        .markdown-content hr {
+            border: none;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin: 20px 0;
+        }
+        
+        .task-card {
+            cursor: pointer;
+        }
+        
+        /* 문서 그리드 스타일 */
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 12px;
+        }
+        
+        .doc-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.2s;
+        }
+        
+        .doc-card:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(96, 165, 250, 0.5);
+            transform: translateY(-2px);
+        }
+        
+        .doc-icon {
+            font-size: 2rem;
+            min-width: 50px;
+            text-align: center;
+        }
+        
+        .doc-info {
+            flex: 1;
+        }
+        
+        .doc-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+            color: #e0e0e0;
+        }
+        
+        .doc-desc {
+            font-size: 0.85rem;
+            color: #888;
         }
     </style>
 </head>
@@ -292,6 +609,32 @@
             <div class="stat-card completed">
                 <div class="stat-number" id="stat-completed">-</div>
                 <div class="stat-label">✅ 완료</div>
+            </div>
+        </div>
+        
+        <!-- Flow Metrics 섹션 -->
+        <div class="flow-metrics-section">
+            <h2 class="section-title">📊 Flow Metrics</h2>
+            <div class="flow-metrics-grid">
+                <div class="flow-metric-card">
+                    <div class="flow-metric-label">WIP 상태</div>
+                    <div class="wip-bar-container">
+                        <div class="wip-bar" id="wip-bar"></div>
+                    </div>
+                    <div class="flow-metric-value" id="wip-status">-/-</div>
+                </div>
+                <div class="flow-metric-card">
+                    <div class="flow-metric-label">오늘 완료</div>
+                    <div class="flow-metric-value large" id="completed-today">-</div>
+                </div>
+                <div class="flow-metric-card">
+                    <div class="flow-metric-label">대기 중</div>
+                    <div class="flow-metric-value large" id="waiting-count">-</div>
+                </div>
+                <div class="flow-metric-card aging-card" id="aging-card" style="display: none;">
+                    <div class="flow-metric-label">⚠️ 오래된 작업</div>
+                    <div class="aging-list" id="aging-list"></div>
+                </div>
             </div>
         </div>
         
@@ -330,12 +673,67 @@
             </div>
         </div>
         
+        <div class="section">
+            <h2 class="section-title">📚 시스템 문서</h2>
+            <div class="doc-grid" id="doc-list">
+                <div class="doc-card" onclick="openDocModal('youtube-books/CURRENT_SYSTEM_SUMMARY.md', '🏗️ 전체 시스템 정리')">
+                    <div class="doc-icon">🏗️</div>
+                    <div class="doc-info">
+                        <div class="doc-title">전체 시스템 정리</div>
+                        <div class="doc-desc">맥미니 아키텍처, DB 스키마, 파이프라인</div>
+                    </div>
+                </div>
+                <div class="doc-card" onclick="openDocModal('shorts/docs/book_recommendation_proposal.md', '📋 초기 기획안')">
+                    <div class="doc-icon">📋</div>
+                    <div class="doc-info">
+                        <div class="doc-title">초기 기획안</div>
+                        <div class="doc-desc">채널 컨셉, 수익화 전략, 목표</div>
+                    </div>
+                </div>
+                <div class="doc-card" onclick="openDocModal('shorts/DEPLOY.md', '🚀 배포 가이드')">
+                    <div class="doc-icon">🚀</div>
+                    <div class="doc-info">
+                        <div class="doc-title">배포 가이드</div>
+                        <div class="doc-desc">스테이징, 테스트, 프로덕션 배포</div>
+                    </div>
+                </div>
+                <div class="doc-card" onclick="openDocModal('knowledge/youtube.md', '📺 YouTube 채널 정보')">
+                    <div class="doc-icon">📺</div>
+                    <div class="doc-info">
+                        <div class="doc-title">YouTube 채널 정보</div>
+                        <div class="doc-desc">운영 채널, 성과 지표, 알고리즘</div>
+                    </div>
+                </div>
+                <div class="doc-card" onclick="openDocModal('knowledge/infra.md', '🖥️ 인프라 정보')">
+                    <div class="doc-icon">🖥️</div>
+                    <div class="doc-info">
+                        <div class="doc-title">인프라 정보</div>
+                        <div class="doc-desc">맥미니 구성, DB, 배포 환경</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <p class="last-update">마지막 업데이트: <span id="last-update">-</span></p>
     </div>
     
     <div class="connection-status connected" id="connection-status">
         <span class="pulse"></span>
         <span id="connection-text">연결됨</span>
+    </div>
+    
+    <!-- 모달 팝업 -->
+    <div id="taskModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle">작업 카드</h2>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-loading" id="modalLoading">로딩 중...</div>
+                <div class="markdown-content" id="modalMarkdown" style="display: none;"></div>
+            </div>
+        </div>
     </div>
     
     <script>
@@ -355,7 +753,7 @@
         
         function renderTask(task, status) {
             const threadLink = task.thread_link 
-                ? `<a href="${task.thread_link}" target="_blank" class="task-link">스레드 →</a>`
+                ? `<a href="${task.thread_link}" target="_blank" class="task-link" onclick="event.stopPropagation()">스레드 →</a>`
                 : '';
             
             const progressBar = task.progress > 0
@@ -375,7 +773,7 @@
                 : '';
             
             return `
-                <div class="task-card ${status}">
+                <div class="task-card ${status}" onclick="openTaskModal('${task.folder}', '${task.filename}', '${task.title || task.id}')">
                     <div class="task-header">
                         <div class="task-title">${task.title || task.id}</div>
                         ${channel}
@@ -443,6 +841,46 @@
                 document.getElementById('stat-cron').textContent = data.stats.cron || 0;
                 document.getElementById('stat-completed').textContent = data.stats.completed || 0;
                 
+                // Flow Metrics 업데이트
+                if (data.flow_metrics) {
+                    const fm = data.flow_metrics;
+                    
+                    // WIP 상태
+                    const wipBar = document.getElementById('wip-bar');
+                    const wipStatus = document.getElementById('wip-status');
+                    const wipPercent = fm.wip_utilization || 0;
+                    
+                    wipBar.style.width = wipPercent + '%';
+                    wipBar.className = 'wip-bar ' + (wipPercent < 60 ? 'safe' : wipPercent < 100 ? 'warning' : 'danger');
+                    wipStatus.textContent = fm.wip_count + '/' + fm.wip_limit + ' (' + wipPercent + '%)';
+                    
+                    // 오늘 완료
+                    document.getElementById('completed-today').textContent = fm.completed_today || 0;
+                    
+                    // 대기 중
+                    document.getElementById('waiting-count').textContent = fm.waiting_count || 0;
+                    
+                    // Aging Tasks
+                    const agingCard = document.getElementById('aging-card');
+                    const agingList = document.getElementById('aging-list');
+                    const aging24h = fm.aging_24h || [];
+                    const aging48h = fm.aging_48h || [];
+                    
+                    if (aging24h.length > 0 || aging48h.length > 0) {
+                        agingCard.style.display = 'block';
+                        let agingHtml = '';
+                        aging48h.forEach(id => {
+                            agingHtml += '<div class="aging-item">🚨 ' + id + ' (48h+)</div>';
+                        });
+                        aging24h.filter(id => !aging48h.includes(id)).forEach(id => {
+                            agingHtml += '<div class="aging-item">⚠️ ' + id + ' (24h+)</div>';
+                        });
+                        agingList.innerHTML = agingHtml;
+                    } else {
+                        agingCard.style.display = 'none';
+                    }
+                }
+                
                 // 작업 목록 렌더링
                 renderTasks(data.tasks.active, 'active-tasks', 'active');
                 renderTasks(data.tasks.next, 'next-tasks', 'next');
@@ -476,6 +914,148 @@
                 textEl.textContent = '연결 오류';
             }
         }
+        
+        // 모달 관련 함수
+        function openTaskModal(folder, filename, title) {
+            const modal = document.getElementById('taskModal');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalLoading = document.getElementById('modalLoading');
+            const modalMarkdown = document.getElementById('modalMarkdown');
+            
+            // 모달 열기
+            modal.classList.add('show');
+            modalTitle.textContent = title;
+            modalLoading.style.display = 'block';
+            modalMarkdown.style.display = 'none';
+            
+            // API 호출 (세션 인증 사용)
+            fetch(`/api/task/${folder}/${filename}`, { credentials: 'include' })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        throw new Error(data.error);
+                    }
+                    
+                    // 마크다운 렌더링
+                    const html = marked.parse(data.content);
+                    modalMarkdown.innerHTML = html;
+                    
+                    // 문서 링크 처리
+                    processDocLinks(modalMarkdown);
+                    
+                    modalLoading.style.display = 'none';
+                    modalMarkdown.style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('작업 카드 로드 실패:', error);
+                    modalMarkdown.innerHTML = `<p style="color: #ef4444;">로드 실패: ${error.message}</p>`;
+                    modalLoading.style.display = 'none';
+                    modalMarkdown.style.display = 'block';
+                });
+        }
+        
+        // 문서 모달 열기
+        function openDocModal(docPath, title) {
+            const modal = document.getElementById('taskModal');
+            const modalTitle = document.getElementById('modalTitle');
+            const modalLoading = document.getElementById('modalLoading');
+            const modalMarkdown = document.getElementById('modalMarkdown');
+            
+            // 모달 열기
+            modal.classList.add('show');
+            modalTitle.textContent = title || docPath.split('/').pop();
+            modalLoading.style.display = 'block';
+            modalMarkdown.style.display = 'none';
+            
+            // API 호출
+            fetch(`/api/doc/${docPath}`, { credentials: 'include' })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.error) {
+                        throw new Error(data.error);
+                    }
+                    
+                    // 마크다운 렌더링
+                    const html = marked.parse(data.content);
+                    modalMarkdown.innerHTML = html;
+                    
+                    // 문서 내 링크 처리
+                    processDocLinks(modalMarkdown);
+                    
+                    modalLoading.style.display = 'none';
+                    modalMarkdown.style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('문서 로드 실패:', error);
+                    modalMarkdown.innerHTML = `<p style="color: #ef4444;">로드 실패: ${error.message}</p>`;
+                    modalLoading.style.display = 'none';
+                    modalMarkdown.style.display = 'block';
+                });
+        }
+        
+        // 마크다운 내 문서 링크를 클릭 가능하게 처리
+        function processDocLinks(container) {
+            const docPaths = {
+                'youtube-books/CURRENT_SYSTEM_SUMMARY.md': '🏗️ 전체 시스템 정리',
+                'shorts/docs/book_recommendation_proposal.md': '📋 초기 기획안',
+                'shorts/DEPLOY.md': '🚀 배포 가이드',
+                'knowledge/youtube.md': '📺 YouTube 채널 정보',
+                'knowledge/infra.md': '🖥️ 인프라 정보',
+            };
+            
+            // 링크 가로채기
+            container.querySelectorAll('a').forEach(link => {
+                const href = link.getAttribute('href') || '';
+                
+                // 파일 경로 패턴 확인
+                for (const [path, title] of Object.entries(docPaths)) {
+                    if (href.includes(path) || link.textContent.includes(path)) {
+                        link.href = '#';
+                        link.onclick = (e) => {
+                            e.preventDefault();
+                            openDocModal(path, title);
+                        };
+                        link.style.cursor = 'pointer';
+                        link.style.color = '#60a5fa';
+                        break;
+                    }
+                }
+            });
+            
+            // 코드 블록 내 경로도 클릭 가능하게
+            container.querySelectorAll('code').forEach(code => {
+                const text = code.textContent;
+                for (const [path, title] of Object.entries(docPaths)) {
+                    if (text.includes(path)) {
+                        code.style.cursor = 'pointer';
+                        code.style.color = '#60a5fa';
+                        code.style.textDecoration = 'underline';
+                        code.onclick = () => openDocModal(path, title);
+                        break;
+                    }
+                }
+            });
+        }
+        
+        function closeModal() {
+            const modal = document.getElementById('taskModal');
+            modal.classList.remove('show');
+        }
+        
+        // 모달 외부 클릭 시 닫기
+        window.onclick = function(event) {
+            const modal = document.getElementById('taskModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+        
+        // ESC 키로 모달 닫기
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                closeModal();
+            }
+        });
         
         // 초기 로드
         fetchData();

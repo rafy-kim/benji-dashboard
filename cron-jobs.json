@@ -3,7 +3,7 @@
     {
       "id": "heartbeat",
       "name": "🫀 하트비트 체크",
-      "schedule": "1분마다",
+      "schedule": "2분마다",
       "description": "작업 카드 자동 생성, 데드락 감지, 스레드 이사 체크",
       "enabled": true,
       "lastRun": null,
@@ -11,8 +11,28 @@
       "lastStatus": "OK"
     },
     {
+      "id": "learning-day",
+      "name": "📚 벤지 낮 학습",
+      "schedule": "09:00-21:00 매 30분",
+      "description": "성장에 필요한 주제를 직접 선정하여 깊이 있게 학습",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "learning-night",
+      "name": "🌙 벤지 심야 학습",
+      "schedule": "21:00-09:00 매 20분",
+      "description": "심야 시간대 자기주도 학습 (라피 휴식 시간 활용)",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
       "id": "daily-book",
-      "name": "📚 일일 도서 추천",
+      "name": "📖 일일 도서 추천",
       "schedule": "매일 08:00",
       "description": "새로운 책 추천 및 스크립트 생성",
       "enabled": true,
@@ -32,8 +52,8 @@
     },
     {
       "id": "weather-morning",
-      "name": "🌤️ 아침 날씨 알림",
-      "schedule": "매일 09:00",
+      "name": "🌤️ 산책 조언",
+      "schedule": "매일 10:00",
       "description": "오늘 날씨 및 산책 조언",
       "enabled": true,
       "lastRun": null,

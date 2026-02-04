@@ -1,0 +1,61 @@
+🚀 벤지 대시보드 서버 시작: http://0.0.0.0:8080
+ * Serving Flask app 'server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.45.46:8080
+[33mPress CTRL+C to quit[0m
+192.168.45.52 - - [03/Feb/2026 09:01:42] "GET / HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:01:43] "GET /dashboard-data.json?t=1770076903066 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:01:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.45.52 - - [03/Feb/2026 09:02:13] "GET /dashboard-data.json?t=1770076933067 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:02:43] "GET /dashboard-data.json?t=1770076963515 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:03:02] "[31m[1mGET /api/task/active/dashboard-outage-analysis.md HTTP/1.1[0m" 401 -
+192.168.45.52 - - [03/Feb/2026 09:03:04] "[36mGET / HTTP/1.1[0m" 304 -
+192.168.45.52 - - [03/Feb/2026 09:03:04] "GET /dashboard-data.json?t=1770076984536 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:03:05] "[31m[1mGET /api/task/active/dashboard-outage-analysis.md HTTP/1.1[0m" 401 -
+192.168.45.52 - - [03/Feb/2026 09:03:34] "GET /dashboard-data.json?t=1770077014537 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:03:49] "[31m[1mGET /api/task/active/image-generation-consistency.md HTTP/1.1[0m" 401 -
+192.168.45.52 - - [03/Feb/2026 09:04:04] "GET /dashboard-data.json?t=1770077044537 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:04:34] "GET /dashboard-data.json?t=1770077074538 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:05:04] "GET /dashboard-data.json?t=1770077104538 HTTP/1.1" 200 -
+192.168.45.46 - - [03/Feb/2026 09:05:10] "GET / HTTP/1.1" 200 -
+192.168.45.46 - - [03/Feb/2026 09:05:10] "GET / HTTP/1.1" 200 -
+192.168.45.46 - - [03/Feb/2026 09:05:20] "GET /dashboard-data.json HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:05:34] "GET /dashboard-data.json?t=1770077134538 HTTP/1.1" 200 -
+192.168.45.46 - - [03/Feb/2026 09:06:03] "GET / HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:06:04] "GET /dashboard-data.json?t=1770077164538 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:09:34] "GET /dashboard-data.json?t=1770077344539 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:09:36] "GET /dashboard-data.json?t=1770077374539 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:04] "GET /dashboard-data.json?t=1770077404542 HTTP/1.1" 200 -
+192.168.45.46 - - [03/Feb/2026 09:10:14] "GET / HTTP/1.1" 200 -
+192.168.45.46 - - [03/Feb/2026 09:10:14] "GET /dashboard-data.json?t=1770077414168 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:33] "GET / HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:33] "GET /dashboard-data.json?t=1770077433264 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:34] "[36mGET / HTTP/1.1[0m" 304 -
+192.168.45.52 - - [03/Feb/2026 09:10:34] "GET /dashboard-data.json?t=1770077434092 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:34] "[31m[1mGET /api/task/active/dashboard-outage-analysis.md HTTP/1.1[0m" 401 -
+192.168.45.52 - - [03/Feb/2026 09:10:35] "[36mGET / HTTP/1.1[0m" 304 -
+192.168.45.52 - - [03/Feb/2026 09:10:35] "GET /dashboard-data.json?t=1770077435816 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:36] "GET / HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:36] "GET /dashboard-data.json?t=1770077436433 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.45.52 - - [03/Feb/2026 09:10:36] "GET / HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:36] "GET /dashboard-data.json?t=1770077436981 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.45.52 - - [03/Feb/2026 09:10:37] "GET / HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:37] "GET /dashboard-data.json?t=1770077437184 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:10:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+192.168.45.52 - - [03/Feb/2026 09:10:38] "[31m[1mGET /api/task/active/image-generation-consistency.md HTTP/1.1[0m" 401 -
+192.168.45.52 - - [03/Feb/2026 09:11:07] "[36mGET / HTTP/1.1[0m" 304 -
+192.168.45.52 - - [03/Feb/2026 09:11:07] "GET /dashboard-data.json?t=1770077467028 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:11:08] "[31m[1mGET /api/task/active/dashboard-outage-analysis.md HTTP/1.1[0m" 401 -
+192.168.45.52 - - [03/Feb/2026 09:11:37] "GET /dashboard-data.json?t=1770077497030 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:12:07] "GET /dashboard-data.json?t=1770077527030 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:12:37] "GET /dashboard-data.json?t=1770077557029 HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:13:01] "[31m[1mGET /api/task/active/dashboard-outage-analysis.md HTTP/1.1[0m" 401 -
+192.168.45.46 - - [03/Feb/2026 09:13:07] "GET /health HTTP/1.1" 200 -
+192.168.45.52 - - [03/Feb/2026 09:13:07] "GET /dashboard-data.json?t=1770077587519 HTTP/1.1" 200 -
+192.168.45.46 - - [03/Feb/2026 09:13:10] "[31m[1mGET /api/task/active/dashboard-outage-analysis.md HTTP/1.1[0m" 401 -
+127.0.0.1 - - [03/Feb/2026 09:13:14] "[31m[1mGET /api/task/active/dashboard-outage-analysis.md HTTP/1.1[0m" 401 -
