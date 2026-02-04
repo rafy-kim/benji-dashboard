@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-02-04T11:43:27.602899",
+  "generated_at": "2026-02-04T17:43:44.162538",
   "tasks": {
     "active": [
+      {
+        "id": "image-generation-scope",
+        "filename": "image-generation-scope.md",
+        "folder": "active",
+        "title": "이미지 생성 범위 준수",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770034224602509",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T17:43:40.021110",
+        "progress": 0
+      },
+      {
+        "id": "dashboard-improvement",
+        "filename": "dashboard-improvement.md",
+        "folder": "active",
+        "title": "벤지 대시보드 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770035121191729",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T17:43:40.018823",
+        "progress": 0
+      },
+      {
+        "id": "cloudflare-tunnel-setup",
+        "filename": "cloudflare-tunnel-setup.md",
+        "folder": "active",
+        "title": "Cloudflare Tunnel 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770035313962909",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T17:43:40.013166",
+        "progress": 50
+      },
       {
         "id": "book-coupang-link-fix",
         "filename": "book-coupang-link-fix.md",
@@ -160,8 +199,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-04T11:42:00.003000",
-      "nextRun": "2026-02-04T11:44:00",
+      "lastRun": "2026-02-04T17:42:00.001000",
+      "nextRun": "2026-02-04T17:44:00",
       "lastStatus": "ok"
     },
     {
@@ -170,9 +209,9 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-04T11:30:00.016000",
-      "nextRun": "2026-02-04T12:00:00",
-      "lastStatus": "skipped"
+      "lastRun": "2026-02-04T17:30:00.015000",
+      "nextRun": "2026-02-04T18:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
@@ -236,23 +275,23 @@
     }
   ],
   "stats": {
-    "total": 74,
-    "active": 3,
+    "total": 77,
+    "active": 6,
     "next": 1,
     "waiting": 2,
     "completed": 68,
     "cron": 8
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 6,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 120.0,
     "waiting_count": 2,
     "completed_today": 4,
     "aging_24h": [
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T11:43:27.605385"
+    "timestamp": "2026-02-04T17:43:44.165746"
   }
 }
