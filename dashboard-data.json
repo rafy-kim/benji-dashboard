@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-04T11:38:02.493865",
+  "generated_at": "2026-02-04T11:41:33.287127",
   "tasks": {
     "active": [
       {
@@ -126,6 +126,19 @@
     ],
     "completed": [
       {
+        "id": "claude-usage-browser-monitor",
+        "filename": "claude-usage-browser-monitor.md",
+        "folder": "completed",
+        "title": "Claude 사용량 브라우저 모니터링 시스템",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770170712266659",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T11:41:29.174448",
+        "progress": 100
+      },
+      {
         "id": "claude-usage-monitoring",
         "filename": "claude-usage-monitoring.md",
         "folder": "completed",
@@ -176,19 +189,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-03T14:05:41.676009",
         "progress": 67
-      },
-      {
-        "id": "dashboard-outage-analysis",
-        "filename": "dashboard-outage-analysis.md",
-        "folder": "completed",
-        "title": "대시보드 및 학습 세션 장애 분석",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770076687445429",
-        "waiting_for": null,
-        "last_updated": "2026-02-03T13:03:43.556762",
-        "progress": 0
       }
     ]
   },
@@ -199,8 +199,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-04T11:38:00.004000",
-      "nextRun": "2026-02-04T11:40:00",
+      "lastRun": "2026-02-04T11:40:00.003000",
+      "nextRun": "2026-02-04T11:42:00",
       "lastStatus": "ok"
     },
     {
@@ -212,16 +212,6 @@
       "lastRun": "2026-02-04T11:30:00.016000",
       "nextRun": "2026-02-04T12:00:00",
       "lastStatus": "skipped"
-    },
-    {
-      "id": "3846b5a6-38d7-4621-b635-92a4846e4057",
-      "name": "claude-usage-monitor",
-      "schedule": "6시간마다",
-      "description": "🔍 Claude 사용량 모니터링 실행 중...\n\n자동으로 모든 세션의 토큰 사용량을 집계하고, 임계치(70%...",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-02-04T17:32:00.085000",
-      "lastStatus": null
     },
     {
       "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
@@ -285,23 +275,23 @@
     }
   ],
   "stats": {
-    "total": 74,
+    "total": 75,
     "active": 6,
     "next": 1,
     "waiting": 2,
-    "completed": 65,
-    "cron": 9
+    "completed": 66,
+    "cron": 8
   },
   "flow_metrics": {
     "wip_count": 6,
     "wip_limit": 5,
     "wip_utilization": 120.0,
     "waiting_count": 2,
-    "completed_today": 1,
+    "completed_today": 2,
     "aging_24h": [
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T11:38:02.496517"
+    "timestamp": "2026-02-04T11:41:33.289896"
   }
 }
