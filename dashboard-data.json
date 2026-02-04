@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-04T11:43:24.342872",
+  "generated_at": "2026-02-04T11:43:27.602899",
   "tasks": {
     "active": [
-      {
-        "id": "cronjob-path-fix",
-        "filename": "cronjob-path-fix.md",
-        "folder": "active",
-        "title": "크론잡 경로 오류 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
-        "waiting_for": null,
-        "last_updated": "2026-02-04T11:43:22.250420",
-        "progress": 100
-      },
       {
         "id": "book-coupang-link-fix",
         "filename": "book-coupang-link-fix.md",
@@ -100,6 +87,19 @@
     ],
     "completed": [
       {
+        "id": "cronjob-path-fix",
+        "filename": "cronjob-path-fix.md",
+        "folder": "completed",
+        "title": "크론잡 경로 오류 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T11:43:22.250420",
+        "progress": 100
+      },
+      {
         "id": "youtube-shorts-image-generation",
         "filename": "youtube-shorts-image-generation.md",
         "folder": "completed",
@@ -150,19 +150,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-03T23:31:17.351753",
         "progress": 100
-      },
-      {
-        "id": "character-master-image-dashboard",
-        "filename": "character-master-image-dashboard.md",
-        "folder": "completed",
-        "title": "캐릭터 마스터 이미지 DB 및 대시보드 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
-        "waiting_for": null,
-        "last_updated": "2026-02-03T14:05:41.682763",
-        "progress": 67
       }
     ]
   },
@@ -250,22 +237,22 @@
   ],
   "stats": {
     "total": 74,
-    "active": 4,
+    "active": 3,
     "next": 1,
     "waiting": 2,
-    "completed": 67,
+    "completed": 68,
     "cron": 8
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 60.0,
     "waiting_count": 2,
-    "completed_today": 3,
+    "completed_today": 4,
     "aging_24h": [
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T11:43:24.345262"
+    "timestamp": "2026-02-04T11:43:27.605385"
   }
 }
