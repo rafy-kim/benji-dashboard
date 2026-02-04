@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-02-04T11:18:46.258443",
+  "generated_at": "2026-02-04T11:24:49.721435",
   "tasks": {
     "active": [
+      {
+        "id": "claude-usage-monitoring",
+        "filename": "claude-usage-monitoring.md",
+        "folder": "active",
+        "title": "Claude 사용량 자동 관리 시스템",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770170055525409",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T11:24:45.572291",
+        "progress": 100
+      },
+      {
+        "id": "book-coupang-link-fix",
+        "filename": "book-coupang-link-fix.md",
+        "folder": "active",
+        "title": "책 파이프라인 쿠팡 링크 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T11:24:45.563440",
+        "progress": 0
+      },
       {
         "id": "investment-briefing-feb4",
         "filename": "investment-briefing-feb4.md",
@@ -173,8 +199,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-04T11:18:00.003000",
-      "nextRun": "2026-02-04T11:20:00",
+      "lastRun": "2026-02-04T11:24:00.002000",
+      "nextRun": "2026-02-04T11:26:00",
       "lastStatus": "ok"
     },
     {
@@ -249,23 +275,23 @@
     }
   ],
   "stats": {
-    "total": 71,
-    "active": 4,
+    "total": 73,
+    "active": 6,
     "next": 1,
     "waiting": 2,
     "completed": 64,
     "cron": 8
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 6,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 120.0,
     "waiting_count": 2,
     "completed_today": 0,
     "aging_24h": [
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T11:18:46.272779"
+    "timestamp": "2026-02-04T11:24:49.724200"
   }
 }
