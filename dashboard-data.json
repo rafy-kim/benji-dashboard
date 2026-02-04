@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-04T11:24:49.721435",
+  "generated_at": "2026-02-04T11:24:54.917292",
   "tasks": {
     "active": [
-      {
-        "id": "claude-usage-monitoring",
-        "filename": "claude-usage-monitoring.md",
-        "folder": "active",
-        "title": "Claude 사용량 자동 관리 시스템",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770170055525409",
-        "waiting_for": null,
-        "last_updated": "2026-02-04T11:24:45.572291",
-        "progress": 100
-      },
       {
         "id": "book-coupang-link-fix",
         "filename": "book-coupang-link-fix.md",
@@ -126,6 +113,19 @@
     ],
     "completed": [
       {
+        "id": "claude-usage-monitoring",
+        "filename": "claude-usage-monitoring.md",
+        "folder": "completed",
+        "title": "Claude 사용량 자동 관리 시스템",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770170055525409",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T11:24:52.791033",
+        "progress": 100
+      },
+      {
         "id": "book-db-page-redesign",
         "filename": "book-db-page-redesign.md",
         "folder": "completed",
@@ -176,19 +176,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-03T13:03:43.556762",
         "progress": 0
-      },
-      {
-        "id": "context-memory-optimization",
-        "filename": "context-memory-optimization.md",
-        "folder": "completed",
-        "title": "세션/토큰 한도 문제 해결 연구",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770077674361409",
-        "waiting_for": null,
-        "last_updated": "2026-02-03T09:35:56.910102",
-        "progress": 60
       }
     ]
   },
@@ -276,22 +263,22 @@
   ],
   "stats": {
     "total": 73,
-    "active": 6,
+    "active": 5,
     "next": 1,
     "waiting": 2,
-    "completed": 64,
+    "completed": 65,
     "cron": 8
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 100.0,
     "waiting_count": 2,
-    "completed_today": 0,
+    "completed_today": 1,
     "aging_24h": [
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T11:24:49.724200"
+    "timestamp": "2026-02-04T11:24:54.919987"
   }
 }
