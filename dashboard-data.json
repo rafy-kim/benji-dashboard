@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-04T11:41:33.287127",
+  "generated_at": "2026-02-04T11:41:36.505979",
   "tasks": {
     "active": [
-      {
-        "id": "claude-usage-browser-monitor",
-        "filename": "claude-usage-browser-monitor.md",
-        "folder": "active",
-        "title": "Claude 사용량 브라우저 모니터링 시스템",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770170712266659",
-        "waiting_for": null,
-        "last_updated": "2026-02-04T11:37:58.386156",
-        "progress": 0
-      },
       {
         "id": "book-coupang-link-fix",
         "filename": "book-coupang-link-fix.md",
@@ -275,23 +262,23 @@
     }
   ],
   "stats": {
-    "total": 75,
-    "active": 6,
+    "total": 74,
+    "active": 5,
     "next": 1,
     "waiting": 2,
     "completed": 66,
     "cron": 8
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 100.0,
     "waiting_count": 2,
     "completed_today": 2,
     "aging_24h": [
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T11:41:33.289896"
+    "timestamp": "2026-02-04T11:41:36.508377"
   }
 }
