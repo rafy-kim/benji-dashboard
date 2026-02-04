@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-04T11:41:36.505979",
+  "generated_at": "2026-02-04T11:42:55.190711",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-shorts-image-generation",
+        "filename": "youtube-shorts-image-generation.md",
+        "folder": "active",
+        "title": "YouTube 책 쇼츠 이미지 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770095152802639",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T11:42:51.065379",
+        "progress": 100
+      },
       {
         "id": "book-coupang-link-fix",
         "filename": "book-coupang-link-fix.md",
@@ -40,19 +53,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-04T09:10:03.474361",
         "progress": 0
-      },
-      {
-        "id": "youtube-shorts-image-generation",
-        "filename": "youtube-shorts-image-generation.md",
-        "folder": "active",
-        "title": "YouTube 책 쇼츠 이미지 생성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770095152802639",
-        "waiting_for": null,
-        "last_updated": "2026-02-03T16:15:06.630767",
-        "progress": 100
       },
       {
         "id": "birth-preparation-checklist",
@@ -186,8 +186,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-04T11:40:00.003000",
-      "nextRun": "2026-02-04T11:42:00",
+      "lastRun": "2026-02-04T11:42:00.003000",
+      "nextRun": "2026-02-04T11:44:00",
       "lastStatus": "ok"
     },
     {
@@ -279,6 +279,6 @@
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T11:41:36.508377"
+    "timestamp": "2026-02-04T11:42:55.193429"
   }
 }
