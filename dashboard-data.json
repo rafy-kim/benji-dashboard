@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-04T11:42:58.423788",
+  "generated_at": "2026-02-04T11:43:02.448318",
   "tasks": {
     "active": [
-      {
-        "id": "youtube-shorts-image-generation",
-        "filename": "youtube-shorts-image-generation.md",
-        "folder": "active",
-        "title": "YouTube 책 쇼츠 이미지 생성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770095152802639",
-        "waiting_for": null,
-        "last_updated": "2026-02-04T11:42:56.369632",
-        "progress": 100
-      },
       {
         "id": "book-coupang-link-fix",
         "filename": "book-coupang-link-fix.md",
@@ -113,6 +100,19 @@
     ],
     "completed": [
       {
+        "id": "youtube-shorts-image-generation",
+        "filename": "youtube-shorts-image-generation.md",
+        "folder": "completed",
+        "title": "YouTube 책 쇼츠 이미지 생성 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770095152802639",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T11:42:56.369632",
+        "progress": 100
+      },
+      {
         "id": "claude-usage-browser-monitor",
         "filename": "claude-usage-browser-monitor.md",
         "folder": "completed",
@@ -162,19 +162,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
         "waiting_for": null,
         "last_updated": "2026-02-03T14:05:41.682763",
-        "progress": 67
-      },
-      {
-        "id": "image-generation-consistency",
-        "filename": "image-generation-consistency.md",
-        "folder": "completed",
-        "title": "이미지 생성 일관성 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770040660709519",
-        "waiting_for": null,
-        "last_updated": "2026-02-03T14:05:41.676009",
         "progress": 67
       }
     ]
@@ -263,22 +250,22 @@
   ],
   "stats": {
     "total": 74,
-    "active": 5,
+    "active": 4,
     "next": 1,
     "waiting": 2,
-    "completed": 66,
+    "completed": 67,
     "cron": 8
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 80.0,
     "waiting_count": 2,
-    "completed_today": 2,
+    "completed_today": 3,
     "aging_24h": [
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T11:42:58.426186"
+    "timestamp": "2026-02-04T11:43:02.450692"
   }
 }
