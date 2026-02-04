@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-04T17:43:44.162538",
+  "generated_at": "2026-02-04T18:49:57.589409",
   "tasks": {
     "active": [
-      {
-        "id": "image-generation-scope",
-        "filename": "image-generation-scope.md",
-        "folder": "active",
-        "title": "이미지 생성 범위 준수",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770034224602509",
-        "waiting_for": null,
-        "last_updated": "2026-02-04T17:43:40.021110",
-        "progress": 0
-      },
       {
         "id": "dashboard-improvement",
         "filename": "dashboard-improvement.md",
@@ -126,6 +113,19 @@
     ],
     "completed": [
       {
+        "id": "image-generation-scope",
+        "filename": "image-generation-scope.md",
+        "folder": "completed",
+        "title": "이미지 생성 범위 준수",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770034224602509",
+        "waiting_for": null,
+        "last_updated": "2026-02-04T18:49:53.540490",
+        "progress": 100
+      },
+      {
         "id": "cronjob-path-fix",
         "filename": "cronjob-path-fix.md",
         "folder": "completed",
@@ -176,19 +176,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-04T11:24:52.791033",
         "progress": 100
-      },
-      {
-        "id": "book-db-page-redesign",
-        "filename": "book-db-page-redesign.md",
-        "folder": "completed",
-        "title": "책 DB 페이지 전면 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-03T23:31:17.351753",
-        "progress": 100
       }
     ]
   },
@@ -199,8 +186,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-04T17:42:00.001000",
-      "nextRun": "2026-02-04T17:44:00",
+      "lastRun": "2026-02-04T18:48:00.003000",
+      "nextRun": "2026-02-04T18:50:00",
       "lastStatus": "ok"
     },
     {
@@ -209,8 +196,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-04T17:30:00.015000",
-      "nextRun": "2026-02-04T18:00:00",
+      "lastRun": "2026-02-04T18:37:34.558000",
+      "nextRun": "2026-02-04T19:00:00",
       "lastStatus": "ok"
     },
     {
@@ -276,22 +263,22 @@
   ],
   "stats": {
     "total": 77,
-    "active": 6,
+    "active": 5,
     "next": 1,
     "waiting": 2,
-    "completed": 68,
+    "completed": 69,
     "cron": 8
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 100.0,
     "waiting_count": 2,
-    "completed_today": 4,
+    "completed_today": 5,
     "aging_24h": [
       "birth-preparation-checklist"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-04T17:43:44.165746"
+    "timestamp": "2026-02-04T18:49:57.592147"
   }
 }
