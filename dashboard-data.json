@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-04T22:41:32.809446",
+  "generated_at": "2026-02-05T04:09:12.215014",
   "tasks": {
     "active": [
+      {
+        "id": "childbirth-checklist-hesed-info",
+        "filename": "childbirth-checklist-hesed-info.md",
+        "folder": "active",
+        "title": "출산 준비 체크리스트 및 산후조리원 정보 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/c0acbt9m8te/p1769943029642769",
+        "waiting_for": null,
+        "last_updated": "2026-02-05T04:08:58.087362",
+        "progress": 0
+      },
       {
         "id": "birth-preparation-checklist",
         "filename": "birth-preparation-checklist.md",
@@ -216,21 +229,21 @@
     }
   ],
   "stats": {
-    "total": 77,
-    "active": 3,
+    "total": 78,
+    "active": 4,
     "next": 1,
     "waiting": 2,
     "completed": 71,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 80.0,
     "waiting_count": 2,
-    "completed_today": 5,
+    "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-04T22:41:32.811934"
+    "timestamp": "2026-02-05T04:09:12.232387"
   }
 }
