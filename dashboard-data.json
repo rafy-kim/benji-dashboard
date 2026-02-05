@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-05T20:08:55.631027",
+  "generated_at": "2026-02-05T20:14:27.472420",
   "tasks": {
     "active": [
+      {
+        "id": "birth-preparation-checklist",
+        "filename": "birth-preparation-checklist.md",
+        "folder": "active",
+        "title": "🍼 출산 준비 체크리스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770211237728489",
+        "waiting_for": null,
+        "last_updated": "2026-02-05T20:14:23.342951",
+        "progress": 0
+      },
       {
         "id": "work-status-check",
         "filename": "work-status-check.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-05T20:08:51.598382",
         "progress": 75
-      },
-      {
-        "id": "birth-preparation-checklist",
-        "filename": "birth-preparation-checklist.md",
-        "folder": "active",
-        "title": "🍼 출산 준비 체크리스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770211237728489",
-        "waiting_for": null,
-        "last_updated": "2026-02-05T19:59:29.377880",
-        "progress": 0
       },
       {
         "id": "book-coupang-link-fix",
@@ -173,8 +173,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-05T20:08:00",
-      "nextRun": "2026-02-05T20:10:00",
+      "lastRun": "2026-02-05T20:14:00",
+      "nextRun": "2026-02-05T20:16:00",
       "lastStatus": "ok"
     },
     {
@@ -287,6 +287,6 @@
       "investment-briefing-feb4"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-05T20:08:55.633513"
+    "timestamp": "2026-02-05T20:14:27.475249"
   }
 }
