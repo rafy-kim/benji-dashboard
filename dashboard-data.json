@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T19:39:08.692932",
+  "generated_at": "2026-02-05T19:59:33.478596",
   "tasks": {
     "active": [
       {
@@ -10,9 +10,9 @@
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1769943029642769",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770211237728489",
         "waiting_for": null,
-        "last_updated": "2026-02-05T04:20:43.242798",
+        "last_updated": "2026-02-05T19:59:29.377880",
         "progress": 0
       },
       {
@@ -155,16 +155,6 @@
   },
   "cron": [
     {
-      "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
-      "name": "벤지 데드락 모니터링",
-      "schedule": "크론: */2 * * * *",
-      "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
-      "enabled": true,
-      "lastRun": "2026-02-05T19:38:00.003000",
-      "nextRun": "2026-02-05T19:40:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
       "name": "벤지 낮 학습",
       "schedule": "크론: 0,30 9-21 * * *",
@@ -173,6 +163,16 @@
       "lastRun": "2026-02-05T19:30:00.005000",
       "nextRun": "2026-02-05T20:00:00",
       "lastStatus": "error"
+    },
+    {
+      "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
+      "name": "벤지 데드락 모니터링",
+      "schedule": "크론: */2 * * * *",
+      "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
+      "enabled": true,
+      "lastRun": "2026-02-05T19:58:00",
+      "nextRun": "2026-02-05T20:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
@@ -274,6 +274,6 @@
       "investment-briefing-feb4"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-05T19:39:08.706954"
+    "timestamp": "2026-02-05T19:59:33.482368"
   }
 }
