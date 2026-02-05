@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-05T19:59:33.478596",
+  "generated_at": "2026-02-05T20:08:55.631027",
   "tasks": {
     "active": [
+      {
+        "id": "work-status-check",
+        "filename": "work-status-check.md",
+        "folder": "active",
+        "title": "작업 진행상황 체크",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1770287695344429",
+        "waiting_for": null,
+        "last_updated": "2026-02-05T20:08:51.598382",
+        "progress": 75
+      },
       {
         "id": "birth-preparation-checklist",
         "filename": "birth-preparation-checklist.md",
@@ -155,23 +168,23 @@
   },
   "cron": [
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "크론: 0,30 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-05T19:30:00.005000",
-      "nextRun": "2026-02-05T20:00:00",
-      "lastStatus": "error"
-    },
-    {
       "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
       "name": "벤지 데드락 모니터링",
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-05T19:58:00",
-      "nextRun": "2026-02-05T20:00:00",
+      "lastRun": "2026-02-05T20:08:00",
+      "nextRun": "2026-02-05T20:10:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 낮 학습",
+      "schedule": "크론: 0,30 9-21 * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-05T20:00:00.001000",
+      "nextRun": "2026-02-05T20:30:00",
       "lastStatus": "ok"
     },
     {
@@ -180,8 +193,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-05T19:30:00.089000",
-      "nextRun": "2026-02-05T20:00:00",
+      "lastRun": "2026-02-05T20:02:52.422000",
+      "nextRun": "2026-02-05T20:30:00",
       "lastStatus": "ok"
     },
     {
@@ -256,17 +269,17 @@
     }
   ],
   "stats": {
-    "total": 77,
-    "active": 3,
+    "total": 78,
+    "active": 4,
     "next": 1,
     "waiting": 2,
     "completed": 71,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 80.0,
     "waiting_count": 2,
     "completed_today": 1,
     "aging_24h": [
@@ -274,6 +287,6 @@
       "investment-briefing-feb4"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-05T19:59:33.482368"
+    "timestamp": "2026-02-05T20:08:55.633513"
   }
 }
