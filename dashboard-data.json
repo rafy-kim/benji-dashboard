@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-05T20:17:51.622200",
+  "generated_at": "2026-02-06T00:26:08.933518",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-shorts-retention-research",
+        "filename": "youtube-shorts-retention-research.md",
+        "folder": "active",
+        "title": "YouTube Shorts 이탈률 개선 리서치",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-06T00:26:04.810753",
+        "progress": 0
+      },
       {
         "id": "birth-preparation-checklist",
         "filename": "birth-preparation-checklist.md",
@@ -173,18 +186,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-05T20:16:00",
-      "nextRun": "2026-02-05T20:18:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "크론: 0,30 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-05T20:00:00.001000",
-      "nextRun": "2026-02-05T20:30:00",
+      "lastRun": "2026-02-06T00:26:00.004000",
+      "nextRun": "2026-02-06T00:28:00",
       "lastStatus": "ok"
     },
     {
@@ -193,8 +196,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-05T20:02:52.422000",
-      "nextRun": "2026-02-05T20:30:00",
+      "lastRun": "2026-02-06T00:04:05.244000",
+      "nextRun": "2026-02-06T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -203,18 +206,8 @@
       "schedule": "크론: */20 21-23,0-9 * * *",
       "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-05T09:40:00.018000",
-      "nextRun": "2026-02-05T21:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
-      "enabled": true,
-      "lastRun": "2026-02-05T00:06:19.776000",
-      "nextRun": "2026-02-06T00:00:00",
+      "lastRun": "2026-02-06T00:20:00.015000",
+      "nextRun": "2026-02-06T00:40:00",
       "lastStatus": "ok"
     },
     {
@@ -238,6 +231,16 @@
       "lastStatus": "error"
     },
     {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 낮 학습",
+      "schedule": "크론: 0,30 9-21 * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-05T21:30:00.004000",
+      "nextRun": "2026-02-06T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
       "name": "Claude 사용량 체크 (매일 09:00)",
       "schedule": "매일 09:00",
@@ -258,6 +261,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "enabled": true,
+      "lastRun": "2026-02-06T00:03:36.801000",
+      "nextRun": "2026-02-07T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -269,24 +282,24 @@
     }
   ],
   "stats": {
-    "total": 78,
-    "active": 4,
+    "total": 79,
+    "active": 5,
     "next": 1,
     "waiting": 2,
     "completed": 71,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 100.0,
     "waiting_count": 2,
-    "completed_today": 1,
+    "completed_today": 0,
     "aging_24h": [
       "book-coupang-link-fix",
       "investment-briefing-feb4"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-05T20:17:51.625101"
+    "timestamp": "2026-02-06T00:26:08.936410"
   }
 }
