@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T20:17:47.702019",
+  "generated_at": "2026-02-05T20:17:51.622200",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770211237728489",
         "waiting_for": null,
-        "last_updated": "2026-02-05T20:17:45.677262",
+        "last_updated": "2026-02-05T20:17:49.460897",
         "progress": 0
       },
       {
@@ -287,6 +287,6 @@
       "investment-briefing-feb4"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-05T20:17:47.704539"
+    "timestamp": "2026-02-05T20:17:51.625101"
   }
 }
