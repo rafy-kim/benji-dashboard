@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-06T20:16:16.097691",
+  "generated_at": "2026-02-06T20:24:22.366281",
   "tasks": {
     "active": [
       {
@@ -10,9 +10,9 @@
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
+        "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-06T20:14:03.315187",
+        "last_updated": "2026-02-06T20:24:18.148983",
         "progress": 0
       }
     ],
@@ -172,8 +172,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-06T20:16:00.002000",
-      "nextRun": "2026-02-06T20:18:00",
+      "lastRun": "2026-02-06T20:24:00.027000",
+      "nextRun": "2026-02-06T20:26:00",
       "lastStatus": "ok"
     },
     {
@@ -283,6 +283,6 @@
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-06T20:16:16.100765"
+    "timestamp": "2026-02-06T20:24:22.369567"
   }
 }
