@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-06T12:58:22.360450",
+  "generated_at": "2026-02-06T12:58:26.271981",
   "tasks": {
     "active": [
-      {
-        "id": "youtube-shorts-retention-research",
-        "filename": "youtube-shorts-retention-research.md",
-        "folder": "active",
-        "title": "YouTube Shorts 이탈률 개선 리서치",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-06T12:58:20.199098",
-        "progress": 0
-      },
       {
         "id": "youtube-shorts-retention-improvement",
         "filename": "youtube-shorts-retention-improvement.md",
@@ -139,6 +126,19 @@
     ],
     "completed": [
       {
+        "id": "youtube-shorts-retention-research",
+        "filename": "youtube-shorts-retention-research.md",
+        "folder": "completed",
+        "title": "YouTube Shorts 이탈률 개선 리서치",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-06T12:58:20.199098",
+        "progress": 0
+      },
+      {
         "id": "work-status-check",
         "filename": "work-status-check.md",
         "folder": "completed",
@@ -189,19 +189,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-04T18:49:53.540490",
         "progress": 100
-      },
-      {
-        "id": "dashboard-improvement",
-        "filename": "dashboard-improvement.md",
-        "folder": "completed",
-        "title": "벤지 대시보드 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770035121191729",
-        "waiting_for": null,
-        "last_updated": "2026-02-04T17:43:40.018823",
-        "progress": 0
       }
     ]
   },
@@ -309,20 +296,20 @@
   ],
   "stats": {
     "total": 82,
-    "active": 7,
+    "active": 6,
     "next": 1,
     "waiting": 2,
-    "completed": 72,
+    "completed": 73,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 7,
+    "wip_count": 6,
     "wip_limit": 5,
-    "wip_utilization": 140.0,
+    "wip_utilization": 120.0,
     "waiting_count": 2,
-    "completed_today": 1,
+    "completed_today": 2,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-06T12:58:22.363481"
+    "timestamp": "2026-02-06T12:58:26.274606"
   }
 }
