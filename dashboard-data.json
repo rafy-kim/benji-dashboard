@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-06T12:58:17.837021",
+  "generated_at": "2026-02-06T12:58:22.360450",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-shorts-retention-research",
+        "filename": "youtube-shorts-retention-research.md",
+        "folder": "active",
+        "title": "YouTube Shorts 이탈률 개선 리서치",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-06T12:58:20.199098",
+        "progress": 0
+      },
       {
         "id": "youtube-shorts-retention-improvement",
         "filename": "youtube-shorts-retention-improvement.md",
@@ -65,19 +78,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
         "waiting_for": null,
         "last_updated": "2026-02-06T09:20:44.758298",
-        "progress": 0
-      },
-      {
-        "id": "youtube-shorts-retention-research",
-        "filename": "youtube-shorts-retention-research.md",
-        "folder": "active",
-        "title": "YouTube Shorts 이탈률 개선 리서치",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-06T00:26:04.810753",
         "progress": 0
       },
       {
@@ -323,6 +323,6 @@
     "completed_today": 1,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-06T12:58:17.851372"
+    "timestamp": "2026-02-06T12:58:22.363481"
   }
 }
