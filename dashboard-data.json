@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-07T00:43:47.477721",
+  "generated_at": "2026-02-07T05:53:31.861499",
   "tasks": {
     "active": [
+      {
+        "id": "fix-book-shorts-script-tone",
+        "filename": "fix-book-shorts-script-tone.md",
+        "folder": "active",
+        "title": "1분 독서 스크립트 톤앤매너 재수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770411188994849",
+        "waiting_for": null,
+        "last_updated": "2026-02-07T05:53:17.736592",
+        "progress": 0
+      },
       {
         "id": "health-channel-transition",
         "filename": "health-channel-transition.md",
@@ -228,21 +241,21 @@
     }
   ],
   "stats": {
-    "total": 82,
-    "active": 1,
+    "total": 83,
+    "active": 2,
     "next": 0,
     "waiting": 6,
     "completed": 75,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 1,
+    "wip_count": 2,
     "wip_limit": 5,
-    "wip_utilization": 20.0,
+    "wip_utilization": 40.0,
     "waiting_count": 6,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-07T00:43:47.484681"
+    "timestamp": "2026-02-07T05:53:31.867045"
   }
 }
