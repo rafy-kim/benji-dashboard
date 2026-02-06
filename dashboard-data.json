@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-06T12:58:26.271981",
+  "generated_at": "2026-02-06T13:08:20.418987",
   "tasks": {
     "active": [
       {
@@ -12,8 +12,8 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349627318379",
         "waiting_for": null,
-        "last_updated": "2026-02-06T12:58:13.583905",
-        "progress": 0
+        "last_updated": "2026-02-06T13:08:16.230919",
+        "progress": 33
       },
       {
         "id": "health-channel-transition",
@@ -194,23 +194,23 @@
   },
   "cron": [
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "크론: 0,30 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-06T12:30:00.003000",
-      "nextRun": "2026-02-06T13:00:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
       "name": "벤지 데드락 모니터링",
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-06T12:58:00.003000",
-      "nextRun": "2026-02-06T13:00:00",
+      "lastRun": "2026-02-06T13:08:00.003000",
+      "nextRun": "2026-02-06T13:10:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 낮 학습",
+      "schedule": "크론: 0,30 9-21 * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-06T13:00:00.003000",
+      "nextRun": "2026-02-06T13:30:00",
       "lastStatus": "ok"
     },
     {
@@ -219,9 +219,19 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-06T12:33:16.356000",
-      "nextRun": "2026-02-06T13:00:00",
+      "lastRun": "2026-02-06T13:03:07.481000",
+      "nextRun": "2026-02-06T13:30:00",
       "lastStatus": "ok"
+    },
+    {
+      "id": "f62cac04-21ee-46e3-b447-eaa975e03fb8",
+      "name": "1분 독서 이탈률 개선 자기주도 학습 결과 보고",
+      "schedule": "1회성",
+      "description": "라피, 오후 3시야! '1분 독서' 이탈률 개선을 위한 자기주도 학습 결과를 보고할게. 스크립트 후킹 전략과...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-06T15:00:00",
+      "lastStatus": null
     },
     {
       "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
@@ -300,7 +310,7 @@
     "next": 1,
     "waiting": 2,
     "completed": 73,
-    "cron": 10
+    "cron": 11
   },
   "flow_metrics": {
     "wip_count": 6,
@@ -310,6 +320,6 @@
     "completed_today": 2,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-06T12:58:26.274606"
+    "timestamp": "2026-02-06T13:08:20.422372"
   }
 }
