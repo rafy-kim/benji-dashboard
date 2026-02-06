@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-06T20:14:07.433010",
+  "generated_at": "2026-02-06T20:16:16.097691",
   "tasks": {
     "active": [
       {
@@ -16,21 +16,7 @@
         "progress": 0
       }
     ],
-    "next": [
-      {
-        "id": "book-shorts-channel",
-        "filename": "book-shorts-channel.md",
-        "folder": "next",
-        "title": "YouTube 책 추천 쇼츠 채널",
-        "assignee": "벤지",
-        "status": "📋 다음",
-        "channel": "#콘텐츠",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769941575870289",
-        "waiting_for": null,
-        "last_updated": "2026-02-02T08:14:59.404953",
-        "progress": 75
-      }
-    ],
+    "next": [],
     "waiting": [
       {
         "id": "investment-briefing-feb6",
@@ -113,6 +99,19 @@
     ],
     "completed": [
       {
+        "id": "book-shorts-channel",
+        "filename": "book-shorts-channel.md",
+        "folder": "completed",
+        "title": "YouTube 책 추천 쇼츠 채널",
+        "assignee": "벤지",
+        "status": "✅ 완료",
+        "channel": "#콘텐츠",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1769941575870289",
+        "waiting_for": null,
+        "last_updated": "2026-02-06T20:16:11.993512",
+        "progress": 75
+      },
+      {
         "id": "youtube-shorts-retention-improvement",
         "filename": "youtube-shorts-retention-improvement.md",
         "folder": "completed",
@@ -163,19 +162,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-05T19:39:04.263276",
         "progress": 100
-      },
-      {
-        "id": "cloudflare-tunnel-setup",
-        "filename": "cloudflare-tunnel-setup.md",
-        "folder": "completed",
-        "title": "Cloudflare Tunnel 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770035313962909",
-        "waiting_for": null,
-        "last_updated": "2026-02-04T18:50:41.332652",
-        "progress": 100
       }
     ]
   },
@@ -186,8 +172,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-06T20:14:00",
-      "nextRun": "2026-02-06T20:16:00",
+      "lastRun": "2026-02-06T20:16:00.002000",
+      "nextRun": "2026-02-06T20:18:00",
       "lastStatus": "ok"
     },
     {
@@ -284,9 +270,9 @@
   "stats": {
     "total": 82,
     "active": 1,
-    "next": 1,
+    "next": 0,
     "waiting": 6,
-    "completed": 74,
+    "completed": 75,
     "cron": 10
   },
   "flow_metrics": {
@@ -294,9 +280,9 @@
     "wip_limit": 5,
     "wip_utilization": 20.0,
     "waiting_count": 6,
-    "completed_today": 3,
+    "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-06T20:14:07.435595"
+    "timestamp": "2026-02-06T20:16:16.100765"
   }
 }
