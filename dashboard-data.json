@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-06T13:08:20.418987",
+  "generated_at": "2026-02-06T20:08:06.987736",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349627318379",
         "waiting_for": null,
-        "last_updated": "2026-02-06T13:08:16.230919",
+        "last_updated": "2026-02-06T20:08:02.848861",
         "progress": 33
       },
       {
@@ -26,58 +26,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
         "waiting_for": null,
         "last_updated": "2026-02-06T12:52:02.715775",
-        "progress": 0
-      },
-      {
-        "id": "investment-briefing-feb6",
-        "filename": "investment-briefing-feb6.md",
-        "folder": "active",
-        "title": "투자 브리핑 (2026-02-06)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770336112940559",
-        "waiting_for": null,
-        "last_updated": "2026-02-06T10:22:21.267175",
-        "progress": 67
-      },
-      {
-        "id": "investment-briefing-feb4",
-        "filename": "investment-briefing-feb4.md",
-        "folder": "active",
-        "title": "투자 브리핑 (2026-02-04)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770163296004649",
-        "waiting_for": null,
-        "last_updated": "2026-02-06T09:20:44.758651",
-        "progress": 75
-      },
-      {
-        "id": "book-coupang-link-fix",
-        "filename": "book-coupang-link-fix.md",
-        "folder": "active",
-        "title": "책 파이프라인 쿠팡 링크 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
-        "waiting_for": null,
-        "last_updated": "2026-02-06T09:20:44.758298",
-        "progress": 0
-      },
-      {
-        "id": "birth-preparation-checklist",
-        "filename": "birth-preparation-checklist.md",
-        "folder": "active",
-        "title": "🍼 출산 준비 체크리스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770211237728489",
-        "waiting_for": null,
-        "last_updated": "2026-02-05T20:17:49.460897",
         "progress": 0
       }
     ],
@@ -97,6 +45,58 @@
       }
     ],
     "waiting": [
+      {
+        "id": "investment-briefing-feb6",
+        "filename": "investment-briefing-feb6.md",
+        "folder": "waiting",
+        "title": "투자 브리핑 (2026-02-06)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770336112940559",
+        "waiting_for": null,
+        "last_updated": "2026-02-06T10:22:21.267175",
+        "progress": 67
+      },
+      {
+        "id": "investment-briefing-feb4",
+        "filename": "investment-briefing-feb4.md",
+        "folder": "waiting",
+        "title": "투자 브리핑 (2026-02-04)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770163296004649",
+        "waiting_for": null,
+        "last_updated": "2026-02-06T09:20:44.758651",
+        "progress": 75
+      },
+      {
+        "id": "book-coupang-link-fix",
+        "filename": "book-coupang-link-fix.md",
+        "folder": "waiting",
+        "title": "책 파이프라인 쿠팡 링크 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
+        "waiting_for": null,
+        "last_updated": "2026-02-06T09:20:44.758298",
+        "progress": 0
+      },
+      {
+        "id": "birth-preparation-checklist",
+        "filename": "birth-preparation-checklist.md",
+        "folder": "waiting",
+        "title": "🍼 출산 준비 체크리스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770211237728489",
+        "waiting_for": null,
+        "last_updated": "2026-02-05T20:17:49.460897",
+        "progress": 0
+      },
       {
         "id": "coupang-link-automation-fix",
         "filename": "coupang-link-automation-fix.md",
@@ -199,8 +199,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-06T13:08:00.003000",
-      "nextRun": "2026-02-06T13:10:00",
+      "lastRun": "2026-02-06T20:08:00.002000",
+      "nextRun": "2026-02-06T20:10:00",
       "lastStatus": "ok"
     },
     {
@@ -209,8 +209,8 @@
       "schedule": "크론: 0,30 9-21 * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-06T13:00:00.003000",
-      "nextRun": "2026-02-06T13:30:00",
+      "lastRun": "2026-02-06T20:00:00.002000",
+      "nextRun": "2026-02-06T20:30:00",
       "lastStatus": "ok"
     },
     {
@@ -219,19 +219,9 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-06T13:03:07.481000",
-      "nextRun": "2026-02-06T13:30:00",
+      "lastRun": "2026-02-06T20:03:44.707000",
+      "nextRun": "2026-02-06T20:30:00",
       "lastStatus": "ok"
-    },
-    {
-      "id": "f62cac04-21ee-46e3-b447-eaa975e03fb8",
-      "name": "1분 독서 이탈률 개선 자기주도 학습 결과 보고",
-      "schedule": "1회성",
-      "description": "라피, 오후 3시야! '1분 독서' 이탈률 개선을 위한 자기주도 학습 결과를 보고할게. 스크립트 후킹 전략과...",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-02-06T15:00:00",
-      "lastStatus": null
     },
     {
       "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
@@ -306,20 +296,20 @@
   ],
   "stats": {
     "total": 82,
-    "active": 6,
+    "active": 2,
     "next": 1,
-    "waiting": 2,
+    "waiting": 6,
     "completed": 73,
-    "cron": 11
+    "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 2,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
-    "waiting_count": 2,
+    "wip_utilization": 40.0,
+    "waiting_count": 6,
     "completed_today": 2,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-06T13:08:20.422372"
+    "timestamp": "2026-02-06T20:08:06.990713"
   }
 }
