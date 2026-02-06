@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-07T06:01:43.805737",
+  "generated_at": "2026-02-07T08:03:40.418140",
   "tasks": {
     "active": [
+      {
+        "id": "health-channel-transition",
+        "filename": "health-channel-transition.md",
+        "folder": "active",
+        "title": "1초 선택 → 건강 정보 채널 전환 전략 수립",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
+        "waiting_for": null,
+        "last_updated": "2026-02-07T08:03:26.305090",
+        "progress": 0
+      },
       {
         "id": "1min-reading-script-revision",
         "filename": "1min-reading-script-revision.md",
@@ -27,19 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-07T06:00:50.070754",
         "progress": 100
-      },
-      {
-        "id": "health-channel-transition",
-        "filename": "health-channel-transition.md",
-        "folder": "active",
-        "title": "1초 선택 → 건강 정보 채널 전환 전략 수립",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
-        "waiting_for": null,
-        "last_updated": "2026-02-07T00:43:33.358123",
-        "progress": 0
       }
     ],
     "next": [],
@@ -269,6 +269,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-07T06:01:43.812692"
+    "timestamp": "2026-02-07T08:03:40.437625"
   }
 }
