@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-06T20:08:22.923665",
+  "generated_at": "2026-02-06T20:08:26.723597",
   "tasks": {
     "active": [
-      {
-        "id": "youtube-shorts-retention-improvement",
-        "filename": "youtube-shorts-retention-improvement.md",
-        "folder": "active",
-        "title": "1분 독서 YouTube Shorts 이탈률 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349627318379",
-        "waiting_for": null,
-        "last_updated": "2026-02-06T20:08:20.759687",
-        "progress": 80
-      },
       {
         "id": "health-channel-transition",
         "filename": "health-channel-transition.md",
@@ -126,6 +113,19 @@
     ],
     "completed": [
       {
+        "id": "youtube-shorts-retention-improvement",
+        "filename": "youtube-shorts-retention-improvement.md",
+        "folder": "completed",
+        "title": "1분 독서 YouTube Shorts 이탈률 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349627318379",
+        "waiting_for": null,
+        "last_updated": "2026-02-06T20:08:20.759687",
+        "progress": 80
+      },
+      {
         "id": "youtube-shorts-retention-research",
         "filename": "youtube-shorts-retention-research.md",
         "folder": "completed",
@@ -175,19 +175,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770035313962909",
         "waiting_for": null,
         "last_updated": "2026-02-04T18:50:41.332652",
-        "progress": 100
-      },
-      {
-        "id": "image-generation-scope",
-        "filename": "image-generation-scope.md",
-        "folder": "completed",
-        "title": "이미지 생성 범위 준수",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770034224602509",
-        "waiting_for": null,
-        "last_updated": "2026-02-04T18:49:53.540490",
         "progress": 100
       }
     ]
@@ -296,20 +283,20 @@
   ],
   "stats": {
     "total": 82,
-    "active": 2,
+    "active": 1,
     "next": 1,
     "waiting": 6,
-    "completed": 73,
+    "completed": 74,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 2,
+    "wip_count": 1,
     "wip_limit": 5,
-    "wip_utilization": 40.0,
+    "wip_utilization": 20.0,
     "waiting_count": 6,
-    "completed_today": 2,
+    "completed_today": 3,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-06T20:08:22.926592"
+    "timestamp": "2026-02-06T20:08:26.726234"
   }
 }
