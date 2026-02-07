@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-08T04:56:09.373034",
+  "generated_at": "2026-02-08T06:39:27.913903",
   "tasks": {
     "active": [
       {
@@ -138,6 +138,19 @@
     ],
     "completed": [
       {
+        "id": "birth-preparation-checklist",
+        "filename": "birth-preparation-checklist.md",
+        "folder": "completed",
+        "title": "🍼 출산 준비 체크리스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-08T06:39:23.768783",
+        "progress": 0
+      },
+      {
         "id": "health-topic-keywords",
         "filename": "health-topic-keywords.md",
         "folder": "completed",
@@ -188,19 +201,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-06T20:16:11.993512",
         "progress": 75
-      },
-      {
-        "id": "youtube-shorts-retention-improvement",
-        "filename": "youtube-shorts-retention-improvement.md",
-        "folder": "completed",
-        "title": "1분 독서 YouTube Shorts 이탈률 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349627318379",
-        "waiting_for": null,
-        "last_updated": "2026-02-06T20:08:20.759687",
-        "progress": 80
       }
     ]
   },
@@ -211,8 +211,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-08T04:56:00.005000",
-      "nextRun": "2026-02-08T04:58:00",
+      "lastRun": "2026-02-08T06:38:00.003000",
+      "nextRun": "2026-02-08T06:40:00",
       "lastStatus": "ok"
     },
     {
@@ -221,8 +221,8 @@
       "schedule": "크론: */20 21-23,0-9 * * *",
       "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-08T04:40:00.013000",
-      "nextRun": "2026-02-08T05:00:00",
+      "lastRun": "2026-02-08T06:20:00.015000",
+      "nextRun": "2026-02-08T06:40:00",
       "lastStatus": "ok"
     },
     {
@@ -231,8 +231,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-08T04:30:00.010000",
-      "nextRun": "2026-02-08T05:00:00",
+      "lastRun": "2026-02-08T06:30:00.013000",
+      "nextRun": "2026-02-08T07:00:00",
       "lastStatus": "ok"
     },
     {
@@ -307,11 +307,11 @@
     }
   ],
   "stats": {
-    "total": 88,
+    "total": 89,
     "active": 4,
     "next": 0,
     "waiting": 6,
-    "completed": 78,
+    "completed": 79,
     "cron": 10
   },
   "flow_metrics": {
@@ -319,9 +319,9 @@
     "wip_limit": 5,
     "wip_utilization": 80.0,
     "waiting_count": 6,
-    "completed_today": 1,
+    "completed_today": 2,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-08T04:56:09.375955"
+    "timestamp": "2026-02-08T06:39:27.916995"
   }
 }
