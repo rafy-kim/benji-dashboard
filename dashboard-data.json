@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-08T06:39:27.913903",
+  "generated_at": "2026-02-08T06:39:39.438365",
   "tasks": {
     "active": [
       {
@@ -94,19 +94,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
         "waiting_for": null,
         "last_updated": "2026-02-06T09:20:44.758298",
-        "progress": 0
-      },
-      {
-        "id": "birth-preparation-checklist",
-        "filename": "birth-preparation-checklist.md",
-        "folder": "waiting",
-        "title": "🍼 출산 준비 체크리스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770211237728489",
-        "waiting_for": null,
-        "last_updated": "2026-02-05T20:17:49.460897",
         "progress": 0
       },
       {
@@ -307,10 +294,10 @@
     }
   ],
   "stats": {
-    "total": 89,
+    "total": 88,
     "active": 4,
     "next": 0,
-    "waiting": 6,
+    "waiting": 5,
     "completed": 79,
     "cron": 10
   },
@@ -318,10 +305,10 @@
     "wip_count": 4,
     "wip_limit": 5,
     "wip_utilization": 80.0,
-    "waiting_count": 6,
+    "waiting_count": 5,
     "completed_today": 2,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-08T06:39:27.916995"
+    "timestamp": "2026-02-08T06:39:39.441134"
   }
 }
