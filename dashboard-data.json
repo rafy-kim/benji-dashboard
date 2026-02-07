@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-07T14:55:10.998676",
+  "generated_at": "2026-02-07T14:55:14.181951",
   "tasks": {
     "active": [
       {
@@ -14,32 +14,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-07T08:03:26.305090",
         "progress": 0
-      },
-      {
-        "id": "1min-reading-script-revision",
-        "filename": "1min-reading-script-revision.md",
-        "folder": "active",
-        "title": "1분 독서 스크립트 재수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770411188994849",
-        "waiting_for": null,
-        "last_updated": "2026-02-07T06:01:28.785567",
-        "progress": 0
-      },
-      {
-        "id": "fix-book-shorts-script-tone",
-        "filename": "fix-book-shorts-script-tone.md",
-        "folder": "active",
-        "title": "1분 독서 스크립트 톤앤매너 재수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770411188994849",
-        "waiting_for": null,
-        "last_updated": "2026-02-07T06:00:50.070754",
-        "progress": 100
       }
     ],
     "next": [],
@@ -294,21 +268,21 @@
     }
   ],
   "stats": {
-    "total": 86,
-    "active": 3,
+    "total": 84,
+    "active": 1,
     "next": 0,
     "waiting": 6,
     "completed": 77,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 1,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 20.0,
     "waiting_count": 6,
     "completed_today": 2,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-07T14:55:11.014556"
+    "timestamp": "2026-02-07T14:55:14.184574"
   }
 }
