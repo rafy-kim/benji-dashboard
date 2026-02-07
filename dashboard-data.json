@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-08T04:52:47.226327",
+  "generated_at": "2026-02-08T04:56:09.373034",
   "tasks": {
     "active": [
-      {
-        "id": "health-topic-keywords",
-        "filename": "health-topic-keywords.md",
-        "folder": "active",
-        "title": "건강 토픽 키워드 추가",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
-        "waiting_for": null,
-        "last_updated": "2026-02-08T04:52:43.221003",
-        "progress": 100
-      },
       {
         "id": "check-generated-images",
         "filename": "check-generated-images.md",
@@ -151,6 +138,19 @@
     ],
     "completed": [
       {
+        "id": "health-topic-keywords",
+        "filename": "health-topic-keywords.md",
+        "folder": "completed",
+        "title": "건강 토픽 키워드 추가",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
+        "waiting_for": null,
+        "last_updated": "2026-02-08T04:56:05.312729",
+        "progress": 100
+      },
+      {
         "id": "fix-book-shorts-script-tone",
         "filename": "fix-book-shorts-script-tone.md",
         "folder": "completed",
@@ -201,19 +201,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-06T20:08:20.759687",
         "progress": 80
-      },
-      {
-        "id": "youtube-shorts-retention-research",
-        "filename": "youtube-shorts-retention-research.md",
-        "folder": "completed",
-        "title": "YouTube Shorts 이탈률 개선 리서치",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-06T12:58:20.199098",
-        "progress": 0
       }
     ]
   },
@@ -224,8 +211,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-08T04:52:00",
-      "nextRun": "2026-02-08T04:54:00",
+      "lastRun": "2026-02-08T04:56:00.005000",
+      "nextRun": "2026-02-08T04:58:00",
       "lastStatus": "ok"
     },
     {
@@ -321,20 +308,20 @@
   ],
   "stats": {
     "total": 88,
-    "active": 5,
+    "active": 4,
     "next": 0,
     "waiting": 6,
-    "completed": 77,
+    "completed": 78,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 80.0,
     "waiting_count": 6,
-    "completed_today": 0,
+    "completed_today": 1,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-08T04:52:47.229136"
+    "timestamp": "2026-02-08T04:56:09.375955"
   }
 }
