@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-09T08:24:06.183653",
+  "generated_at": "2026-02-09T08:32:30.235772",
   "tasks": {
     "active": [
       {
@@ -10,9 +10,9 @@
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": null,
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
         "waiting_for": null,
-        "last_updated": "2026-02-09T08:24:01.914566",
+        "last_updated": "2026-02-09T08:32:26.105659",
         "progress": 0
       },
       {
@@ -250,18 +250,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-09T08:24:00.003000",
-      "nextRun": "2026-02-09T08:26:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
-      "enabled": true,
-      "lastRun": "2026-02-09T08:04:44.980000",
-      "nextRun": "2026-02-09T08:30:00",
+      "lastRun": "2026-02-09T08:32:00.003000",
+      "nextRun": "2026-02-09T08:34:00",
       "lastStatus": "ok"
     },
     {
@@ -291,6 +281,16 @@
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
       "lastRun": "2026-02-08T21:30:00.001000",
+      "nextRun": "2026-02-09T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
+      "enabled": true,
+      "lastRun": "2026-02-09T08:30:00.014000",
       "nextRun": "2026-02-09T09:00:00",
       "lastStatus": "ok"
     },
@@ -367,6 +367,6 @@
     "aging_48h": [
       "health-channel-transition"
     ],
-    "timestamp": "2026-02-09T08:24:06.207633"
+    "timestamp": "2026-02-09T08:32:30.238969"
   }
 }
