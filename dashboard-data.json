@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-09T04:04:32.817443",
+  "generated_at": "2026-02-09T08:24:06.183653",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-09T04:04:28.605680",
+        "last_updated": "2026-02-09T08:24:01.914566",
         "progress": 0
       },
       {
@@ -250,18 +250,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-09T04:04:01.738000",
-      "nextRun": "2026-02-09T04:06:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
-      "name": "벤지 심야 학습",
-      "schedule": "크론: */20 21-23,0-9 * * *",
-      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
-      "enabled": true,
-      "lastRun": "2026-02-09T04:00:00.026000",
-      "nextRun": "2026-02-09T04:20:00",
+      "lastRun": "2026-02-09T08:24:00.003000",
+      "nextRun": "2026-02-09T08:26:00",
       "lastStatus": "ok"
     },
     {
@@ -270,18 +260,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-09T04:03:33.204000",
-      "nextRun": "2026-02-09T04:30:00",
+      "lastRun": "2026-02-09T08:04:44.980000",
+      "nextRun": "2026-02-09T08:30:00",
       "lastStatus": "ok"
     },
     {
-      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
-      "name": "책 추천 (매일 08:00)",
-      "schedule": "매일 08:00",
-      "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
+      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
+      "name": "벤지 심야 학습",
+      "schedule": "크론: */20 21-23,0-9 * * *",
+      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-08T08:03:44.024000",
-      "nextRun": "2026-02-09T08:00:00",
+      "lastRun": "2026-02-09T08:20:00.011000",
+      "nextRun": "2026-02-09T08:40:00",
       "lastStatus": "ok"
     },
     {
@@ -335,6 +325,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
+      "name": "책 추천 (매일 08:00)",
+      "schedule": "매일 08:00",
+      "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
+      "enabled": true,
+      "lastRun": "2026-02-09T08:03:12.559000",
+      "nextRun": "2026-02-10T08:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -360,11 +360,13 @@
     "waiting_count": 5,
     "completed_today": 0,
     "aging_24h": [
+      "check-generated-images",
       "qwen3-tts-api-research",
-      "script-writing-best-practices",
+      "script-writing-best-practices"
+    ],
+    "aging_48h": [
       "health-channel-transition"
     ],
-    "aging_48h": [],
-    "timestamp": "2026-02-09T04:04:32.837201"
+    "timestamp": "2026-02-09T08:24:06.207633"
   }
 }
