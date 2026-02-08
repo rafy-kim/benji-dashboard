@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-08T09:09:52.092355",
+  "generated_at": "2026-02-08T12:14:45.857695",
   "tasks": {
     "active": [
+      {
+        "id": "object-first-test",
+        "filename": "object-first-test.md",
+        "folder": "active",
+        "title": "Object-First 이미지 프롬프트 테스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
+        "waiting_for": null,
+        "last_updated": "2026-02-08T12:14:41.837343",
+        "progress": 60
+      },
       {
         "id": "valley-ai-analysis",
         "filename": "valley-ai-analysis.md",
@@ -211,18 +224,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-08T09:09:11.233000",
-      "nextRun": "2026-02-08T09:10:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
-      "name": "벤지 심야 학습",
-      "schedule": "크론: */20 21-23,0-9 * * *",
-      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
-      "enabled": true,
-      "lastRun": "2026-02-08T09:04:24.375000",
-      "nextRun": "2026-02-08T09:20:00",
+      "lastRun": "2026-02-08T12:14:00.001000",
+      "nextRun": "2026-02-08T12:16:00",
       "lastStatus": "ok"
     },
     {
@@ -231,8 +234,8 @@
       "schedule": "크론: 0,30 9-21 * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-08T09:02:18.651000",
-      "nextRun": "2026-02-08T09:30:00",
+      "lastRun": "2026-02-08T12:00:00.002000",
+      "nextRun": "2026-02-08T12:30:00",
       "lastStatus": "ok"
     },
     {
@@ -241,18 +244,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-08T09:07:45.207000",
-      "nextRun": "2026-02-08T09:30:00",
+      "lastRun": "2026-02-08T12:02:45.213000",
+      "nextRun": "2026-02-08T12:30:00",
       "lastStatus": "ok"
     },
     {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
-      "schedule": "매일 10:00",
-      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
+      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
+      "name": "벤지 심야 학습",
+      "schedule": "크론: */20 21-23,0-9 * * *",
+      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-07T10:03:30.304000",
-      "nextRun": "2026-02-08T10:00:00",
+      "lastRun": "2026-02-08T09:40:00.013000",
+      "nextRun": "2026-02-08T21:00:00",
       "lastStatus": "ok"
     },
     {
@@ -296,6 +299,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
+      "name": "산책 조언 (매일 10:00)",
+      "schedule": "매일 10:00",
+      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
+      "enabled": true,
+      "lastRun": "2026-02-08T10:02:52.104000",
+      "nextRun": "2026-02-09T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -307,23 +320,23 @@
     }
   ],
   "stats": {
-    "total": 89,
-    "active": 5,
+    "total": 90,
+    "active": 6,
     "next": 0,
     "waiting": 5,
     "completed": 79,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 6,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 120.0,
     "waiting_count": 5,
     "completed_today": 2,
     "aging_24h": [
       "health-channel-transition"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-08T09:09:52.095522"
+    "timestamp": "2026-02-08T12:14:45.860570"
   }
 }
