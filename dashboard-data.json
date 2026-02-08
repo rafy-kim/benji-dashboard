@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-08T14:20:42.045575",
+  "generated_at": "2026-02-08T21:10:21.991114",
   "tasks": {
     "active": [
+      {
+        "id": "home-prep-before-postpartum-0211",
+        "filename": "home-prep-before-postpartum-0211.md",
+        "folder": "active",
+        "title": "🏠 2/11 집에서 해야 할 일 & 챙길 것",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-08T21:10:17.771633",
+        "progress": 0
+      },
       {
         "id": "health-topic-keyword",
         "filename": "health-topic-keyword.md",
@@ -237,28 +250,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n1. **작업 카드 자동 생성 (우선순위 1)**\n   - sessi...",
       "enabled": true,
-      "lastRun": "2026-02-08T14:20:00.003000",
-      "nextRun": "2026-02-08T14:22:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "크론: 0,30 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-08T14:00:00.008000",
-      "nextRun": "2026-02-08T14:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
-      "enabled": true,
-      "lastRun": "2026-02-08T14:03:05.254000",
-      "nextRun": "2026-02-08T14:30:00",
+      "lastRun": "2026-02-08T21:10:00.003000",
+      "nextRun": "2026-02-08T21:12:00",
       "lastStatus": "ok"
     },
     {
@@ -267,8 +260,28 @@
       "schedule": "크론: */20 21-23,0-9 * * *",
       "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-08T09:40:00.013000",
-      "nextRun": "2026-02-08T21:00:00",
+      "lastRun": "2026-02-08T21:02:58.410000",
+      "nextRun": "2026-02-08T21:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 낮 학습",
+      "schedule": "크론: 0,30 9-21 * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-08T21:00:00",
+      "nextRun": "2026-02-08T21:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
+      "enabled": true,
+      "lastRun": "2026-02-08T21:06:30.199000",
+      "nextRun": "2026-02-08T21:30:00",
       "lastStatus": "ok"
     },
     {
@@ -333,23 +346,25 @@
     }
   ],
   "stats": {
-    "total": 91,
-    "active": 7,
+    "total": 92,
+    "active": 8,
     "next": 0,
     "waiting": 5,
     "completed": 79,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 7,
+    "wip_count": 8,
     "wip_limit": 5,
-    "wip_utilization": 140.0,
+    "wip_utilization": 160.0,
     "waiting_count": 5,
     "completed_today": 2,
     "aging_24h": [
+      "qwen3-tts-api-research",
+      "script-writing-best-practices",
       "health-channel-transition"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-08T14:20:42.048421"
+    "timestamp": "2026-02-08T21:10:22.015064"
   }
 }
