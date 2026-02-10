@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-09T22:30:50.792689",
+  "generated_at": "2026-02-10T13:51:52.855031",
   "tasks": {
     "active": [
+      {
+        "id": "home-prep-before-postpartum-0211",
+        "filename": "home-prep-before-postpartum-0211.md",
+        "folder": "active",
+        "title": "🏠 2/11 집에서 해야 할 일 & 챙길 것",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
+        "waiting_for": null,
+        "last_updated": "2026-02-10T13:51:48.044842",
+        "progress": 0
+      },
       {
         "id": "qwen3-tts-api-research",
         "filename": "qwen3-tts-api-research.md",
@@ -104,19 +117,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770627073395969",
         "waiting_for": null,
         "last_updated": "2026-02-09T18:05:03.224918",
-        "progress": 0
-      },
-      {
-        "id": "home-prep-before-postpartum-0211",
-        "filename": "home-prep-before-postpartum-0211.md",
-        "folder": "active",
-        "title": "🏠 2/11 집에서 해야 할 일 & 챙길 것",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
-        "waiting_for": null,
-        "last_updated": "2026-02-09T08:52:21.656018",
         "progress": 0
       }
     ],
@@ -263,58 +263,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-09T22:30:00.002000",
-      "nextRun": "2026-02-09T22:32:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
-      "name": "벤지 심야 학습",
-      "schedule": "크론: 0 21-23,0-9 * * *",
-      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
-      "enabled": true,
-      "lastRun": "2026-02-09T22:00:00.022000",
-      "nextRun": "2026-02-09T23:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
-      "enabled": true,
-      "lastRun": "2026-02-09T22:30:00.016000",
-      "nextRun": "2026-02-09T23:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
-      "enabled": true,
-      "lastRun": "2026-02-09T00:02:56.865000",
-      "nextRun": "2026-02-10T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
-      "name": "책 추천 (매일 08:00)",
-      "schedule": "매일 08:00",
-      "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
-      "enabled": true,
-      "lastRun": "2026-02-09T08:03:12.559000",
-      "nextRun": "2026-02-10T08:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
-      "name": "투자 브리핑",
-      "schedule": "매일 09:00",
-      "description": "Valley Town (https://www.valley.town/guru/transactions) 거장 매...",
-      "enabled": true,
-      "lastRun": "2026-02-09T09:00:00.002000",
-      "nextRun": "2026-02-10T09:00:00",
+      "lastRun": "2026-02-10T13:50:00.002000",
+      "nextRun": "2026-02-10T13:52:00",
       "lastStatus": "ok"
     },
     {
@@ -323,8 +273,58 @@
       "schedule": "크론: 0 9-21 * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-09T21:00:00.001000",
-      "nextRun": "2026-02-10T09:00:00",
+      "lastRun": "2026-02-10T13:00:00.005000",
+      "nextRun": "2026-02-10T14:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
+      "enabled": true,
+      "lastRun": "2026-02-10T13:30:00.014000",
+      "nextRun": "2026-02-10T14:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
+      "name": "벤지 심야 학습",
+      "schedule": "크론: 0 21-23,0-9 * * *",
+      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
+      "enabled": true,
+      "lastRun": "2026-02-10T09:05:37.091000",
+      "nextRun": "2026-02-10T21:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "enabled": true,
+      "lastRun": "2026-02-10T00:02:55.757000",
+      "nextRun": "2026-02-11T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
+      "name": "책 추천 (매일 08:00)",
+      "schedule": "매일 08:00",
+      "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
+      "enabled": true,
+      "lastRun": "2026-02-10T08:03:08.884000",
+      "nextRun": "2026-02-11T08:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
+      "name": "투자 브리핑",
+      "schedule": "매일 09:00",
+      "description": "Valley Town (https://www.valley.town/guru/transactions) 거장 매...",
+      "enabled": true,
+      "lastRun": "2026-02-10T09:00:00.001000",
+      "nextRun": "2026-02-11T09:00:00",
       "lastStatus": "ok"
     },
     {
@@ -333,8 +333,8 @@
       "schedule": "매일 09:00",
       "description": "📊 Claude Max 사용량 일일 체크!\n\n1. openclaw 브라우저로 https://claude.ai...",
       "enabled": true,
-      "lastRun": "2026-02-09T09:08:29.803000",
-      "nextRun": "2026-02-10T09:00:00",
+      "lastRun": "2026-02-10T09:09:08.306000",
+      "nextRun": "2026-02-11T09:00:00",
       "lastStatus": "ok"
     },
     {
@@ -343,8 +343,8 @@
       "schedule": "매일 10:00",
       "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
       "enabled": true,
-      "lastRun": "2026-02-09T10:03:25.330000",
-      "nextRun": "2026-02-10T10:00:00",
+      "lastRun": "2026-02-10T10:02:45.782000",
+      "nextRun": "2026-02-11T10:00:00",
       "lastStatus": "ok"
     },
     {
@@ -374,6 +374,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-09T22:30:50.795987"
+    "timestamp": "2026-02-10T13:51:52.880992"
   }
 }
