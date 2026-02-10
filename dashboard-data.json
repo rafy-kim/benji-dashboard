@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-11T00:06:58.787590",
+  "generated_at": "2026-02-11T07:55:38.975906",
   "tasks": {
     "active": [
+      {
+        "id": "home-prep-before-postpartum-0211",
+        "filename": "home-prep-before-postpartum-0211.md",
+        "folder": "active",
+        "title": "🏠 2/11 집에서 해야 할 일 & 챙길 것",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T07:55:34.696071",
+        "progress": 0
+      },
       {
         "id": "shorts-git-pull-streamlit-restart",
         "filename": "shorts-git-pull-streamlit-restart.md",
@@ -13,19 +26,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770735896908879",
         "waiting_for": null,
         "last_updated": "2026-02-11T00:06:54.605073",
-        "progress": 0
-      },
-      {
-        "id": "home-prep-before-postpartum-0211",
-        "filename": "home-prep-before-postpartum-0211.md",
-        "folder": "active",
-        "title": "🏠 2/11 집에서 해야 할 일 & 챙길 것",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T00:03:21.799881",
         "progress": 0
       },
       {
@@ -276,18 +276,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-11T00:06:00",
-      "nextRun": "2026-02-11T00:08:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
-      "enabled": true,
-      "lastRun": "2026-02-11T00:03:01.487000",
-      "nextRun": "2026-02-11T00:30:00",
+      "lastRun": "2026-02-11T07:54:00.002000",
+      "nextRun": "2026-02-11T07:56:00",
       "lastStatus": "ok"
     },
     {
@@ -296,8 +286,8 @@
       "schedule": "크론: 0 21-23,0-9 * * *",
       "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-11T00:00:00.029000",
-      "nextRun": "2026-02-11T01:00:00",
+      "lastRun": "2026-02-11T07:00:00.025000",
+      "nextRun": "2026-02-11T08:00:00",
       "lastStatus": "ok"
     },
     {
@@ -307,6 +297,16 @@
       "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
       "enabled": true,
       "lastRun": "2026-02-10T08:03:08.884000",
+      "nextRun": "2026-02-11T08:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
+      "enabled": true,
+      "lastRun": "2026-02-11T07:30:00.020000",
       "nextRun": "2026-02-11T08:00:00",
       "lastStatus": "ok"
     },
@@ -396,6 +396,6 @@
       "shorts-git-sync-check"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-11T00:06:58.791117"
+    "timestamp": "2026-02-11T07:55:38.997098"
   }
 }
