@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-11T00:03:26.218983",
+  "generated_at": "2026-02-11T00:06:58.787590",
   "tasks": {
     "active": [
+      {
+        "id": "shorts-git-pull-streamlit-restart",
+        "filename": "shorts-git-pull-streamlit-restart.md",
+        "folder": "active",
+        "title": "Shorts Git Pull + Streamlit 재시작",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770735896908879",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T00:06:54.605073",
+        "progress": 0
+      },
       {
         "id": "home-prep-before-postpartum-0211",
         "filename": "home-prep-before-postpartum-0211.md",
@@ -263,8 +276,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-11T00:03:14.868000",
-      "nextRun": "2026-02-11T00:04:00",
+      "lastRun": "2026-02-11T00:06:00",
+      "nextRun": "2026-02-11T00:08:00",
       "lastStatus": "ok"
     },
     {
@@ -359,17 +372,17 @@
     }
   ],
   "stats": {
-    "total": 93,
-    "active": 9,
+    "total": 94,
+    "active": 10,
     "next": 0,
     "waiting": 5,
     "completed": 79,
     "cron": 10
   },
   "flow_metrics": {
-    "wip_count": 9,
+    "wip_count": 10,
     "wip_limit": 5,
-    "wip_utilization": 180.0,
+    "wip_utilization": 200.0,
     "waiting_count": 5,
     "completed_today": 0,
     "aging_24h": [
@@ -383,6 +396,6 @@
       "shorts-git-sync-check"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-11T00:03:26.241463"
+    "timestamp": "2026-02-11T00:06:58.791117"
   }
 }
