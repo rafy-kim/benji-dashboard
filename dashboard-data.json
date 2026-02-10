@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-10T13:51:52.855031",
+  "generated_at": "2026-02-10T18:36:39.358975",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
         "waiting_for": null,
-        "last_updated": "2026-02-10T13:51:48.044842",
+        "last_updated": "2026-02-10T18:36:34.944195",
         "progress": 0
       },
       {
@@ -263,8 +263,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-10T13:50:00.002000",
-      "nextRun": "2026-02-10T13:52:00",
+      "lastRun": "2026-02-10T18:36:00.003000",
+      "nextRun": "2026-02-10T18:38:00",
       "lastStatus": "ok"
     },
     {
@@ -273,8 +273,8 @@
       "schedule": "크론: 0 9-21 * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-10T13:00:00.005000",
-      "nextRun": "2026-02-10T14:00:00",
+      "lastRun": "2026-02-10T18:00:00.001000",
+      "nextRun": "2026-02-10T19:00:00",
       "lastStatus": "ok"
     },
     {
@@ -283,8 +283,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-10T13:30:00.014000",
-      "nextRun": "2026-02-10T14:00:00",
+      "lastRun": "2026-02-10T18:30:00.014000",
+      "nextRun": "2026-02-10T19:00:00",
       "lastStatus": "ok"
     },
     {
@@ -372,8 +372,10 @@
     "wip_utilization": 180.0,
     "waiting_count": 5,
     "completed_today": 0,
-    "aging_24h": [],
+    "aging_24h": [
+      "shorts-git-sync-check"
+    ],
     "aging_48h": [],
-    "timestamp": "2026-02-10T13:51:52.880992"
+    "timestamp": "2026-02-10T18:36:39.384402"
   }
 }
