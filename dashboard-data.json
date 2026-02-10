@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-10T21:39:29.826918",
+  "generated_at": "2026-02-11T00:03:26.218983",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
         "waiting_for": null,
-        "last_updated": "2026-02-10T21:39:25.321600",
+        "last_updated": "2026-02-11T00:03:21.799881",
         "progress": 0
       },
       {
@@ -263,18 +263,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-10T21:38:00.002000",
-      "nextRun": "2026-02-10T21:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
-      "name": "벤지 심야 학습",
-      "schedule": "크론: 0 21-23,0-9 * * *",
-      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
-      "enabled": true,
-      "lastRun": "2026-02-10T21:03:24.427000",
-      "nextRun": "2026-02-10T22:00:00",
+      "lastRun": "2026-02-11T00:03:14.868000",
+      "nextRun": "2026-02-11T00:04:00",
       "lastStatus": "ok"
     },
     {
@@ -283,18 +273,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-10T21:30:00.014000",
-      "nextRun": "2026-02-10T22:00:00",
+      "lastRun": "2026-02-11T00:03:01.487000",
+      "nextRun": "2026-02-11T00:30:00",
       "lastStatus": "ok"
     },
     {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
+      "name": "벤지 심야 학습",
+      "schedule": "크론: 0 21-23,0-9 * * *",
+      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-10T00:02:55.757000",
-      "nextRun": "2026-02-11T00:00:00",
+      "lastRun": "2026-02-11T00:00:00.029000",
+      "nextRun": "2026-02-11T01:00:00",
       "lastStatus": "ok"
     },
     {
@@ -348,6 +338,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "enabled": true,
+      "lastRun": "2026-02-11T00:02:48.410000",
+      "nextRun": "2026-02-12T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -373,9 +373,16 @@
     "waiting_count": 5,
     "completed_today": 0,
     "aging_24h": [
+      "qwen3-tts-api-research",
+      "health-channel-transition",
+      "object-first-test",
+      "script-writing-best-practices",
+      "health-topic-keyword",
+      "check-generated-images",
+      "valley-ai-analysis",
       "shorts-git-sync-check"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-10T21:39:29.852964"
+    "timestamp": "2026-02-11T00:03:26.241463"
   }
 }
