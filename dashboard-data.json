@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-11T09:28:32.836735",
+  "generated_at": "2026-02-11T14:23:18.660619",
   "tasks": {
     "active": [
+      {
+        "id": "home-prep-before-postpartum",
+        "filename": "home-prep-before-postpartum.md",
+        "folder": "active",
+        "title": "🏠 집에서 해야 할 일 & 챙길 것",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T14:23:14.584719",
+        "progress": 0
+      },
       {
         "id": "content-code-revert",
         "filename": "content-code-revert.md",
@@ -289,8 +302,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-11T09:28:00",
-      "nextRun": "2026-02-11T09:30:00",
+      "lastRun": "2026-02-11T14:22:00.003000",
+      "nextRun": "2026-02-11T14:24:00",
       "lastStatus": "ok"
     },
     {
@@ -299,8 +312,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-11T09:09:08.615000",
-      "nextRun": "2026-02-11T09:30:00",
+      "lastRun": "2026-02-11T14:02:44.293000",
+      "nextRun": "2026-02-11T14:30:00",
       "lastStatus": "ok"
     },
     {
@@ -309,18 +322,8 @@
       "schedule": "크론: 0 9-21 * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-11T09:02:40.042000",
-      "nextRun": "2026-02-11T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
-      "schedule": "매일 10:00",
-      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
-      "enabled": true,
-      "lastRun": "2026-02-10T10:02:45.782000",
-      "nextRun": "2026-02-11T10:00:00",
+      "lastRun": "2026-02-11T14:00:00.002000",
+      "nextRun": "2026-02-11T15:00:00",
       "lastStatus": "ok"
     },
     {
@@ -394,6 +397,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
+      "name": "산책 조언 (매일 10:00)",
+      "schedule": "매일 10:00",
+      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
+      "enabled": true,
+      "lastRun": "2026-02-11T10:03:14.277000",
+      "nextRun": "2026-02-12T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -405,21 +418,21 @@
     }
   ],
   "stats": {
-    "total": 95,
-    "active": 11,
+    "total": 96,
+    "active": 12,
     "next": 0,
     "waiting": 5,
     "completed": 79,
     "cron": 12
   },
   "flow_metrics": {
-    "wip_count": 11,
+    "wip_count": 12,
     "wip_limit": 5,
-    "wip_utilization": 220.0,
+    "wip_utilization": 240.0,
     "waiting_count": 5,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T09:28:32.852147"
+    "timestamp": "2026-02-11T14:23:18.663992"
   }
 }
