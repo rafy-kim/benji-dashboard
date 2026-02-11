@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T14:23:18.660619",
+  "generated_at": "2026-02-11T14:23:22.633778",
   "tasks": {
     "active": [
       {
@@ -131,19 +131,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-11T09:06:05.266183",
         "progress": 67
-      },
-      {
-        "id": "home-prep-before-postpartum-0211",
-        "filename": "home-prep-before-postpartum-0211.md",
-        "folder": "active",
-        "title": "🏠 2/11 집에서 해야 할 일 & 챙길 것",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T07:55:34.696071",
-        "progress": 0
       },
       {
         "id": "shorts-git-pull-streamlit-restart",
@@ -418,21 +405,21 @@
     }
   ],
   "stats": {
-    "total": 96,
-    "active": 12,
+    "total": 95,
+    "active": 11,
     "next": 0,
     "waiting": 5,
     "completed": 79,
     "cron": 12
   },
   "flow_metrics": {
-    "wip_count": 12,
+    "wip_count": 11,
     "wip_limit": 5,
-    "wip_utilization": 240.0,
+    "wip_utilization": 220.0,
     "waiting_count": 5,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T14:23:18.663992"
+    "timestamp": "2026-02-11T14:23:22.636734"
   }
 }
