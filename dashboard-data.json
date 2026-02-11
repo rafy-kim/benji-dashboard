@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T14:48:47.223679",
+  "generated_at": "2026-02-11T16:10:32.467669",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:48:43.177288",
+        "last_updated": "2026-02-11T16:10:28.290405",
         "progress": 0
       },
       {
@@ -106,18 +106,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-11T14:48:00.002000",
-      "nextRun": "2026-02-11T14:50:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "크론: 0 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-11T14:00:00.002000",
-      "nextRun": "2026-02-11T15:00:00",
+      "lastRun": "2026-02-11T16:10:00.002000",
+      "nextRun": "2026-02-11T16:12:00",
       "lastStatus": "ok"
     },
     {
@@ -126,8 +116,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-11T14:30:00.013000",
-      "nextRun": "2026-02-11T15:00:00",
+      "lastRun": "2026-02-11T16:03:19.118000",
+      "nextRun": "2026-02-11T16:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 낮 학습",
+      "schedule": "크론: 0 9-21 * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-11T16:00:00.005000",
+      "nextRun": "2026-02-11T17:00:00",
       "lastStatus": "ok"
     },
     {
@@ -237,6 +237,6 @@
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T14:48:47.227808"
+    "timestamp": "2026-02-11T16:10:32.471356"
   }
 }
