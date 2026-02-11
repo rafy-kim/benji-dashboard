@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T14:31:02.158292",
+  "generated_at": "2026-02-11T14:48:47.223679",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:24:38.119537",
+        "last_updated": "2026-02-11T14:48:43.177288",
         "progress": 0
       },
       {
@@ -106,8 +106,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-11T14:30:00.002000",
-      "nextRun": "2026-02-11T14:32:00",
+      "lastRun": "2026-02-11T14:48:00.002000",
+      "nextRun": "2026-02-11T14:50:00",
       "lastStatus": "ok"
     },
     {
@@ -237,6 +237,6 @@
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T14:31:02.161157"
+    "timestamp": "2026-02-11T14:48:47.227808"
   }
 }
