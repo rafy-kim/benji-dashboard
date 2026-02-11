@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-11T20:34:46.870004",
+  "generated_at": "2026-02-11T21:36:32.582451",
   "tasks": {
     "active": [
+      {
+        "id": "baby-name-hanja-analysis",
+        "filename": "baby-name-hanja-analysis.md",
+        "folder": "active",
+        "title": "초록이 한자 이름 분석",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770810743366059",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T21:36:28.418586",
+        "progress": 75
+      },
       {
         "id": "home-prep-before-postpartum",
         "filename": "home-prep-before-postpartum.md",
@@ -106,18 +119,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-11T20:34:00",
-      "nextRun": "2026-02-11T20:36:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "크론: 0 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-11T20:00:00.003000",
-      "nextRun": "2026-02-11T21:00:00",
+      "lastRun": "2026-02-11T21:36:00.003000",
+      "nextRun": "2026-02-11T21:38:00",
       "lastStatus": "ok"
     },
     {
@@ -126,8 +129,8 @@
       "schedule": "크론: 0 21-23,0-9 * * *",
       "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
       "enabled": true,
-      "lastRun": "2026-02-11T09:05:14.918000",
-      "nextRun": "2026-02-11T21:00:00",
+      "lastRun": "2026-02-11T21:03:01.751000",
+      "nextRun": "2026-02-11T22:00:00",
       "lastStatus": "ok"
     },
     {
@@ -136,8 +139,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-11T20:30:00.012000",
-      "nextRun": "2026-02-11T21:00:00",
+      "lastRun": "2026-02-11T21:30:00.015000",
+      "nextRun": "2026-02-11T22:00:00",
       "lastStatus": "ok"
     },
     {
@@ -177,6 +180,16 @@
       "description": "Valley Town (https://www.valley.town/guru/transactions) 거장 매...",
       "enabled": true,
       "lastRun": "2026-02-11T09:00:00.001000",
+      "nextRun": "2026-02-12T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 낮 학습",
+      "schedule": "크론: 0 9-21 * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-11T21:00:00.001000",
       "nextRun": "2026-02-12T09:00:00",
       "lastStatus": "ok"
     },
@@ -222,21 +235,21 @@
     }
   ],
   "stats": {
-    "total": 94,
-    "active": 2,
+    "total": 95,
+    "active": 3,
     "next": 0,
     "waiting": 0,
     "completed": 92,
     "cron": 12
   },
   "flow_metrics": {
-    "wip_count": 2,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 40.0,
+    "wip_utilization": 60.0,
     "waiting_count": 0,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T20:34:46.874114"
+    "timestamp": "2026-02-11T21:36:32.585777"
   }
 }
