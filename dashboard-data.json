@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T14:28:15.672138",
+  "generated_at": "2026-02-11T14:29:04.056720",
   "tasks": {
     "active": [
       {
@@ -16,19 +16,6 @@
         "progress": 0
       },
       {
-        "id": "content-code-revert",
-        "filename": "content-code-revert.md",
-        "folder": "active",
-        "title": "코드 원래대로 돌리고 재시작",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770736179665659",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T09:28:28.402104",
-        "progress": 0
-      },
-      {
         "id": "qwen3-tts-api-research",
         "filename": "qwen3-tts-api-research.md",
         "folder": "active",
@@ -42,58 +29,6 @@
         "progress": 67
       },
       {
-        "id": "shorts-git-sync-check",
-        "filename": "shorts-git-sync-check.md",
-        "folder": "active",
-        "title": "Shorts Git 동기화 상태 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770627073395969",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T09:06:05.268468",
-        "progress": 0
-      },
-      {
-        "id": "health-channel-transition",
-        "filename": "health-channel-transition.md",
-        "folder": "active",
-        "title": "1초 선택 → 건강 정보 채널 전환 전략 수립",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T09:06:05.268008",
-        "progress": 0
-      },
-      {
-        "id": "object-first-test",
-        "filename": "object-first-test.md",
-        "folder": "active",
-        "title": "Object-First 이미지 프롬프트 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T09:06:05.267731",
-        "progress": 60
-      },
-      {
-        "id": "script-writing-best-practices",
-        "filename": "script-writing-best-practices.md",
-        "folder": "active",
-        "title": "매력적인 스크립트 작성법 논의",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770443282814609",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T09:06:05.267432",
-        "progress": 0
-      },
-      {
         "id": "health-topic-keyword",
         "filename": "health-topic-keyword.md",
         "folder": "active",
@@ -105,32 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-11T09:06:05.267048",
         "progress": 0
-      },
-      {
-        "id": "check-generated-images",
-        "filename": "check-generated-images.md",
-        "folder": "active",
-        "title": "[스크립트 이미지 생성 검토]",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-11T09:06:05.266689",
-        "progress": 0
-      },
-      {
-        "id": "valley-ai-analysis",
-        "filename": "valley-ai-analysis.md",
-        "folder": "active",
-        "title": "Valley AI 투자 분석",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770508937931239",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T09:06:05.266183",
-        "progress": 67
       }
     ],
     "next": [],
@@ -203,69 +112,69 @@
     ],
     "completed": [
       {
-        "id": "shorts-git-pull-streamlit-restart",
-        "filename": "shorts-git-pull-streamlit-restart.md",
+        "id": "valley-ai-analysis",
+        "filename": "valley-ai-analysis.md",
         "folder": "completed",
-        "title": "Shorts Git Pull + Streamlit 재시작",
+        "title": "Valley AI 투자 분석",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770735896908879",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770508937931239",
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:28:11.542474",
-        "progress": 0
+        "last_updated": "2026-02-11T14:28:59.972407",
+        "progress": 67
       },
       {
-        "id": "birth-preparation-checklist",
-        "filename": "birth-preparation-checklist.md",
+        "id": "shorts-git-sync-check",
+        "filename": "shorts-git-sync-check.md",
         "folder": "completed",
-        "title": "🍼 출산 준비 체크리스트",
+        "title": "Shorts Git 동기화 상태 확인",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": null,
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770627073395969",
         "waiting_for": null,
-        "last_updated": "2026-02-08T06:39:23.768783",
+        "last_updated": "2026-02-11T14:28:59.968780",
         "progress": 0
       },
       {
-        "id": "health-topic-keywords",
-        "filename": "health-topic-keywords.md",
+        "id": "script-writing-best-practices",
+        "filename": "script-writing-best-practices.md",
         "folder": "completed",
-        "title": "건강 토픽 키워드 추가",
+        "title": "매력적인 스크립트 작성법 논의",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770443282814609",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T14:28:59.965144",
+        "progress": 0
+      },
+      {
+        "id": "object-first-test",
+        "filename": "object-first-test.md",
+        "folder": "completed",
+        "title": "Object-First 이미지 프롬프트 테스트",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
         "waiting_for": null,
-        "last_updated": "2026-02-08T04:56:05.312729",
-        "progress": 100
+        "last_updated": "2026-02-11T14:28:59.961343",
+        "progress": 60
       },
       {
-        "id": "fix-book-shorts-script-tone",
-        "filename": "fix-book-shorts-script-tone.md",
+        "id": "health-channel-transition",
+        "filename": "health-channel-transition.md",
         "folder": "completed",
-        "title": "1분 독서 스크립트 톤앤매너 재수정",
+        "title": "1초 선택 → 건강 정보 채널 전환 전략 수립",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770411188994849",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
         "waiting_for": null,
-        "last_updated": "2026-02-07T14:55:06.856099",
-        "progress": 100
-      },
-      {
-        "id": "1min-reading-script-revision",
-        "filename": "1min-reading-script-revision.md",
-        "folder": "completed",
-        "title": "1분 독서 스크립트 재수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770411188994849",
-        "waiting_for": null,
-        "last_updated": "2026-02-07T14:55:06.848569",
-        "progress": 100
+        "last_updated": "2026-02-11T14:28:59.956896",
+        "progress": 0
       }
     ]
   },
@@ -393,20 +302,20 @@
   ],
   "stats": {
     "total": 95,
-    "active": 10,
+    "active": 3,
     "next": 0,
     "waiting": 5,
-    "completed": 80,
+    "completed": 87,
     "cron": 12
   },
   "flow_metrics": {
-    "wip_count": 10,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 200.0,
+    "wip_utilization": 60.0,
     "waiting_count": 5,
-    "completed_today": 1,
+    "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T14:28:15.675106"
+    "timestamp": "2026-02-11T14:29:04.060078"
   }
 }
