@@ -1,7 +1,111 @@
 {
-  "generated_at": "2026-02-11T07:55:38.975906",
+  "generated_at": "2026-02-11T09:06:19.580412",
   "tasks": {
     "active": [
+      {
+        "id": "qwen3-tts-api-research",
+        "filename": "qwen3-tts-api-research.md",
+        "folder": "active",
+        "title": "Qwen3-TTS API 조사",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770464532887509",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T09:06:05.268724",
+        "progress": 67
+      },
+      {
+        "id": "shorts-git-sync-check",
+        "filename": "shorts-git-sync-check.md",
+        "folder": "active",
+        "title": "Shorts Git 동기화 상태 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770627073395969",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T09:06:05.268468",
+        "progress": 0
+      },
+      {
+        "id": "health-channel-transition",
+        "filename": "health-channel-transition.md",
+        "folder": "active",
+        "title": "1초 선택 → 건강 정보 채널 전환 전략 수립",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T09:06:05.268008",
+        "progress": 0
+      },
+      {
+        "id": "object-first-test",
+        "filename": "object-first-test.md",
+        "folder": "active",
+        "title": "Object-First 이미지 프롬프트 테스트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T09:06:05.267731",
+        "progress": 60
+      },
+      {
+        "id": "script-writing-best-practices",
+        "filename": "script-writing-best-practices.md",
+        "folder": "active",
+        "title": "매력적인 스크립트 작성법 논의",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770443282814609",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T09:06:05.267432",
+        "progress": 0
+      },
+      {
+        "id": "health-topic-keyword",
+        "filename": "health-topic-keyword.md",
+        "folder": "active",
+        "title": "건강 공식 대시보드 토픽 키워드 생성",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T09:06:05.267048",
+        "progress": 0
+      },
+      {
+        "id": "check-generated-images",
+        "filename": "check-generated-images.md",
+        "folder": "active",
+        "title": "[스크립트 이미지 생성 검토]",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-11T09:06:05.266689",
+        "progress": 0
+      },
+      {
+        "id": "valley-ai-analysis",
+        "filename": "valley-ai-analysis.md",
+        "folder": "active",
+        "title": "Valley AI 투자 분석",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770508937931239",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T09:06:05.266183",
+        "progress": 67
+      },
       {
         "id": "home-prep-before-postpartum-0211",
         "filename": "home-prep-before-postpartum-0211.md",
@@ -26,110 +130,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770735896908879",
         "waiting_for": null,
         "last_updated": "2026-02-11T00:06:54.605073",
-        "progress": 0
-      },
-      {
-        "id": "qwen3-tts-api-research",
-        "filename": "qwen3-tts-api-research.md",
-        "folder": "active",
-        "title": "Qwen3-TTS API 조사",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770464532887509",
-        "waiting_for": null,
-        "last_updated": "2026-02-09T22:30:46.445396",
-        "progress": 67
-      },
-      {
-        "id": "health-channel-transition",
-        "filename": "health-channel-transition.md",
-        "folder": "active",
-        "title": "1초 선택 → 건강 정보 채널 전환 전략 수립",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
-        "waiting_for": null,
-        "last_updated": "2026-02-09T22:30:46.445008",
-        "progress": 0
-      },
-      {
-        "id": "object-first-test",
-        "filename": "object-first-test.md",
-        "folder": "active",
-        "title": "Object-First 이미지 프롬프트 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
-        "waiting_for": null,
-        "last_updated": "2026-02-09T22:30:46.444591",
-        "progress": 60
-      },
-      {
-        "id": "script-writing-best-practices",
-        "filename": "script-writing-best-practices.md",
-        "folder": "active",
-        "title": "매력적인 스크립트 작성법 논의",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770443282814609",
-        "waiting_for": null,
-        "last_updated": "2026-02-09T22:30:46.444057",
-        "progress": 0
-      },
-      {
-        "id": "health-topic-keyword",
-        "filename": "health-topic-keyword.md",
-        "folder": "active",
-        "title": "건강 공식 대시보드 토픽 키워드 생성",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
-        "waiting_for": null,
-        "last_updated": "2026-02-09T22:30:46.443614",
-        "progress": 0
-      },
-      {
-        "id": "check-generated-images",
-        "filename": "check-generated-images.md",
-        "folder": "active",
-        "title": "[스크립트 이미지 생성 검토]",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-09T22:30:46.443056",
-        "progress": 0
-      },
-      {
-        "id": "valley-ai-analysis",
-        "filename": "valley-ai-analysis.md",
-        "folder": "active",
-        "title": "Valley AI 투자 분석",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770508937931239",
-        "waiting_for": null,
-        "last_updated": "2026-02-09T22:30:46.442554",
-        "progress": 67
-      },
-      {
-        "id": "shorts-git-sync-check",
-        "filename": "shorts-git-sync-check.md",
-        "folder": "active",
-        "title": "Shorts Git 동기화 상태 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770627073395969",
-        "waiting_for": null,
-        "last_updated": "2026-02-09T18:05:03.224918",
         "progress": 0
       }
     ],
@@ -271,104 +271,64 @@
   },
   "cron": [
     {
-      "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
-      "name": "벤지 데드락 모니터링",
-      "schedule": "크론: */2 * * * *",
-      "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
+      "id": "heartbeat",
+      "name": "🫀 하트비트 체크",
+      "schedule": "2분마다",
+      "description": "작업 카드 자동 생성, 데드락 감지, 스레드 이사 체크",
       "enabled": true,
-      "lastRun": "2026-02-11T07:54:00.002000",
-      "nextRun": "2026-02-11T07:56:00",
-      "lastStatus": "ok"
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
     },
     {
-      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
-      "name": "벤지 심야 학습",
-      "schedule": "크론: 0 21-23,0-9 * * *",
-      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
+      "id": "learning-day",
+      "name": "📚 벤지 낮 학습",
+      "schedule": "09:00-21:00 매 30분",
+      "description": "성장에 필요한 주제를 직접 선정하여 깊이 있게 학습",
       "enabled": true,
-      "lastRun": "2026-02-11T07:00:00.025000",
-      "nextRun": "2026-02-11T08:00:00",
-      "lastStatus": "ok"
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
     },
     {
-      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
-      "name": "책 추천 (매일 08:00)",
+      "id": "learning-night",
+      "name": "🌙 벤지 심야 학습",
+      "schedule": "21:00-09:00 매 20분",
+      "description": "심야 시간대 자기주도 학습 (라피 휴식 시간 활용)",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
+    },
+    {
+      "id": "daily-book",
+      "name": "📖 일일 도서 추천",
       "schedule": "매일 08:00",
-      "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
+      "description": "새로운 책 추천 및 스크립트 생성",
       "enabled": true,
-      "lastRun": "2026-02-10T08:03:08.884000",
-      "nextRun": "2026-02-11T08:00:00",
-      "lastStatus": "ok"
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
     },
     {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
-      "enabled": true,
-      "lastRun": "2026-02-11T07:30:00.020000",
-      "nextRun": "2026-02-11T08:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
-      "name": "투자 브리핑",
+      "id": "investment-brief",
+      "name": "📊 투자 브리핑",
       "schedule": "매일 09:00",
-      "description": "Valley Town (https://www.valley.town/guru/transactions) 거장 매...",
+      "description": "거장 매매 데이터 및 종목 분석",
       "enabled": true,
-      "lastRun": "2026-02-10T09:00:00.001000",
-      "nextRun": "2026-02-11T09:00:00",
-      "lastStatus": "ok"
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
     },
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "크론: 0 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-10T21:00:00.003000",
-      "nextRun": "2026-02-11T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
-      "name": "Claude 사용량 체크 (매일 09:00)",
-      "schedule": "매일 09:00",
-      "description": "📊 Claude Max 사용량 일일 체크!\n\n1. openclaw 브라우저로 https://claude.ai...",
-      "enabled": true,
-      "lastRun": "2026-02-10T09:09:08.306000",
-      "nextRun": "2026-02-11T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
+      "id": "weather-morning",
+      "name": "🌤️ 산책 조언",
       "schedule": "매일 10:00",
-      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
+      "description": "오늘 날씨 및 산책 조언",
       "enabled": true,
-      "lastRun": "2026-02-10T10:02:45.782000",
-      "nextRun": "2026-02-11T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
-      "enabled": true,
-      "lastRun": "2026-02-11T00:02:48.410000",
-      "nextRun": "2026-02-12T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
-      "name": "안전한 세션 정리 (매주 일요일 04:00)",
-      "schedule": "크론: 0 4 * * 0",
-      "description": "주간 세션 정리 시간!\n\n1. python3 ~/clawd/scripts/safe_session_cleanu...",
-      "enabled": true,
-      "lastRun": "2026-02-08T04:04:18.102000",
-      "nextRun": "2026-02-15T04:00:00",
-      "lastStatus": "ok"
+      "lastRun": null,
+      "nextRun": null,
+      "lastStatus": "OK"
     }
   ],
   "stats": {
@@ -377,7 +337,7 @@
     "next": 0,
     "waiting": 5,
     "completed": 79,
-    "cron": 10
+    "cron": 6
   },
   "flow_metrics": {
     "wip_count": 10,
@@ -385,17 +345,8 @@
     "wip_utilization": 200.0,
     "waiting_count": 5,
     "completed_today": 0,
-    "aging_24h": [
-      "qwen3-tts-api-research",
-      "health-channel-transition",
-      "object-first-test",
-      "script-writing-best-practices",
-      "health-topic-keyword",
-      "check-generated-images",
-      "valley-ai-analysis",
-      "shorts-git-sync-check"
-    ],
+    "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T07:55:38.997098"
+    "timestamp": "2026-02-11T09:06:19.598573"
   }
 }
