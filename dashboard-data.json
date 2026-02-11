@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T14:29:04.056720",
+  "generated_at": "2026-02-11T14:29:33.612462",
   "tasks": {
     "active": [
       {
@@ -14,19 +14,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-11T14:24:38.119537",
         "progress": 0
-      },
-      {
-        "id": "qwen3-tts-api-research",
-        "filename": "qwen3-tts-api-research.md",
-        "folder": "active",
-        "title": "Qwen3-TTS API 조사",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770464532887509",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T09:06:05.268724",
-        "progress": 67
       },
       {
         "id": "health-topic-keyword",
@@ -112,6 +99,19 @@
     ],
     "completed": [
       {
+        "id": "qwen3-tts-api-research",
+        "filename": "qwen3-tts-api-research.md",
+        "folder": "completed",
+        "title": "Qwen3-TTS API 조사",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770464532887509",
+        "waiting_for": null,
+        "last_updated": "2026-02-11T14:29:29.626173",
+        "progress": 67
+      },
+      {
         "id": "valley-ai-analysis",
         "filename": "valley-ai-analysis.md",
         "folder": "completed",
@@ -162,19 +162,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-11T14:28:59.961343",
         "progress": 60
-      },
-      {
-        "id": "health-channel-transition",
-        "filename": "health-channel-transition.md",
-        "folder": "completed",
-        "title": "1초 선택 → 건강 정보 채널 전환 전략 수립",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770349668539719",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T14:28:59.956896",
-        "progress": 0
       }
     ]
   },
@@ -302,20 +289,20 @@
   ],
   "stats": {
     "total": 95,
-    "active": 3,
+    "active": 2,
     "next": 0,
     "waiting": 5,
-    "completed": 87,
+    "completed": 88,
     "cron": 12
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 2,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 40.0,
     "waiting_count": 5,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T14:29:04.060078"
+    "timestamp": "2026-02-11T14:29:33.615673"
   }
 }
