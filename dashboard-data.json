@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-11T14:29:33.612462",
+  "generated_at": "2026-02-11T14:31:02.158292",
   "tasks": {
     "active": [
       {
@@ -30,138 +30,72 @@
       }
     ],
     "next": [],
-    "waiting": [
-      {
-        "id": "investment-briefing-feb6",
-        "filename": "investment-briefing-feb6.md",
-        "folder": "waiting",
-        "title": "투자 브리핑 (2026-02-06)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770336112940559",
-        "waiting_for": null,
-        "last_updated": "2026-02-06T10:22:21.267175",
-        "progress": 67
-      },
-      {
-        "id": "investment-briefing-feb4",
-        "filename": "investment-briefing-feb4.md",
-        "folder": "waiting",
-        "title": "투자 브리핑 (2026-02-04)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770163296004649",
-        "waiting_for": null,
-        "last_updated": "2026-02-06T09:20:44.758651",
-        "progress": 75
-      },
-      {
-        "id": "book-coupang-link-fix",
-        "filename": "book-coupang-link-fix.md",
-        "folder": "waiting",
-        "title": "책 파이프라인 쿠팡 링크 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
-        "waiting_for": null,
-        "last_updated": "2026-02-06T09:20:44.758298",
-        "progress": 0
-      },
-      {
-        "id": "coupang-link-automation-fix",
-        "filename": "coupang-link-automation-fix.md",
-        "folder": "waiting",
-        "title": "쿠팡 파트너스 링크 자동 생성 이슈 해결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-04T11:18:42.230465",
-        "progress": 0
-      },
+    "waiting": [],
+    "completed": [
       {
         "id": "ryan-investment",
         "filename": "ryan-investment.md",
-        "folder": "waiting",
+        "folder": "completed",
         "title": "라이언 투자 분석",
         "assignee": "벤지",
         "status": "🟡 응답 대기",
         "channel": "(미정)",
         "thread_link": null,
         "waiting_for": "라이언/라피",
-        "last_updated": "2026-02-02T08:14:59.391313",
+        "last_updated": "2026-02-11T14:30:58.174920",
         "progress": 0
-      }
-    ],
-    "completed": [
+      },
       {
-        "id": "qwen3-tts-api-research",
-        "filename": "qwen3-tts-api-research.md",
+        "id": "investment-briefing-feb6",
+        "filename": "investment-briefing-feb6.md",
         "folder": "completed",
-        "title": "Qwen3-TTS API 조사",
+        "title": "투자 브리핑 (2026-02-06)",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770464532887509",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770336112940559",
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:29:29.626173",
+        "last_updated": "2026-02-11T14:30:58.169904",
         "progress": 67
       },
       {
-        "id": "valley-ai-analysis",
-        "filename": "valley-ai-analysis.md",
+        "id": "investment-briefing-feb4",
+        "filename": "investment-briefing-feb4.md",
         "folder": "completed",
-        "title": "Valley AI 투자 분석",
+        "title": "투자 브리핑 (2026-02-04)",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770508937931239",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770163296004649",
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:28:59.972407",
-        "progress": 67
+        "last_updated": "2026-02-11T14:30:58.164560",
+        "progress": 75
       },
       {
-        "id": "shorts-git-sync-check",
-        "filename": "shorts-git-sync-check.md",
+        "id": "coupang-link-automation-fix",
+        "filename": "coupang-link-automation-fix.md",
         "folder": "completed",
-        "title": "Shorts Git 동기화 상태 확인",
+        "title": "쿠팡 파트너스 링크 자동 생성 이슈 해결",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770627073395969",
+        "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:28:59.968780",
+        "last_updated": "2026-02-11T14:30:58.158420",
         "progress": 0
       },
       {
-        "id": "script-writing-best-practices",
-        "filename": "script-writing-best-practices.md",
+        "id": "book-coupang-link-fix",
+        "filename": "book-coupang-link-fix.md",
         "folder": "completed",
-        "title": "매력적인 스크립트 작성법 논의",
+        "title": "책 파이프라인 쿠팡 링크 수정",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770443282814609",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:28:59.965144",
+        "last_updated": "2026-02-11T14:30:58.151597",
         "progress": 0
-      },
-      {
-        "id": "object-first-test",
-        "filename": "object-first-test.md",
-        "folder": "completed",
-        "title": "Object-First 이미지 프롬프트 테스트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770491865746299",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T14:28:59.961343",
-        "progress": 60
       }
     ]
   },
@@ -172,18 +106,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-11T14:28:00.001000",
-      "nextRun": "2026-02-11T14:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
-      "enabled": true,
-      "lastRun": "2026-02-11T14:02:44.293000",
-      "nextRun": "2026-02-11T14:30:00",
+      "lastRun": "2026-02-11T14:30:00.002000",
+      "nextRun": "2026-02-11T14:32:00",
       "lastStatus": "ok"
     },
     {
@@ -193,6 +117,16 @@
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
       "lastRun": "2026-02-11T14:00:00.002000",
+      "nextRun": "2026-02-11T15:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
+      "enabled": true,
+      "lastRun": "2026-02-11T14:30:00.013000",
       "nextRun": "2026-02-11T15:00:00",
       "lastStatus": "ok"
     },
@@ -288,21 +222,21 @@
     }
   ],
   "stats": {
-    "total": 95,
+    "total": 94,
     "active": 2,
     "next": 0,
-    "waiting": 5,
-    "completed": 88,
+    "waiting": 0,
+    "completed": 92,
     "cron": 12
   },
   "flow_metrics": {
     "wip_count": 2,
     "wip_limit": 5,
     "wip_utilization": 40.0,
-    "waiting_count": 5,
+    "waiting_count": 0,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-02-11T14:29:33.615673"
+    "timestamp": "2026-02-11T14:31:02.161157"
   }
 }
