@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-12T10:17:47.531277",
+  "generated_at": "2026-02-12T14:06:13.579022",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-content-automation",
+        "filename": "youtube-content-automation.md",
+        "folder": "active",
+        "title": "유튜브 콘텐츠 관리 프로세스 구축 및 자동화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770859036393679",
+        "waiting_for": null,
+        "last_updated": "2026-02-12T14:06:09.478466",
+        "progress": 0
+      },
       {
         "id": "youtube-shorts-content-management",
         "filename": "youtube-shorts-content-management.md",
@@ -132,8 +145,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-12T10:16:00.001000",
-      "nextRun": "2026-02-12T10:18:00",
+      "lastRun": "2026-02-12T14:06:00.002000",
+      "nextRun": "2026-02-12T14:08:00",
       "lastStatus": "ok"
     },
     {
@@ -142,8 +155,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-12T10:04:36.937000",
-      "nextRun": "2026-02-12T10:30:00",
+      "lastRun": "2026-02-12T14:03:11.304000",
+      "nextRun": "2026-02-12T14:30:00",
       "lastStatus": "ok"
     },
     {
@@ -152,8 +165,8 @@
       "schedule": "크론: 0 9-21 * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-12T10:00:00.003000",
-      "nextRun": "2026-02-12T11:00:00",
+      "lastRun": "2026-02-12T14:00:00.001000",
+      "nextRun": "2026-02-12T15:00:00",
       "lastStatus": "ok"
     },
     {
@@ -248,23 +261,23 @@
     }
   ],
   "stats": {
-    "total": 96,
-    "active": 4,
+    "total": 97,
+    "active": 5,
     "next": 0,
     "waiting": 0,
     "completed": 92,
     "cron": 12
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 100.0,
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
       "health-topic-keyword"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-12T10:17:47.534941"
+    "timestamp": "2026-02-12T14:06:13.582009"
   }
 }
