@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-12T14:06:13.579022",
+  "generated_at": "2026-02-12T23:44:57.448945",
   "tasks": {
     "active": [
+      {
+        "id": "home-prep-before-postpartum",
+        "filename": "home-prep-before-postpartum.md",
+        "folder": "active",
+        "title": "🏠 집에서 해야 할 일 & 챙길 것",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
+        "waiting_for": null,
+        "last_updated": "2026-02-12T23:44:53.284297",
+        "progress": 0
+      },
       {
         "id": "youtube-content-automation",
         "filename": "youtube-content-automation.md",
@@ -40,19 +53,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-11T21:36:28.418586",
         "progress": 75
-      },
-      {
-        "id": "home-prep-before-postpartum",
-        "filename": "home-prep-before-postpartum.md",
-        "folder": "active",
-        "title": "🏠 집에서 해야 할 일 & 챙길 것",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T20:34:42.718203",
-        "progress": 0
       },
       {
         "id": "health-topic-keyword",
@@ -145,48 +145,18 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-12T14:06:00.002000",
-      "nextRun": "2026-02-12T14:08:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
-      "enabled": true,
-      "lastRun": "2026-02-12T14:03:11.304000",
-      "nextRun": "2026-02-12T14:30:00",
+      "lastRun": "2026-02-12T23:44:00.002000",
+      "nextRun": "2026-02-12T23:46:00",
       "lastStatus": "ok"
     },
     {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 낮 학습",
-      "schedule": "크론: 0 9-21 * * *",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0,30 * * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-12T14:00:00.001000",
-      "nextRun": "2026-02-12T15:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
-      "name": "모자동실 오후 리마인더",
-      "schedule": "크론: 40 18 * * *",
-      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
-      "enabled": true,
-      "lastRun": "2026-02-11T18:40:00.013000",
-      "nextRun": "2026-02-12T18:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3531ac-7162-4b4b-9b83-2c1b06fac8c5",
-      "name": "벤지 심야 학습",
-      "schedule": "크론: 0 21-23,0-9 * * *",
-      "description": "심야 자기학습 시간! 🌙 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 ...",
-      "enabled": true,
-      "lastRun": "2026-02-12T09:04:57.531000",
-      "nextRun": "2026-02-12T21:00:00",
+      "lastRun": "2026-02-12T21:00:00.003000",
+      "nextRun": "2026-02-13T00:00:00",
       "lastStatus": "ok"
     },
     {
@@ -196,6 +166,16 @@
       "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
       "enabled": true,
       "lastRun": "2026-02-12T00:02:16.426000",
+      "nextRun": "2026-02-13T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
+      "enabled": true,
+      "lastRun": "2026-02-12T23:30:00.017000",
       "nextRun": "2026-02-13T00:00:00",
       "lastStatus": "ok"
     },
@@ -250,6 +230,36 @@
       "lastStatus": "ok"
     },
     {
+      "id": "421d12cc-2e21-4153-a858-dbd6f838cb13",
+      "name": "라이언 몸무게 확인",
+      "schedule": "크론: 0 11 * * *",
+      "description": "라이언 몸무게 확인 시간이에요! #육아 채널에 오늘 몸무게를 물어보고, data/ryan-weight-log...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-13T11:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "39962d5c-9e28-4e43-b6a2-2134642fd0dd",
+      "name": "유튜브 콘텐츠 매일 자동화 (벤지 루틴)",
+      "schedule": "크론: 0 12 * * *",
+      "description": "[자동 루틴] 오후 12시가 되었습니다. '1분 독서'와 '건강 공식' 채널의 데일리 파이프라인(책/토픽 추...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-13T12:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
+      "name": "모자동실 오후 리마인더",
+      "schedule": "크론: 40 18 * * *",
+      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
+      "enabled": true,
+      "lastRun": "2026-02-12T18:40:00.016000",
+      "nextRun": "2026-02-13T18:40:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -266,7 +276,7 @@
     "next": 0,
     "waiting": 0,
     "completed": 92,
-    "cron": 12
+    "cron": 13
   },
   "flow_metrics": {
     "wip_count": 5,
@@ -275,9 +285,10 @@
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
+      "baby-name-hanja-analysis",
       "health-topic-keyword"
     ],
     "aging_48h": [],
-    "timestamp": "2026-02-12T14:06:13.582009"
+    "timestamp": "2026-02-12T23:44:57.453435"
   }
 }
