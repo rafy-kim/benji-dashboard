@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-14T05:14:25.864253",
+  "generated_at": "2026-02-14T05:52:24.165347",
   "tasks": {
     "active": [
+      {
+        "id": "breastfeeding-info",
+        "filename": "breastfeeding-info.md",
+        "folder": "active",
+        "title": "모유수유 정보",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770979927679539",
+        "waiting_for": null,
+        "last_updated": "2026-02-14T05:52:20.085581",
+        "progress": 0
+      },
       {
         "id": "newborn-crying-pattern",
         "filename": "newborn-crying-pattern.md",
@@ -197,8 +210,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-14T05:14:00.001000",
-      "nextRun": "2026-02-14T05:16:00",
+      "lastRun": "2026-02-14T05:52:00.004000",
+      "nextRun": "2026-02-14T05:54:00",
       "lastStatus": "ok"
     },
     {
@@ -207,8 +220,8 @@
       "schedule": "크론: 0,30 * * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-14T05:00:00.002000",
-      "nextRun": "2026-02-14T05:30:00",
+      "lastRun": "2026-02-14T05:30:00.002000",
+      "nextRun": "2026-02-14T06:00:00",
       "lastStatus": "ok"
     },
     {
@@ -217,8 +230,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-14T05:04:14.557000",
-      "nextRun": "2026-02-14T05:30:00",
+      "lastRun": "2026-02-14T05:33:22.317000",
+      "nextRun": "2026-02-14T06:00:00",
       "lastStatus": "ok"
     },
     {
@@ -323,17 +336,17 @@
     }
   ],
   "stats": {
-    "total": 101,
-    "active": 9,
+    "total": 102,
+    "active": 10,
     "next": 0,
     "waiting": 0,
     "completed": 92,
     "cron": 13
   },
   "flow_metrics": {
-    "wip_count": 9,
+    "wip_count": 10,
     "wip_limit": 5,
-    "wip_utilization": 180.0,
+    "wip_utilization": 200.0,
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
@@ -344,6 +357,6 @@
     "aging_48h": [
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-14T05:14:25.867766"
+    "timestamp": "2026-02-14T05:52:24.168770"
   }
 }
