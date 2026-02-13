@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-13T08:28:42.964173",
+  "generated_at": "2026-02-13T10:55:10.165336",
   "tasks": {
     "active": [
+      {
+        "id": "investment-briefing-format",
+        "filename": "investment-briefing-format.md",
+        "folder": "active",
+        "title": "투자 브리핑 포맷 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770947545378459",
+        "waiting_for": null,
+        "last_updated": "2026-02-13T10:55:06.140640",
+        "progress": 0
+      },
       {
         "id": "baby-name-hanja-analysis",
         "filename": "baby-name-hanja-analysis.md",
@@ -140,23 +153,23 @@
   },
   "cron": [
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0,30 * * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-13T08:00:00.004000",
-      "nextRun": "2026-02-13T08:30:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
       "name": "벤지 데드락 모니터링",
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-13T08:28:00.002000",
-      "nextRun": "2026-02-13T08:30:00",
+      "lastRun": "2026-02-13T10:54:00.001000",
+      "nextRun": "2026-02-13T10:56:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0,30 * * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-13T10:30:00.001000",
+      "nextRun": "2026-02-13T11:00:00",
       "lastStatus": "ok"
     },
     {
@@ -165,38 +178,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-13T08:08:48.769000",
-      "nextRun": "2026-02-13T08:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
-      "name": "투자 브리핑",
-      "schedule": "매일 09:00",
-      "description": "Valley Town (https://www.valley.town/guru/transactions) 거장 매...",
-      "enabled": true,
-      "lastRun": "2026-02-12T09:00:00.004000",
-      "nextRun": "2026-02-13T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
-      "name": "Claude 사용량 체크 (매일 09:00)",
-      "schedule": "매일 09:00",
-      "description": "📊 Claude Max 사용량 일일 체크!\n\n1. openclaw 브라우저로 https://claude.ai...",
-      "enabled": true,
-      "lastRun": "2026-02-12T09:08:47.423000",
-      "nextRun": "2026-02-13T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
-      "schedule": "매일 10:00",
-      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
-      "enabled": true,
-      "lastRun": "2026-02-12T10:02:31.892000",
-      "nextRun": "2026-02-13T10:00:00",
+      "lastRun": "2026-02-13T10:33:14.105000",
+      "nextRun": "2026-02-13T11:00:00",
       "lastStatus": "ok"
     },
     {
@@ -260,6 +243,36 @@
       "lastStatus": "ok"
     },
     {
+      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
+      "name": "투자 브리핑",
+      "schedule": "매일 09:00",
+      "description": "Valley Town (https://www.valley.town/guru/transactions) 거장 매...",
+      "enabled": true,
+      "lastRun": "2026-02-13T09:00:00.004000",
+      "nextRun": "2026-02-14T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
+      "name": "Claude 사용량 체크 (매일 09:00)",
+      "schedule": "매일 09:00",
+      "description": "📊 Claude Max 사용량 일일 체크!\n\n1. openclaw 브라우저로 https://claude.ai...",
+      "enabled": true,
+      "lastRun": "2026-02-13T09:05:53.192000",
+      "nextRun": "2026-02-14T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
+      "name": "산책 조언 (매일 10:00)",
+      "schedule": "매일 10:00",
+      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
+      "enabled": true,
+      "lastRun": "2026-02-13T10:03:12.053000",
+      "nextRun": "2026-02-14T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -271,23 +284,25 @@
     }
   ],
   "stats": {
-    "total": 97,
-    "active": 5,
+    "total": 98,
+    "active": 6,
     "next": 0,
     "waiting": 0,
     "completed": 92,
     "cron": 13
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 6,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 120.0,
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
+      "youtube-shorts-content-management"
+    ],
+    "aging_48h": [
       "health-topic-keyword"
     ],
-    "aging_48h": [],
-    "timestamp": "2026-02-13T08:28:42.967296"
+    "timestamp": "2026-02-13T10:55:10.168255"
   }
 }
