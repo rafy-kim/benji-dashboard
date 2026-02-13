@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-13T12:07:36.474005",
+  "generated_at": "2026-02-13T12:10:48.746054",
   "tasks": {
     "active": [
+      {
+        "id": "coupang-link-selector-fix",
+        "filename": "coupang-link-selector-fix.md",
+        "folder": "active",
+        "title": "쿠팡 파트너스 링크 스크립트 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-13T12:10:34.551264",
+        "progress": 0
+      },
       {
         "id": "baby-name-hanja-analysis",
         "filename": "baby-name-hanja-analysis.md",
@@ -214,17 +227,17 @@
     }
   ],
   "stats": {
-    "total": 98,
-    "active": 6,
+    "total": 99,
+    "active": 7,
     "next": 0,
     "waiting": 0,
     "completed": 92,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 7,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 140.0,
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
@@ -233,6 +246,6 @@
     "aging_48h": [
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-13T12:07:36.481589"
+    "timestamp": "2026-02-13T12:10:48.753330"
   }
 }
