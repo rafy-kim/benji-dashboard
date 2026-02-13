@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-13T14:19:08.425805",
+  "generated_at": "2026-02-14T05:14:25.864253",
   "tasks": {
     "active": [
+      {
+        "id": "newborn-crying-pattern",
+        "filename": "newborn-crying-pattern.md",
+        "folder": "active",
+        "title": "신생아 울음 패턴 정보",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771012164524559",
+        "waiting_for": null,
+        "last_updated": "2026-02-14T05:14:21.794249",
+        "progress": 0
+      },
       {
         "id": "content-pipeline-status-check",
         "filename": "content-pipeline-status-check.md",
@@ -184,8 +197,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-13T14:18:00.004000",
-      "nextRun": "2026-02-13T14:20:00",
+      "lastRun": "2026-02-14T05:14:00.001000",
+      "nextRun": "2026-02-14T05:16:00",
       "lastStatus": "ok"
     },
     {
@@ -194,8 +207,8 @@
       "schedule": "크론: 0,30 * * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-13T14:00:00.002000",
-      "nextRun": "2026-02-13T14:30:00",
+      "lastRun": "2026-02-14T05:00:00.002000",
+      "nextRun": "2026-02-14T05:30:00",
       "lastStatus": "ok"
     },
     {
@@ -204,28 +217,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-13T14:03:13.194000",
-      "nextRun": "2026-02-13T14:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
-      "name": "모자동실 오후 리마인더",
-      "schedule": "크론: 40 18 * * *",
-      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
-      "enabled": true,
-      "lastRun": "2026-02-12T18:40:00.016000",
-      "nextRun": "2026-02-13T18:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
-      "enabled": true,
-      "lastRun": "2026-02-13T00:02:52.244000",
-      "nextRun": "2026-02-14T00:00:00",
+      "lastRun": "2026-02-14T05:04:14.557000",
+      "nextRun": "2026-02-14T05:30:00",
       "lastStatus": "ok"
     },
     {
@@ -299,6 +292,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
+      "name": "모자동실 오후 리마인더",
+      "schedule": "크론: 40 18 * * *",
+      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
+      "enabled": true,
+      "lastRun": "2026-02-13T18:40:00.018000",
+      "nextRun": "2026-02-14T18:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "enabled": true,
+      "lastRun": "2026-02-14T00:03:44.088000",
+      "nextRun": "2026-02-15T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -310,26 +323,27 @@
     }
   ],
   "stats": {
-    "total": 100,
-    "active": 8,
+    "total": 101,
+    "active": 9,
     "next": 0,
     "waiting": 0,
     "completed": 92,
     "cron": 13
   },
   "flow_metrics": {
-    "wip_count": 8,
+    "wip_count": 9,
     "wip_limit": 5,
-    "wip_utilization": 160.0,
+    "wip_utilization": 180.0,
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
+      "home-prep-before-postpartum",
       "youtube-content-automation",
       "youtube-shorts-content-management"
     ],
     "aging_48h": [
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-13T14:19:08.428941"
+    "timestamp": "2026-02-14T05:14:25.867766"
   }
 }
