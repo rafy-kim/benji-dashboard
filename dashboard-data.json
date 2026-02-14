@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T07:04:44.010592",
+  "generated_at": "2026-02-15T07:06:49.254979",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-15T07:04:39.830631",
+        "last_updated": "2026-02-15T07:06:45.144191",
         "progress": 0
       },
       {
@@ -223,8 +223,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-15T07:04:00.002000",
-      "nextRun": "2026-02-15T07:06:00",
+      "lastRun": "2026-02-15T07:06:00.001000",
+      "nextRun": "2026-02-15T07:08:00",
       "lastStatus": "ok"
     },
     {
@@ -395,6 +395,6 @@
       "youtube-shorts-content-management",
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-15T07:04:44.033534"
+    "timestamp": "2026-02-15T07:06:49.258759"
   }
 }
