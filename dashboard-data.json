@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-14T15:18:33.616714",
+  "generated_at": "2026-02-14T15:20:39.936205",
   "tasks": {
     "active": [
+      {
+        "id": "investment-briefing-format",
+        "filename": "investment-briefing-format.md",
+        "folder": "active",
+        "title": "투자 브리핑 형식 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1771032484953959",
+        "waiting_for": null,
+        "last_updated": "2026-02-14T15:20:35.956597",
+        "progress": 0
+      },
       {
         "id": "content-pipeline-daily-management",
         "filename": "content-pipeline-daily-management.md",
@@ -79,19 +92,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-13T12:07:22.423786",
         "progress": 75
-      },
-      {
-        "id": "investment-briefing-format",
-        "filename": "investment-briefing-format.md",
-        "folder": "active",
-        "title": "투자 브리핑 포맷 개선",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770947545378459",
-        "waiting_for": null,
-        "last_updated": "2026-02-13T10:55:06.140640",
-        "progress": 0
       },
       {
         "id": "home-prep-before-postpartum",
@@ -223,8 +223,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-14T15:18:00.002000",
-      "nextRun": "2026-02-14T15:20:00",
+      "lastRun": "2026-02-14T15:20:00.004000",
+      "nextRun": "2026-02-14T15:22:00",
       "lastStatus": "ok"
     },
     {
@@ -376,7 +376,6 @@
       "content-pipeline-status-check",
       "coupang-link-selector-fix",
       "baby-name-hanja-analysis",
-      "investment-briefing-format",
       "home-prep-before-postpartum"
     ],
     "aging_48h": [
@@ -384,6 +383,6 @@
       "youtube-shorts-content-management",
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-14T15:18:33.619942"
+    "timestamp": "2026-02-14T15:20:39.939441"
   }
 }
