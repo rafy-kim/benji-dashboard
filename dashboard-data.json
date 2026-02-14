@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-02-14T21:16:52.104444",
+  "generated_at": "2026-02-15T07:04:44.010592",
   "tasks": {
     "active": [
       {
-        "id": "investment-briefing-format",
-        "filename": "investment-briefing-format.md",
+        "id": "chorok-homecoming-checklist",
+        "filename": "chorok-homecoming-checklist.md",
         "folder": "active",
-        "title": "투자 브리핑 형식 개선",
+        "title": "초록이 집 오기 전 체크리스트 🏠🌱",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1771032484953959",
+        "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-14T21:16:48.616482",
+        "last_updated": "2026-02-15T07:04:39.830631",
         "progress": 0
       },
       {
@@ -150,6 +150,19 @@
     "waiting": [],
     "completed": [
       {
+        "id": "investment-briefing-format",
+        "filename": "investment-briefing-format.md",
+        "folder": "completed",
+        "title": "투자 브리핑 형식 개선",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1771032484953959",
+        "waiting_for": null,
+        "last_updated": "2026-02-14T21:16:48.616482",
+        "progress": 0
+      },
+      {
         "id": "ryan-investment",
         "filename": "ryan-investment.md",
         "folder": "completed",
@@ -200,19 +213,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-11T14:30:58.158420",
         "progress": 0
-      },
-      {
-        "id": "book-coupang-link-fix",
-        "filename": "book-coupang-link-fix.md",
-        "folder": "completed",
-        "title": "책 파이프라인 쿠팡 링크 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1770163558122759",
-        "waiting_for": null,
-        "last_updated": "2026-02-11T14:30:58.151597",
-        "progress": 0
       }
     ]
   },
@@ -223,8 +223,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-14T21:16:00",
-      "nextRun": "2026-02-14T21:18:00",
+      "lastRun": "2026-02-15T07:04:00.002000",
+      "nextRun": "2026-02-15T07:06:00",
       "lastStatus": "ok"
     },
     {
@@ -233,8 +233,8 @@
       "schedule": "크론: 0,30 * * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-14T21:00:00.002000",
-      "nextRun": "2026-02-14T21:30:00",
+      "lastRun": "2026-02-15T07:00:00.001000",
+      "nextRun": "2026-02-15T07:30:00",
       "lastStatus": "ok"
     },
     {
@@ -243,28 +243,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-14T21:03:09.291000",
-      "nextRun": "2026-02-14T21:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
-      "enabled": true,
-      "lastRun": "2026-02-14T00:03:44.088000",
-      "nextRun": "2026-02-15T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
-      "name": "안전한 세션 정리 (매주 일요일 04:00)",
-      "schedule": "크론: 0 4 * * 0",
-      "description": "주간 세션 정리 시간!\n\n1. python3 ~/clawd/scripts/safe_session_cleanu...",
-      "enabled": true,
-      "lastRun": "2026-02-08T04:04:18.102000",
-      "nextRun": "2026-02-15T04:00:00",
+      "lastRun": "2026-02-15T07:03:15.299000",
+      "nextRun": "2026-02-15T07:30:00",
       "lastStatus": "ok"
     },
     {
@@ -328,6 +308,16 @@
       "lastStatus": null
     },
     {
+      "id": "2d76268d-7b65-4d0a-9221-15912aed2ec0",
+      "name": "손톱 깎기 리마인더",
+      "schedule": "1회성",
+      "description": "라이언에게 #육아 채널로 손톱 깎기 리마인더 보내기: 초록이 손톱 깎을 시간이에요! 💅🌱",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-15T10:00:00",
+      "lastStatus": null
+    },
+    {
       "id": "421d12cc-2e21-4153-a858-dbd6f838cb13",
       "name": "라이언+라피 몸무게 확인",
       "schedule": "크론: 0 11 * * *",
@@ -356,15 +346,35 @@
       "lastRun": "2026-02-14T18:40:00.014000",
       "nextRun": "2026-02-15T18:40:00",
       "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "enabled": true,
+      "lastRun": "2026-02-15T00:03:23.707000",
+      "nextRun": "2026-02-16T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
+      "name": "안전한 세션 정리 (매주 일요일 04:00)",
+      "schedule": "크론: 0 4 * * 0",
+      "description": "주간 세션 정리 시간!\n\n1. python3 ~/clawd/scripts/safe_session_cleanu...",
+      "enabled": true,
+      "lastRun": "2026-02-15T04:10:00.207000",
+      "nextRun": "2026-02-22T04:00:00",
+      "lastStatus": "ok"
     }
   ],
   "stats": {
-    "total": 103,
+    "total": 104,
     "active": 11,
     "next": 0,
     "waiting": 0,
-    "completed": 92,
-    "cron": 14
+    "completed": 93,
+    "cron": 15
   },
   "flow_metrics": {
     "wip_count": 11,
@@ -373,16 +383,18 @@
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
+      "breastfeeding-info",
+      "newborn-crying-pattern",
       "content-pipeline-status-check",
       "coupang-link-selector-fix",
-      "baby-name-hanja-analysis",
-      "home-prep-before-postpartum"
+      "baby-name-hanja-analysis"
     ],
     "aging_48h": [
+      "home-prep-before-postpartum",
       "youtube-content-automation",
       "youtube-shorts-content-management",
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-14T21:16:52.107584"
+    "timestamp": "2026-02-15T07:04:44.033534"
   }
 }
