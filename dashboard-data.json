@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-02-15T07:06:49.254979",
+  "generated_at": "2026-02-15T15:18:13.297467",
   "tasks": {
     "active": [
+      {
+        "id": "youtube-daily-report-0215",
+        "filename": "youtube-daily-report-0215.md",
+        "folder": "active",
+        "title": "YouTube 콘텐츠 일일 리포트 (2026-02-15)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771125013656049",
+        "waiting_for": null,
+        "last_updated": "2026-02-15T15:18:09.171820",
+        "progress": 50
+      },
+      {
+        "id": "coupang-link-batch-creation",
+        "filename": "coupang-link-batch-creation.md",
+        "folder": "active",
+        "title": "쿠팡 제휴 링크 일괄 생성",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771135620871449",
+        "waiting_for": null,
+        "last_updated": "2026-02-15T15:18:09.168273",
+        "progress": 67
+      },
       {
         "id": "chorok-homecoming-checklist",
         "filename": "chorok-homecoming-checklist.md",
@@ -223,8 +249,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-15T07:06:00.001000",
-      "nextRun": "2026-02-15T07:08:00",
+      "lastRun": "2026-02-15T15:18:00.004000",
+      "nextRun": "2026-02-15T15:20:00",
       "lastStatus": "ok"
     },
     {
@@ -233,8 +259,8 @@
       "schedule": "크론: 0,30 * * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-15T07:00:00.001000",
-      "nextRun": "2026-02-15T07:30:00",
+      "lastRun": "2026-02-15T15:00:00.002000",
+      "nextRun": "2026-02-15T15:30:00",
       "lastStatus": "ok"
     },
     {
@@ -243,98 +269,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-15T07:03:15.299000",
-      "nextRun": "2026-02-15T07:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
-      "name": "책 추천 (매일 08:00)",
-      "schedule": "매일 08:00",
-      "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
-      "enabled": true,
-      "lastRun": "2026-02-14T08:04:34.514000",
-      "nextRun": "2026-02-15T08:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "563b0766-841c-4a59-84f4-dc61d178b248",
-      "name": "모자동실 오전 리마인더",
-      "schedule": "크론: 20 8 * * *",
-      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오전 모자동실 8:40 시작 20분 전이에요! 초록...",
-      "enabled": true,
-      "lastRun": "2026-02-14T08:20:00.012000",
-      "nextRun": "2026-02-15T08:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
-      "name": "투자 포트폴리오 브리핑 (보유 종목 전체)",
-      "schedule": "매일 09:00",
-      "description": "📊 투자 포트폴리오 일일 브리핑!",
-      "enabled": true,
-      "lastRun": "2026-02-14T09:00:00",
-      "nextRun": "2026-02-15T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
-      "name": "Claude 사용량 체크 (매일 09:00)",
-      "schedule": "매일 09:00",
-      "description": "📊 Claude Max 사용량 일일 체크!\n\n1. openclaw 브라우저로 https://claude.ai...",
-      "enabled": true,
-      "lastRun": "2026-02-14T09:07:48.916000",
-      "nextRun": "2026-02-15T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
-      "schedule": "매일 10:00",
-      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
-      "enabled": true,
-      "lastRun": "2026-02-14T10:03:13.976000",
-      "nextRun": "2026-02-15T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "19aef4b6-8348-48d0-8f0c-77090145ab08",
-      "name": "YouTube 일일 리포트",
-      "schedule": "매일 10:00",
-      "description": "📺 YouTube 일일 리포트 시간! knowledge/youtube.md의 '벤지 주도 운영 체계' 섹션을...",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-02-15T10:00:00",
-      "lastStatus": null
-    },
-    {
-      "id": "2d76268d-7b65-4d0a-9221-15912aed2ec0",
-      "name": "손톱 깎기 리마인더",
-      "schedule": "1회성",
-      "description": "라이언에게 #육아 채널로 손톱 깎기 리마인더 보내기: 초록이 손톱 깎을 시간이에요! 💅🌱",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-02-15T10:00:00",
-      "lastStatus": null
-    },
-    {
-      "id": "421d12cc-2e21-4153-a858-dbd6f838cb13",
-      "name": "라이언+라피 몸무게 확인",
-      "schedule": "크론: 0 11 * * *",
-      "description": "몸무게 확인 시간이에요! #육아 채널에 라이언과 라피 오늘 몸무게를 물어보고, data/ryan-weight...",
-      "enabled": true,
-      "lastRun": "2026-02-14T11:04:07.263000",
-      "nextRun": "2026-02-15T11:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "39962d5c-9e28-4e43-b6a2-2134642fd0dd",
-      "name": "유튜브 콘텐츠 매일 자동화 (벤지 루틴)",
-      "schedule": "크론: 0 12 * * *",
-      "description": "[자동 루틴] 오후 12시가 되었습니다. '1분 독서'와 '건강 공식' 채널의 데일리 파이프라인(책/토픽 추...",
-      "enabled": true,
-      "lastRun": "2026-02-14T12:03:15.670000",
-      "nextRun": "2026-02-15T12:00:00",
+      "lastRun": "2026-02-15T15:04:20.931000",
+      "nextRun": "2026-02-15T15:30:00",
       "lastStatus": "ok"
     },
     {
@@ -358,6 +294,86 @@
       "lastStatus": "ok"
     },
     {
+      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
+      "name": "책 추천 (매일 08:00)",
+      "schedule": "매일 08:00",
+      "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
+      "enabled": true,
+      "lastRun": "2026-02-15T08:03:20.153000",
+      "nextRun": "2026-02-16T08:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "563b0766-841c-4a59-84f4-dc61d178b248",
+      "name": "모자동실 오전 리마인더",
+      "schedule": "크론: 20 8 * * *",
+      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오전 모자동실 8:40 시작 20분 전이에요! 초록...",
+      "enabled": true,
+      "lastRun": "2026-02-15T08:20:00.004000",
+      "nextRun": "2026-02-16T08:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
+      "name": "투자 포트폴리오 브리핑 (보유 종목 전체)",
+      "schedule": "매일 09:00",
+      "description": "📊 투자 포트폴리오 일일 브리핑!",
+      "enabled": true,
+      "lastRun": "2026-02-15T09:00:00.002000",
+      "nextRun": "2026-02-16T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
+      "name": "Claude 사용량 체크 (매일 09:00)",
+      "schedule": "매일 09:00",
+      "description": "📊 Claude Max 사용량 일일 체크!\n\n1. openclaw 브라우저로 https://claude.ai...",
+      "enabled": true,
+      "lastRun": "2026-02-15T09:04:24.796000",
+      "nextRun": "2026-02-16T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
+      "name": "산책 조언 (매일 10:00)",
+      "schedule": "매일 10:00",
+      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
+      "enabled": true,
+      "lastRun": "2026-02-15T10:03:14.243000",
+      "nextRun": "2026-02-16T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "19aef4b6-8348-48d0-8f0c-77090145ab08",
+      "name": "YouTube 일일 리포트",
+      "schedule": "매일 10:00",
+      "description": "📺 YouTube 일일 리포트 시간! knowledge/youtube.md의 '벤지 주도 운영 체계' 섹션을...",
+      "enabled": true,
+      "lastRun": "2026-02-15T10:03:51.277000",
+      "nextRun": "2026-02-16T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "421d12cc-2e21-4153-a858-dbd6f838cb13",
+      "name": "라이언+라피 몸무게 확인",
+      "schedule": "크론: 0 11 * * *",
+      "description": "몸무게 확인 시간이에요! #육아 채널에 라이언과 라피 오늘 몸무게를 물어보고, data/ryan-weight...",
+      "enabled": true,
+      "lastRun": "2026-02-15T11:04:22.130000",
+      "nextRun": "2026-02-16T11:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "39962d5c-9e28-4e43-b6a2-2134642fd0dd",
+      "name": "유튜브 콘텐츠 매일 자동화 (벤지 루틴)",
+      "schedule": "크론: 0 12 * * *",
+      "description": "[자동 루틴] 오후 12시가 되었습니다. '1분 독서'와 '건강 공식' 채널의 데일리 파이프라인(책/토픽 추...",
+      "enabled": true,
+      "lastRun": "2026-02-15T12:03:53.633000",
+      "nextRun": "2026-02-16T12:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -369,32 +385,32 @@
     }
   ],
   "stats": {
-    "total": 104,
-    "active": 11,
+    "total": 106,
+    "active": 13,
     "next": 0,
     "waiting": 0,
     "completed": 93,
-    "cron": 15
+    "cron": 14
   },
   "flow_metrics": {
-    "wip_count": 11,
+    "wip_count": 13,
     "wip_limit": 5,
-    "wip_utilization": 220.0,
+    "wip_utilization": 260.0,
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
       "breastfeeding-info",
-      "newborn-crying-pattern",
-      "content-pipeline-status-check",
-      "coupang-link-selector-fix",
-      "baby-name-hanja-analysis"
+      "newborn-crying-pattern"
     ],
     "aging_48h": [
+      "content-pipeline-status-check",
+      "coupang-link-selector-fix",
+      "baby-name-hanja-analysis",
       "home-prep-before-postpartum",
       "youtube-content-automation",
       "youtube-shorts-content-management",
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-15T07:06:49.258759"
+    "timestamp": "2026-02-15T15:18:13.300708"
   }
 }
