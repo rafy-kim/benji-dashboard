@@ -1,7 +1,72 @@
 {
-  "generated_at": "2026-02-15T15:18:13.297467",
+  "generated_at": "2026-02-15T15:48:36.742010",
   "tasks": {
     "active": [
+      {
+        "id": "baby-name-hanja-analysis",
+        "filename": "baby-name-hanja-analysis.md",
+        "folder": "active",
+        "title": "초록이 한자 이름 분석",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770937430875269",
+        "waiting_for": null,
+        "last_updated": "2026-02-15T15:48:32.524938",
+        "progress": 75
+      },
+      {
+        "id": "newborn-crying-pattern",
+        "filename": "newborn-crying-pattern.md",
+        "folder": "active",
+        "title": "신생아 울음 패턴 정보",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771012164524559",
+        "waiting_for": null,
+        "last_updated": "2026-02-15T15:48:32.524573",
+        "progress": 0
+      },
+      {
+        "id": "breastfeeding-info",
+        "filename": "breastfeeding-info.md",
+        "folder": "active",
+        "title": "모유수유 정보",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770979927679539",
+        "waiting_for": null,
+        "last_updated": "2026-02-15T15:48:32.524375",
+        "progress": 0
+      },
+      {
+        "id": "coupang-link-selector-fix",
+        "filename": "coupang-link-selector-fix.md",
+        "folder": "active",
+        "title": "쿠팡 파트너스 링크 스크립트 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-15T15:48:32.524033",
+        "progress": 0
+      },
+      {
+        "id": "content-pipeline-status-check",
+        "filename": "content-pipeline-status-check.md",
+        "folder": "active",
+        "title": "콘텐츠 파이프라인 상태 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770959478055659",
+        "waiting_for": null,
+        "last_updated": "2026-02-15T15:48:32.523170",
+        "progress": 0
+      },
       {
         "id": "youtube-daily-report-0215",
         "filename": "youtube-daily-report-0215.md",
@@ -53,71 +118,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-14T15:18:29.575460",
         "progress": 0
-      },
-      {
-        "id": "breastfeeding-info",
-        "filename": "breastfeeding-info.md",
-        "folder": "active",
-        "title": "모유수유 정보",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770979927679539",
-        "waiting_for": null,
-        "last_updated": "2026-02-14T05:52:20.085581",
-        "progress": 0
-      },
-      {
-        "id": "newborn-crying-pattern",
-        "filename": "newborn-crying-pattern.md",
-        "folder": "active",
-        "title": "신생아 울음 패턴 정보",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771012164524559",
-        "waiting_for": null,
-        "last_updated": "2026-02-14T05:14:21.794249",
-        "progress": 0
-      },
-      {
-        "id": "content-pipeline-status-check",
-        "filename": "content-pipeline-status-check.md",
-        "folder": "active",
-        "title": "콘텐츠 파이프라인 상태 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770959478055659",
-        "waiting_for": null,
-        "last_updated": "2026-02-13T14:19:04.296187",
-        "progress": 0
-      },
-      {
-        "id": "coupang-link-selector-fix",
-        "filename": "coupang-link-selector-fix.md",
-        "folder": "active",
-        "title": "쿠팡 파트너스 링크 스크립트 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-13T12:12:21.178948",
-        "progress": 0
-      },
-      {
-        "id": "baby-name-hanja-analysis",
-        "filename": "baby-name-hanja-analysis.md",
-        "folder": "active",
-        "title": "초록이 한자 이름 분석",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770937430875269",
-        "waiting_for": null,
-        "last_updated": "2026-02-13T12:07:22.423786",
-        "progress": 75
       },
       {
         "id": "home-prep-before-postpartum",
@@ -249,8 +249,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-15T15:18:00.004000",
-      "nextRun": "2026-02-15T15:20:00",
+      "lastRun": "2026-02-15T15:48:00.002000",
+      "nextRun": "2026-02-15T15:50:00",
       "lastStatus": "ok"
     },
     {
@@ -259,8 +259,8 @@
       "schedule": "크론: 0,30 * * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-15T15:00:00.002000",
-      "nextRun": "2026-02-15T15:30:00",
+      "lastRun": "2026-02-15T15:30:00.002000",
+      "nextRun": "2026-02-15T16:00:00",
       "lastStatus": "ok"
     },
     {
@@ -269,8 +269,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-15T15:04:20.931000",
-      "nextRun": "2026-02-15T15:30:00",
+      "lastRun": "2026-02-15T15:32:29.448000",
+      "nextRun": "2026-02-15T16:00:00",
       "lastStatus": "ok"
     },
     {
@@ -399,18 +399,14 @@
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [
-      "breastfeeding-info",
-      "newborn-crying-pattern"
+      "content-pipeline-daily-management"
     ],
     "aging_48h": [
-      "content-pipeline-status-check",
-      "coupang-link-selector-fix",
-      "baby-name-hanja-analysis",
       "home-prep-before-postpartum",
       "youtube-content-automation",
       "youtube-shorts-content-management",
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-15T15:18:13.300708"
+    "timestamp": "2026-02-15T15:48:36.746299"
   }
 }
