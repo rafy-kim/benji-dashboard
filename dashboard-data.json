@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-02-16T17:56:51.462311",
+  "generated_at": "2026-02-16T22:14:24.642600",
   "tasks": {
     "active": [
       {
-        "id": "newborn-crying-pattern",
-        "filename": "newborn-crying-pattern.md",
+        "id": "youtube-shorts-content-management",
+        "filename": "youtube-shorts-content-management.md",
         "folder": "active",
-        "title": "신생아 울음 패턴 정보",
+        "title": "YouTube Shorts 콘텐츠 관리 (1분 독서 + 건강 공식)",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771012164524559",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770859036393679",
         "waiting_for": null,
-        "last_updated": "2026-02-16T17:56:47.347954",
+        "last_updated": "2026-02-16T22:14:20.550126",
         "progress": 0
       },
       {
@@ -42,32 +42,6 @@
         "progress": 67
       },
       {
-        "id": "content-pipeline-status-check",
-        "filename": "content-pipeline-status-check.md",
-        "folder": "active",
-        "title": "콘텐츠 파이프라인 상태 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770959478055659",
-        "waiting_for": null,
-        "last_updated": "2026-02-16T17:56:47.346991",
-        "progress": 0
-      },
-      {
-        "id": "voice-memo-method",
-        "filename": "voice-memo-method.md",
-        "folder": "active",
-        "title": "음성 메모 방법 안내",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1771216958999199",
-        "waiting_for": null,
-        "last_updated": "2026-02-16T16:11:31.796147",
-        "progress": 50
-      },
-      {
         "id": "chorok-homecoming-checklist",
         "filename": "chorok-homecoming-checklist.md",
         "folder": "active",
@@ -79,45 +53,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-16T09:53:43.790173",
         "progress": 0
-      },
-      {
-        "id": "baby-name-hanja-analysis",
-        "filename": "baby-name-hanja-analysis.md",
-        "folder": "active",
-        "title": "초록이 한자 이름 분석",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770937430875269",
-        "waiting_for": null,
-        "last_updated": "2026-02-15T15:48:32.524938",
-        "progress": 75
-      },
-      {
-        "id": "coupang-link-selector-fix",
-        "filename": "coupang-link-selector-fix.md",
-        "folder": "active",
-        "title": "쿠팡 파트너스 링크 스크립트 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-15T15:48:32.524033",
-        "progress": 0
-      },
-      {
-        "id": "youtube-daily-report-0215",
-        "filename": "youtube-daily-report-0215.md",
-        "folder": "active",
-        "title": "YouTube 콘텐츠 일일 리포트 (2026-02-15)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771125013656049",
-        "waiting_for": null,
-        "last_updated": "2026-02-15T15:18:09.171820",
-        "progress": 50
       },
       {
         "id": "content-pipeline-daily-management",
@@ -159,19 +94,6 @@
         "progress": 0
       },
       {
-        "id": "youtube-shorts-content-management",
-        "filename": "youtube-shorts-content-management.md",
-        "folder": "active",
-        "title": "YouTube Shorts 콘텐츠 관리 (1분 독서 + 건강 공식)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770859036393679",
-        "waiting_for": null,
-        "last_updated": "2026-02-12T10:17:43.502778",
-        "progress": 0
-      },
-      {
         "id": "health-topic-keyword",
         "filename": "health-topic-keyword.md",
         "folder": "active",
@@ -189,68 +111,68 @@
     "waiting": [],
     "completed": [
       {
-        "id": "investment-briefing-format",
-        "filename": "investment-briefing-format.md",
+        "id": "newborn-crying-pattern",
+        "filename": "newborn-crying-pattern.md",
         "folder": "completed",
-        "title": "투자 브리핑 형식 개선",
+        "title": "신생아 울음 패턴 정보",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1771032484953959",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771012164524559",
         "waiting_for": null,
-        "last_updated": "2026-02-14T21:16:48.616482",
+        "last_updated": "2026-02-16T17:56:47.347954",
         "progress": 0
       },
       {
-        "id": "ryan-investment",
-        "filename": "ryan-investment.md",
+        "id": "content-pipeline-status-check",
+        "filename": "content-pipeline-status-check.md",
         "folder": "completed",
-        "title": "라이언 투자 분석",
+        "title": "콘텐츠 파이프라인 상태 확인",
         "assignee": "벤지",
-        "status": "🟡 응답 대기",
-        "channel": "(미정)",
-        "thread_link": null,
-        "waiting_for": "라이언/라피",
-        "last_updated": "2026-02-11T14:30:58.174920",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770959478055659",
+        "waiting_for": null,
+        "last_updated": "2026-02-16T17:56:47.346991",
         "progress": 0
       },
       {
-        "id": "investment-briefing-feb6",
-        "filename": "investment-briefing-feb6.md",
+        "id": "voice-memo-method",
+        "filename": "voice-memo-method.md",
         "folder": "completed",
-        "title": "투자 브리핑 (2026-02-06)",
+        "title": "음성 메모 방법 안내",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770336112940559",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1771216958999199",
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:30:58.169904",
-        "progress": 67
+        "last_updated": "2026-02-16T16:11:31.796147",
+        "progress": 50
       },
       {
-        "id": "investment-briefing-feb4",
-        "filename": "investment-briefing-feb4.md",
+        "id": "baby-name-hanja-analysis",
+        "filename": "baby-name-hanja-analysis.md",
         "folder": "completed",
-        "title": "투자 브리핑 (2026-02-04)",
+        "title": "초록이 한자 이름 분석",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1770163296004649",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770937430875269",
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:30:58.164560",
+        "last_updated": "2026-02-15T15:48:32.524938",
         "progress": 75
       },
       {
-        "id": "coupang-link-automation-fix",
-        "filename": "coupang-link-automation-fix.md",
+        "id": "coupang-link-selector-fix",
+        "filename": "coupang-link-selector-fix.md",
         "folder": "completed",
-        "title": "쿠팡 파트너스 링크 자동 생성 이슈 해결",
+        "title": "쿠팡 파트너스 링크 스크립트 수정",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-11T14:30:58.158420",
+        "last_updated": "2026-02-15T15:48:32.524033",
         "progress": 0
       }
     ]
@@ -262,8 +184,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-16T17:56:00.004000",
-      "nextRun": "2026-02-16T17:58:00",
+      "lastRun": "2026-02-16T22:14:00.002000",
+      "nextRun": "2026-02-16T22:16:00",
       "lastStatus": "ok"
     },
     {
@@ -272,8 +194,8 @@
       "schedule": "크론: 0,30 * * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-16T17:30:00.005000",
-      "nextRun": "2026-02-16T18:00:00",
+      "lastRun": "2026-02-16T22:00:00.002000",
+      "nextRun": "2026-02-16T22:30:00",
       "lastStatus": "ok"
     },
     {
@@ -282,29 +204,19 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-16T17:33:18.603000",
-      "nextRun": "2026-02-16T18:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
-      "name": "모자동실 오후 리마인더",
-      "schedule": "크론: 40 18 * * *",
-      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
-      "enabled": true,
-      "lastRun": "2026-02-15T18:40:00.013000",
-      "nextRun": "2026-02-16T18:40:00",
+      "lastRun": "2026-02-16T22:03:06.022000",
+      "nextRun": "2026-02-16T22:30:00",
       "lastStatus": "ok"
     },
     {
       "id": "abcf656b-408c-40ed-bf22-846a0e92ca49",
       "name": "수유 통계 리포트",
-      "schedule": "크론: 0 22 * * *",
+      "schedule": "크론: 0 23 * * *",
       "description": "🍼 수유 통계 리포트 시간! python3 /Users/benji/clawd/scripts/feeding_s...",
       "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-02-16T22:00:00",
-      "lastStatus": null
+      "lastRun": "2026-02-16T22:03:20.382000",
+      "nextRun": "2026-02-16T23:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
@@ -397,6 +309,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
+      "name": "모자동실 오후 리마인더",
+      "schedule": "크론: 40 18 * * *",
+      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
+      "enabled": true,
+      "lastRun": "2026-02-16T18:40:00.015000",
+      "nextRun": "2026-02-17T18:40:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -409,30 +331,25 @@
   ],
   "stats": {
     "total": 107,
-    "active": 14,
+    "active": 8,
     "next": 0,
     "waiting": 0,
-    "completed": 93,
+    "completed": 99,
     "cron": 15
   },
   "flow_metrics": {
-    "wip_count": 14,
+    "wip_count": 8,
     "wip_limit": 5,
-    "wip_utilization": 280.0,
+    "wip_utilization": 160.0,
     "waiting_count": 0,
-    "completed_today": 0,
-    "aging_24h": [
-      "baby-name-hanja-analysis",
-      "coupang-link-selector-fix",
-      "youtube-daily-report-0215"
-    ],
+    "completed_today": 3,
+    "aging_24h": [],
     "aging_48h": [
       "content-pipeline-daily-management",
       "home-prep-before-postpartum",
       "youtube-content-automation",
-      "youtube-shorts-content-management",
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-16T17:56:51.465544"
+    "timestamp": "2026-02-16T22:14:24.646256"
   }
 }
