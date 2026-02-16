@@ -1,7 +1,59 @@
 {
-  "generated_at": "2026-02-16T16:11:35.949147",
+  "generated_at": "2026-02-16T17:56:51.462311",
   "tasks": {
     "active": [
+      {
+        "id": "newborn-crying-pattern",
+        "filename": "newborn-crying-pattern.md",
+        "folder": "active",
+        "title": "신생아 울음 패턴 정보",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771012164524559",
+        "waiting_for": null,
+        "last_updated": "2026-02-16T17:56:47.347954",
+        "progress": 0
+      },
+      {
+        "id": "breastfeeding-info",
+        "filename": "breastfeeding-info.md",
+        "folder": "active",
+        "title": "모유수유 정보",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770979927679539",
+        "waiting_for": null,
+        "last_updated": "2026-02-16T17:56:47.347726",
+        "progress": 0
+      },
+      {
+        "id": "coupang-link-batch-creation",
+        "filename": "coupang-link-batch-creation.md",
+        "folder": "active",
+        "title": "쿠팡 제휴 링크 일괄 생성",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771135620871449",
+        "waiting_for": null,
+        "last_updated": "2026-02-16T17:56:47.347312",
+        "progress": 67
+      },
+      {
+        "id": "content-pipeline-status-check",
+        "filename": "content-pipeline-status-check.md",
+        "folder": "active",
+        "title": "콘텐츠 파이프라인 상태 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770959478055659",
+        "waiting_for": null,
+        "last_updated": "2026-02-16T17:56:47.346991",
+        "progress": 0
+      },
       {
         "id": "voice-memo-method",
         "filename": "voice-memo-method.md",
@@ -42,32 +94,6 @@
         "progress": 75
       },
       {
-        "id": "newborn-crying-pattern",
-        "filename": "newborn-crying-pattern.md",
-        "folder": "active",
-        "title": "신생아 울음 패턴 정보",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771012164524559",
-        "waiting_for": null,
-        "last_updated": "2026-02-15T15:48:32.524573",
-        "progress": 0
-      },
-      {
-        "id": "breastfeeding-info",
-        "filename": "breastfeeding-info.md",
-        "folder": "active",
-        "title": "모유수유 정보",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770979927679539",
-        "waiting_for": null,
-        "last_updated": "2026-02-15T15:48:32.524375",
-        "progress": 0
-      },
-      {
         "id": "coupang-link-selector-fix",
         "filename": "coupang-link-selector-fix.md",
         "folder": "active",
@@ -78,19 +104,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-02-15T15:48:32.524033",
-        "progress": 0
-      },
-      {
-        "id": "content-pipeline-status-check",
-        "filename": "content-pipeline-status-check.md",
-        "folder": "active",
-        "title": "콘텐츠 파이프라인 상태 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770959478055659",
-        "waiting_for": null,
-        "last_updated": "2026-02-15T15:48:32.523170",
         "progress": 0
       },
       {
@@ -105,19 +118,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-15T15:18:09.171820",
         "progress": 50
-      },
-      {
-        "id": "coupang-link-batch-creation",
-        "filename": "coupang-link-batch-creation.md",
-        "folder": "active",
-        "title": "쿠팡 제휴 링크 일괄 생성",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771135620871449",
-        "waiting_for": null,
-        "last_updated": "2026-02-15T15:18:09.168273",
-        "progress": 67
       },
       {
         "id": "content-pipeline-daily-management",
@@ -262,8 +262,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-16T16:10:00.002000",
-      "nextRun": "2026-02-16T16:12:00",
+      "lastRun": "2026-02-16T17:56:00.004000",
+      "nextRun": "2026-02-16T17:58:00",
       "lastStatus": "ok"
     },
     {
@@ -272,8 +272,8 @@
       "schedule": "크론: 0,30 * * * *",
       "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": "2026-02-16T16:00:00.003000",
-      "nextRun": "2026-02-16T16:30:00",
+      "lastRun": "2026-02-16T17:30:00.005000",
+      "nextRun": "2026-02-16T18:00:00",
       "lastStatus": "ok"
     },
     {
@@ -282,8 +282,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-16T16:03:28.286000",
-      "nextRun": "2026-02-16T16:30:00",
+      "lastRun": "2026-02-16T17:33:18.603000",
+      "nextRun": "2026-02-16T18:00:00",
       "lastStatus": "ok"
     },
     {
@@ -423,12 +423,8 @@
     "completed_today": 0,
     "aging_24h": [
       "baby-name-hanja-analysis",
-      "newborn-crying-pattern",
-      "breastfeeding-info",
       "coupang-link-selector-fix",
-      "content-pipeline-status-check",
-      "youtube-daily-report-0215",
-      "coupang-link-batch-creation"
+      "youtube-daily-report-0215"
     ],
     "aging_48h": [
       "content-pipeline-daily-management",
@@ -437,6 +433,6 @@
       "youtube-shorts-content-management",
       "health-topic-keyword"
     ],
-    "timestamp": "2026-02-16T16:11:35.952492"
+    "timestamp": "2026-02-16T17:56:51.465544"
   }
 }
