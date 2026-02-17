@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-17T12:08:19.697203",
+  "generated_at": "2026-02-17T18:29:59.963762",
   "tasks": {
     "active": [
+      {
+        "id": "thread-context-loss-fix",
+        "filename": "thread-context-loss-fix.md",
+        "folder": "active",
+        "title": "스레드 맥락 손실 문제 해결",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771310538203559",
+        "waiting_for": null,
+        "last_updated": "2026-02-17T18:29:55.860213",
+        "progress": 33
+      },
       {
         "id": "coupang-partners-automation-fix",
         "filename": "coupang-partners-automation-fix.md",
@@ -158,8 +171,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-17T12:02:47.175000",
-      "nextRun": "2026-02-17T12:04:00",
+      "lastRun": "2026-02-17T18:28:00.003000",
+      "nextRun": "2026-02-17T18:30:00",
       "lastStatus": "ok"
     },
     {
@@ -168,18 +181,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-17T12:02:47.175000",
-      "nextRun": "2026-02-17T12:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (낮 매 시간)",
-      "schedule": "크론: 0 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-17T12:00:00.003000",
-      "nextRun": "2026-02-17T13:00:00",
+      "lastRun": "2026-02-17T18:03:29.785000",
+      "nextRun": "2026-02-17T18:30:00",
       "lastStatus": "ok"
     },
     {
@@ -190,6 +193,16 @@
       "enabled": true,
       "lastRun": "2026-02-16T18:40:00.015000",
       "nextRun": "2026-02-17T18:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (낮 매 시간)",
+      "schedule": "크론: 0 9-21 * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
+      "enabled": true,
+      "lastRun": "2026-02-17T18:00:00.002000",
+      "nextRun": "2026-02-17T19:00:00",
       "lastStatus": "ok"
     },
     {
@@ -324,25 +337,26 @@
     }
   ],
   "stats": {
-    "total": 111,
-    "active": 6,
+    "total": 112,
+    "active": 7,
     "next": 0,
     "waiting": 0,
     "completed": 105,
     "cron": 17
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 7,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 140.0,
     "waiting_count": 0,
     "completed_today": 2,
     "aging_24h": [
+      "coupang-link-batch-creation",
       "chorok-homecoming-checklist"
     ],
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-17T12:08:19.734302"
+    "timestamp": "2026-02-17T18:29:59.982582"
   }
 }
