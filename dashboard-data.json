@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-17T18:29:59.963762",
+  "generated_at": "2026-02-17T22:52:56.632166",
   "tasks": {
     "active": [
+      {
+        "id": "benji-youtube-channel-project",
+        "filename": "benji-youtube-channel-project.md",
+        "folder": "active",
+        "title": "벤지 YouTube 채널 프로젝트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-17T22:52:52.530265",
+        "progress": 0
+      },
       {
         "id": "thread-context-loss-fix",
         "filename": "thread-context-loss-fix.md",
@@ -171,8 +184,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-17T18:28:00.003000",
-      "nextRun": "2026-02-17T18:30:00",
+      "lastRun": "2026-02-17T22:52:00.003000",
+      "nextRun": "2026-02-17T22:54:00",
       "lastStatus": "ok"
     },
     {
@@ -181,28 +194,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-17T18:03:29.785000",
-      "nextRun": "2026-02-17T18:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
-      "name": "모자동실 오후 리마인더",
-      "schedule": "크론: 40 18 * * *",
-      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
-      "enabled": true,
-      "lastRun": "2026-02-16T18:40:00.015000",
-      "nextRun": "2026-02-17T18:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (낮 매 시간)",
-      "schedule": "크론: 0 9-21 * * *",
-      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
-      "enabled": true,
-      "lastRun": "2026-02-17T18:00:00.002000",
-      "nextRun": "2026-02-17T19:00:00",
+      "lastRun": "2026-02-17T22:30:00.011000",
+      "nextRun": "2026-02-17T23:00:00",
       "lastStatus": "ok"
     },
     {
@@ -236,6 +229,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "05fa5589-1f3b-4ff9-817f-dd41495af512",
+      "name": "세션 정기 정리",
+      "schedule": "크론: 0 4 * * *",
+      "description": "🧹 새벽 정기 세션 정리 시간입니다. python3 scripts/safe_session_cleanup.py...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-18T04:00:00",
+      "lastStatus": null
+    },
+    {
       "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
       "name": "책 추천 (매일 08:00)",
       "schedule": "매일 08:00",
@@ -262,6 +265,16 @@
       "description": "📊 투자 포트폴리오 일일 브리핑!",
       "enabled": true,
       "lastRun": "2026-02-17T09:00:00.001000",
+      "nextRun": "2026-02-18T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (낮 매 시간)",
+      "schedule": "크론: 0 9-21 * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-02-17T21:00:00.004000",
       "nextRun": "2026-02-18T09:00:00",
       "lastStatus": "ok"
     },
@@ -306,6 +319,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
+      "name": "모자동실 오후 리마인더",
+      "schedule": "크론: 40 18 * * *",
+      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
+      "enabled": true,
+      "lastRun": "2026-02-17T18:40:00.015000",
+      "nextRun": "2026-02-18T18:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
+      "name": "벤지 YouTube 채널 일일 리포트",
+      "schedule": "크론: 0 21 * * *",
+      "description": "📺 벤지 YouTube 채널 일일 리포트 시간!",
+      "enabled": true,
+      "lastRun": "2026-02-17T21:03:40.124000",
+      "nextRun": "2026-02-18T21:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -337,26 +370,27 @@
     }
   ],
   "stats": {
-    "total": 112,
-    "active": 7,
+    "total": 113,
+    "active": 8,
     "next": 0,
     "waiting": 0,
     "completed": 105,
-    "cron": 17
+    "cron": 19
   },
   "flow_metrics": {
-    "wip_count": 7,
+    "wip_count": 8,
     "wip_limit": 5,
-    "wip_utilization": 140.0,
+    "wip_utilization": 160.0,
     "waiting_count": 0,
     "completed_today": 2,
     "aging_24h": [
+      "youtube-shorts-content-management",
       "coupang-link-batch-creation",
       "chorok-homecoming-checklist"
     ],
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-17T18:29:59.982582"
+    "timestamp": "2026-02-17T22:52:56.635906"
   }
 }
