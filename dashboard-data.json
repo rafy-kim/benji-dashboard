@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-17T22:52:56.632166",
+  "generated_at": "2026-02-18T00:38:49.674373",
   "tasks": {
     "active": [
+      {
+        "id": "benji-youtube-channel-new",
+        "filename": "benji-youtube-channel-new.md",
+        "folder": "active",
+        "title": "벤지 YouTube 채널 신규 런칭",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771321406203849",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T00:38:45.539953",
+        "progress": 0
+      },
       {
         "id": "benji-youtube-channel-project",
         "filename": "benji-youtube-channel-project.md",
@@ -184,8 +197,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": "2026-02-17T22:52:00.003000",
-      "nextRun": "2026-02-17T22:54:00",
+      "lastRun": "2026-02-18T00:38:00.001000",
+      "nextRun": "2026-02-18T00:40:00",
       "lastStatus": "ok"
     },
     {
@@ -194,28 +207,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-17T22:30:00.011000",
-      "nextRun": "2026-02-17T23:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "abcf656b-408c-40ed-bf22-846a0e92ca49",
-      "name": "수유 통계 리포트",
-      "schedule": "크론: 0 23 * * *",
-      "description": "🍼 수유 통계 리포트 시간! python3 /Users/benji/clawd/scripts/feeding_s...",
-      "enabled": true,
-      "lastRun": "2026-02-16T23:04:03.699000",
-      "nextRun": "2026-02-17T23:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
-      "enabled": true,
-      "lastRun": "2026-02-17T00:03:15.030000",
-      "nextRun": "2026-02-18T00:00:00",
+      "lastRun": "2026-02-18T00:30:00.010000",
+      "nextRun": "2026-02-18T01:00:00",
       "lastStatus": "ok"
     },
     {
@@ -339,6 +332,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "abcf656b-408c-40ed-bf22-846a0e92ca49",
+      "name": "수유 통계 리포트",
+      "schedule": "크론: 0 23 * * *",
+      "description": "🍼 수유 통계 리포트 시간! python3 /Users/benji/clawd/scripts/feeding_s...",
+      "enabled": true,
+      "lastRun": "2026-02-17T23:00:29.226000",
+      "nextRun": "2026-02-18T23:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "enabled": true,
+      "lastRun": "2026-02-18T00:00:00.009000",
+      "nextRun": "2026-02-19T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -370,19 +383,19 @@
     }
   ],
   "stats": {
-    "total": 113,
-    "active": 8,
+    "total": 114,
+    "active": 9,
     "next": 0,
     "waiting": 0,
     "completed": 105,
     "cron": 19
   },
   "flow_metrics": {
-    "wip_count": 8,
+    "wip_count": 9,
     "wip_limit": 5,
-    "wip_utilization": 160.0,
+    "wip_utilization": 180.0,
     "waiting_count": 0,
-    "completed_today": 2,
+    "completed_today": 0,
     "aging_24h": [
       "youtube-shorts-content-management",
       "coupang-link-batch-creation",
@@ -391,6 +404,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-17T22:52:56.635906"
+    "timestamp": "2026-02-18T00:38:49.677767"
   }
 }
