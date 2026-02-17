@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-17T09:05:18.937766",
+  "generated_at": "2026-02-17T09:22:56.715117",
   "tasks": {
     "active": [
+      {
+        "id": "valleytown-portfolio-update",
+        "filename": "valleytown-portfolio-update.md",
+        "folder": "active",
+        "title": "밸리타운 포트폴리오 종목 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ABQGG7RT5/p1771286639077559",
+        "waiting_for": null,
+        "last_updated": "2026-02-17T09:22:52.578318",
+        "progress": 0
+      },
       {
         "id": "feeding-stats-auto-complete",
         "filename": "feeding-stats-auto-complete.md",
@@ -153,84 +166,194 @@
   },
   "cron": [
     {
-      "id": "heartbeat",
-      "name": "🫀 하트비트 체크",
-      "schedule": "2분마다",
-      "description": "작업 카드 자동 생성, 데드락 감지, 스레드 이사 체크",
+      "id": "400cbf56-691c-483f-833d-95e49b90f5cc",
+      "name": "벤지 데드락 모니터링",
+      "schedule": "크론: */2 * * * *",
+      "description": "하트비트 체크!\n\n**실행 순서:**\n\n0. **학습 스케줄 자동 조정 (최우선)**\n   - session...",
       "enabled": true,
-      "lastRun": null,
-      "nextRun": null,
-      "lastStatus": "OK"
+      "lastRun": "2026-02-17T09:22:00.087000",
+      "nextRun": "2026-02-17T09:24:00",
+      "lastStatus": "ok"
     },
     {
-      "id": "learning-day",
-      "name": "📚 벤지 낮 학습",
-      "schedule": "09:00-21:00 매 30분",
-      "description": "성장에 필요한 주제를 직접 선정하여 깊이 있게 학습",
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": null,
-      "nextRun": null,
-      "lastStatus": "OK"
+      "lastRun": "2026-02-17T09:04:36.984000",
+      "nextRun": "2026-02-17T09:30:00",
+      "lastStatus": "ok"
     },
     {
-      "id": "learning-night",
-      "name": "🌙 벤지 심야 학습",
-      "schedule": "21:00-09:00 매 20분",
-      "description": "심야 시간대 자기주도 학습 (라피 휴식 시간 활용)",
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (낮 매 시간)",
+      "schedule": "크론: 0 9-21 * * *",
+      "description": "자기학습 시간! 현재 진행 중인 긴급 작업이 없다면: 1) 성장에 필요한 주제를 직접 선정 (이전 학습과 중...",
       "enabled": true,
-      "lastRun": null,
-      "nextRun": null,
-      "lastStatus": "OK"
+      "lastRun": "2026-02-17T09:02:06.697000",
+      "nextRun": "2026-02-17T10:00:00",
+      "lastStatus": "ok"
     },
     {
-      "id": "daily-book",
-      "name": "📖 일일 도서 추천",
-      "schedule": "매일 08:00",
-      "description": "새로운 책 추천 및 스크립트 생성",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": null,
-      "lastStatus": "OK"
-    },
-    {
-      "id": "investment-brief",
-      "name": "📊 투자 브리핑",
-      "schedule": "매일 09:00",
-      "description": "거장 매매 데이터 및 종목 분석",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": null,
-      "lastStatus": "OK"
-    },
-    {
-      "id": "weather-morning",
-      "name": "🌤️ 산책 조언",
+      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
+      "name": "산책 조언 (매일 10:00)",
       "schedule": "매일 10:00",
-      "description": "오늘 날씨 및 산책 조언",
+      "description": "python3 /Users/benji/clawd/scripts/walking_advice.py 실행 후 결과...",
+      "enabled": true,
+      "lastRun": "2026-02-16T10:02:34.298000",
+      "nextRun": "2026-02-17T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "421d12cc-2e21-4153-a858-dbd6f838cb13",
+      "name": "라이언+라피 몸무게 확인",
+      "schedule": "크론: 0 11 * * *",
+      "description": "몸무게 확인 시간이에요! #육아 채널에 라이언과 라피 오늘 몸무게를 물어보고, data/ryan-weight...",
+      "enabled": true,
+      "lastRun": "2026-02-16T11:04:14.555000",
+      "nextRun": "2026-02-17T11:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "39962d5c-9e28-4e43-b6a2-2134642fd0dd",
+      "name": "유튜브 콘텐츠 매일 자동화 (벤지 루틴)",
+      "schedule": "크론: 0 12 * * *",
+      "description": "[자동 루틴] 오후 12시가 되었습니다. '1분 독서'와 '건강 공식' 채널의 데일리 파이프라인을 실행해줘.",
+      "enabled": true,
+      "lastRun": "2026-02-16T12:03:49.513000",
+      "nextRun": "2026-02-17T12:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
+      "name": "모자동실 오후 리마인더",
+      "schedule": "크론: 40 18 * * *",
+      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
+      "enabled": true,
+      "lastRun": "2026-02-16T18:40:00.015000",
+      "nextRun": "2026-02-17T18:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "abcf656b-408c-40ed-bf22-846a0e92ca49",
+      "name": "수유 통계 리포트",
+      "schedule": "크론: 0 23 * * *",
+      "description": "🍼 수유 통계 리포트 시간! python3 /Users/benji/clawd/scripts/feeding_s...",
+      "enabled": true,
+      "lastRun": "2026-02-16T23:04:03.699000",
+      "nextRun": "2026-02-17T23:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "~/clawd/scripts/backup-clawdbot.sh 스크립트를 실행해줘. 결과를 #벤지-자기계발에...",
+      "enabled": true,
+      "lastRun": "2026-02-17T00:03:15.030000",
+      "nextRun": "2026-02-18T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "244a91a7-0bf6-406b-be8c-eb7ab5848144",
+      "name": "세션 정리 (매일 03:00)",
+      "schedule": "크론: 0 3 * * *",
+      "description": "🧹 매일 세션 정리!",
+      "enabled": true,
+      "lastRun": "2026-02-17T03:03:50.366000",
+      "nextRun": "2026-02-18T03:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "cd52fdd0-5c8a-438a-9652-a956d462a546",
+      "name": "책 추천 (매일 08:00)",
+      "schedule": "매일 08:00",
+      "description": "python3 /Users/benji/clawd/shorts/scripts/daily_book_pipelin...",
+      "enabled": true,
+      "lastRun": "2026-02-17T08:03:30.074000",
+      "nextRun": "2026-02-18T08:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "563b0766-841c-4a59-84f4-dc61d178b248",
+      "name": "모자동실 오전 리마인더",
+      "schedule": "크론: 20 8 * * *",
+      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오전 모자동실 8:40 시작 20분 전이에요! 초록...",
+      "enabled": true,
+      "lastRun": "2026-02-17T08:20:00.012000",
+      "nextRun": "2026-02-18T08:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "daf768a9-120d-4b19-9fdc-0bf0661c3d53",
+      "name": "투자 포트폴리오 브리핑 (보유 종목 전체)",
+      "schedule": "매일 09:00",
+      "description": "📊 투자 포트폴리오 일일 브리핑!",
+      "enabled": true,
+      "lastRun": "2026-02-17T09:00:00.001000",
+      "nextRun": "2026-02-18T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
+      "name": "Claude 사용량 체크 (매일 09:00)",
+      "schedule": "매일 09:00",
+      "description": "📊 Claude Max 사용량 일일 체크!\n\n1. openclaw 브라우저로 https://claude.ai...",
+      "enabled": true,
+      "lastRun": "2026-02-17T09:05:22.975000",
+      "nextRun": "2026-02-18T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
+      "name": "안전한 세션 정리 (매주 일요일 04:00)",
+      "schedule": "크론: 0 4 * * 0",
+      "description": "주간 세션 정리 시간!\n\n1. python3 ~/clawd/scripts/safe_session_cleanu...",
+      "enabled": true,
+      "lastRun": "2026-02-15T04:10:00.207000",
+      "nextRun": "2026-02-22T04:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "db95f2f3-892a-4ea4-be2f-6067eebff287",
+      "name": "초록이 BCG 예약 리마인더",
+      "schedule": "1회성",
+      "description": "🍼 리마인더: 초록이 BCG 예약 시기예요! 생후 3~4주(3/1~3/8)에 BCG 피내법 접종해야 해요. ...",
       "enabled": true,
       "lastRun": null,
-      "nextRun": null,
-      "lastStatus": "OK"
+      "nextRun": "2026-02-25T17:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "9f26f647-689b-444c-a60e-f9a57c5a6695",
+      "name": "초록이 BCG 예약 리마인더",
+      "schedule": "1회성",
+      "description": "🍼 리마인더: 초록이 BCG 예약 시기예요! 생후 3~4주(3/1~3/8)에 BCG 피내법 접종해야 해요. ...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-02-25T17:00:00",
+      "lastStatus": null
     }
   ],
   "stats": {
-    "total": 109,
-    "active": 6,
+    "total": 110,
+    "active": 7,
     "next": 0,
     "waiting": 0,
     "completed": 103,
-    "cron": 6
+    "cron": 17
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 7,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 140.0,
     "waiting_count": 0,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-17T09:05:18.945377"
+    "timestamp": "2026-02-17T09:22:56.718450"
   }
 }
