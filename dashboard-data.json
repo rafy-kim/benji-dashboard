@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-18T19:10:51.501498",
+  "generated_at": "2026-02-18T19:17:27.276581",
   "tasks": {
     "active": [
-      {
-        "id": "heartbeat-sonnet-switch-thread",
-        "filename": "heartbeat-sonnet-switch-thread.md",
-        "folder": "active",
-        "title": "하트비트 소넷 전환",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
-        "waiting_for": null,
-        "last_updated": "2026-02-18T19:10:47.453624",
-        "progress": 100
-      },
       {
         "id": "chorok-homecoming-checklist",
         "filename": "chorok-homecoming-checklist.md",
@@ -137,6 +124,32 @@
     "waiting": [],
     "completed": [
       {
+        "id": "heartbeat-sonnet-migration",
+        "filename": "heartbeat-sonnet-migration.md",
+        "folder": "completed",
+        "title": "하트비트 크론 소넷 모델 전환",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T19:17:23.219209",
+        "progress": 100
+      },
+      {
+        "id": "heartbeat-sonnet-switch-thread",
+        "filename": "heartbeat-sonnet-switch-thread.md",
+        "folder": "completed",
+        "title": "하트비트 소넷 전환",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T19:10:47.453624",
+        "progress": 100
+      },
+      {
         "id": "heartbeat-sonnet-switch",
         "filename": "heartbeat-sonnet-switch.md",
         "folder": "completed",
@@ -174,32 +187,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-18T18:54:31.644372",
         "progress": 100
-      },
-      {
-        "id": "multi-model-routing-sonnet",
-        "filename": "multi-model-routing-sonnet.md",
-        "folder": "completed",
-        "title": "Multi-Model Routing & 하트비트 소넷 전환",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
-        "waiting_for": null,
-        "last_updated": "2026-02-18T18:50:42.443884",
-        "progress": 75
-      },
-      {
-        "id": "heartbeat-sonnet-switch-multimodel",
-        "filename": "heartbeat-sonnet-switch-multimodel.md",
-        "folder": "completed",
-        "title": "하트비트 소넷 전환 & Multi-Model Routing 학습",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
-        "waiting_for": null,
-        "last_updated": "2026-02-18T18:43:24.003279",
-        "progress": 100
       }
     ]
   },
@@ -210,8 +197,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-18T19:08:00.015000",
-      "nextRun": "2026-02-18T19:10:00",
+      "lastRun": "2026-02-18T19:14:00.016000",
+      "nextRun": "2026-02-18T19:16:00",
       "lastStatus": "ok"
     },
     {
@@ -406,17 +393,17 @@
     }
   ],
   "stats": {
-    "total": 121,
-    "active": 10,
+    "total": 122,
+    "active": 9,
     "next": 0,
     "waiting": 0,
-    "completed": 111,
+    "completed": 113,
     "cron": 20
   },
   "flow_metrics": {
-    "wip_count": 10,
+    "wip_count": 9,
     "wip_limit": 5,
-    "wip_utilization": 200.0,
+    "wip_utilization": 180.0,
     "waiting_count": 0,
     "completed_today": 5,
     "aging_24h": [
@@ -429,6 +416,6 @@
       "coupang-link-batch-creation",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-18T19:10:51.505228"
+    "timestamp": "2026-02-18T19:17:27.280267"
   }
 }
