@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-18T18:37:20.666218",
+  "generated_at": "2026-02-18T18:43:28.144234",
   "tasks": {
     "active": [
-      {
-        "id": "multi-model-routing-learning",
-        "filename": "multi-model-routing-learning.md",
-        "folder": "active",
-        "title": "자기학습: Multi-Model Routing & OpenRouter/LiteLLM 통합",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
-        "waiting_for": null,
-        "last_updated": "2026-02-18T18:37:16.547460",
-        "progress": 100
-      },
       {
         "id": "chorok-homecoming-checklist",
         "filename": "chorok-homecoming-checklist.md",
@@ -137,6 +124,32 @@
     "waiting": [],
     "completed": [
       {
+        "id": "heartbeat-sonnet-switch-multimodel",
+        "filename": "heartbeat-sonnet-switch-multimodel.md",
+        "folder": "completed",
+        "title": "하트비트 소넷 전환 & Multi-Model Routing 학습",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T18:43:24.003279",
+        "progress": 100
+      },
+      {
+        "id": "multi-model-routing-learning",
+        "filename": "multi-model-routing-learning.md",
+        "folder": "completed",
+        "title": "자기학습: Multi-Model Routing & OpenRouter/LiteLLM 통합",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T18:37:16.547460",
+        "progress": 100
+      },
+      {
         "id": "heartbeat-sonnet-model-switch",
         "filename": "heartbeat-sonnet-model-switch.md",
         "folder": "completed",
@@ -174,32 +187,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-17T09:28:21.847731",
         "progress": 100
-      },
-      {
-        "id": "newborn-crying-pattern",
-        "filename": "newborn-crying-pattern.md",
-        "folder": "completed",
-        "title": "신생아 울음 패턴 정보",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771012164524559",
-        "waiting_for": null,
-        "last_updated": "2026-02-16T17:56:47.347954",
-        "progress": 0
-      },
-      {
-        "id": "breastfeeding-info",
-        "filename": "breastfeeding-info.md",
-        "folder": "completed",
-        "title": "모유수유 정보",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770979927679539",
-        "waiting_for": null,
-        "last_updated": "2026-02-16T17:56:47.347726",
-        "progress": 0
       }
     ]
   },
@@ -210,18 +197,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-18T18:36:00.015000",
-      "nextRun": "2026-02-18T18:38:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
-      "name": "모자동실 오후 리마인더",
-      "schedule": "크론: 40 18 * * *",
-      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
-      "enabled": true,
-      "lastRun": "2026-02-17T18:40:00.015000",
-      "nextRun": "2026-02-18T18:40:00",
+      "lastRun": "2026-02-18T18:40:00.014000",
+      "nextRun": "2026-02-18T18:42:00",
       "lastStatus": "ok"
     },
     {
@@ -375,6 +352,16 @@
       "lastStatus": "error"
     },
     {
+      "id": "07a6607b-3360-492b-884f-2cd0f976a4a7",
+      "name": "모자동실 오후 리마인더",
+      "schedule": "크론: 40 18 * * *",
+      "description": "🍼 모자동실 20분 전 알림! 라이언에게 #육아 채널로 '오후 모자동실 7:00 시작 20분 전이에요! 초록...",
+      "enabled": true,
+      "lastRun": "2026-02-18T18:40:54.240000",
+      "nextRun": "2026-02-19T18:40:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -406,19 +393,19 @@
     }
   ],
   "stats": {
-    "total": 116,
-    "active": 10,
+    "total": 117,
+    "active": 9,
     "next": 0,
     "waiting": 0,
-    "completed": 106,
+    "completed": 108,
     "cron": 20
   },
   "flow_metrics": {
-    "wip_count": 10,
+    "wip_count": 9,
     "wip_limit": 5,
-    "wip_utilization": 200.0,
+    "wip_utilization": 180.0,
     "waiting_count": 0,
-    "completed_today": 1,
+    "completed_today": 3,
     "aging_24h": [
       "thread-context-loss-fix",
       "coupang-partners-automation-fix",
@@ -429,6 +416,6 @@
       "coupang-link-batch-creation",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-18T18:37:20.669913"
+    "timestamp": "2026-02-18T18:43:28.148098"
   }
 }
