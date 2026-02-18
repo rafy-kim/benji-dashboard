@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-18T19:26:39.015388",
+  "generated_at": "2026-02-18T19:29:07.452392",
   "tasks": {
     "active": [
       {
@@ -124,6 +124,19 @@
     "waiting": [],
     "completed": [
       {
+        "id": "heartbeat-sonnet-migration",
+        "filename": "heartbeat-sonnet-migration.md",
+        "folder": "completed",
+        "title": "하트비트 소넷 전환",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T19:29:03.311602",
+        "progress": 100
+      },
+      {
         "id": "self-learning-multi-model-routing",
         "filename": "self-learning-multi-model-routing.md",
         "folder": "completed",
@@ -147,19 +160,6 @@
         "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
         "waiting_for": null,
         "last_updated": "2026-02-18T19:22:30.361490",
-        "progress": 100
-      },
-      {
-        "id": "heartbeat-sonnet-migration",
-        "filename": "heartbeat-sonnet-migration.md",
-        "folder": "completed",
-        "title": "하트비트 소넷 마이그레이션",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
-        "waiting_for": null,
-        "last_updated": "2026-02-18T19:19:11.830462",
         "progress": 100
       },
       {
@@ -197,8 +197,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-18T19:24:00.014000",
-      "nextRun": "2026-02-18T19:26:00",
+      "lastRun": "2026-02-18T19:26:00.015000",
+      "nextRun": "2026-02-18T19:28:00",
       "lastStatus": "ok"
     },
     {
@@ -416,6 +416,6 @@
       "coupang-link-batch-creation",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-18T19:26:39.019109"
+    "timestamp": "2026-02-18T19:29:07.456140"
   }
 }
