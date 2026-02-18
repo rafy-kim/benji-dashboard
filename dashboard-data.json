@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-18T18:58:19.652198",
+  "generated_at": "2026-02-18T19:09:35.585363",
   "tasks": {
     "active": [
+      {
+        "id": "heartbeat-sonnet-switch",
+        "filename": "heartbeat-sonnet-switch.md",
+        "folder": "active",
+        "title": "하트비트 소넷 전환",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T19:09:31.460206",
+        "progress": 100
+      },
       {
         "id": "chorok-homecoming-checklist",
         "filename": "chorok-homecoming-checklist.md",
@@ -197,18 +210,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-18T18:56:00.015000",
-      "nextRun": "2026-02-18T18:58:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (낮 매 시간)",
-      "schedule": "크론: 0 9-21 * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-02-18T18:00:00.016000",
-      "nextRun": "2026-02-18T19:00:00",
+      "lastRun": "2026-02-18T19:06:00.016000",
+      "nextRun": "2026-02-18T19:08:00",
       "lastStatus": "ok"
     },
     {
@@ -217,8 +220,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-18T18:30:00.025000",
-      "nextRun": "2026-02-18T19:00:00",
+      "lastRun": "2026-02-18T19:03:50.731000",
+      "nextRun": "2026-02-18T19:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (낮 매 시간)",
+      "schedule": "크론: 0 9-21 * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-02-18T19:00:00.017000",
+      "nextRun": "2026-02-18T20:00:00",
       "lastStatus": "ok"
     },
     {
@@ -393,17 +406,17 @@
     }
   ],
   "stats": {
-    "total": 119,
-    "active": 9,
+    "total": 120,
+    "active": 10,
     "next": 0,
     "waiting": 0,
     "completed": 110,
     "cron": 20
   },
   "flow_metrics": {
-    "wip_count": 9,
+    "wip_count": 10,
     "wip_limit": 5,
-    "wip_utilization": 180.0,
+    "wip_utilization": 200.0,
     "waiting_count": 0,
     "completed_today": 5,
     "aging_24h": [
@@ -416,6 +429,6 @@
       "coupang-link-batch-creation",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-18T18:58:19.655813"
+    "timestamp": "2026-02-18T19:09:35.589029"
   }
 }
