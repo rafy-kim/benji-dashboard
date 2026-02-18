@@ -1,70 +1,31 @@
 {
-  "generated_at": "2026-02-18T19:29:10.559355",
+  "generated_at": "2026-02-18T20:07:20.266776",
   "tasks": {
     "active": [
       {
-        "id": "chorok-homecoming-checklist",
-        "filename": "chorok-homecoming-checklist.md",
+        "id": "obsidian-icloud-sync",
+        "filename": "obsidian-icloud-sync.md",
         "folder": "active",
-        "title": "초록이 집 오기 전 체크리스트 🏠🌱",
+        "title": "Obsidian + iCloud 동기화 설정",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": null,
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1771412386543259",
         "waiting_for": null,
-        "last_updated": "2026-02-18T09:42:30.326780",
+        "last_updated": "2026-02-18T20:07:34.450996",
         "progress": 0
       },
       {
-        "id": "benji-youtube-channel-new",
-        "filename": "benji-youtube-channel-new.md",
+        "id": "home-prep-before-postpartum",
+        "filename": "home-prep-before-postpartum.md",
         "folder": "active",
-        "title": "벤지 YouTube 채널 신규 런칭",
+        "title": "🏠 집에서 해야 할 일 & 챙길 것",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771321406203849",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
         "waiting_for": null,
-        "last_updated": "2026-02-18T00:38:45.539953",
-        "progress": 0
-      },
-      {
-        "id": "benji-youtube-channel-project",
-        "filename": "benji-youtube-channel-project.md",
-        "folder": "active",
-        "title": "벤지 YouTube 채널 프로젝트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-17T22:52:52.530265",
-        "progress": 0
-      },
-      {
-        "id": "thread-context-loss-fix",
-        "filename": "thread-context-loss-fix.md",
-        "folder": "active",
-        "title": "스레드 맥락 손실 문제 해결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771310538203559",
-        "waiting_for": null,
-        "last_updated": "2026-02-17T18:29:55.860213",
-        "progress": 33
-      },
-      {
-        "id": "coupang-partners-automation-fix",
-        "filename": "coupang-partners-automation-fix.md",
-        "folder": "active",
-        "title": "쿠팡 파트너스 자동화 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-17T12:08:08.934324",
+        "last_updated": "2026-02-18T20:07:09.059089",
         "progress": 0
       },
       {
@@ -77,21 +38,73 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771246421604079",
         "waiting_for": null,
-        "last_updated": "2026-02-17T08:38:25.590764",
+        "last_updated": "2026-02-18T20:07:09.058945",
         "progress": 0
       },
       {
-        "id": "youtube-shorts-content-management",
-        "filename": "youtube-shorts-content-management.md",
+        "id": "chorok-homecoming-checklist",
+        "filename": "chorok-homecoming-checklist.md",
         "folder": "active",
-        "title": "YouTube Shorts 콘텐츠 관리 (1분 독서 + 건강 공식)",
+        "title": "초록이 집 오기 전 체크리스트 🏠🌱",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770859036393679",
+        "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-16T22:14:20.550126",
+        "last_updated": "2026-02-18T20:07:09.058801",
         "progress": 0
+      },
+      {
+        "id": "coupang-partners-automation-fix",
+        "filename": "coupang-partners-automation-fix.md",
+        "folder": "active",
+        "title": "쿠팡 파트너스 자동화 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-18T20:07:09.058648",
+        "progress": 0
+      },
+      {
+        "id": "benji-youtube-channel-new",
+        "filename": "benji-youtube-channel-new.md",
+        "folder": "active",
+        "title": "벤지 YouTube 채널 신규 런칭",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771321406203849",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T20:07:09.058499",
+        "progress": 0
+      },
+      {
+        "id": "benji-youtube-channel-project",
+        "filename": "benji-youtube-channel-project.md",
+        "folder": "active",
+        "title": "벤지 YouTube 채널 프로젝트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-18T20:07:09.058385",
+        "progress": 0
+      },
+      {
+        "id": "thread-context-loss-fix",
+        "filename": "thread-context-loss-fix.md",
+        "folder": "active",
+        "title": "스레드 맥락 손실 문제 해결",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771310538203559",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T20:07:09.058258",
+        "progress": 33
       },
       {
         "id": "coupang-link-batch-creation",
@@ -103,20 +116,20 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771135620871449",
         "waiting_for": null,
-        "last_updated": "2026-02-16T17:56:47.347312",
+        "last_updated": "2026-02-18T20:07:09.058129",
         "progress": 67
       },
       {
-        "id": "home-prep-before-postpartum",
-        "filename": "home-prep-before-postpartum.md",
+        "id": "youtube-shorts-content-management",
+        "filename": "youtube-shorts-content-management.md",
         "folder": "active",
-        "title": "🏠 집에서 해야 할 일 & 챙길 것",
+        "title": "YouTube Shorts 콘텐츠 관리 (1분 독서 + 건강 공식)",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770859036393679",
         "waiting_for": null,
-        "last_updated": "2026-02-12T23:45:15.215338",
+        "last_updated": "2026-02-18T20:07:09.058007",
         "progress": 0
       }
     ],
@@ -124,69 +137,69 @@
     "waiting": [],
     "completed": [
       {
-        "id": "heartbeat-sonnet-migration",
-        "filename": "heartbeat-sonnet-migration.md",
+        "id": "B-youtube-channel-setup",
+        "filename": "B-youtube-channel-setup.md",
         "folder": "completed",
-        "title": "하트비트 소넷 전환",
+        "title": "[B] 유튜브 채널 세팅 - \"1초 선택\"",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-02-18T19:29:03.311602",
-        "progress": 100
+        "last_updated": "2026-02-18T20:07:09.072062",
+        "progress": 0
       },
       {
-        "id": "self-learning-multi-model-routing",
-        "filename": "self-learning-multi-model-routing.md",
+        "id": "thread-1769842367730509",
+        "filename": "thread-1769842367730509.md",
         "folder": "completed",
-        "title": "자기학습: Multi-Model Routing & OpenRouter/LiteLLM 통합",
+        "title": "[F] 책 추천 쇼츠 채널 만들기",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1769929436762599?thread_ts=1769929436.762599",
         "waiting_for": null,
-        "last_updated": "2026-02-18T19:26:34.972546",
-        "progress": 100
+        "last_updated": "2026-02-18T20:07:09.071939",
+        "progress": 0
       },
       {
-        "id": "multi-model-routing-learning",
-        "filename": "multi-model-routing-learning.md",
+        "id": "youtube-books-script-regeneration",
+        "filename": "youtube-books-script-regeneration.md",
         "folder": "completed",
-        "title": "Multi-Model Routing & OpenRouter 학습",
+        "title": "YouTube Books 스크립트 재생성",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770011121005989?thread_ts=1770011121.005989",
         "waiting_for": null,
-        "last_updated": "2026-02-18T19:22:30.361490",
-        "progress": 100
+        "last_updated": "2026-02-18T20:07:09.071824",
+        "progress": 40
       },
       {
-        "id": "heartbeat-sonnet-switch-thread",
-        "filename": "heartbeat-sonnet-switch-thread.md",
+        "id": "content-pipeline-daily-management",
+        "filename": "content-pipeline-daily-management.md",
         "folder": "completed",
-        "title": "하트비트 소넷 전환",
+        "title": "콘텐츠 파이프라인 일일 관리",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1771049624931159",
         "waiting_for": null,
-        "last_updated": "2026-02-18T19:10:47.453624",
-        "progress": 100
+        "last_updated": "2026-02-18T20:07:09.071723",
+        "progress": 0
       },
       {
-        "id": "heartbeat-sonnet-switch",
-        "filename": "heartbeat-sonnet-switch.md",
+        "id": "youtube-character-consistency-test",
+        "filename": "youtube-character-consistency-test.md",
         "folder": "completed",
-        "title": "하트비트 소넷 전환",
+        "title": "YouTube 캐릭터 일관성 테스트",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1770020446836899",
         "waiting_for": null,
-        "last_updated": "2026-02-18T19:10:09.219218",
-        "progress": 100
+        "last_updated": "2026-02-18T20:07:09.071635",
+        "progress": 0
       }
     ]
   },
@@ -197,8 +210,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-18T19:26:00.015000",
-      "nextRun": "2026-02-18T19:28:00",
+      "lastRun": "2026-02-18T20:03:37.838000",
+      "nextRun": "2026-02-18T20:06:00",
       "lastStatus": "ok"
     },
     {
@@ -207,8 +220,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "python3 ~/clawd/scripts/monitor_sessions.py 실행해서 세션 상태 확인. 경...",
       "enabled": true,
-      "lastRun": "2026-02-18T19:03:50.731000",
-      "nextRun": "2026-02-18T19:30:00",
+      "lastRun": "2026-02-18T20:04:56.872000",
+      "nextRun": "2026-02-18T20:30:00",
       "lastStatus": "ok"
     },
     {
@@ -217,8 +230,8 @@
       "schedule": "크론: 0 9-21 * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-02-18T19:00:00.017000",
-      "nextRun": "2026-02-18T20:00:00",
+      "lastRun": "2026-02-18T20:00:00.016000",
+      "nextRun": "2026-02-18T21:00:00",
       "lastStatus": "ok"
     },
     {
@@ -393,29 +406,21 @@
     }
   ],
   "stats": {
-    "total": 123,
-    "active": 9,
+    "total": 124,
+    "active": 10,
     "next": 0,
     "waiting": 0,
     "completed": 114,
     "cron": 20
   },
   "flow_metrics": {
-    "wip_count": 9,
+    "wip_count": 10,
     "wip_limit": 5,
-    "wip_utilization": 180.0,
+    "wip_utilization": 200.0,
     "waiting_count": 0,
     "completed_today": 5,
-    "aging_24h": [
-      "thread-context-loss-fix",
-      "coupang-partners-automation-fix",
-      "youtube-shorts-views-troubleshoot",
-      "youtube-shorts-content-management"
-    ],
-    "aging_48h": [
-      "coupang-link-batch-creation",
-      "home-prep-before-postpartum"
-    ],
-    "timestamp": "2026-02-18T19:29:10.563039"
+    "aging_24h": [],
+    "aging_48h": [],
+    "timestamp": "2026-02-18T20:32:44.390889"
   }
 }
