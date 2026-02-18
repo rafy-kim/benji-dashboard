@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-02-18T18:54:35.772852",
+  "generated_at": "2026-02-18T18:56:55.705284",
   "tasks": {
     "active": [
+      {
+        "id": "multi-model-routing-discussion",
+        "filename": "multi-model-routing-discussion.md",
+        "folder": "active",
+        "title": "Multi-Model Routing 논의 & 하트비트 소넷 전환",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T18:56:51.579320",
+        "progress": 67
+      },
       {
         "id": "chorok-homecoming-checklist",
         "filename": "chorok-homecoming-checklist.md",
@@ -197,8 +210,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-18T18:52:00.019000",
-      "nextRun": "2026-02-18T18:54:00",
+      "lastRun": "2026-02-18T18:54:00.015000",
+      "nextRun": "2026-02-18T18:56:00",
       "lastStatus": "ok"
     },
     {
@@ -393,17 +406,17 @@
     }
   ],
   "stats": {
-    "total": 118,
-    "active": 9,
+    "total": 119,
+    "active": 10,
     "next": 0,
     "waiting": 0,
     "completed": 109,
     "cron": 20
   },
   "flow_metrics": {
-    "wip_count": 9,
+    "wip_count": 10,
     "wip_limit": 5,
-    "wip_utilization": 180.0,
+    "wip_utilization": 200.0,
     "waiting_count": 0,
     "completed_today": 4,
     "aging_24h": [
@@ -416,6 +429,6 @@
       "coupang-link-batch-creation",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-18T18:54:35.776993"
+    "timestamp": "2026-02-18T18:56:55.708898"
   }
 }
