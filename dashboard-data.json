@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-02-18T18:49:03.209707",
+  "generated_at": "2026-02-18T18:50:46.470812",
   "tasks": {
     "active": [
-      {
-        "id": "multi-model-routing-sonnet",
-        "filename": "multi-model-routing-sonnet.md",
-        "folder": "active",
-        "title": "Multi-Model Routing & 하트비트 소넷 전환",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
-        "waiting_for": null,
-        "last_updated": "2026-02-18T18:48:59.080826",
-        "progress": 75
-      },
       {
         "id": "chorok-homecoming-checklist",
         "filename": "chorok-homecoming-checklist.md",
@@ -137,6 +124,19 @@
     "waiting": [],
     "completed": [
       {
+        "id": "multi-model-routing-sonnet",
+        "filename": "multi-model-routing-sonnet.md",
+        "folder": "completed",
+        "title": "Multi-Model Routing & 하트비트 소넷 전환",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1771405317714099",
+        "waiting_for": null,
+        "last_updated": "2026-02-18T18:50:42.443884",
+        "progress": 75
+      },
+      {
         "id": "heartbeat-sonnet-switch-multimodel",
         "filename": "heartbeat-sonnet-switch-multimodel.md",
         "folder": "completed",
@@ -187,19 +187,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-17T10:03:42.035006",
         "progress": 0
-      },
-      {
-        "id": "feeding-stats-auto-complete",
-        "filename": "feeding-stats-auto-complete.md",
-        "folder": "completed",
-        "title": "수유 통계 자동 완료 처리 기능",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771247011874449",
-        "waiting_for": null,
-        "last_updated": "2026-02-17T09:28:21.847731",
-        "progress": 100
       }
     ]
   },
@@ -210,8 +197,8 @@
       "schedule": "크론: */2 * * * *",
       "description": "하트비트 체크!",
       "enabled": true,
-      "lastRun": "2026-02-18T18:46:00.017000",
-      "nextRun": "2026-02-18T18:48:00",
+      "lastRun": "2026-02-18T18:48:00.014000",
+      "nextRun": "2026-02-18T18:50:00",
       "lastStatus": "ok"
     },
     {
@@ -407,18 +394,18 @@
   ],
   "stats": {
     "total": 118,
-    "active": 10,
+    "active": 9,
     "next": 0,
     "waiting": 0,
-    "completed": 108,
+    "completed": 109,
     "cron": 20
   },
   "flow_metrics": {
-    "wip_count": 10,
+    "wip_count": 9,
     "wip_limit": 5,
-    "wip_utilization": 200.0,
+    "wip_utilization": 180.0,
     "waiting_count": 0,
-    "completed_today": 3,
+    "completed_today": 4,
     "aging_24h": [
       "thread-context-loss-fix",
       "coupang-partners-automation-fix",
@@ -429,6 +416,6 @@
       "coupang-link-batch-creation",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-02-18T18:49:03.213381"
+    "timestamp": "2026-02-18T18:50:46.474527"
   }
 }
