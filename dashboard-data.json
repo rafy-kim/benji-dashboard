@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T15:17:44.102072",
+  "generated_at": "2026-03-16T15:46:08.259383",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773551059.097369",
         "waiting_for": null,
-        "last_updated": "2026-03-16T15:17:40.431786",
+        "last_updated": "2026-03-16T15:46:03.247414",
         "progress": 25
       },
       {
@@ -172,18 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-16T15:15:00.022000",
-      "nextRun": "2026-03-16T15:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-16T15:00:00.026000",
-      "nextRun": "2026-03-16T15:30:00",
+      "lastRun": "2026-03-16T15:30:08.863000",
+      "nextRun": "2026-03-16T15:45:00",
       "lastStatus": "ok"
     },
     {
@@ -192,8 +182,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-16T15:15:07.550000",
-      "nextRun": "2026-03-16T15:30:00",
+      "lastRun": "2026-03-16T15:30:13.554000",
+      "nextRun": "2026-03-16T15:45:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-16T15:30:00.020000",
+      "nextRun": "2026-03-16T16:00:00",
       "lastStatus": "ok"
     },
     {
@@ -638,6 +638,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-16T15:17:44.118296"
+    "timestamp": "2026-03-16T15:46:08.294686"
   }
 }
