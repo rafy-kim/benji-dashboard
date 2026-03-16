@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-16T14:25:23.944784",
+  "generated_at": "2026-03-16T15:00:56.982058",
   "tasks": {
     "active": [
+      {
+        "id": "newbie-parent-monetization",
+        "filename": "newbie-parent-monetization.md",
+        "folder": "active",
+        "title": "초보엄빠 육아노트 수익화 (인포크 + 쿠팡파트너스)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773551059.097369",
+        "waiting_for": null,
+        "last_updated": "2026-03-16T15:00:51.876989",
+        "progress": 25
+      },
       {
         "id": "health-formula-pipeline",
         "filename": "health-formula-pipeline.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-16T03:00:54.606767",
         "progress": 0
-      },
-      {
-        "id": "newbie-parent-monetization",
-        "filename": "newbie-parent-monetization.md",
-        "folder": "active",
-        "title": "초보엄빠 육아노트 수익화 (인포크 + 쿠팡파트너스)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773551059.097369",
-        "waiting_for": null,
-        "last_updated": "2026-03-16T03:00:54.602604",
-        "progress": 25
       },
       {
         "id": "youtube-shorts-improvement-plan",
@@ -167,36 +167,6 @@
   },
   "cron": [
     {
-      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
-      "name": "토큰 핸드오프 모니터 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "토큰 핸드오프 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-16T14:15:00.029000",
-      "nextRun": "2026-03-16T14:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-16T14:00:00.024000",
-      "nextRun": "2026-03-16T14:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-16T14:15:07.069000",
-      "nextRun": "2026-03-16T14:30:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "1ace48eb-11ef-4439-9c4d-faa7c422f5f0",
       "name": "초보엄빠 백로그: Instagram (15:00)",
       "schedule": "크론: 0 15 * * *",
@@ -207,6 +177,26 @@
       "lastStatus": null
     },
     {
+      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
+      "name": "토큰 핸드오프 모니터 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "토큰 핸드오프 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-16T14:45:00.032000",
+      "nextRun": "2026-03-16T15:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-16T14:30:00.026000",
+      "nextRun": "2026-03-16T15:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "f8f19222-1045-4ecd-9cb8-418d9e6f7389",
       "name": "이거실화 백로그: TikTok (15:00)",
       "schedule": "크론: 0 15 * * *",
@@ -215,6 +205,16 @@
       "lastRun": null,
       "nextRun": "2026-03-16T15:00:00",
       "lastStatus": null
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-16T14:45:04.571000",
+      "nextRun": "2026-03-16T15:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
@@ -244,6 +244,16 @@
       "enabled": true,
       "lastRun": null,
       "nextRun": "2026-03-16T20:10:00",
+      "lastStatus": null
+    },
+    {
+      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
+      "name": "media-cleanup-48h",
+      "schedule": "크론: 50 22 * * *",
+      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-16T22:50:00",
       "lastStatus": null
     },
     {
@@ -613,7 +623,7 @@
     "next": 0,
     "waiting": 2,
     "completed": 156,
-    "cron": 44
+    "cron": 45
   },
   "flow_metrics": {
     "wip_count": 5,
@@ -628,6 +638,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-16T14:25:23.968992"
+    "timestamp": "2026-03-16T15:00:57.027111"
   }
 }
