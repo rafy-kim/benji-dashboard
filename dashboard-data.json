@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T04:34:55.455020",
+  "generated_at": "2026-03-17T05:00:54.204344",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773500537.040069",
         "waiting_for": null,
-        "last_updated": "2026-03-17T04:34:50.259136",
+        "last_updated": "2026-03-17T05:00:49.150551",
         "progress": 0
       },
       {
@@ -159,38 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T04:14:58.797000",
-      "nextRun": "2026-03-17T04:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-17T04:00:00.024000",
-      "nextRun": "2026-03-17T04:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-17T04:15:04.950000",
-      "nextRun": "2026-03-17T04:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "bfb151ec-bd79-4111-a715-99a8af82346a",
-      "name": "이거 실화? Step1: 주제 생성 + 검수",
-      "schedule": "크론: 40 4 * * *",
-      "description": "이거 실화? 채널 Step 1: 주제 생성 + 벤지 검수 (하루 2편 실험)",
-      "enabled": true,
-      "lastRun": "2026-03-16T04:40:00.018000",
-      "nextRun": "2026-03-17T04:40:00",
+      "lastRun": "2026-03-17T04:45:00.023000",
+      "nextRun": "2026-03-17T05:00:00",
       "lastStatus": "ok"
     },
     {
@@ -200,6 +170,26 @@
       "description": "이거 실화? Step2: 스크립트 작성 + 검수 (1개 주제)",
       "enabled": true,
       "lastRun": "2026-03-16T05:00:48.594000",
+      "nextRun": "2026-03-17T05:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-17T04:33:34.126000",
+      "nextRun": "2026-03-17T05:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-17T04:45:04.946000",
       "nextRun": "2026-03-17T05:00:00",
       "lastStatus": "ok"
     },
@@ -574,6 +564,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "bfb151ec-bd79-4111-a715-99a8af82346a",
+      "name": "이거 실화? Step1: 주제 생성 + 검수",
+      "schedule": "크론: 40 4 * * *",
+      "description": "이거 실화? 채널 Step 1: 주제 생성 + 벤지 검수 (하루 2편 실험)",
+      "enabled": true,
+      "lastRun": "2026-03-17T04:40:00.027000",
+      "nextRun": "2026-03-18T04:40:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -625,6 +625,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-17T04:34:55.495885"
+    "timestamp": "2026-03-17T05:00:54.245628"
   }
 }
