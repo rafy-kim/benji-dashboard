@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T05:00:54.204344",
+  "generated_at": "2026-03-17T05:30:48.396236",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773500537.040069",
         "waiting_for": null,
-        "last_updated": "2026-03-17T05:00:49.150551",
+        "last_updated": "2026-03-17T05:30:43.110654",
         "progress": 0
       },
       {
@@ -159,18 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T04:45:00.023000",
-      "nextRun": "2026-03-17T05:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "c2da583e-9840-477b-8089-9c750fb2a154",
-      "name": "이거 실화? Step2: 스크립트 작성 + 검수",
-      "schedule": "크론: 0 5 * * *",
-      "description": "이거 실화? Step2: 스크립트 작성 + 검수 (1개 주제)",
-      "enabled": true,
-      "lastRun": "2026-03-16T05:00:48.594000",
-      "nextRun": "2026-03-17T05:00:00",
+      "lastRun": "2026-03-17T05:15:00.032000",
+      "nextRun": "2026-03-17T05:30:00",
       "lastStatus": "ok"
     },
     {
@@ -179,8 +169,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T04:33:34.126000",
-      "nextRun": "2026-03-17T05:00:00",
+      "lastRun": "2026-03-17T05:00:00.021000",
+      "nextRun": "2026-03-17T05:30:00",
       "lastStatus": "ok"
     },
     {
@@ -189,28 +179,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-17T04:45:04.946000",
-      "nextRun": "2026-03-17T05:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-17T04:23:45.940000",
-      "nextRun": "2026-03-17T05:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "c88d0a56-7918-4eab-9149-191f2eaf7e41",
-      "name": "이거 실화? Step3: 이미지 생성 + 검수",
-      "schedule": "크론: 20 5 * * *",
-      "description": "이거 실화? Step3: 이미지 생성 + 검수 (1개 주제)",
-      "enabled": true,
-      "lastRun": "2026-03-16T05:20:00.018000",
-      "nextRun": "2026-03-17T05:20:00",
+      "lastRun": "2026-03-17T05:15:07.152000",
+      "nextRun": "2026-03-17T05:30:00",
       "lastStatus": "ok"
     },
     {
@@ -242,6 +212,16 @@
       "lastRun": "2026-03-17T04:15:54.625000",
       "nextRun": "2026-03-17T06:00:00",
       "lastStatus": "error"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-17T05:03:23.943000",
+      "nextRun": "2026-03-17T06:00:26.882000",
+      "lastStatus": "ok"
     },
     {
       "id": "076845bf-2ef8-45d7-bef3-a1dc77de9375",
@@ -574,6 +554,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "c2da583e-9840-477b-8089-9c750fb2a154",
+      "name": "이거 실화? Step2: 스크립트 작성 + 검수",
+      "schedule": "크론: 0 5 * * *",
+      "description": "이거 실화? Step2: 스크립트 작성 + 검수 (1개 주제)",
+      "enabled": true,
+      "lastRun": "2026-03-17T05:00:55.244000",
+      "nextRun": "2026-03-18T05:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "c88d0a56-7918-4eab-9149-191f2eaf7e41",
+      "name": "이거 실화? Step3: 이미지 생성 + 검수",
+      "schedule": "크론: 20 5 * * *",
+      "description": "이거 실화? Step3: 이미지 생성 + 검수 (1개 주제)",
+      "enabled": true,
+      "lastRun": "2026-03-17T05:20:00.021000",
+      "nextRun": "2026-03-18T05:20:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -625,6 +625,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-17T05:00:54.245628"
+    "timestamp": "2026-03-17T05:30:48.436090"
   }
 }
