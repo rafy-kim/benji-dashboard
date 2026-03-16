@@ -1,9 +1,102 @@
 {
-  "generated_at": "2026-03-16T14:24:36.944227",
+  "generated_at": "2026-03-16T14:25:20.753488",
   "tasks": {
-    "active": [],
+    "active": [
+      {
+        "id": "health-formula-pipeline",
+        "filename": "health-formula-pipeline.md",
+        "folder": "active",
+        "title": "건강공식 콘텐츠 파이프라인 수정 (2026-03-15)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773500537.040069",
+        "waiting_for": null,
+        "last_updated": "2026-03-16T03:00:54.606767",
+        "progress": 0
+      },
+      {
+        "id": "newbie-parent-monetization",
+        "filename": "newbie-parent-monetization.md",
+        "folder": "active",
+        "title": "초보엄빠 육아노트 수익화 (인포크 + 쿠팡파트너스)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773551059.097369",
+        "waiting_for": null,
+        "last_updated": "2026-03-16T03:00:54.602604",
+        "progress": 25
+      },
+      {
+        "id": "youtube-shorts-improvement-plan",
+        "filename": "youtube-shorts-improvement-plan.md",
+        "folder": "active",
+        "title": "YouTube Shorts 채널 개선 작업 계획",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-15T13:00:43.184373",
+        "progress": 0
+      },
+      {
+        "id": "tiktok-instagram-pipeline",
+        "filename": "tiktok-instagram-pipeline.md",
+        "folder": "active",
+        "title": "틱톡 + 인스타 자동 업로드 파이프라인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-14T21:29:23.278322",
+        "progress": 86
+      },
+      {
+        "id": "home-prep-before-postpartum",
+        "filename": "home-prep-before-postpartum.md",
+        "folder": "active",
+        "title": "🏠 집에서 해야 할 일 & 챙길 것",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
+        "waiting_for": null,
+        "last_updated": "2026-02-22T17:46:23.255801",
+        "progress": 0
+      }
+    ],
     "next": [],
-    "waiting": [],
+    "waiting": [
+      {
+        "id": "trace-alpha-renewal",
+        "filename": "trace-alpha-renewal.md",
+        "folder": "waiting",
+        "title": "Trace Alpha 리뉴얼 프로젝트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-02T08:21:23.689112",
+        "progress": 0
+      },
+      {
+        "id": "iphone-voice-benji-setup",
+        "filename": "iphone-voice-benji-setup.md",
+        "folder": "waiting",
+        "title": "아이폰 음성으로 벤지 대화 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC9RKLCBB/p1771458501756109",
+        "waiting_for": null,
+        "last_updated": "2026-02-24T16:02:16.059018",
+        "progress": 0
+      }
+    ],
     "completed": [
       {
         "id": "youtube-cron-restructure",
@@ -45,6 +138,19 @@
         "progress": 0
       },
       {
+        "id": "health-formula-renewal",
+        "filename": "health-formula-renewal.md",
+        "folder": "completed",
+        "title": "건강 공식 채널 리뉴얼",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-01T16:29:28.078407",
+        "progress": 0
+      },
+      {
         "id": "believe-it-or-not-channel",
         "filename": "believe-it-or-not-channel.md",
         "folder": "completed",
@@ -56,19 +162,6 @@
         "waiting_for": null,
         "last_updated": "2026-02-28T12:00:32.804851",
         "progress": 62
-      },
-      {
-        "id": "nursing-breastmilk-supply",
-        "filename": "nursing-breastmilk-supply.md",
-        "folder": "completed",
-        "title": "모유 수유량 & 유축 상담",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1771442054958699",
-        "waiting_for": null,
-        "last_updated": "2026-02-24T04:30:44.666409",
-        "progress": 75
       }
     ]
   },
@@ -515,21 +608,26 @@
     }
   ],
   "stats": {
-    "total": 128,
-    "active": 0,
+    "total": 163,
+    "active": 5,
     "next": 0,
-    "waiting": 0,
-    "completed": 128,
+    "waiting": 2,
+    "completed": 156,
     "cron": 44
   },
   "flow_metrics": {
-    "wip_count": 0,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 0.0,
-    "waiting_count": 0,
+    "wip_utilization": 100.0,
+    "waiting_count": 2,
     "completed_today": 0,
-    "aging_24h": [],
-    "aging_48h": [],
-    "timestamp": "2026-03-16T14:24:36.962375"
+    "aging_24h": [
+      "youtube-shorts-improvement-plan",
+      "tiktok-instagram-pipeline"
+    ],
+    "aging_48h": [
+      "home-prep-before-postpartum"
+    ],
+    "timestamp": "2026-03-16T14:25:20.789286"
   }
 }
