@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-03-16T18:15:59.797650",
+  "generated_at": "2026-03-17T04:15:47.854652",
   "tasks": {
     "active": [
-      {
-        "id": "newbie-parent-monetization",
-        "filename": "newbie-parent-monetization.md",
-        "folder": "active",
-        "title": "초보엄빠 육아노트 수익화 (인포크 + 쿠팡파트너스)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773551059.097369",
-        "waiting_for": null,
-        "last_updated": "2026-03-16T18:15:55.253071",
-        "progress": 25
-      },
       {
         "id": "health-formula-pipeline",
         "filename": "health-formula-pipeline.md",
@@ -25,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773500537.040069",
         "waiting_for": null,
-        "last_updated": "2026-03-16T03:00:54.606767",
+        "last_updated": "2026-03-17T04:15:42.736036",
         "progress": 0
       },
       {
@@ -99,6 +86,19 @@
     ],
     "completed": [
       {
+        "id": "newbie-parent-monetization",
+        "filename": "newbie-parent-monetization.md",
+        "folder": "completed",
+        "title": "초보엄빠 육아노트 수익화 (인포크 + 쿠팡파트너스)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773551059.097369",
+        "waiting_for": null,
+        "last_updated": "2026-03-16T18:15:55.253071",
+        "progress": 25
+      },
+      {
         "id": "youtube-cron-restructure",
         "filename": "youtube-cron-restructure.md",
         "folder": "completed",
@@ -149,233 +149,10 @@
         "waiting_for": null,
         "last_updated": "2026-03-01T16:29:28.078407",
         "progress": 0
-      },
-      {
-        "id": "believe-it-or-not-channel",
-        "filename": "believe-it-or-not-channel.md",
-        "folder": "completed",
-        "title": "🎬 \"이거 실화?\" YouTube Shorts 채널",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-28T12:00:32.804851",
-        "progress": 62
       }
     ]
   },
   "cron": [
-    {
-      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
-      "name": "토큰 핸드오프 모니터 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "토큰 핸드오프 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-16T18:00:10.059000",
-      "nextRun": "2026-03-16T18:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-16T18:00:20.906000",
-      "nextRun": "2026-03-16T18:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-16T18:00:00.030000",
-      "nextRun": "2026-03-16T18:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-16T18:00:55.396000",
-      "nextRun": "2026-03-16T19:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
-      "name": "이거실화? Step5b: TikTok 2편 (20:10)",
-      "schedule": "크론: 10 20 * * *",
-      "description": "이거실화? 채널의 오늘 2편째 영상을 TikTok에 즉시 업로드 (20:30 KST).",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-03-16T20:10:00",
-      "lastStatus": null
-    },
-    {
-      "id": "a969c1c7-b2dc-4191-97c7-b38b067eb546",
-      "name": "초보엄빠 Step5b: Instagram 2편 (20:10)",
-      "schedule": "크론: 10 20 * * *",
-      "description": "초보엄빠 채널의 오늘 2편째 영상을 Instagram에 즉시 업로드 (20:30 KST).",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-03-16T20:10:00",
-      "lastStatus": null
-    },
-    {
-      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
-      "name": "media-cleanup-48h",
-      "schedule": "크론: 50 22 * * *",
-      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-03-16T22:50:00",
-      "lastStatus": null
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
-      "enabled": true,
-      "lastRun": "2026-03-16T00:00:00.037000",
-      "nextRun": "2026-03-17T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "c2290d89-b7f0-4c4e-8a23-20d5d598dcde",
-      "name": "건강공식 Step0: 토픽 발굴 (2편분)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "건강공식 Step0: 토픽 발굴 + 큐 확인 (하루 2편 체제)",
-      "enabled": true,
-      "lastRun": "2026-03-16T00:00:57.912000",
-      "nextRun": "2026-03-17T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
-      "name": "포트폴리오 가격 변동 알림 (±5%)",
-      "schedule": "크론: 0 0,2,4,6 * * 1-6",
-      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-16T06:00:40.093000",
-      "nextRun": "2026-03-17T00:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "9be2b636-ee67-4b1c-9327-4b2e08a21fd6",
-      "name": "건강공식 Step1: 스크립트 2편 생성",
-      "schedule": "크론: 20 0 * * *",
-      "description": "건강공식 Step1: 토픽 2개 선정 + 스크립트 2편 생성 + 벤지 검수",
-      "enabled": true,
-      "lastRun": "2026-03-16T00:20:00.025000",
-      "nextRun": "2026-03-17T00:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "2411879d-2367-46d6-b282-1c2a7b02fa13",
-      "name": "건강공식 Step2a: 이미지 생성 (1편째)",
-      "schedule": "크론: 40 0 * * *",
-      "description": "건강공식 Step2a: 이미지 생성 + 벤지 검수 (1편째)",
-      "enabled": true,
-      "lastRun": "2026-03-16T00:40:00.023000",
-      "nextRun": "2026-03-17T00:40:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "b55133f4-c9f4-4cd7-b9b6-dea51d1f6f4a",
-      "name": "건강공식 Step2b: 이미지 생성 (2편째)",
-      "schedule": "크론: 0 1 * * *",
-      "description": "건강공식 Step2b: 이미지 생성 + 벤지 검수 (2편째)",
-      "enabled": true,
-      "lastRun": "2026-03-16T01:01:26.539000",
-      "nextRun": "2026-03-17T01:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "362b6a64-5c47-42cd-b64d-a1df403b64a3",
-      "name": "건강공식 Step3a: TTS+렌더링 (1편째)",
-      "schedule": "크론: 20 1 * * *",
-      "description": "건강공식 Step3a: TTS + 영상 렌더링 + 벤지 검수 (1편째)",
-      "enabled": true,
-      "lastRun": "2026-03-16T01:20:00.024000",
-      "nextRun": "2026-03-17T01:20:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "727eddab-aea4-4077-97b3-3e2a8cb6e584",
-      "name": "건강공식 Step3b: TTS+렌더링 (2편째)",
-      "schedule": "크론: 40 1 * * *",
-      "description": "건강공식 Step3b: TTS + 영상 렌더링 + 벤지 검수 (2편째)",
-      "enabled": true,
-      "lastRun": "2026-03-16T01:40:00.025000",
-      "nextRun": "2026-03-17T01:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "9f1e21fb-5d70-4f91-9706-0aa75f05b879",
-      "name": "건강공식 Step4: 업로드+댓글+보고 (12:00/20:00)",
-      "schedule": "크론: 0 2 * * *",
-      "description": "건강공식 Step4: YouTube 예약 업로드 + 면책조항 댓글 + 보고 (2편)",
-      "enabled": true,
-      "lastRun": "2026-03-16T02:01:04.654000",
-      "nextRun": "2026-03-17T02:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
-      "name": "육아꿀팁 Step0: 토픽 자동 발굴 (학습+Q&A)",
-      "schedule": "크론: 20 2 * * *",
-      "description": "육아꿀팁 V2 Step0: 토픽 증분 발굴 (새 데이터만 스캔)",
-      "enabled": true,
-      "lastRun": "2026-03-16T02:20:00.025000",
-      "nextRun": "2026-03-17T02:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fc053604-80b9-4c95-b03f-fe90ee30b935",
-      "name": "육아꿀팁 Step1: 토픽 선정 + 스크립트 (하루 2편)",
-      "schedule": "크론: 40 2 * * *",
-      "description": "육아꿀팁 V2 Step1: 토픽 선정 + 스크립트 작성 (하루 2편)",
-      "enabled": true,
-      "lastRun": "2026-03-16T02:40:00.026000",
-      "nextRun": "2026-03-17T02:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "cd00fe58-fe21-4f82-a706-fe08420a6348",
-      "name": "육아꿀팁 Step2a: 이미지 생성 (1편째)",
-      "schedule": "크론: 0 3 * * *",
-      "description": "육아꿀팁 V2 Step2a: 이미지 생성 (1편째만)",
-      "enabled": true,
-      "lastRun": "2026-03-16T03:01:04.100000",
-      "nextRun": "2026-03-17T03:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "30d263b7-6ef9-46eb-8134-df438faa8a4a",
-      "name": "육아꿀팁 Step2b: 이미지 생성 (2편째)",
-      "schedule": "크론: 20 3 * * *",
-      "description": "육아꿀팁 V2 Step2b: 이미지 생성 (2편째만)",
-      "enabled": true,
-      "lastRun": "2026-03-16T03:20:00.022000",
-      "nextRun": "2026-03-17T03:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "4aeb132e-786b-4b03-99b6-56321b92f5e6",
-      "name": "육아꿀팁 Step3a: TTS+렌더링 (1편째)",
-      "schedule": "크론: 40 3 * * *",
-      "description": "육아꿀팁 V2 Step3a: TTS + 영상 렌더링 (1편째만)",
-      "enabled": true,
-      "lastRun": "2026-03-16T03:40:00.022000",
-      "nextRun": "2026-03-17T03:40:00",
-      "lastStatus": "ok"
-    },
     {
       "id": "05fa5589-1f3b-4ff9-817f-dd41495af512",
       "name": "세션 정기 정리",
@@ -387,6 +164,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
+      "name": "토큰 핸드오프 모니터 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "토큰 핸드오프 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:46:33.779000",
+      "nextRun": "2026-03-17T04:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "6e1161ee-5502-44b0-bad7-9f2702979ec4",
       "name": "육아꿀팁 Step3b: TTS+렌더링 (2편째)",
       "schedule": "크론: 0 4 * * *",
@@ -394,6 +181,46 @@
       "enabled": true,
       "lastRun": "2026-03-16T04:01:12.596000",
       "nextRun": "2026-03-17T04:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:30:00.032000",
+      "nextRun": "2026-03-17T04:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
+      "name": "포트폴리오 가격 변동 알림 (±5%)",
+      "schedule": "크론: 0 0,2,4,6 * * 1-6",
+      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-17T02:01:02.725000",
+      "nextRun": "2026-03-17T04:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:47:45.379000",
+      "nextRun": "2026-03-17T04:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:04:39.673000",
+      "nextRun": "2026-03-17T04:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -587,6 +414,166 @@
       "lastStatus": "error"
     },
     {
+      "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
+      "name": "이거실화? Step5b: TikTok 2편 (20:10)",
+      "schedule": "크론: 10 20 * * *",
+      "description": "이거실화? 채널의 오늘 2편째 영상을 TikTok에 즉시 업로드 (20:30 KST).",
+      "enabled": true,
+      "lastRun": "2026-03-16T20:10:00.035000",
+      "nextRun": "2026-03-17T20:10:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "a969c1c7-b2dc-4191-97c7-b38b067eb546",
+      "name": "초보엄빠 Step5b: Instagram 2편 (20:10)",
+      "schedule": "크론: 10 20 * * *",
+      "description": "초보엄빠 채널의 오늘 2편째 영상을 Instagram에 즉시 업로드 (20:30 KST).",
+      "enabled": true,
+      "lastRun": "2026-03-16T20:11:42.766000",
+      "nextRun": "2026-03-17T20:10:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
+      "name": "media-cleanup-48h",
+      "schedule": "크론: 50 22 * * *",
+      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
+      "enabled": true,
+      "lastRun": "2026-03-16T22:50:00.039000",
+      "nextRun": "2026-03-17T22:50:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-17T00:00:00.032000",
+      "nextRun": "2026-03-18T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "c2290d89-b7f0-4c4e-8a23-20d5d598dcde",
+      "name": "건강공식 Step0: 토픽 발굴 (2편분)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "건강공식 Step0: 토픽 발굴 + 큐 확인 (하루 2편 체제)",
+      "enabled": true,
+      "lastRun": "2026-03-17T00:01:29.692000",
+      "nextRun": "2026-03-18T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "9be2b636-ee67-4b1c-9327-4b2e08a21fd6",
+      "name": "건강공식 Step1: 스크립트 2편 생성",
+      "schedule": "크론: 20 0 * * *",
+      "description": "건강공식 Step1: 토픽 2개 선정 + 스크립트 2편 생성 + 벤지 검수",
+      "enabled": true,
+      "lastRun": "2026-03-17T00:20:00.032000",
+      "nextRun": "2026-03-18T00:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "2411879d-2367-46d6-b282-1c2a7b02fa13",
+      "name": "건강공식 Step2a: 이미지 생성 (1편째)",
+      "schedule": "크론: 40 0 * * *",
+      "description": "건강공식 Step2a: 이미지 생성 + 벤지 검수 (1편째)",
+      "enabled": true,
+      "lastRun": "2026-03-17T00:40:00.031000",
+      "nextRun": "2026-03-18T00:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b55133f4-c9f4-4cd7-b9b6-dea51d1f6f4a",
+      "name": "건강공식 Step2b: 이미지 생성 (2편째)",
+      "schedule": "크론: 0 1 * * *",
+      "description": "건강공식 Step2b: 이미지 생성 + 벤지 검수 (2편째)",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:43:26.934000",
+      "nextRun": "2026-03-18T01:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "362b6a64-5c47-42cd-b64d-a1df403b64a3",
+      "name": "건강공식 Step3a: TTS+렌더링 (1편째)",
+      "schedule": "크론: 20 1 * * *",
+      "description": "건강공식 Step3a: TTS + 영상 렌더링 + 벤지 검수 (1편째)",
+      "enabled": true,
+      "lastRun": "2026-03-17T01:20:00.029000",
+      "nextRun": "2026-03-18T01:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "727eddab-aea4-4077-97b3-3e2a8cb6e584",
+      "name": "건강공식 Step3b: TTS+렌더링 (2편째)",
+      "schedule": "크론: 40 1 * * *",
+      "description": "건강공식 Step3b: TTS + 영상 렌더링 + 벤지 검수 (2편째)",
+      "enabled": true,
+      "lastRun": "2026-03-17T01:40:00.024000",
+      "nextRun": "2026-03-18T01:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "9f1e21fb-5d70-4f91-9706-0aa75f05b879",
+      "name": "건강공식 Step4: 업로드+댓글+보고 (12:00/20:00)",
+      "schedule": "크론: 0 2 * * *",
+      "description": "건강공식 Step4: YouTube 예약 업로드 + 면책조항 댓글 + 보고 (2편)",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:59:15.039000",
+      "nextRun": "2026-03-18T02:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
+      "name": "육아꿀팁 Step0: 토픽 자동 발굴 (학습+Q&A)",
+      "schedule": "크론: 20 2 * * *",
+      "description": "육아꿀팁 V2 Step0: 토픽 증분 발굴 (새 데이터만 스캔)",
+      "enabled": true,
+      "lastRun": "2026-03-17T02:20:00.030000",
+      "nextRun": "2026-03-18T02:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fc053604-80b9-4c95-b03f-fe90ee30b935",
+      "name": "육아꿀팁 Step1: 토픽 선정 + 스크립트 (하루 2편)",
+      "schedule": "크론: 40 2 * * *",
+      "description": "육아꿀팁 V2 Step1: 토픽 선정 + 스크립트 작성 (하루 2편)",
+      "enabled": true,
+      "lastRun": "2026-03-17T02:40:00.024000",
+      "nextRun": "2026-03-18T02:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "cd00fe58-fe21-4f82-a706-fe08420a6348",
+      "name": "육아꿀팁 Step2a: 이미지 생성 (1편째)",
+      "schedule": "크론: 0 3 * * *",
+      "description": "육아꿀팁 V2 Step2a: 이미지 생성 (1편째만)",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:01:02.961000",
+      "nextRun": "2026-03-18T03:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "30d263b7-6ef9-46eb-8134-df438faa8a4a",
+      "name": "육아꿀팁 Step2b: 이미지 생성 (2편째)",
+      "schedule": "크론: 20 3 * * *",
+      "description": "육아꿀팁 V2 Step2b: 이미지 생성 (2편째만)",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:20:00.026000",
+      "nextRun": "2026-03-18T03:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "4aeb132e-786b-4b03-99b6-56321b92f5e6",
+      "name": "육아꿀팁 Step3a: TTS+렌더링 (1편째)",
+      "schedule": "크론: 40 3 * * *",
+      "description": "육아꿀팁 V2 Step3a: TTS + 영상 렌더링 (1편째만)",
+      "enabled": true,
+      "lastRun": "2026-03-17T03:40:00.027000",
+      "nextRun": "2026-03-18T03:40:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -619,25 +606,25 @@
   ],
   "stats": {
     "total": 163,
-    "active": 5,
+    "active": 4,
     "next": 0,
     "waiting": 2,
-    "completed": 156,
+    "completed": 157,
     "cron": 45
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 80.0,
     "waiting_count": 2,
     "completed_today": 0,
     "aging_24h": [
-      "youtube-shorts-improvement-plan",
-      "tiktok-instagram-pipeline"
+      "youtube-shorts-improvement-plan"
     ],
     "aging_48h": [
+      "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-16T18:15:59.837930"
+    "timestamp": "2026-03-17T04:15:47.892895"
   }
 }
