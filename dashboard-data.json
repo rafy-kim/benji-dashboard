@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T15:00:56.982058",
+  "generated_at": "2026-03-16T15:15:59.478199",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773551059.097369",
         "waiting_for": null,
-        "last_updated": "2026-03-16T15:00:51.876989",
+        "last_updated": "2026-03-16T15:15:54.576214",
         "progress": 25
       },
       {
@@ -167,44 +167,14 @@
   },
   "cron": [
     {
-      "id": "1ace48eb-11ef-4439-9c4d-faa7c422f5f0",
-      "name": "초보엄빠 백로그: Instagram (15:00)",
-      "schedule": "크론: 0 15 * * *",
-      "description": "인스타 백로그 따라잡기 (15:00). cd ~/clawd/scripts/youtube-shorts-pipe...",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-03-16T15:00:00",
-      "lastStatus": null
-    },
-    {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-16T14:45:00.032000",
-      "nextRun": "2026-03-16T15:00:00",
+      "lastRun": "2026-03-16T15:00:12.188000",
+      "nextRun": "2026-03-16T15:15:00",
       "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-16T14:30:00.026000",
-      "nextRun": "2026-03-16T15:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "f8f19222-1045-4ecd-9cb8-418d9e6f7389",
-      "name": "이거실화 백로그: TikTok (15:00)",
-      "schedule": "크론: 0 15 * * *",
-      "description": "틱톡 백로그 따라잡기 (즉시 게시, 15:00). cd ~/clawd/scripts/youtube-short...",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-03-16T15:00:00",
-      "lastStatus": null
     },
     {
       "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
@@ -212,8 +182,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-16T14:45:04.571000",
-      "nextRun": "2026-03-16T15:00:00",
+      "lastRun": "2026-03-16T15:00:20.313000",
+      "nextRun": "2026-03-16T15:15:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-16T15:00:00.026000",
+      "nextRun": "2026-03-16T15:30:00",
       "lastStatus": "ok"
     },
     {
@@ -222,9 +202,9 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-16T14:00:49.369000",
-      "nextRun": "2026-03-16T15:00:26.882000",
-      "lastStatus": "error"
+      "lastRun": "2026-03-16T15:04:56.104000",
+      "nextRun": "2026-03-16T16:00:26.882000",
+      "lastStatus": "ok"
     },
     {
       "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
@@ -587,6 +567,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "1ace48eb-11ef-4439-9c4d-faa7c422f5f0",
+      "name": "초보엄빠 백로그: Instagram (15:00)",
+      "schedule": "크론: 0 15 * * *",
+      "description": "인스타 백로그 따라잡기 (15:00). cd ~/clawd/scripts/youtube-shorts-pipe...",
+      "enabled": true,
+      "lastRun": "2026-03-16T15:03:19.909000",
+      "nextRun": "2026-03-17T15:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "f8f19222-1045-4ecd-9cb8-418d9e6f7389",
+      "name": "이거실화 백로그: TikTok (15:00)",
+      "schedule": "크론: 0 15 * * *",
+      "description": "틱톡 백로그 따라잡기 (즉시 게시, 15:00). cd ~/clawd/scripts/youtube-short...",
+      "enabled": true,
+      "lastRun": "2026-03-16T15:01:23.139000",
+      "nextRun": "2026-03-17T15:00:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -638,6 +638,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-16T15:00:57.027111"
+    "timestamp": "2026-03-16T15:15:59.510436"
   }
 }
