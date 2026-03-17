@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-17T21:30:57.176274",
+  "generated_at": "2026-03-17T22:08:31.528645",
   "tasks": {
     "active": [
+      {
+        "id": "trump-elon-channel-growth",
+        "filename": "trump-elon-channel-growth.md",
+        "folder": "active",
+        "title": "오늘의 트럼프 + 오늘의 일론 채널 성장 전략 실행",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-17T22:08:26.463151",
+        "progress": 0
+      },
       {
         "id": "healthyformula-pipeline-error-resolution",
         "filename": "healthyformula-pipeline-error-resolution.md",
@@ -159,18 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T21:15:00.037000",
-      "nextRun": "2026-03-17T21:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-17T21:00:00.035000",
-      "nextRun": "2026-03-17T21:30:00",
+      "lastRun": "2026-03-17T22:00:09.334000",
+      "nextRun": "2026-03-17T22:15:00",
       "lastStatus": "ok"
     },
     {
@@ -179,18 +182,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-17T21:15:05.962000",
-      "nextRun": "2026-03-17T21:30:00",
+      "lastRun": "2026-03-17T22:00:15.824000",
+      "nextRun": "2026-03-17T22:15:00",
       "lastStatus": "ok"
     },
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T21:00:53.902000",
-      "nextRun": "2026-03-17T22:00:26.882000",
+      "lastRun": "2026-03-17T22:00:00.029000",
+      "nextRun": "2026-03-17T22:30:00",
       "lastStatus": "ok"
     },
     {
@@ -202,6 +205,16 @@
       "lastRun": "2026-03-16T22:50:00.039000",
       "nextRun": "2026-03-17T22:50:00",
       "lastStatus": "error"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-17T22:00:55.729000",
+      "nextRun": "2026-03-17T23:00:26.882000",
+      "lastStatus": "ok"
     },
     {
       "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
@@ -465,9 +478,9 @@
     },
     {
       "id": "001441b8-28d6-4d52-891a-02001233c2d5",
-      "name": "YouTube 3채널 모닝 리포트 (09:00)",
+      "name": "YouTube 5채널 모닝 리포트 (09:00)",
       "schedule": "매일 09:00",
-      "description": "☀️ YouTube 3채널 모닝 리포트 시간!",
+      "description": "☀️ YouTube 5채널 모닝 리포트 시간!",
       "enabled": true,
       "lastRun": "2026-03-17T09:00:31.653000",
       "nextRun": "2026-03-18T09:00:00",
@@ -605,17 +618,17 @@
     }
   ],
   "stats": {
-    "total": 164,
-    "active": 4,
+    "total": 165,
+    "active": 5,
     "next": 0,
     "waiting": 2,
     "completed": 158,
     "cron": 45
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 100.0,
     "waiting_count": 2,
     "completed_today": 1,
     "aging_24h": [],
@@ -624,6 +637,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-17T21:30:57.199840"
+    "timestamp": "2026-03-17T22:08:31.556854"
   }
 }
