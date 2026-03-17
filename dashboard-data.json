@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-03-18T05:31:16.092304",
+  "generated_at": "2026-03-18T08:46:41.851094",
   "tasks": {
     "active": [
-      {
-        "id": "healthyformula-pipeline-error-resolution",
-        "filename": "healthyformula-pipeline-error-resolution.md",
-        "folder": "active",
-        "title": "건강공식 파이프라인 에러 해결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-18T05:31:10.857767",
-        "progress": 0
-      },
       {
         "id": "trump-elon-channel-growth",
         "filename": "trump-elon-channel-growth.md",
@@ -25,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-18T05:31:10.853048",
+        "last_updated": "2026-03-18T08:46:36.879667",
         "progress": 0
       },
       {
@@ -99,6 +86,19 @@
     ],
     "completed": [
       {
+        "id": "healthyformula-pipeline-error-resolution",
+        "filename": "healthyformula-pipeline-error-resolution.md",
+        "folder": "completed",
+        "title": "건강공식 파이프라인 에러 해결",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-18T05:31:10.857767",
+        "progress": 0
+      },
+      {
         "id": "health-formula-pipeline",
         "filename": "health-formula-pipeline.md",
         "folder": "completed",
@@ -149,41 +149,18 @@
         "waiting_for": null,
         "last_updated": "2026-03-12T09:52:48.248534",
         "progress": 0
-      },
-      {
-        "id": "initial-gift-transfer-process",
-        "filename": "initial-gift-transfer-process.md",
-        "folder": "completed",
-        "title": "초록이(김유현) 증여 절차",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBY1EW/p1772527986304319",
-        "waiting_for": null,
-        "last_updated": "2026-03-12T09:03:25.585898",
-        "progress": 0
       }
     ]
   },
   "cron": [
-    {
-      "id": "b7ccf50a-b22e-4795-a033-289f0646c0a1",
-      "name": "이거 실화? Step4: TTS+렌더링+업로드",
-      "schedule": "크론: 40 5 * * *",
-      "description": "이거 실화? Step4: TTS + 렌더링 + 업로드 (1편째 → 12:00 예약)",
-      "enabled": true,
-      "lastRun": "2026-03-17T05:40:00.033000",
-      "nextRun": "2026-03-18T05:40:00",
-      "lastStatus": "ok"
-    },
     {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T05:30:12.985000",
-      "nextRun": "2026-03-18T05:45:00",
+      "lastRun": "2026-03-18T08:31:06.571000",
+      "nextRun": "2026-03-18T08:45:00",
       "lastStatus": "ok"
     },
     {
@@ -192,88 +169,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-18T05:30:23.588000",
-      "nextRun": "2026-03-18T05:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-18T05:30:00.024000",
-      "nextRun": "2026-03-18T06:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "dfbb262f-fe7a-4ad7-9e79-cc29a72d7520",
-      "name": "이거 실화? Step2b: 스크립트 작성 (2번째 주제)",
-      "schedule": "크론: 0 6 * * *",
-      "description": "이거 실화? Step2: 스크립트 작성 + 검수 (1개 주제)",
-      "enabled": true,
-      "lastRun": "2026-03-17T06:01:12.124000",
-      "nextRun": "2026-03-18T06:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
-      "name": "포트폴리오 가격 변동 알림 (±5%)",
-      "schedule": "크론: 0 0,2,4,6 * * 1-6",
-      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-18T04:01:34.612000",
-      "nextRun": "2026-03-18T06:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-18T05:03:10.041000",
-      "nextRun": "2026-03-18T06:00:26.882000",
-      "lastStatus": "error"
-    },
-    {
-      "id": "076845bf-2ef8-45d7-bef3-a1dc77de9375",
-      "name": "이거 실화? Step3b: 이미지 생성 (2번째 주제)",
-      "schedule": "크론: 20 6 * * *",
-      "description": "이거 실화? Step3: 이미지 생성 + 검수 (1개 주제)",
-      "enabled": true,
-      "lastRun": "2026-03-17T06:20:00.022000",
-      "nextRun": "2026-03-18T06:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "263e2c32-2fc2-45c0-8b7b-10c58b312d3a",
-      "name": "이거 실화? Step4b: 업로드 (2번째 주제)",
-      "schedule": "크론: 40 6 * * *",
-      "description": "이거 실화? Step4b: TTS + 렌더링 + 업로드 (2편째 → 20:00 예약)",
-      "enabled": true,
-      "lastRun": "2026-03-17T06:40:00.026000",
-      "nextRun": "2026-03-18T06:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "73074b13-b20a-44db-a46a-c30278065965",
-      "name": "Valley Town 데이터 수집 (Playwright)",
-      "schedule": "크론: 15 8 * * 1-5",
-      "description": "Valley Town 데이터를 Playwright로 수집해줘. 아래 명령어 실행만 하면 돼:",
-      "enabled": true,
-      "lastRun": "2026-03-17T08:15:33.556000",
-      "nextRun": "2026-03-18T08:15:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "1afb1ae4-8106-4f66-9a19-b3421bf85eb5",
-      "name": "벤지 CIO 데일리 브리핑 V6",
-      "schedule": "크론: 30 8 * * 1-5",
-      "description": "벤지 CIO V6 데일리 브리핑을 생성해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-17T08:30:09.204000",
-      "nextRun": "2026-03-18T08:30:00",
+      "lastRun": "2026-03-18T08:31:15.856000",
+      "nextRun": "2026-03-18T08:45:00",
       "lastStatus": "ok"
     },
     {
@@ -294,6 +191,26 @@
       "enabled": true,
       "lastRun": "2026-03-17T09:00:09.172000",
       "nextRun": "2026-03-18T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-18T08:30:00.028000",
+      "nextRun": "2026-03-18T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-18T08:00:51.786000",
+      "nextRun": "2026-03-18T09:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -413,6 +330,16 @@
       "description": "건강공식 Step0: 토픽 발굴 + 큐 확인 (하루 2편 체제)",
       "enabled": true,
       "lastRun": "2026-03-18T00:03:39.571000",
+      "nextRun": "2026-03-19T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
+      "name": "포트폴리오 가격 변동 알림 (±5%)",
+      "schedule": "크론: 0 0,2,4,6 * * 1-6",
+      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-18T06:00:37.206000",
       "nextRun": "2026-03-19T00:00:00",
       "lastStatus": "ok"
     },
@@ -587,6 +514,66 @@
       "lastStatus": "ok"
     },
     {
+      "id": "b7ccf50a-b22e-4795-a033-289f0646c0a1",
+      "name": "이거 실화? Step4: TTS+렌더링+업로드",
+      "schedule": "크론: 40 5 * * *",
+      "description": "이거 실화? Step4: TTS + 렌더링 + 업로드 (1편째 → 12:00 예약)",
+      "enabled": true,
+      "lastRun": "2026-03-18T05:40:00.024000",
+      "nextRun": "2026-03-19T05:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "dfbb262f-fe7a-4ad7-9e79-cc29a72d7520",
+      "name": "이거 실화? Step2b: 스크립트 작성 (2번째 주제)",
+      "schedule": "크론: 0 6 * * *",
+      "description": "이거 실화? Step2: 스크립트 작성 + 검수 (1개 주제)",
+      "enabled": true,
+      "lastRun": "2026-03-18T06:00:51.287000",
+      "nextRun": "2026-03-19T06:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "076845bf-2ef8-45d7-bef3-a1dc77de9375",
+      "name": "이거 실화? Step3b: 이미지 생성 (2번째 주제)",
+      "schedule": "크론: 20 6 * * *",
+      "description": "이거 실화? Step3: 이미지 생성 + 검수 (1개 주제)",
+      "enabled": true,
+      "lastRun": "2026-03-18T06:20:00.023000",
+      "nextRun": "2026-03-19T06:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "263e2c32-2fc2-45c0-8b7b-10c58b312d3a",
+      "name": "이거 실화? Step4b: 업로드 (2번째 주제)",
+      "schedule": "크론: 40 6 * * *",
+      "description": "이거 실화? Step4b: TTS + 렌더링 + 업로드 (2편째 → 20:00 예약)",
+      "enabled": true,
+      "lastRun": "2026-03-18T06:40:00.027000",
+      "nextRun": "2026-03-19T06:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "73074b13-b20a-44db-a46a-c30278065965",
+      "name": "Valley Town 데이터 수집 (Playwright)",
+      "schedule": "크론: 15 8 * * 1-5",
+      "description": "Valley Town 데이터를 Playwright로 수집해줘. 아래 명령어 실행만 하면 돼:",
+      "enabled": true,
+      "lastRun": "2026-03-18T08:15:36.709000",
+      "nextRun": "2026-03-19T08:15:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "1afb1ae4-8106-4f66-9a19-b3421bf85eb5",
+      "name": "벤지 CIO 데일리 브리핑 V6",
+      "schedule": "크론: 30 8 * * 1-5",
+      "description": "벤지 CIO V6 데일리 브리핑을 생성해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-18T08:30:08.205000",
+      "nextRun": "2026-03-19T08:30:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -629,24 +616,24 @@
   ],
   "stats": {
     "total": 165,
-    "active": 5,
+    "active": 4,
     "next": 0,
     "waiting": 2,
-    "completed": 158,
+    "completed": 159,
     "cron": 46
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 80.0,
     "waiting_count": 2,
-    "completed_today": 0,
+    "completed_today": 1,
     "aging_24h": [],
     "aging_48h": [
       "youtube-shorts-improvement-plan",
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-18T05:31:16.130593"
+    "timestamp": "2026-03-18T08:46:41.886530"
   }
 }
