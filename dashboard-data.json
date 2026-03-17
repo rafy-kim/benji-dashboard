@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-18T00:48:17.413733",
+  "generated_at": "2026-03-18T01:16:01.513045",
   "tasks": {
     "active": [
+      {
+        "id": "healthyformula-pipeline-error-resolution",
+        "filename": "healthyformula-pipeline-error-resolution.md",
+        "folder": "active",
+        "title": "건강공식 파이프라인 에러 해결",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-18T01:16:00.031274",
+        "progress": 0
+      },
       {
         "id": "trump-elon-channel-growth",
         "filename": "trump-elon-channel-growth.md",
@@ -13,19 +26,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-18T00:48:12.255591",
-        "progress": 0
-      },
-      {
-        "id": "healthyformula-pipeline-error-resolution",
-        "filename": "healthyformula-pipeline-error-resolution.md",
-        "folder": "active",
-        "title": "건강공식 파이프라인 에러 해결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-17T23:45:58.534483",
         "progress": 0
       },
       {
@@ -172,8 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T00:30:11.042000",
-      "nextRun": "2026-03-18T00:45:00",
+      "lastRun": "2026-03-18T01:00:08.132000",
+      "nextRun": "2026-03-18T01:15:00",
       "lastStatus": "ok"
     },
     {
@@ -182,38 +182,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-18T00:30:15.800000",
-      "nextRun": "2026-03-18T00:45:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "b55133f4-c9f4-4cd7-b9b6-dea51d1f6f4a",
-      "name": "건강공식 Step2b: 이미지 생성 (2편째)",
-      "schedule": "크론: 0 1 * * *",
-      "description": "건강공식 Step2b: 이미지 생성 + 벤지 검수 (2편째)",
-      "enabled": true,
-      "lastRun": "2026-03-17T03:43:26.934000",
-      "nextRun": "2026-03-18T01:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-18T00:30:00.021000",
-      "nextRun": "2026-03-18T01:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-18T00:05:00.164000",
-      "nextRun": "2026-03-18T01:00:26.882000",
+      "lastRun": "2026-03-18T01:00:13.459000",
+      "nextRun": "2026-03-18T01:15:00",
       "lastStatus": "ok"
     },
     {
@@ -224,6 +194,16 @@
       "enabled": true,
       "lastRun": "2026-03-17T01:20:00.029000",
       "nextRun": "2026-03-18T01:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-18T01:00:00.035000",
+      "nextRun": "2026-03-18T01:30:00",
       "lastStatus": "ok"
     },
     {
@@ -254,6 +234,16 @@
       "enabled": true,
       "lastRun": "2026-03-18T00:03:24.028000",
       "nextRun": "2026-03-18T02:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-18T01:02:18.151000",
+      "nextRun": "2026-03-18T02:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -587,6 +577,16 @@
       "lastStatus": "error"
     },
     {
+      "id": "b55133f4-c9f4-4cd7-b9b6-dea51d1f6f4a",
+      "name": "건강공식 Step2b: 이미지 생성 (2편째)",
+      "schedule": "크론: 0 1 * * *",
+      "description": "건강공식 Step2b: 이미지 생성 + 벤지 검수 (2편째)",
+      "enabled": true,
+      "lastRun": "2026-03-18T01:00:47.634000",
+      "nextRun": "2026-03-19T01:00:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -647,6 +647,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-18T00:48:17.452967"
+    "timestamp": "2026-03-18T01:16:01.552626"
   }
 }
