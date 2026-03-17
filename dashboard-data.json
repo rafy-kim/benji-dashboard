@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-17T05:30:48.396236",
+  "generated_at": "2026-03-17T18:24:08.322652",
   "tasks": {
     "active": [
       {
         "id": "health-formula-pipeline",
         "filename": "health-formula-pipeline.md",
         "folder": "active",
-        "title": "건강공식 콘텐츠 파이프라인 수정 (2026-03-15)",
+        "title": "건강공식 콘텐츠 파이프라인",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773500537.040069",
+        "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-17T05:30:43.110654",
+        "last_updated": "2026-03-17T18:24:03.507781",
         "progress": 0
       },
       {
@@ -159,8 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T05:15:00.032000",
-      "nextRun": "2026-03-17T05:30:00",
+      "lastRun": "2026-03-17T18:15:00.031000",
+      "nextRun": "2026-03-17T18:30:00",
       "lastStatus": "ok"
     },
     {
@@ -169,8 +169,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T05:00:00.021000",
-      "nextRun": "2026-03-17T05:30:00",
+      "lastRun": "2026-03-17T18:00:00.037000",
+      "nextRun": "2026-03-17T18:30:00",
       "lastStatus": "ok"
     },
     {
@@ -179,39 +179,9 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-17T05:15:07.152000",
-      "nextRun": "2026-03-17T05:30:00",
+      "lastRun": "2026-03-17T18:15:05.848000",
+      "nextRun": "2026-03-17T18:30:00",
       "lastStatus": "ok"
-    },
-    {
-      "id": "b7ccf50a-b22e-4795-a033-289f0646c0a1",
-      "name": "이거 실화? Step4: TTS+렌더링+업로드",
-      "schedule": "크론: 40 5 * * *",
-      "description": "이거 실화? Step4: TTS + 렌더링 + 업로드 (1편째 → 12:00 예약)",
-      "enabled": true,
-      "lastRun": "2026-03-16T05:40:00.022000",
-      "nextRun": "2026-03-17T05:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "dfbb262f-fe7a-4ad7-9e79-cc29a72d7520",
-      "name": "이거 실화? Step2b: 스크립트 작성 (2번째 주제)",
-      "schedule": "크론: 0 6 * * *",
-      "description": "이거 실화? Step2: 스크립트 작성 + 검수 (1개 주제)",
-      "enabled": true,
-      "lastRun": "2026-03-16T06:00:54.834000",
-      "nextRun": "2026-03-17T06:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
-      "name": "포트폴리오 가격 변동 알림 (±5%)",
-      "schedule": "크론: 0 0,2,4,6 * * 1-6",
-      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-17T04:15:54.625000",
-      "nextRun": "2026-03-17T06:00:00",
-      "lastStatus": "error"
     },
     {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
@@ -219,139 +189,9 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-17T05:03:23.943000",
-      "nextRun": "2026-03-17T06:00:26.882000",
+      "lastRun": "2026-03-17T18:00:52.441000",
+      "nextRun": "2026-03-17T19:00:26.882000",
       "lastStatus": "ok"
-    },
-    {
-      "id": "076845bf-2ef8-45d7-bef3-a1dc77de9375",
-      "name": "이거 실화? Step3b: 이미지 생성 (2번째 주제)",
-      "schedule": "크론: 20 6 * * *",
-      "description": "이거 실화? Step3: 이미지 생성 + 검수 (1개 주제)",
-      "enabled": true,
-      "lastRun": "2026-03-16T06:20:00.024000",
-      "nextRun": "2026-03-17T06:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "263e2c32-2fc2-45c0-8b7b-10c58b312d3a",
-      "name": "이거 실화? Step4b: 업로드 (2번째 주제)",
-      "schedule": "크론: 40 6 * * *",
-      "description": "이거 실화? Step4b: TTS + 렌더링 + 업로드 (2편째 → 20:00 예약)",
-      "enabled": true,
-      "lastRun": "2026-03-16T06:40:00.015000",
-      "nextRun": "2026-03-17T06:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "73074b13-b20a-44db-a46a-c30278065965",
-      "name": "Valley Town 데이터 수집 (Playwright)",
-      "schedule": "크론: 15 8 * * 1-5",
-      "description": "Valley Town 데이터를 Playwright로 수집해줘. 아래 명령어 실행만 하면 돼:",
-      "enabled": true,
-      "lastRun": "2026-03-16T08:15:26.028000",
-      "nextRun": "2026-03-17T08:15:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "1afb1ae4-8106-4f66-9a19-b3421bf85eb5",
-      "name": "벤지 CIO 데일리 브리핑 V6",
-      "schedule": "크론: 30 8 * * 1-5",
-      "description": "벤지 CIO V6 데일리 브리핑을 생성해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-16T08:30:07.902000",
-      "nextRun": "2026-03-17T08:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
-      "name": "YouTube 3채널 모닝 리포트 (09:00)",
-      "schedule": "매일 09:00",
-      "description": "☀️ YouTube 3채널 모닝 리포트 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-16T09:00:27.185000",
-      "nextRun": "2026-03-17T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
-      "name": "Claude 사용량 체크 (매일 09:00)",
-      "schedule": "매일 09:00",
-      "description": "Claude Max 주간 한도 체크!",
-      "enabled": true,
-      "lastRun": "2026-03-16T09:00:08.934000",
-      "nextRun": "2026-03-17T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "444e233f-bfaa-4af0-b2cb-06de42384e8f",
-      "name": "이거실화 백로그: TikTok (10:00)",
-      "schedule": "매일 10:00",
-      "description": "틱톡 백로그 따라잡기 (즉시 게시). cd ~/clawd/scripts/youtube-shorts-pipel...",
-      "enabled": true,
-      "lastRun": "2026-03-16T10:01:14.872000",
-      "nextRun": "2026-03-17T10:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
-      "schedule": "매일 10:00",
-      "description": "산책 조언 스크립트 실행 후 슬랙 전송.",
-      "enabled": true,
-      "lastRun": "2026-03-16T10:00:00.009000",
-      "nextRun": "2026-03-17T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d3b55a3a-a2e7-4f93-88a7-ac9d5561da11",
-      "name": "초보엄빠 백로그: Instagram (10:00)",
-      "schedule": "매일 10:00",
-      "description": "인스타 백로그 따라잡기. cd ~/clawd/scripts/youtube-shorts-pipeline && ...",
-      "enabled": true,
-      "lastRun": "2026-03-15T14:00:37.309000",
-      "nextRun": "2026-03-17T10:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "015f7ccc-efce-4592-9194-ba43eeb5622e",
-      "name": "초보엄빠 Step5: Instagram (12:30)",
-      "schedule": "크론: 10 12 * * *",
-      "description": "초보엄빠 육아노트 채널의 오늘 1편째 영상을 Instagram에 즉시 업로드 (12:30 KST).",
-      "enabled": true,
-      "lastRun": "2026-03-16T12:00:43.386000",
-      "nextRun": "2026-03-17T12:10:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "b97385ec-46b5-4a98-bd3b-51836dac1bed",
-      "name": "이거실화? Step5: TikTok (12:30)",
-      "schedule": "크론: 10 12 * * *",
-      "description": "이거실화? 채널의 오늘 1편째 영상을 TikTok에 즉시 업로드 (12:30 KST).",
-      "enabled": true,
-      "lastRun": "2026-03-16T07:00:59.812000",
-      "nextRun": "2026-03-17T12:10:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "1ace48eb-11ef-4439-9c4d-faa7c422f5f0",
-      "name": "초보엄빠 백로그: Instagram (15:00)",
-      "schedule": "크론: 0 15 * * *",
-      "description": "인스타 백로그 따라잡기 (15:00). cd ~/clawd/scripts/youtube-shorts-pipe...",
-      "enabled": true,
-      "lastRun": "2026-03-16T15:03:19.909000",
-      "nextRun": "2026-03-17T15:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "f8f19222-1045-4ecd-9cb8-418d9e6f7389",
-      "name": "이거실화 백로그: TikTok (15:00)",
-      "schedule": "크론: 0 15 * * *",
-      "description": "틱톡 백로그 따라잡기 (즉시 게시, 15:00). cd ~/clawd/scripts/youtube-short...",
-      "enabled": true,
-      "lastRun": "2026-03-16T15:01:23.139000",
-      "nextRun": "2026-03-17T15:00:00",
-      "lastStatus": "error"
     },
     {
       "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
@@ -402,6 +242,16 @@
       "lastRun": "2026-03-17T00:01:29.692000",
       "nextRun": "2026-03-18T00:00:00",
       "lastStatus": "ok"
+    },
+    {
+      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
+      "name": "포트폴리오 가격 변동 알림 (±5%)",
+      "schedule": "크론: 0 0,2,4,6 * * 1-6",
+      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-17T06:00:50.258000",
+      "nextRun": "2026-03-18T00:00:00",
+      "lastStatus": "error"
     },
     {
       "id": "9be2b636-ee67-4b1c-9327-4b2e08a21fd6",
@@ -574,6 +424,156 @@
       "lastStatus": "ok"
     },
     {
+      "id": "b7ccf50a-b22e-4795-a033-289f0646c0a1",
+      "name": "이거 실화? Step4: TTS+렌더링+업로드",
+      "schedule": "크론: 40 5 * * *",
+      "description": "이거 실화? Step4: TTS + 렌더링 + 업로드 (1편째 → 12:00 예약)",
+      "enabled": true,
+      "lastRun": "2026-03-17T05:40:00.033000",
+      "nextRun": "2026-03-18T05:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "dfbb262f-fe7a-4ad7-9e79-cc29a72d7520",
+      "name": "이거 실화? Step2b: 스크립트 작성 (2번째 주제)",
+      "schedule": "크론: 0 6 * * *",
+      "description": "이거 실화? Step2: 스크립트 작성 + 검수 (1개 주제)",
+      "enabled": true,
+      "lastRun": "2026-03-17T06:01:12.124000",
+      "nextRun": "2026-03-18T06:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "076845bf-2ef8-45d7-bef3-a1dc77de9375",
+      "name": "이거 실화? Step3b: 이미지 생성 (2번째 주제)",
+      "schedule": "크론: 20 6 * * *",
+      "description": "이거 실화? Step3: 이미지 생성 + 검수 (1개 주제)",
+      "enabled": true,
+      "lastRun": "2026-03-17T06:20:00.022000",
+      "nextRun": "2026-03-18T06:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "263e2c32-2fc2-45c0-8b7b-10c58b312d3a",
+      "name": "이거 실화? Step4b: 업로드 (2번째 주제)",
+      "schedule": "크론: 40 6 * * *",
+      "description": "이거 실화? Step4b: TTS + 렌더링 + 업로드 (2편째 → 20:00 예약)",
+      "enabled": true,
+      "lastRun": "2026-03-17T06:40:00.026000",
+      "nextRun": "2026-03-18T06:40:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "73074b13-b20a-44db-a46a-c30278065965",
+      "name": "Valley Town 데이터 수집 (Playwright)",
+      "schedule": "크론: 15 8 * * 1-5",
+      "description": "Valley Town 데이터를 Playwright로 수집해줘. 아래 명령어 실행만 하면 돼:",
+      "enabled": true,
+      "lastRun": "2026-03-17T08:15:33.556000",
+      "nextRun": "2026-03-18T08:15:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "1afb1ae4-8106-4f66-9a19-b3421bf85eb5",
+      "name": "벤지 CIO 데일리 브리핑 V6",
+      "schedule": "크론: 30 8 * * 1-5",
+      "description": "벤지 CIO V6 데일리 브리핑을 생성해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-17T08:30:09.204000",
+      "nextRun": "2026-03-18T08:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
+      "name": "YouTube 3채널 모닝 리포트 (09:00)",
+      "schedule": "매일 09:00",
+      "description": "☀️ YouTube 3채널 모닝 리포트 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-17T09:00:31.653000",
+      "nextRun": "2026-03-18T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
+      "name": "Claude 사용량 체크 (매일 09:00)",
+      "schedule": "매일 09:00",
+      "description": "Claude Max 주간 한도 체크!",
+      "enabled": true,
+      "lastRun": "2026-03-17T09:00:09.172000",
+      "nextRun": "2026-03-18T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "444e233f-bfaa-4af0-b2cb-06de42384e8f",
+      "name": "이거실화 백로그: TikTok (10:00)",
+      "schedule": "매일 10:00",
+      "description": "틱톡 백로그 따라잡기 (즉시 게시). cd ~/clawd/scripts/youtube-shorts-pipel...",
+      "enabled": true,
+      "lastRun": "2026-03-17T10:00:54.555000",
+      "nextRun": "2026-03-18T10:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
+      "name": "산책 조언 (매일 10:00)",
+      "schedule": "매일 10:00",
+      "description": "산책 조언 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-17T10:00:00.033000",
+      "nextRun": "2026-03-18T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3b55a3a-a2e7-4f93-88a7-ac9d5561da11",
+      "name": "초보엄빠 백로그: Instagram (10:00)",
+      "schedule": "매일 10:00",
+      "description": "인스타 백로그 따라잡기. cd ~/clawd/scripts/youtube-shorts-pipeline && ...",
+      "enabled": true,
+      "lastRun": "2026-03-17T10:02:29.683000",
+      "nextRun": "2026-03-18T10:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "015f7ccc-efce-4592-9194-ba43eeb5622e",
+      "name": "초보엄빠 Step5: Instagram (12:30)",
+      "schedule": "크론: 10 12 * * *",
+      "description": "초보엄빠 육아노트 채널의 오늘 1편째 영상을 Instagram에 즉시 업로드 (12:30 KST).",
+      "enabled": true,
+      "lastRun": "2026-03-17T12:11:17.189000",
+      "nextRun": "2026-03-18T12:10:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "b97385ec-46b5-4a98-bd3b-51836dac1bed",
+      "name": "이거실화? Step5: TikTok (12:30)",
+      "schedule": "크론: 10 12 * * *",
+      "description": "이거실화? 채널의 오늘 1편째 영상을 TikTok에 즉시 업로드 (12:30 KST).",
+      "enabled": true,
+      "lastRun": "2026-03-17T12:10:00.010000",
+      "nextRun": "2026-03-18T12:10:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "1ace48eb-11ef-4439-9c4d-faa7c422f5f0",
+      "name": "초보엄빠 백로그: Instagram (15:00)",
+      "schedule": "크론: 0 15 * * *",
+      "description": "인스타 백로그 따라잡기 (15:00). cd ~/clawd/scripts/youtube-shorts-pipe...",
+      "enabled": true,
+      "lastRun": "2026-03-17T15:02:55.435000",
+      "nextRun": "2026-03-18T15:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "f8f19222-1045-4ecd-9cb8-418d9e6f7389",
+      "name": "이거실화 백로그: TikTok (15:00)",
+      "schedule": "크론: 0 15 * * *",
+      "description": "틱톡 백로그 따라잡기 (즉시 게시, 15:00). cd ~/clawd/scripts/youtube-short...",
+      "enabled": true,
+      "lastRun": "2026-03-17T15:00:47.905000",
+      "nextRun": "2026-03-18T15:00:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -618,13 +618,12 @@
     "wip_utilization": 80.0,
     "waiting_count": 2,
     "completed_today": 0,
-    "aging_24h": [
-      "youtube-shorts-improvement-plan"
-    ],
+    "aging_24h": [],
     "aging_48h": [
+      "youtube-shorts-improvement-plan",
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-17T05:30:48.436090"
+    "timestamp": "2026-03-17T18:24:08.367156"
   }
 }
