@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-17T18:50:57.906820",
+  "generated_at": "2026-03-17T21:30:57.176274",
   "tasks": {
     "active": [
+      {
+        "id": "healthyformula-pipeline-error-resolution",
+        "filename": "healthyformula-pipeline-error-resolution.md",
+        "folder": "active",
+        "title": "건강공식 파이프라인 에러 해결",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-17T21:30:51.994801",
+        "progress": 0
+      },
       {
         "id": "youtube-shorts-improvement-plan",
         "filename": "youtube-shorts-improvement-plan.md",
@@ -146,8 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T18:45:00.038000",
-      "nextRun": "2026-03-17T19:00:00",
+      "lastRun": "2026-03-17T21:15:00.037000",
+      "nextRun": "2026-03-17T21:30:00",
       "lastStatus": "ok"
     },
     {
@@ -156,8 +169,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T18:30:00.039000",
-      "nextRun": "2026-03-17T19:00:00",
+      "lastRun": "2026-03-17T21:00:00.035000",
+      "nextRun": "2026-03-17T21:30:00",
       "lastStatus": "ok"
     },
     {
@@ -166,8 +179,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-17T18:45:13.746000",
-      "nextRun": "2026-03-17T19:00:00",
+      "lastRun": "2026-03-17T21:15:05.962000",
+      "nextRun": "2026-03-17T21:30:00",
       "lastStatus": "ok"
     },
     {
@@ -176,29 +189,9 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-17T18:00:52.441000",
-      "nextRun": "2026-03-17T19:00:26.882000",
+      "lastRun": "2026-03-17T21:00:53.902000",
+      "nextRun": "2026-03-17T22:00:26.882000",
       "lastStatus": "ok"
-    },
-    {
-      "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
-      "name": "이거실화? Step5b: TikTok 2편 (20:10)",
-      "schedule": "크론: 10 20 * * *",
-      "description": "이거실화? 채널의 오늘 2편째 영상을 TikTok에 즉시 업로드 (20:30 KST).",
-      "enabled": true,
-      "lastRun": "2026-03-16T20:10:00.035000",
-      "nextRun": "2026-03-17T20:10:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "a969c1c7-b2dc-4191-97c7-b38b067eb546",
-      "name": "초보엄빠 Step5b: Instagram 2편 (20:10)",
-      "schedule": "크론: 10 20 * * *",
-      "description": "초보엄빠 채널의 오늘 2편째 영상을 Instagram에 즉시 업로드 (20:30 KST).",
-      "enabled": true,
-      "lastRun": "2026-03-16T20:11:42.766000",
-      "nextRun": "2026-03-17T20:10:00",
-      "lastStatus": "error"
     },
     {
       "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
@@ -561,6 +554,26 @@
       "lastStatus": "error"
     },
     {
+      "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
+      "name": "이거실화? Step5b: TikTok 2편 (20:10)",
+      "schedule": "크론: 10 20 * * *",
+      "description": "이거실화? 채널의 오늘 2편째 영상을 TikTok에 즉시 업로드 (20:30 KST).",
+      "enabled": true,
+      "lastRun": "2026-03-17T20:10:00.031000",
+      "nextRun": "2026-03-18T20:10:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "a969c1c7-b2dc-4191-97c7-b38b067eb546",
+      "name": "초보엄빠 Step5b: Instagram 2편 (20:10)",
+      "schedule": "크론: 10 20 * * *",
+      "description": "초보엄빠 채널의 오늘 2편째 영상을 Instagram에 즉시 업로드 (20:30 KST).",
+      "enabled": true,
+      "lastRun": "2026-03-17T20:10:24.394000",
+      "nextRun": "2026-03-18T20:10:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -592,17 +605,17 @@
     }
   ],
   "stats": {
-    "total": 163,
-    "active": 3,
+    "total": 164,
+    "active": 4,
     "next": 0,
     "waiting": 2,
     "completed": 158,
     "cron": 45
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 80.0,
     "waiting_count": 2,
     "completed_today": 1,
     "aging_24h": [],
@@ -611,6 +624,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-17T18:50:57.932033"
+    "timestamp": "2026-03-17T21:30:57.199840"
   }
 }
