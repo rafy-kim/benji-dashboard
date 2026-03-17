@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T02:01:11.885453",
+  "generated_at": "2026-03-18T02:15:49.949272",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-18T02:01:07.761330",
+        "last_updated": "2026-03-18T02:15:45.812244",
         "progress": 0
       },
       {
@@ -167,24 +167,24 @@
   },
   "cron": [
     {
+      "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
+      "name": "육아꿀팁 Step0: 토픽 자동 발굴 (학습+Q&A)",
+      "schedule": "크론: 20 2 * * *",
+      "description": "육아꿀팁 V2 Step0: 토픽 증분 발굴 (새 데이터만 스캔)",
+      "enabled": true,
+      "lastRun": "2026-03-17T02:20:00.030000",
+      "nextRun": "2026-03-18T02:20:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T01:45:00.026000",
-      "nextRun": "2026-03-18T02:00:00",
+      "lastRun": "2026-03-18T02:15:00.025000",
+      "nextRun": "2026-03-18T02:30:00",
       "lastStatus": "ok"
-    },
-    {
-      "id": "9f1e21fb-5d70-4f91-9706-0aa75f05b879",
-      "name": "건강공식 Step4: 업로드+댓글+보고 (12:00/20:00)",
-      "schedule": "크론: 0 2 * * *",
-      "description": "건강공식 Step4: YouTube 예약 업로드 + 면책조항 댓글 + 보고 (2편)",
-      "enabled": true,
-      "lastRun": "2026-03-17T03:59:15.039000",
-      "nextRun": "2026-03-18T02:00:00",
-      "lastStatus": "error"
     },
     {
       "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
@@ -192,18 +192,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T01:30:00.027000",
-      "nextRun": "2026-03-18T02:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
-      "name": "포트폴리오 가격 변동 알림 (±5%)",
-      "schedule": "크론: 0 0,2,4,6 * * 1-6",
-      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-18T00:03:24.028000",
-      "nextRun": "2026-03-18T02:00:00",
+      "lastRun": "2026-03-18T02:00:00.030000",
+      "nextRun": "2026-03-18T02:30:00",
       "lastStatus": "ok"
     },
     {
@@ -212,28 +202,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-18T01:45:07.309000",
-      "nextRun": "2026-03-18T02:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-18T01:02:18.151000",
-      "nextRun": "2026-03-18T02:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
-      "name": "육아꿀팁 Step0: 토픽 자동 발굴 (학습+Q&A)",
-      "schedule": "크론: 20 2 * * *",
-      "description": "육아꿀팁 V2 Step0: 토픽 증분 발굴 (새 데이터만 스캔)",
-      "enabled": true,
-      "lastRun": "2026-03-17T02:20:00.030000",
-      "nextRun": "2026-03-18T02:20:00",
+      "lastRun": "2026-03-18T02:15:04.790000",
+      "nextRun": "2026-03-18T02:30:00",
       "lastStatus": "ok"
     },
     {
@@ -254,6 +224,16 @@
       "enabled": true,
       "lastRun": "2026-03-17T03:01:02.961000",
       "nextRun": "2026-03-18T03:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-18T02:03:22.989000",
+      "nextRun": "2026-03-18T03:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -293,6 +273,16 @@
       "description": "육아꿀팁 V2 Step3b: TTS + 영상 렌더링 (2편째만)",
       "enabled": true,
       "lastRun": "2026-03-17T04:16:11.531000",
+      "nextRun": "2026-03-18T04:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
+      "name": "포트폴리오 가격 변동 알림 (±5%)",
+      "schedule": "크론: 0 0,2,4,6 * * 1-6",
+      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-18T02:01:21.621000",
       "nextRun": "2026-03-18T04:00:00",
       "lastStatus": "ok"
     },
@@ -587,6 +577,16 @@
       "lastStatus": "error"
     },
     {
+      "id": "9f1e21fb-5d70-4f91-9706-0aa75f05b879",
+      "name": "건강공식 Step4: 업로드+댓글+보고 (12:00/20:00)",
+      "schedule": "크론: 0 2 * * *",
+      "description": "건강공식 Step4: YouTube 예약 업로드 + 면책조항 댓글 + 보고 (2편)",
+      "enabled": true,
+      "lastRun": "2026-03-18T02:01:36.230000",
+      "nextRun": "2026-03-19T02:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -647,6 +647,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-18T02:01:11.912001"
+    "timestamp": "2026-03-18T02:15:49.975798"
   }
 }
