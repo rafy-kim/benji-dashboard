@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T22:08:31.528645",
+  "generated_at": "2026-03-17T22:18:53.417065",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-17T22:08:26.463151",
+        "last_updated": "2026-03-17T22:18:48.611181",
         "progress": 0
       },
       {
@@ -172,18 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T22:00:09.334000",
-      "nextRun": "2026-03-17T22:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-17T22:00:15.824000",
-      "nextRun": "2026-03-17T22:15:00",
+      "lastRun": "2026-03-17T22:15:00.021000",
+      "nextRun": "2026-03-17T22:30:00",
       "lastStatus": "ok"
     },
     {
@@ -193,6 +183,16 @@
       "description": "세션 모니터링.",
       "enabled": true,
       "lastRun": "2026-03-17T22:00:00.029000",
+      "nextRun": "2026-03-17T22:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-17T22:15:15.900000",
       "nextRun": "2026-03-17T22:30:00",
       "lastStatus": "ok"
     },
@@ -607,6 +607,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "2b0750de-b3eb-4c6e-9a97-78a6cd490297",
+      "name": "트럼프/일론 주간 성장 리포트 (일요일 20:00)",
+      "schedule": "크론: 0 20 * * 0",
+      "description": "📊 트럼프/일론 채널 주간 성장 리포트!",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-22T20:00:00",
+      "lastStatus": null
+    },
+    {
       "id": "d84fc357-fab0-4a0f-aabe-d05f7e4a74f3",
       "name": "weekly-portfolio-health",
       "schedule": "크론: 0 9 * * 1",
@@ -623,7 +633,7 @@
     "next": 0,
     "waiting": 2,
     "completed": 158,
-    "cron": 45
+    "cron": 46
   },
   "flow_metrics": {
     "wip_count": 5,
@@ -637,6 +647,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-17T22:08:31.556854"
+    "timestamp": "2026-03-17T22:18:53.454565"
   }
 }
