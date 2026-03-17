@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-17T23:07:46.642762",
+  "generated_at": "2026-03-17T23:46:02.693503",
   "tasks": {
     "active": [
+      {
+        "id": "healthyformula-pipeline-error-resolution",
+        "filename": "healthyformula-pipeline-error-resolution.md",
+        "folder": "active",
+        "title": "건강공식 파이프라인 에러 해결",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-17T23:45:58.534483",
+        "progress": 0
+      },
       {
         "id": "trump-elon-channel-growth",
         "filename": "trump-elon-channel-growth.md",
@@ -13,19 +26,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-17T23:07:41.836843",
-        "progress": 0
-      },
-      {
-        "id": "healthyformula-pipeline-error-resolution",
-        "filename": "healthyformula-pipeline-error-resolution.md",
-        "folder": "active",
-        "title": "건강공식 파이프라인 에러 해결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-17T21:30:51.994801",
         "progress": 0
       },
       {
@@ -172,8 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-17T23:00:08.124000",
-      "nextRun": "2026-03-17T23:15:00",
+      "lastRun": "2026-03-17T23:30:09.865000",
+      "nextRun": "2026-03-17T23:45:00",
       "lastStatus": "ok"
     },
     {
@@ -182,18 +182,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-17T23:00:15.492000",
-      "nextRun": "2026-03-17T23:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-17T23:00:00.036000",
-      "nextRun": "2026-03-17T23:30:00",
+      "lastRun": "2026-03-17T23:30:16.852000",
+      "nextRun": "2026-03-17T23:45:00",
       "lastStatus": "ok"
     },
     {
@@ -213,6 +203,16 @@
       "description": "건강공식 Step0: 토픽 발굴 + 큐 확인 (하루 2편 체제)",
       "enabled": true,
       "lastRun": "2026-03-17T00:01:29.692000",
+      "nextRun": "2026-03-18T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-17T23:30:00.025000",
       "nextRun": "2026-03-18T00:00:00",
       "lastStatus": "ok"
     },
@@ -647,6 +647,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-17T23:07:46.686570"
+    "timestamp": "2026-03-17T23:46:02.718199"
   }
 }
