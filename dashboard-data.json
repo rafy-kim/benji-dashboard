@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-03-18T16:57:20.912425",
+  "generated_at": "2026-03-18T16:57:26.942743",
   "tasks": {
     "active": [
-      {
-        "id": "trump-elon-channel-growth",
-        "filename": "trump-elon-channel-growth.md",
-        "folder": "active",
-        "title": "오늘의 트럼프 + 오늘의 일론 채널 성장 전략 실행",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-18T16:57:18.709914",
-        "progress": 0
-      },
       {
         "id": "youtube-shorts-improvement-plan",
         "filename": "youtube-shorts-improvement-plan.md",
@@ -86,6 +73,19 @@
     ],
     "completed": [
       {
+        "id": "trump-elon-channel-growth",
+        "filename": "trump-elon-channel-growth.md",
+        "folder": "completed",
+        "title": "오늘의 트럼프 + 오늘의 일론 채널 성장 전략 실행",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-18T16:57:18.709914",
+        "progress": 0
+      },
+      {
         "id": "healthyformula-pipeline-error-resolution",
         "filename": "healthyformula-pipeline-error-resolution.md",
         "folder": "completed",
@@ -135,19 +135,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-14T16:01:02.820487",
-        "progress": 0
-      },
-      {
-        "id": "yookwanggultip-v2-relaunch",
-        "filename": "yookwanggultip-v2-relaunch.md",
-        "folder": "completed",
-        "title": "📺 초보 엄빠 육아 노트 V2 리런칭",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773041737633299",
-        "waiting_for": null,
-        "last_updated": "2026-03-12T09:52:48.248534",
         "progress": 0
       }
     ]
@@ -626,24 +613,24 @@
   ],
   "stats": {
     "total": 165,
-    "active": 4,
+    "active": 3,
     "next": 0,
     "waiting": 2,
-    "completed": 159,
+    "completed": 160,
     "cron": 47
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 60.0,
     "waiting_count": 2,
-    "completed_today": 1,
+    "completed_today": 2,
     "aging_24h": [],
     "aging_48h": [
       "youtube-shorts-improvement-plan",
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-18T16:57:20.933399"
+    "timestamp": "2026-03-18T16:57:26.967063"
   }
 }
