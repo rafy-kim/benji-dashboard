@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T11:16:27.248334",
+  "generated_at": "2026-03-18T12:31:18.183019",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-18T11:16:22.123091",
+        "last_updated": "2026-03-18T12:31:12.867455",
         "progress": 0
       },
       {
@@ -159,18 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T11:00:13.887000",
-      "nextRun": "2026-03-18T11:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-18T11:00:24.258000",
-      "nextRun": "2026-03-18T11:15:00",
+      "lastRun": "2026-03-18T12:15:00.030000",
+      "nextRun": "2026-03-18T12:30:00",
       "lastStatus": "ok"
     },
     {
@@ -179,8 +169,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T11:00:00.028000",
-      "nextRun": "2026-03-18T11:30:00",
+      "lastRun": "2026-03-18T12:00:00.032000",
+      "nextRun": "2026-03-18T12:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-18T12:15:08.844000",
+      "nextRun": "2026-03-18T12:30:00",
       "lastStatus": "ok"
     },
     {
@@ -189,29 +189,9 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-18T11:01:01.767000",
-      "nextRun": "2026-03-18T12:00:26.882000",
+      "lastRun": "2026-03-18T12:01:40.057000",
+      "nextRun": "2026-03-18T13:00:26.882000",
       "lastStatus": "ok"
-    },
-    {
-      "id": "015f7ccc-efce-4592-9194-ba43eeb5622e",
-      "name": "초보엄빠 Step5: Instagram (12:30)",
-      "schedule": "크론: 10 12 * * *",
-      "description": "초보엄빠 육아노트 채널의 오늘 1편째 영상을 Instagram에 즉시 업로드 (12:30 KST).",
-      "enabled": true,
-      "lastRun": "2026-03-17T12:11:17.189000",
-      "nextRun": "2026-03-18T12:10:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "b97385ec-46b5-4a98-bd3b-51836dac1bed",
-      "name": "이거실화? Step5: TikTok (12:30)",
-      "schedule": "크론: 10 12 * * *",
-      "description": "이거실화? 채널의 오늘 1편째 영상을 TikTok에 즉시 업로드 (12:30 KST).",
-      "enabled": true,
-      "lastRun": "2026-03-17T12:10:00.010000",
-      "nextRun": "2026-03-18T12:10:00",
-      "lastStatus": "error"
     },
     {
       "id": "1ace48eb-11ef-4439-9c4d-faa7c422f5f0",
@@ -574,6 +554,26 @@
       "lastStatus": "error"
     },
     {
+      "id": "015f7ccc-efce-4592-9194-ba43eeb5622e",
+      "name": "초보엄빠 Step5: Instagram (12:30)",
+      "schedule": "크론: 10 12 * * *",
+      "description": "초보엄빠 육아노트 채널의 오늘 1편째 영상을 Instagram에 즉시 업로드 (12:30 KST).",
+      "enabled": true,
+      "lastRun": "2026-03-18T12:11:19.965000",
+      "nextRun": "2026-03-19T12:10:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "b97385ec-46b5-4a98-bd3b-51836dac1bed",
+      "name": "이거실화? Step5: TikTok (12:30)",
+      "schedule": "크론: 10 12 * * *",
+      "description": "이거실화? 채널의 오늘 1편째 영상을 TikTok에 즉시 업로드 (12:30 KST).",
+      "enabled": true,
+      "lastRun": "2026-03-18T12:10:00.031000",
+      "nextRun": "2026-03-19T12:10:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -634,6 +634,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-18T11:16:27.289658"
+    "timestamp": "2026-03-18T12:31:18.214382"
   }
 }
