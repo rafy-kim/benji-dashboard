@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T13:46:49.960434",
+  "generated_at": "2026-03-18T14:16:02.828513",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-18T13:46:44.886155",
+        "last_updated": "2026-03-18T14:15:57.332065",
         "progress": 0
       },
       {
@@ -159,18 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T13:30:13.798000",
-      "nextRun": "2026-03-18T13:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-18T13:30:26.605000",
-      "nextRun": "2026-03-18T13:45:00",
+      "lastRun": "2026-03-18T14:15:00.022000",
+      "nextRun": "2026-03-18T14:30:00",
       "lastStatus": "ok"
     },
     {
@@ -179,18 +169,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T13:30:00.036000",
-      "nextRun": "2026-03-18T14:00:00",
+      "lastRun": "2026-03-18T14:00:00.032000",
+      "nextRun": "2026-03-18T14:30:00",
       "lastStatus": "ok"
     },
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-18T13:01:16.886000",
-      "nextRun": "2026-03-18T14:00:26.882000",
+      "lastRun": "2026-03-18T14:15:09.472000",
+      "nextRun": "2026-03-18T14:30:00",
       "lastStatus": "ok"
     },
     {
@@ -212,6 +202,16 @@
       "lastRun": "2026-03-17T15:00:47.905000",
       "nextRun": "2026-03-18T15:00:00",
       "lastStatus": "error"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-18T14:02:29.641000",
+      "nextRun": "2026-03-18T15:00:26.882000",
+      "lastStatus": "ok"
     },
     {
       "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
@@ -634,6 +634,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-18T13:46:50.000484"
+    "timestamp": "2026-03-18T14:16:02.862213"
   }
 }
