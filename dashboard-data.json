@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T12:31:18.183019",
+  "generated_at": "2026-03-18T13:46:49.960434",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-18T12:31:12.867455",
+        "last_updated": "2026-03-18T13:46:44.886155",
         "progress": 0
       },
       {
@@ -159,18 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-18T12:15:00.030000",
-      "nextRun": "2026-03-18T12:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-18T12:00:00.032000",
-      "nextRun": "2026-03-18T12:30:00",
+      "lastRun": "2026-03-18T13:30:13.798000",
+      "nextRun": "2026-03-18T13:45:00",
       "lastStatus": "ok"
     },
     {
@@ -179,8 +169,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-18T12:15:08.844000",
-      "nextRun": "2026-03-18T12:30:00",
+      "lastRun": "2026-03-18T13:30:26.605000",
+      "nextRun": "2026-03-18T13:45:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-18T13:30:00.036000",
+      "nextRun": "2026-03-18T14:00:00",
       "lastStatus": "ok"
     },
     {
@@ -189,8 +189,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-18T12:01:40.057000",
-      "nextRun": "2026-03-18T13:00:26.882000",
+      "lastRun": "2026-03-18T13:01:16.886000",
+      "nextRun": "2026-03-18T14:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -634,6 +634,6 @@
       "tiktok-instagram-pipeline",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-18T12:31:18.214382"
+    "timestamp": "2026-03-18T13:46:50.000484"
   }
 }
