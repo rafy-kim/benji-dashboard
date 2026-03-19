@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-03-19T20:45:38.668777",
+  "generated_at": "2026-03-19T20:48:18.798510",
   "tasks": {
     "active": [
-      {
-        "id": "aging-lab-channel-setup",
-        "filename": "aging-lab-channel-setup.md",
-        "folder": "active",
-        "title": "🧬 노화 연구소 채널 세팅 + 건강공식 전환",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773886413947539",
-        "waiting_for": null,
-        "last_updated": "2026-03-19T20:45:34.528018",
-        "progress": 0
-      },
       {
         "id": "nyamnyam-pick-channel",
         "filename": "nyamnyam-pick-channel.md",
@@ -25,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-19T19:16:55.858770",
+        "last_updated": "2026-03-19T20:48:13.965254",
         "progress": 0
       },
       {
@@ -102,13 +89,13 @@
         "id": "aging-lab-channel-setup",
         "filename": "aging-lab-channel-setup.md",
         "folder": "completed",
-        "title": "노화연구소 채널 세팅 + 건강공식 전환",
+        "title": "🧬 노화 연구소 채널 세팅 + 건강공식 전환",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": null,
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773886413947539",
         "waiting_for": null,
-        "last_updated": "2026-03-19T17:43:43.934762",
+        "last_updated": "2026-03-19T20:45:34.528018",
         "progress": 0
       },
       {
@@ -172,18 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T20:30:08.946000",
-      "nextRun": "2026-03-19T20:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-19T20:30:15.135000",
-      "nextRun": "2026-03-19T20:45:00",
+      "lastRun": "2026-03-19T20:45:00.025000",
+      "nextRun": "2026-03-19T21:00:00",
       "lastStatus": "ok"
     },
     {
@@ -193,6 +170,16 @@
       "description": "세션 모니터링.",
       "enabled": true,
       "lastRun": "2026-03-19T20:30:00.026000",
+      "nextRun": "2026-03-19T21:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-19T20:45:05.750000",
       "nextRun": "2026-03-19T21:00:00",
       "lastStatus": "ok"
     },
@@ -468,23 +455,23 @@
     }
   ],
   "stats": {
-    "total": 168,
-    "active": 5,
+    "total": 167,
+    "active": 4,
     "next": 0,
     "waiting": 2,
     "completed": 161,
     "cron": 30
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 80.0,
     "waiting_count": 2,
     "completed_today": 1,
     "aging_24h": [],
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T20:45:38.693095"
+    "timestamp": "2026-03-19T20:48:18.835353"
   }
 }
