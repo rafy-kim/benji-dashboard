@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T12:31:59.274802",
+  "generated_at": "2026-03-19T16:15:41.254443",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-19T12:31:54.299692",
+        "last_updated": "2026-03-19T16:15:36.557250",
         "progress": 0
       },
       {
@@ -159,8 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T12:30:09.367000",
-      "nextRun": "2026-03-19T12:45:00",
+      "lastRun": "2026-03-19T16:00:12.803000",
+      "nextRun": "2026-03-19T16:15:00",
       "lastStatus": "ok"
     },
     {
@@ -169,8 +169,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-19T12:30:15.008000",
-      "nextRun": "2026-03-19T12:45:00",
+      "lastRun": "2026-03-19T16:00:20.092000",
+      "nextRun": "2026-03-19T16:15:00",
       "lastStatus": "ok"
     },
     {
@@ -179,8 +179,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T12:30:00.009000",
-      "nextRun": "2026-03-19T13:00:00",
+      "lastRun": "2026-03-19T16:00:00.027000",
+      "nextRun": "2026-03-19T16:30:00",
       "lastStatus": "ok"
     },
     {
@@ -189,19 +189,9 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-19T12:00:38.225000",
-      "nextRun": "2026-03-19T13:00:26.882000",
+      "lastRun": "2026-03-19T16:00:48.089000",
+      "nextRun": "2026-03-19T17:00:26.882000",
       "lastStatus": "ok"
-    },
-    {
-      "id": "f8f19222-1045-4ecd-9cb8-418d9e6f7389",
-      "name": "이거실화 백로그: TikTok (15:00)",
-      "schedule": "크론: 0 15 * * *",
-      "description": "틱톡 백로그 따라잡기 (즉시 게시). cd ~/clawd/scripts/youtube-shorts-pipel...",
-      "enabled": true,
-      "lastRun": "2026-03-18T15:01:11.348000",
-      "nextRun": "2026-03-19T15:00:00",
-      "lastStatus": "error"
     },
     {
       "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
@@ -534,6 +524,16 @@
       "lastStatus": "error"
     },
     {
+      "id": "f8f19222-1045-4ecd-9cb8-418d9e6f7389",
+      "name": "이거실화 백로그: TikTok (15:00)",
+      "schedule": "크론: 0 15 * * *",
+      "description": "틱톡 백로그 따라잡기 (즉시 게시). cd ~/clawd/scripts/youtube-shorts-pipel...",
+      "enabled": true,
+      "lastRun": "2026-03-19T15:00:54.995000",
+      "nextRun": "2026-03-20T15:00:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -602,6 +602,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T12:31:59.315937"
+    "timestamp": "2026-03-19T16:15:41.292350"
   }
 }
