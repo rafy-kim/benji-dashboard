@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-19T22:16:21.405654",
+  "generated_at": "2026-03-19T22:17:05.297121",
   "tasks": {
     "active": [
+      {
+        "id": "nyamnyam-pick-channel",
+        "filename": "nyamnyam-pick-channel.md",
+        "folder": "active",
+        "title": "냠냠픽 — 음식 트렌드 데이터 큐레이션 채널",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-19T22:17:01.012242",
+        "progress": 0
+      },
       {
         "id": "morning-shorts-briefing-update",
         "filename": "morning-shorts-briefing-update.md",
@@ -13,19 +26,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-19T22:16:16.627445",
-        "progress": 0
-      },
-      {
-        "id": "nyamnyam-pick-channel",
-        "filename": "nyamnyam-pick-channel.md",
-        "folder": "active",
-        "title": "냠냠픽 — 음식 트렌드 데이터 큐레이션 채널",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-19T22:02:19.185319",
         "progress": 0
       },
       {
@@ -485,6 +485,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T22:16:21.444466"
+    "timestamp": "2026-03-19T22:17:05.339187"
   }
 }
