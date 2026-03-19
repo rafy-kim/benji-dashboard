@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-19T22:30:52.287930",
+  "generated_at": "2026-03-19T23:32:59.351565",
   "tasks": {
     "active": [
+      {
+        "id": "morning-shorts-briefing-update",
+        "filename": "morning-shorts-briefing-update.md",
+        "folder": "active",
+        "title": "모닝 쇼츠 브리핑 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-19T23:32:54.203946",
+        "progress": 0
+      },
       {
         "id": "nyamnyam-pick-channel",
         "filename": "nyamnyam-pick-channel.md",
@@ -13,19 +26,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-19T22:30:47.495920",
-        "progress": 0
-      },
-      {
-        "id": "morning-shorts-briefing-update",
-        "filename": "morning-shorts-briefing-update.md",
-        "folder": "active",
-        "title": "모닝 쇼츠 브리핑 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-19T22:16:16.627445",
         "progress": 0
       },
       {
@@ -172,8 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T22:15:00.029000",
-      "nextRun": "2026-03-19T22:30:00",
+      "lastRun": "2026-03-19T23:15:00.025000",
+      "nextRun": "2026-03-19T23:30:00",
       "lastStatus": "ok"
     },
     {
@@ -182,8 +182,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T22:00:00.028000",
-      "nextRun": "2026-03-19T22:30:00",
+      "lastRun": "2026-03-19T23:00:00.027000",
+      "nextRun": "2026-03-19T23:30:00",
       "lastStatus": "ok"
     },
     {
@@ -192,28 +192,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-19T22:15:17.434000",
-      "nextRun": "2026-03-19T22:30:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
-      "name": "media-cleanup-48h",
-      "schedule": "크론: 50 22 * * *",
-      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
-      "enabled": true,
-      "lastRun": "2026-03-18T22:50:00.028000",
-      "nextRun": "2026-03-19T22:50:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-19T22:02:08.387000",
-      "nextRun": "2026-03-19T23:00:26.882000",
+      "lastRun": "2026-03-19T23:15:08.153000",
+      "nextRun": "2026-03-19T23:30:00",
       "lastStatus": "ok"
     },
     {
@@ -244,6 +224,16 @@
       "enabled": true,
       "lastRun": "2026-03-19T06:00:50.084000",
       "nextRun": "2026-03-20T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-19T23:01:30.721000",
+      "nextRun": "2026-03-20T00:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -417,6 +407,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
+      "name": "media-cleanup-48h",
+      "schedule": "크론: 50 22 * * *",
+      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
+      "enabled": true,
+      "lastRun": "2026-03-19T22:50:00.031000",
+      "nextRun": "2026-03-20T22:50:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -485,6 +485,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T22:30:52.328658"
+    "timestamp": "2026-03-19T23:32:59.391617"
   }
 }
