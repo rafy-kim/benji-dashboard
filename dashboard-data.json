@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T00:01:08.981826",
+  "generated_at": "2026-03-20T00:32:14.665496",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-20T00:01:04.241745",
+        "last_updated": "2026-03-20T00:32:10.523120",
         "progress": 0
       },
       {
@@ -172,29 +172,9 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T23:45:00.030000",
-      "nextRun": "2026-03-20T00:00:00",
+      "lastRun": "2026-03-20T00:24:04.889000",
+      "nextRun": "2026-03-20T00:30:00",
       "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
-      "enabled": true,
-      "lastRun": "2026-03-19T00:00:00.032000",
-      "nextRun": "2026-03-20T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
-      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
-      "schedule": "크론: 0 0 * * *",
-      "description": "노화연구소 크론 파이프라인 실행. 다음 명령어를 실행해:",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-03-20T00:00:00",
-      "lastStatus": null
     },
     {
       "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
@@ -202,18 +182,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T23:30:00.025000",
-      "nextRun": "2026-03-20T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
-      "name": "포트폴리오 가격 변동 알림 (±5%)",
-      "schedule": "크론: 0 0,2,4,6 * * 1-6",
-      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-19T06:00:50.084000",
-      "nextRun": "2026-03-20T00:00:00",
+      "lastRun": "2026-03-20T00:00:12.006000",
+      "nextRun": "2026-03-20T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -222,9 +192,9 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-19T23:45:12.045000",
-      "nextRun": "2026-03-20T00:00:00",
-      "lastStatus": "error"
+      "lastRun": "2026-03-20T00:24:12.160000",
+      "nextRun": "2026-03-20T00:30:00",
+      "lastStatus": "ok"
     },
     {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
@@ -232,8 +202,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-19T23:01:30.721000",
-      "nextRun": "2026-03-20T00:00:26.882000",
+      "lastRun": "2026-03-20T00:18:38.685000",
+      "nextRun": "2026-03-20T01:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -245,6 +215,16 @@
       "lastRun": null,
       "nextRun": "2026-03-20T01:30:00",
       "lastStatus": null
+    },
+    {
+      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
+      "name": "포트폴리오 가격 변동 알림 (±5%)",
+      "schedule": "크론: 0 0,2,4,6 * * 1-6",
+      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-20T00:01:23.027000",
+      "nextRun": "2026-03-20T02:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
@@ -417,6 +397,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-20T00:00:00.036000",
+      "nextRun": "2026-03-21T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
+      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
+      "schedule": "크론: 0 0 * * *",
+      "description": "노화연구소 크론 파이프라인 실행. 다음 명령어를 실행해:",
+      "enabled": true,
+      "lastRun": "2026-03-20T00:01:42.915000",
+      "nextRun": "2026-03-21T00:00:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -485,6 +485,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-20T00:01:09.021950"
+    "timestamp": "2026-03-20T00:32:14.688994"
   }
 }
