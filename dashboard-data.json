@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-03-20T00:32:14.665496",
+  "generated_at": "2026-03-20T00:45:56.605469",
   "tasks": {
     "active": [
-      {
-        "id": "morning-shorts-briefing-update",
-        "filename": "morning-shorts-briefing-update.md",
-        "folder": "active",
-        "title": "모닝 쇼츠 브리핑 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-20T00:32:10.523120",
-        "progress": 0
-      },
       {
         "id": "nyamnyam-pick-channel",
         "filename": "nyamnyam-pick-channel.md",
@@ -25,7 +12,20 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-19T22:30:47.495920",
+        "last_updated": "2026-03-20T00:45:52.604561",
+        "progress": 0
+      },
+      {
+        "id": "morning-shorts-briefing-update",
+        "filename": "morning-shorts-briefing-update.md",
+        "folder": "active",
+        "title": "모닝 쇼츠 브리핑 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-20T00:45:52.600417",
         "progress": 0
       },
       {
@@ -172,18 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T00:24:04.889000",
-      "nextRun": "2026-03-20T00:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-20T00:00:12.006000",
-      "nextRun": "2026-03-20T00:30:00",
+      "lastRun": "2026-03-20T00:30:10.713000",
+      "nextRun": "2026-03-20T00:45:00",
       "lastStatus": "ok"
     },
     {
@@ -192,8 +182,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-20T00:24:12.160000",
-      "nextRun": "2026-03-20T00:30:00",
+      "lastRun": "2026-03-20T00:30:15.786000",
+      "nextRun": "2026-03-20T00:45:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-20T00:30:00.031000",
+      "nextRun": "2026-03-20T01:00:00",
       "lastStatus": "ok"
     },
     {
@@ -485,6 +485,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-20T00:32:14.688994"
+    "timestamp": "2026-03-20T00:45:56.627578"
   }
 }
