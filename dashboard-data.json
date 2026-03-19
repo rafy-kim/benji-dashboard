@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T19:04:25.836347",
+  "generated_at": "2026-03-19T19:15:37.042629",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-19T19:04:21.138440",
+        "last_updated": "2026-03-19T19:15:32.510864",
         "progress": 0
       },
       {
@@ -167,33 +167,13 @@
   },
   "cron": [
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-19T18:02:04.450000",
-      "nextRun": "2026-03-19T19:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T19:00:14.272000",
-      "nextRun": "2026-03-19T19:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-19T19:00:24.869000",
-      "nextRun": "2026-03-19T19:15:00",
+      "lastRun": "2026-03-19T19:15:00.024000",
+      "nextRun": "2026-03-19T19:30:00",
       "lastStatus": "ok"
     },
     {
@@ -204,6 +184,26 @@
       "enabled": true,
       "lastRun": "2026-03-19T19:00:00.027000",
       "nextRun": "2026-03-19T19:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-19T19:15:09.377000",
+      "nextRun": "2026-03-19T19:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-19T19:02:09.971000",
+      "nextRun": "2026-03-19T20:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -565,6 +565,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T19:04:25.879347"
+    "timestamp": "2026-03-19T19:15:37.079775"
   }
 }
