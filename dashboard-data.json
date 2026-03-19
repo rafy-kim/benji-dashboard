@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-03-19T17:01:34.798951",
+  "generated_at": "2026-03-19T17:43:48.129712",
   "tasks": {
     "active": [
-      {
-        "id": "aging-lab-channel-setup",
-        "filename": "aging-lab-channel-setup.md",
-        "folder": "active",
-        "title": "노화연구소 채널 세팅 + 건강공식 전환",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-19T17:01:32.783567",
-        "progress": 0
-      },
       {
         "id": "tiktok-instagram-pipeline",
         "filename": "tiktok-instagram-pipeline.md",
@@ -86,6 +73,19 @@
     ],
     "completed": [
       {
+        "id": "aging-lab-channel-setup",
+        "filename": "aging-lab-channel-setup.md",
+        "folder": "completed",
+        "title": "노화연구소 채널 세팅 + 건강공식 전환",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-19T17:43:43.934762",
+        "progress": 0
+      },
+      {
         "id": "trump-elon-channel-growth",
         "filename": "trump-elon-channel-growth.md",
         "folder": "completed",
@@ -136,41 +136,18 @@
         "waiting_for": null,
         "last_updated": "2026-03-16T18:15:55.253071",
         "progress": 25
-      },
-      {
-        "id": "youtube-cron-restructure",
-        "filename": "youtube-cron-restructure.md",
-        "folder": "completed",
-        "title": "YouTube 3채널 크론 구조 전면 개편",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-14T16:01:02.820487",
-        "progress": 0
       }
     ]
   },
   "cron": [
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-19T16:00:48.089000",
-      "nextRun": "2026-03-19T17:00:26.882000",
-      "lastStatus": "ok"
-    },
     {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T17:00:12.730000",
-      "nextRun": "2026-03-19T17:15:00",
+      "lastRun": "2026-03-19T17:30:16.430000",
+      "nextRun": "2026-03-19T17:45:00",
       "lastStatus": "ok"
     },
     {
@@ -179,8 +156,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-19T17:00:19.788000",
-      "nextRun": "2026-03-19T17:15:00",
+      "lastRun": "2026-03-19T17:30:24.831000",
+      "nextRun": "2026-03-19T17:45:00",
       "lastStatus": "ok"
     },
     {
@@ -189,8 +166,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T17:00:00.025000",
-      "nextRun": "2026-03-19T17:30:00",
+      "lastRun": "2026-03-19T17:30:00.024000",
+      "nextRun": "2026-03-19T18:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-19T17:01:06.244000",
+      "nextRun": "2026-03-19T18:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -516,22 +503,22 @@
   ],
   "stats": {
     "total": 166,
-    "active": 4,
+    "active": 3,
     "next": 0,
     "waiting": 2,
-    "completed": 160,
+    "completed": 161,
     "cron": 36
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 60.0,
     "waiting_count": 2,
-    "completed_today": 0,
+    "completed_today": 1,
     "aging_24h": [],
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T17:01:34.823493"
+    "timestamp": "2026-03-19T17:43:48.151930"
   }
 }
