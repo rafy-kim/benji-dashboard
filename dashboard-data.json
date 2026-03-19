@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-19T19:17:00.773024",
+  "generated_at": "2026-03-19T20:45:38.668777",
   "tasks": {
     "active": [
+      {
+        "id": "aging-lab-channel-setup",
+        "filename": "aging-lab-channel-setup.md",
+        "folder": "active",
+        "title": "🧬 노화 연구소 채널 세팅 + 건강공식 전환",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773886413947539",
+        "waiting_for": null,
+        "last_updated": "2026-03-19T20:45:34.528018",
+        "progress": 0
+      },
       {
         "id": "nyamnyam-pick-channel",
         "filename": "nyamnyam-pick-channel.md",
@@ -13,19 +26,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-19T19:16:55.858770",
-        "progress": 0
-      },
-      {
-        "id": "aging-lab-channel-setup",
-        "filename": "aging-lab-channel-setup.md",
-        "folder": "active",
-        "title": "🧬 노화 연구소 채널 세팅 + 건강공식 전환",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1773886413947539",
-        "waiting_for": null,
-        "last_updated": "2026-03-19T18:01:21.846475",
         "progress": 0
       },
       {
@@ -172,18 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T19:15:00.024000",
-      "nextRun": "2026-03-19T19:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-19T19:00:00.027000",
-      "nextRun": "2026-03-19T19:30:00",
+      "lastRun": "2026-03-19T20:30:08.946000",
+      "nextRun": "2026-03-19T20:45:00",
       "lastStatus": "ok"
     },
     {
@@ -192,8 +182,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-19T19:15:09.377000",
-      "nextRun": "2026-03-19T19:30:00",
+      "lastRun": "2026-03-19T20:30:15.135000",
+      "nextRun": "2026-03-19T20:45:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-19T20:30:00.026000",
+      "nextRun": "2026-03-19T21:00:00",
       "lastStatus": "ok"
     },
     {
@@ -202,18 +202,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-19T19:02:09.971000",
-      "nextRun": "2026-03-19T20:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "19c7a79d-019f-4cf2-89ae-afb2a72294c4",
-      "name": "이거실화? Step5b: TikTok 2편 (20:10)",
-      "schedule": "크론: 10 20 * * *",
-      "description": "이거실화? 채널의 오늘 2편째 영상을 TikTok에 즉시 업로드 (20:30 KST).",
-      "enabled": true,
-      "lastRun": "2026-03-18T20:10:00.032000",
-      "nextRun": "2026-03-19T20:10:00",
+      "lastRun": "2026-03-19T20:00:42.782000",
+      "nextRun": "2026-03-19T21:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -367,46 +357,6 @@
       "lastStatus": "ok"
     },
     {
-      "id": "bfb151ec-bd79-4111-a715-99a8af82346a",
-      "name": "이거 실화? Step1: 주제 생성 + 검수",
-      "schedule": "크론: 20 5 * * *",
-      "description": "이거 실화? 채널 Step 1: 주제 생성 + 벤지 검수 (하루 2편 실험)",
-      "enabled": true,
-      "lastRun": "2026-03-19T04:40:00.033000",
-      "nextRun": "2026-03-20T05:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "c2da583e-9840-477b-8089-9c750fb2a154",
-      "name": "이거 실화? Step2: 스크립트 작성 + 검수",
-      "schedule": "크론: 40 5 * * *",
-      "description": "이거 실화? Step2: 스크립트 작성 + 검수 (1개 주제)",
-      "enabled": true,
-      "lastRun": "2026-03-19T05:00:58.390000",
-      "nextRun": "2026-03-20T05:40:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "c88d0a56-7918-4eab-9149-191f2eaf7e41",
-      "name": "이거 실화? Step3: 이미지 생성 + 검수",
-      "schedule": "크론: 0 6 * * *",
-      "description": "이거 실화? Step3: 이미지 생성 + 검수 (1개 주제)",
-      "enabled": true,
-      "lastRun": "2026-03-19T05:20:00.027000",
-      "nextRun": "2026-03-20T06:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b7ccf50a-b22e-4795-a033-289f0646c0a1",
-      "name": "이거 실화? Step4: TTS+렌더링+업로드",
-      "schedule": "크론: 20 6 * * *",
-      "description": "이거 실화? Step4: TTS + 렌더링 + 업로드 (1편째 → 12:00 예약)",
-      "enabled": true,
-      "lastRun": "2026-03-19T05:40:00.034000",
-      "nextRun": "2026-03-20T06:20:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "73074b13-b20a-44db-a46a-c30278065965",
       "name": "Valley Town 데이터 수집 (Playwright)",
       "schedule": "크론: 15 8 * * 1-5",
@@ -447,16 +397,6 @@
       "lastStatus": "ok"
     },
     {
-      "id": "444e233f-bfaa-4af0-b2cb-06de42384e8f",
-      "name": "이거실화 백로그: TikTok (10:00)",
-      "schedule": "매일 10:00",
-      "description": "틱톡 백로그 따라잡기 (즉시 게시). cd ~/clawd/scripts/youtube-shorts-pipel...",
-      "enabled": true,
-      "lastRun": "2026-03-19T10:25:33.121000",
-      "nextRun": "2026-03-20T10:00:00",
-      "lastStatus": "error"
-    },
-    {
       "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
       "name": "산책 조언 (매일 10:00)",
       "schedule": "매일 10:00",
@@ -475,26 +415,6 @@
       "lastRun": "2026-03-19T10:26:28.466000",
       "nextRun": "2026-03-20T10:00:00",
       "lastStatus": "ok"
-    },
-    {
-      "id": "b97385ec-46b5-4a98-bd3b-51836dac1bed",
-      "name": "이거실화? Step5: TikTok (12:30)",
-      "schedule": "크론: 10 12 * * *",
-      "description": "이거실화? 채널의 오늘 1편째 영상을 TikTok에 즉시 업로드 (12:30 KST).",
-      "enabled": true,
-      "lastRun": "2026-03-19T12:10:00.028000",
-      "nextRun": "2026-03-20T12:10:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "f8f19222-1045-4ecd-9cb8-418d9e6f7389",
-      "name": "이거실화 백로그: TikTok (15:00)",
-      "schedule": "크론: 0 15 * * *",
-      "description": "틱톡 백로그 따라잡기 (즉시 게시). cd ~/clawd/scripts/youtube-shorts-pipel...",
-      "enabled": true,
-      "lastRun": "2026-03-19T15:00:54.995000",
-      "nextRun": "2026-03-20T15:00:00",
-      "lastStatus": "error"
     },
     {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
@@ -553,7 +473,7 @@
     "next": 0,
     "waiting": 2,
     "completed": 161,
-    "cron": 38
+    "cron": 30
   },
   "flow_metrics": {
     "wip_count": 5,
@@ -565,6 +485,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T19:17:00.813276"
+    "timestamp": "2026-03-19T20:45:38.693095"
   }
 }
