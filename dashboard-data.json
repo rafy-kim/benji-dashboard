@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T23:32:59.351565",
+  "generated_at": "2026-03-20T00:01:08.981826",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-19T23:32:54.203946",
+        "last_updated": "2026-03-20T00:01:04.241745",
         "progress": 0
       },
       {
@@ -172,28 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T23:15:00.025000",
-      "nextRun": "2026-03-19T23:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-19T23:00:00.027000",
-      "nextRun": "2026-03-19T23:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-19T23:15:08.153000",
-      "nextRun": "2026-03-19T23:30:00",
+      "lastRun": "2026-03-19T23:45:00.030000",
+      "nextRun": "2026-03-20T00:00:00",
       "lastStatus": "ok"
     },
     {
@@ -217,6 +197,16 @@
       "lastStatus": null
     },
     {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-19T23:30:00.025000",
+      "nextRun": "2026-03-20T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
       "name": "포트폴리오 가격 변동 알림 (±5%)",
       "schedule": "크론: 0 0,2,4,6 * * 1-6",
@@ -225,6 +215,16 @@
       "lastRun": "2026-03-19T06:00:50.084000",
       "nextRun": "2026-03-20T00:00:00",
       "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-19T23:45:12.045000",
+      "nextRun": "2026-03-20T00:00:00",
+      "lastStatus": "error"
     },
     {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
@@ -480,11 +480,11 @@
     "wip_limit": 5,
     "wip_utilization": 100.0,
     "waiting_count": 2,
-    "completed_today": 1,
+    "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T23:32:59.391617"
+    "timestamp": "2026-03-20T00:01:09.021950"
   }
 }
