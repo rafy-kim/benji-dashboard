@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-20T00:45:56.605469",
+  "generated_at": "2026-03-20T01:16:00.374879",
   "tasks": {
     "active": [
+      {
+        "id": "morning-shorts-briefing-update",
+        "filename": "morning-shorts-briefing-update.md",
+        "folder": "active",
+        "title": "모닝 쇼츠 브리핑 업데이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-20T01:15:55.280144",
+        "progress": 0
+      },
       {
         "id": "nyamnyam-pick-channel",
         "filename": "nyamnyam-pick-channel.md",
@@ -13,19 +26,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-20T00:45:52.604561",
-        "progress": 0
-      },
-      {
-        "id": "morning-shorts-briefing-update",
-        "filename": "morning-shorts-briefing-update.md",
-        "folder": "active",
-        "title": "모닝 쇼츠 브리핑 업데이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-20T00:45:52.600417",
         "progress": 0
       },
       {
@@ -172,8 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T00:30:10.713000",
-      "nextRun": "2026-03-20T00:45:00",
+      "lastRun": "2026-03-20T01:00:11.445000",
+      "nextRun": "2026-03-20T01:15:00",
       "lastStatus": "ok"
     },
     {
@@ -182,9 +182,9 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-20T00:30:15.786000",
-      "nextRun": "2026-03-20T00:45:00",
-      "lastStatus": "error"
+      "lastRun": "2026-03-20T01:00:16.591000",
+      "nextRun": "2026-03-20T01:15:00",
+      "lastStatus": "ok"
     },
     {
       "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
@@ -192,18 +192,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T00:30:00.031000",
-      "nextRun": "2026-03-20T01:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-20T00:18:38.685000",
-      "nextRun": "2026-03-20T01:00:26.882000",
+      "lastRun": "2026-03-20T01:00:00.023000",
+      "nextRun": "2026-03-20T01:30:00",
       "lastStatus": "ok"
     },
     {
@@ -224,6 +214,16 @@
       "enabled": true,
       "lastRun": "2026-03-20T00:01:23.027000",
       "nextRun": "2026-03-20T02:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-20T01:01:08.860000",
+      "nextRun": "2026-03-20T02:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -485,6 +485,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-20T00:45:56.627578"
+    "timestamp": "2026-03-20T01:16:00.407611"
   }
 }
