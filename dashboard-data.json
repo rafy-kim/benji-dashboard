@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-19T11:31:08.041036",
+  "generated_at": "2026-03-19T11:37:08.410798",
   "tasks": {
     "active": [
+      {
+        "id": "tiktok-instagram-pipeline",
+        "filename": "tiktok-instagram-pipeline.md",
+        "folder": "active",
+        "title": "틱톡 + 인스타 자동 업로드 파이프라인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-19T11:37:04.180363",
+        "progress": 86
+      },
       {
         "id": "youtube-shorts-improvement-plan",
         "filename": "youtube-shorts-improvement-plan.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-19T11:31:02.855638",
         "progress": 0
-      },
-      {
-        "id": "tiktok-instagram-pipeline",
-        "filename": "tiktok-instagram-pipeline.md",
-        "folder": "active",
-        "title": "틱톡 + 인스타 자동 업로드 파이프라인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-19T11:31:02.851651",
-        "progress": 86
       },
       {
         "id": "home-prep-before-postpartum",
@@ -146,18 +146,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-19T11:15:00.016000",
-      "nextRun": "2026-03-19T11:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-19T11:00:00.019000",
-      "nextRun": "2026-03-19T11:30:00",
+      "lastRun": "2026-03-19T11:30:09.054000",
+      "nextRun": "2026-03-19T11:45:00",
       "lastStatus": "ok"
     },
     {
@@ -166,8 +156,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-19T11:15:07.027000",
-      "nextRun": "2026-03-19T11:30:00",
+      "lastRun": "2026-03-19T11:30:14.834000",
+      "nextRun": "2026-03-19T11:45:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-19T11:30:00.021000",
+      "nextRun": "2026-03-19T12:00:00",
       "lastStatus": "ok"
     },
     {
@@ -589,6 +589,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-19T11:31:08.075863"
+    "timestamp": "2026-03-19T11:37:08.446130"
   }
 }
