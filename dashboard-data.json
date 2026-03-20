@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T23:16:06.861839",
+  "generated_at": "2026-03-21T00:31:04.586561",
   "tasks": {
     "active": [
       {
@@ -14,32 +14,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-20T23:16:02.751958",
         "progress": 0
-      },
-      {
-        "id": "parenting-rag-learning",
-        "filename": "parenting-rag-learning.md",
-        "folder": "active",
-        "title": "육아 유튜브 RAG 학습 프로젝트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-20T21:53:42.914292",
-        "progress": 0
-      },
-      {
-        "id": "financial-datasets-mcp-integration",
-        "filename": "financial-datasets-mcp-integration.md",
-        "folder": "active",
-        "title": "Financial Datasets MCP 통합",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-20T21:41:21.848632",
-        "progress": 75
       },
       {
         "id": "parenting-youtube-rag",
@@ -125,6 +99,32 @@
     ],
     "completed": [
       {
+        "id": "financial-datasets-mcp-integration",
+        "filename": "financial-datasets-mcp-integration.md",
+        "folder": "completed",
+        "title": "Financial Datasets MCP 통합",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-21T00:31:01.284651",
+        "progress": 75
+      },
+      {
+        "id": "parenting-rag-learning",
+        "filename": "parenting-rag-learning.md",
+        "folder": "completed",
+        "title": "육아 유튜브 RAG 학습 프로젝트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-20T21:53:42.914292",
+        "progress": 0
+      },
+      {
         "id": "morning-shorts-briefing-update",
         "filename": "morning-shorts-briefing-update.md",
         "folder": "completed",
@@ -162,32 +162,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-18T16:57:18.709914",
         "progress": 0
-      },
-      {
-        "id": "healthyformula-pipeline-error-resolution",
-        "filename": "healthyformula-pipeline-error-resolution.md",
-        "folder": "completed",
-        "title": "건강공식 파이프라인 에러 해결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-18T05:31:10.857767",
-        "progress": 0
-      },
-      {
-        "id": "health-formula-pipeline",
-        "filename": "health-formula-pipeline.md",
-        "folder": "completed",
-        "title": "건강공식 콘텐츠 파이프라인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-17T18:50:53.794304",
-        "progress": 0
       }
     ]
   },
@@ -198,18 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T23:00:07.549000",
-      "nextRun": "2026-03-20T23:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-20T23:00:16.225000",
-      "nextRun": "2026-03-20T23:15:00",
+      "lastRun": "2026-03-21T00:15:16.291000",
+      "nextRun": "2026-03-21T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -218,38 +182,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T23:00:00.037000",
-      "nextRun": "2026-03-20T23:30:00",
+      "lastRun": "2026-03-21T00:00:11.552000",
+      "nextRun": "2026-03-21T00:30:00",
       "lastStatus": "ok"
     },
     {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-20T00:00:00.036000",
-      "nextRun": "2026-03-21T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
-      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
-      "schedule": "크론: 0 0 * * *",
-      "description": "노화연구소 크론 파이프라인 실행.",
-      "enabled": true,
-      "lastRun": "2026-03-20T00:01:42.915000",
-      "nextRun": "2026-03-21T00:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
-      "name": "포트폴리오 가격 변동 알림 (±5%)",
-      "schedule": "크론: 0 0,2,4,6 * * 1-6",
-      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-20T06:00:39.823000",
-      "nextRun": "2026-03-21T00:00:00",
+      "lastRun": "2026-03-21T00:15:24.993000",
+      "nextRun": "2026-03-21T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -258,8 +202,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-20T23:01:03.458000",
-      "nextRun": "2026-03-21T00:00:26.882000",
+      "lastRun": "2026-03-21T00:11:20.617000",
+      "nextRun": "2026-03-21T01:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -271,6 +215,16 @@
       "lastRun": "2026-03-20T01:30:58.894000",
       "nextRun": "2026-03-21T01:30:00",
       "lastStatus": "error"
+    },
+    {
+      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
+      "name": "포트폴리오 가격 변동 알림 (±5%)",
+      "schedule": "크론: 0 0,2,4,6 * * 1-6",
+      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-21T00:01:15.330000",
+      "nextRun": "2026-03-21T02:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
@@ -373,6 +327,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "30b2f487-72d3-44e2-b7a6-30164f02dbab",
+      "name": "육아 RAG 신규영상 업데이트",
+      "schedule": "크론: 0 6 * * *",
+      "description": "python3 /Users/benji/clawd/knowledge/parenting-rag/scripts/u...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-21T06:00:00",
+      "lastStatus": null
+    },
+    {
       "id": "001441b8-28d6-4d52-891a-02001233c2d5",
       "name": "YouTube 5채널 모닝 리포트 (09:00 KST) — 노화연구소 포함",
       "schedule": "매일 09:00",
@@ -420,6 +384,26 @@
       "enabled": true,
       "lastRun": "2026-03-20T22:50:00.035000",
       "nextRun": "2026-03-21T22:50:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-21T00:00:00.029000",
+      "nextRun": "2026-03-22T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
+      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
+      "schedule": "크론: 0 0 * * *",
+      "description": "노화연구소 크론 파이프라인 실행.",
+      "enabled": true,
+      "lastRun": "2026-03-21T00:01:51.093000",
+      "nextRun": "2026-03-22T00:00:00",
       "lastStatus": "ok"
     },
     {
@@ -495,16 +479,16 @@
   ],
   "stats": {
     "total": 171,
-    "active": 7,
+    "active": 5,
     "next": 0,
     "waiting": 2,
-    "completed": 162,
-    "cron": 30
+    "completed": 164,
+    "cron": 31
   },
   "flow_metrics": {
-    "wip_count": 7,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 140.0,
+    "wip_utilization": 100.0,
     "waiting_count": 2,
     "completed_today": 1,
     "aging_24h": [
@@ -514,6 +498,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-20T23:16:06.887295"
+    "timestamp": "2026-03-21T00:31:04.611836"
   }
 }
