@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T16:33:59.249636",
+  "generated_at": "2026-03-20T19:01:05.411336",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-20T16:33:55.018894",
+        "last_updated": "2026-03-20T19:01:00.586054",
         "progress": 0
       },
       {
@@ -159,18 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T16:30:08.782000",
-      "nextRun": "2026-03-20T16:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-20T16:30:13.819000",
-      "nextRun": "2026-03-20T16:45:00",
+      "lastRun": "2026-03-20T18:45:00.025000",
+      "nextRun": "2026-03-20T19:00:00",
       "lastStatus": "ok"
     },
     {
@@ -179,8 +169,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T16:30:00.026000",
-      "nextRun": "2026-03-20T17:00:00",
+      "lastRun": "2026-03-20T18:30:00.024000",
+      "nextRun": "2026-03-20T19:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-20T18:45:10.559000",
+      "nextRun": "2026-03-20T19:00:00",
       "lastStatus": "ok"
     },
     {
@@ -189,8 +189,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-20T16:00:56.926000",
-      "nextRun": "2026-03-20T17:00:26.882000",
+      "lastRun": "2026-03-20T18:01:00.740000",
+      "nextRun": "2026-03-20T19:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -475,6 +475,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-20T16:33:59.291158"
+    "timestamp": "2026-03-20T19:01:05.447032"
   }
 }
