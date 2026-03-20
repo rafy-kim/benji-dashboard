@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-21T00:31:04.586561",
+  "generated_at": "2026-03-21T00:31:20.362250",
   "tasks": {
     "active": [
+      {
+        "id": "parenting-youtube-rag",
+        "filename": "parenting-youtube-rag.md",
+        "folder": "active",
+        "title": "육아 유튜브 RAG 지식베이스 구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-21T00:31:18.306730",
+        "progress": 0
+      },
       {
         "id": "nyamnyam-pick-channel",
         "filename": "nyamnyam-pick-channel.md",
@@ -13,19 +26,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-20T23:16:02.751958",
-        "progress": 0
-      },
-      {
-        "id": "parenting-youtube-rag",
-        "filename": "parenting-youtube-rag.md",
-        "folder": "active",
-        "title": "육아 유튜브 RAG 지식베이스 구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-20T21:04:49.548422",
         "progress": 0
       },
       {
@@ -498,6 +498,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-21T00:31:04.611836"
+    "timestamp": "2026-03-21T00:31:20.387217"
   }
 }
