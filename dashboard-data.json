@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-21T05:31:08.224824",
+  "generated_at": "2026-03-21T06:02:29.288753",
   "tasks": {
     "active": [
+      {
+        "id": "parenting-youtube-rag",
+        "filename": "parenting-youtube-rag.md",
+        "folder": "active",
+        "title": "육아 유튜브 RAG 지식베이스 구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-21T06:02:23.954880",
+        "progress": 0
+      },
       {
         "id": "aging-lab-oauth-content",
         "filename": "aging-lab-oauth-content.md",
@@ -26,19 +39,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-03-21T01:15:27.032938",
-        "progress": 0
-      },
-      {
-        "id": "parenting-youtube-rag",
-        "filename": "parenting-youtube-rag.md",
-        "folder": "active",
-        "title": "육아 유튜브 RAG 지식베이스 구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-21T00:31:24.157550",
         "progress": 0
       },
       {
@@ -180,36 +180,6 @@
   },
   "cron": [
     {
-      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
-      "name": "토큰 핸드오프 모니터 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "토큰 핸드오프 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-21T05:15:00.020000",
-      "nextRun": "2026-03-21T05:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-21T05:00:00.023000",
-      "nextRun": "2026-03-21T05:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-21T05:15:04.487000",
-      "nextRun": "2026-03-21T05:30:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "30b2f487-72d3-44e2-b7a6-30164f02dbab",
       "name": "육아 RAG 신규영상 업데이트",
       "schedule": "크론: 0 6 * * *",
@@ -220,12 +190,42 @@
       "lastStatus": null
     },
     {
+      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
+      "name": "토큰 핸드오프 모니터 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "토큰 핸드오프 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-21T05:45:00.027000",
+      "nextRun": "2026-03-21T06:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-21T05:30:00.026000",
+      "nextRun": "2026-03-21T06:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
       "name": "포트폴리오 가격 변동 알림 (±5%)",
       "schedule": "크론: 0 0,2,4,6 * * 1-6",
       "description": "포트폴리오 가격 변동 알림을 체크해줘.",
       "enabled": true,
       "lastRun": "2026-03-21T04:01:12.777000",
+      "nextRun": "2026-03-21T06:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-21T05:45:15.891000",
       "nextRun": "2026-03-21T06:00:00",
       "lastStatus": "ok"
     },
@@ -511,6 +511,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-21T05:31:08.242450"
+    "timestamp": "2026-03-21T06:02:29.337993"
   }
 }
