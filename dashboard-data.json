@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-20T21:04:54.649792",
+  "generated_at": "2026-03-20T21:13:19.642538",
   "tasks": {
     "active": [
+      {
+        "id": "parenting-rag-learning",
+        "filename": "parenting-rag-learning.md",
+        "folder": "active",
+        "title": "육아 유튜브 RAG 학습 프로젝트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-20T21:13:15.320956",
+        "progress": 0
+      },
       {
         "id": "parenting-youtube-rag",
         "filename": "parenting-youtube-rag.md",
@@ -167,16 +180,6 @@
   },
   "cron": [
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-20T20:00:37.941000",
-      "nextRun": "2026-03-20T21:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
@@ -204,6 +207,16 @@
       "enabled": true,
       "lastRun": "2026-03-20T21:00:00.028000",
       "nextRun": "2026-03-20T21:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-20T21:00:36.254000",
+      "nextRun": "2026-03-20T22:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -468,17 +481,17 @@
     }
   ],
   "stats": {
-    "total": 169,
-    "active": 5,
+    "total": 170,
+    "active": 6,
     "next": 0,
     "waiting": 2,
     "completed": 162,
     "cron": 30
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 6,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 120.0,
     "waiting_count": 2,
     "completed_today": 1,
     "aging_24h": [
@@ -488,6 +501,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-20T21:04:54.689830"
+    "timestamp": "2026-03-20T21:13:19.683589"
   }
 }
