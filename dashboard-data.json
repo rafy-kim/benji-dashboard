@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T11:01:29.924879",
+  "generated_at": "2026-03-20T12:00:54.547088",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-20T11:01:25.757036",
+        "last_updated": "2026-03-20T12:00:49.439163",
         "progress": 0
       },
       {
@@ -159,8 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T10:45:00.027000",
-      "nextRun": "2026-03-20T11:00:00",
+      "lastRun": "2026-03-20T11:45:00.025000",
+      "nextRun": "2026-03-20T12:00:00",
       "lastStatus": "ok"
     },
     {
@@ -169,8 +169,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T10:30:00.025000",
-      "nextRun": "2026-03-20T11:00:00",
+      "lastRun": "2026-03-20T11:30:00.025000",
+      "nextRun": "2026-03-20T12:00:00",
       "lastStatus": "ok"
     },
     {
@@ -179,8 +179,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-20T10:45:07.081000",
-      "nextRun": "2026-03-20T11:00:00",
+      "lastRun": "2026-03-20T11:45:07.967000",
+      "nextRun": "2026-03-20T12:00:00",
       "lastStatus": "ok"
     },
     {
@@ -189,8 +189,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-20T10:03:52.340000",
-      "nextRun": "2026-03-20T11:00:26.882000",
+      "lastRun": "2026-03-20T11:03:02.412000",
+      "nextRun": "2026-03-20T12:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -468,10 +468,13 @@
     "wip_utilization": 80.0,
     "waiting_count": 2,
     "completed_today": 1,
-    "aging_24h": [],
+    "aging_24h": [
+      "tiktok-instagram-pipeline",
+      "youtube-shorts-improvement-plan"
+    ],
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-20T11:01:29.945374"
+    "timestamp": "2026-03-20T12:00:54.582055"
   }
 }
