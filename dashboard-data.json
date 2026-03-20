@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T06:02:29.288753",
+  "generated_at": "2026-03-21T06:03:13.805618",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-21T06:02:23.954880",
+        "last_updated": "2026-03-21T06:03:09.665429",
         "progress": 0
       },
       {
@@ -180,14 +180,14 @@
   },
   "cron": [
     {
-      "id": "30b2f487-72d3-44e2-b7a6-30164f02dbab",
-      "name": "육아 RAG 신규영상 업데이트",
-      "schedule": "크론: 0 6 * * *",
-      "description": "python3 /Users/benji/clawd/knowledge/parenting-rag/scripts/u...",
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-03-21T06:00:00",
-      "lastStatus": null
+      "lastRun": "2026-03-21T05:05:24.252000",
+      "nextRun": "2026-03-21T06:00:26.882000",
+      "lastStatus": "ok"
     },
     {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
@@ -195,28 +195,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-21T05:45:00.027000",
-      "nextRun": "2026-03-21T06:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-21T05:30:00.026000",
-      "nextRun": "2026-03-21T06:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
-      "name": "포트폴리오 가격 변동 알림 (±5%)",
-      "schedule": "크론: 0 0,2,4,6 * * 1-6",
-      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-21T04:01:12.777000",
-      "nextRun": "2026-03-21T06:00:00",
+      "lastRun": "2026-03-21T06:00:19.754000",
+      "nextRun": "2026-03-21T06:15:00",
       "lastStatus": "ok"
     },
     {
@@ -225,18 +205,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-21T05:45:15.891000",
-      "nextRun": "2026-03-21T06:00:00",
+      "lastRun": "2026-03-21T06:00:33.376000",
+      "nextRun": "2026-03-21T06:15:00",
       "lastStatus": "ok"
     },
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-21T05:05:24.252000",
-      "nextRun": "2026-03-21T06:00:26.882000",
+      "lastRun": "2026-03-21T06:00:00.027000",
+      "nextRun": "2026-03-21T06:30:00",
       "lastStatus": "ok"
     },
     {
@@ -430,6 +410,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "30b2f487-72d3-44e2-b7a6-30164f02dbab",
+      "name": "육아 RAG 신규영상 업데이트",
+      "schedule": "크론: 0 6 * * *",
+      "description": "python3 /Users/benji/clawd/knowledge/parenting-rag/scripts/u...",
+      "enabled": true,
+      "lastRun": "2026-03-21T06:01:50.928000",
+      "nextRun": "2026-03-22T06:00:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "220b115e-d9fd-4046-b3f7-006f8770aabd",
       "name": "나스닥 TOP 100 저평가 유망주 위클리 스크리너 (V6)",
       "schedule": "크론: 0 9 * * 0",
@@ -458,6 +448,16 @@
       "lastRun": null,
       "nextRun": "2026-03-22T20:00:00",
       "lastStatus": null
+    },
+    {
+      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
+      "name": "포트폴리오 가격 변동 알림 (±5%)",
+      "schedule": "크론: 0 0,2,4,6 * * 1-6",
+      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-21T06:01:25.161000",
+      "nextRun": "2026-03-23T00:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "73074b13-b20a-44db-a46a-c30278065965",
@@ -511,6 +511,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-21T06:02:29.337993"
+    "timestamp": "2026-03-21T06:03:13.828510"
   }
 }
