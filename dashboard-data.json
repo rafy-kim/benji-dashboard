@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-03-21T06:03:13.805618",
+  "generated_at": "2026-03-21T06:28:31.382881",
   "tasks": {
     "active": [
-      {
-        "id": "parenting-youtube-rag",
-        "filename": "parenting-youtube-rag.md",
-        "folder": "active",
-        "title": "육아 유튜브 RAG 지식베이스 구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-21T06:03:09.665429",
-        "progress": 0
-      },
       {
         "id": "aging-lab-oauth-content",
         "filename": "aging-lab-oauth-content.md",
@@ -112,6 +99,19 @@
     ],
     "completed": [
       {
+        "id": "parenting-youtube-rag",
+        "filename": "parenting-youtube-rag.md",
+        "folder": "completed",
+        "title": "육아 유튜브 RAG 지식베이스 구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-21T06:28:26.023049",
+        "progress": 0
+      },
+      {
         "id": "financial-datasets-mcp-integration",
         "filename": "financial-datasets-mcp-integration.md",
         "folder": "completed",
@@ -162,51 +162,18 @@
         "waiting_for": null,
         "last_updated": "2026-03-19T20:45:34.528018",
         "progress": 0
-      },
-      {
-        "id": "trump-elon-channel-growth",
-        "filename": "trump-elon-channel-growth.md",
-        "folder": "completed",
-        "title": "오늘의 트럼프 + 오늘의 일론 채널 성장 전략 실행",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-18T16:57:18.709914",
-        "progress": 0
       }
     ]
   },
   "cron": [
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-21T05:05:24.252000",
-      "nextRun": "2026-03-21T06:00:26.882000",
-      "lastStatus": "ok"
-    },
     {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-21T06:00:19.754000",
-      "nextRun": "2026-03-21T06:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-21T06:00:33.376000",
-      "nextRun": "2026-03-21T06:15:00",
+      "lastRun": "2026-03-21T06:15:00.045000",
+      "nextRun": "2026-03-21T06:30:00",
       "lastStatus": "ok"
     },
     {
@@ -217,6 +184,26 @@
       "enabled": true,
       "lastRun": "2026-03-21T06:00:00.027000",
       "nextRun": "2026-03-21T06:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-21T06:15:12.396000",
+      "nextRun": "2026-03-21T06:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-21T06:03:05.297000",
+      "nextRun": "2026-03-21T07:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -492,18 +479,18 @@
   ],
   "stats": {
     "total": 172,
-    "active": 6,
+    "active": 5,
     "next": 0,
     "waiting": 2,
-    "completed": 164,
+    "completed": 165,
     "cron": 31
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 100.0,
     "waiting_count": 2,
-    "completed_today": 1,
+    "completed_today": 2,
     "aging_24h": [
       "tiktok-instagram-pipeline",
       "youtube-shorts-improvement-plan"
@@ -511,6 +498,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-21T06:03:13.828510"
+    "timestamp": "2026-03-21T06:28:31.402788"
   }
 }
