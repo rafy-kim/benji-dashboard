@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T09:30:58.411585",
+  "generated_at": "2026-03-20T10:01:19.840948",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-20T09:30:54.298582",
+        "last_updated": "2026-03-20T10:01:15.778882",
         "progress": 0
       },
       {
@@ -159,28 +159,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-20T09:15:00.027000",
-      "nextRun": "2026-03-20T09:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-20T09:00:00.025000",
-      "nextRun": "2026-03-20T09:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-20T09:15:07.126000",
-      "nextRun": "2026-03-20T09:30:00",
+      "lastRun": "2026-03-20T09:45:00.023000",
+      "nextRun": "2026-03-20T10:00:00",
       "lastStatus": "ok"
     },
     {
@@ -202,6 +182,26 @@
       "lastRun": "2026-03-19T10:26:28.466000",
       "nextRun": "2026-03-20T10:00:00",
       "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-20T09:30:00.033000",
+      "nextRun": "2026-03-20T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-20T09:45:05.305000",
+      "nextRun": "2026-03-20T10:00:00",
+      "lastStatus": "error"
     },
     {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
@@ -472,6 +472,6 @@
     "aging_48h": [
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-20T09:30:58.437111"
+    "timestamp": "2026-03-20T10:01:19.867453"
   }
 }
