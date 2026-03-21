@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-21T13:45:57.009855",
+  "generated_at": "2026-03-21T13:46:04.358945",
   "tasks": {
     "active": [
+      {
+        "id": "aging-lab-oauth-content",
+        "filename": "aging-lab-oauth-content.md",
+        "folder": "active",
+        "title": "노화연구소 OAuth + 영상 처리",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-21T13:46:02.283565",
+        "progress": 0
+      },
       {
         "id": "nyamnyam-pick-channel",
         "filename": "nyamnyam-pick-channel.md",
@@ -485,17 +498,17 @@
     }
   ],
   "stats": {
-    "total": 172,
-    "active": 4,
+    "total": 173,
+    "active": 5,
     "next": 0,
     "waiting": 2,
     "completed": 166,
     "cron": 33
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 100.0,
     "waiting_count": 2,
     "completed_today": 3,
     "aging_24h": [],
@@ -504,6 +517,6 @@
       "youtube-shorts-improvement-plan",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-21T13:45:57.035446"
+    "timestamp": "2026-03-21T13:46:04.384605"
   }
 }
