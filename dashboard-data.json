@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T11:00:54.770109",
+  "generated_at": "2026-03-21T12:31:07.694482",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-21T11:00:50.695181",
+        "last_updated": "2026-03-21T12:31:03.589041",
         "progress": 0
       },
       {
@@ -172,8 +172,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-21T10:45:00.032000",
-      "nextRun": "2026-03-21T11:00:00",
+      "lastRun": "2026-03-21T12:15:00.034000",
+      "nextRun": "2026-03-21T12:30:00",
       "lastStatus": "ok"
     },
     {
@@ -182,8 +182,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-21T10:30:00.036000",
-      "nextRun": "2026-03-21T11:00:00",
+      "lastRun": "2026-03-21T12:00:00.033000",
+      "nextRun": "2026-03-21T12:30:00",
       "lastStatus": "ok"
     },
     {
@@ -192,8 +192,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-21T10:45:05.607000",
-      "nextRun": "2026-03-21T11:00:00",
+      "lastRun": "2026-03-21T12:15:05.393000",
+      "nextRun": "2026-03-21T12:30:00",
       "lastStatus": "ok"
     },
     {
@@ -202,9 +202,29 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-21T10:03:21.952000",
-      "nextRun": "2026-03-21T11:00:26.882000",
+      "lastRun": "2026-03-21T12:01:25.156000",
+      "nextRun": "2026-03-21T13:00:26.882000",
       "lastStatus": "ok"
+    },
+    {
+      "id": "394cf61c-16d7-49d4-98f6-1262acb16570",
+      "name": "노화연구소 sF9BWLv5C1U 공개 15:00",
+      "schedule": "1회성",
+      "description": "노화연구소 영상 공개: cd ~/clawd/shorts && source venv/bin/activate &...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-21T15:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "ab6e3743-6930-4d22-98ae-9b7f838dc3f2",
+      "name": "노화연구소 MuzflKvtZqo 공개 20:00",
+      "schedule": "1회성",
+      "description": "노화연구소 영상 공개: cd ~/clawd/shorts && source venv/bin/activate &...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-21T20:00:00",
+      "lastStatus": null
     },
     {
       "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
@@ -483,7 +503,7 @@
     "next": 0,
     "waiting": 2,
     "completed": 165,
-    "cron": 31
+    "cron": 33
   },
   "flow_metrics": {
     "wip_count": 5,
@@ -491,13 +511,12 @@
     "wip_utilization": 100.0,
     "waiting_count": 2,
     "completed_today": 2,
-    "aging_24h": [
-      "tiktok-instagram-pipeline",
-      "youtube-shorts-improvement-plan"
-    ],
+    "aging_24h": [],
     "aging_48h": [
+      "tiktok-instagram-pipeline",
+      "youtube-shorts-improvement-plan",
       "home-prep-before-postpartum"
     ],
-    "timestamp": "2026-03-21T11:00:54.795917"
+    "timestamp": "2026-03-21T12:31:07.718201"
   }
 }
