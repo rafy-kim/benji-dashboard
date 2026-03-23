@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T00:31:08.445703",
+  "generated_at": "2026-03-24T00:46:19.882441",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-24T00:31:04.311551",
+        "last_updated": "2026-03-24T00:46:15.869092",
         "progress": 92
       },
       {
@@ -133,18 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T00:18:33.746000",
-      "nextRun": "2026-03-24T00:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-24T00:00:08.451000",
-      "nextRun": "2026-03-24T00:30:00",
+      "lastRun": "2026-03-24T00:30:07.355000",
+      "nextRun": "2026-03-24T00:45:00",
       "lastStatus": "ok"
     },
     {
@@ -153,8 +143,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T00:25:00.031000",
-      "nextRun": "2026-03-24T00:30:00",
+      "lastRun": "2026-03-24T00:40:00.029000",
+      "nextRun": "2026-03-24T00:45:00",
       "lastStatus": "ok"
     },
     {
@@ -163,8 +153,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-24T00:18:38.595000",
-      "nextRun": "2026-03-24T00:30:00",
+      "lastRun": "2026-03-24T00:30:13.512000",
+      "nextRun": "2026-03-24T00:45:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-24T00:30:00.036000",
+      "nextRun": "2026-03-24T01:00:00",
       "lastStatus": "ok"
     },
     {
@@ -504,6 +504,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-24T00:31:08.463274"
+    "timestamp": "2026-03-24T00:46:19.899770"
   }
 }
