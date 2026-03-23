@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-23T20:20:35.093677",
+  "generated_at": "2026-03-23T20:20:48.581472",
   "tasks": {
     "active": [
+      {
+        "id": "nyamnyam-pick-channel",
+        "filename": "nyamnyam-pick-channel.md",
+        "folder": "active",
+        "title": "냠냠픽 — 음식 트렌드 데이터 큐레이션 채널",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-23T20:20:45.504975",
+        "progress": 0
+      },
       {
         "id": "investment-system-rebuild",
         "filename": "investment-system-rebuild.md",
@@ -429,21 +442,21 @@
     }
   ],
   "stats": {
-    "total": 79,
-    "active": 3,
+    "total": 80,
+    "active": 4,
     "next": 0,
     "waiting": 1,
     "completed": 75,
     "cron": 30
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 80.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-23T20:20:35.117302"
+    "timestamp": "2026-03-23T20:20:48.606031"
   }
 }
