@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-23T20:20:48.581472",
+  "generated_at": "2026-03-23T20:35:31.999744",
   "tasks": {
     "active": [
+      {
+        "id": "investment-system-rebuild",
+        "filename": "investment-system-rebuild.md",
+        "folder": "active",
+        "title": "투자 시스템 전면 재구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-23T20:35:26.983986",
+        "progress": 75
+      },
       {
         "id": "nyamnyam-pick-channel",
         "filename": "nyamnyam-pick-channel.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-23T20:20:45.504975",
         "progress": 0
-      },
-      {
-        "id": "investment-system-rebuild",
-        "filename": "investment-system-rebuild.md",
-        "folder": "active",
-        "title": "투자 시스템 전면 재구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-23T20:20:09.489827",
-        "progress": 46
       },
       {
         "id": "tiktok-instagram-pipeline",
@@ -146,8 +146,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T20:20:00.012000",
-      "nextRun": "2026-03-23T20:25:00",
+      "lastRun": "2026-03-23T20:30:52.633000",
+      "nextRun": "2026-03-23T20:35:00",
       "lastStatus": "ok"
     },
     {
@@ -156,18 +156,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T20:15:00.030000",
-      "nextRun": "2026-03-23T20:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-23T20:00:00.027000",
-      "nextRun": "2026-03-23T20:30:00",
+      "lastRun": "2026-03-23T20:30:10.981000",
+      "nextRun": "2026-03-23T20:45:00",
       "lastStatus": "ok"
     },
     {
@@ -176,9 +166,19 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-23T20:15:11.982000",
-      "nextRun": "2026-03-23T20:30:00",
-      "lastStatus": "error"
+      "lastRun": "2026-03-23T20:30:17.891000",
+      "nextRun": "2026-03-23T20:45:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-23T20:30:00.011000",
+      "nextRun": "2026-03-23T21:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
@@ -351,6 +351,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "d80b5f4e-e5cf-43e6-a345-87ee9c856be9",
+      "name": "output-cleanup-daily",
+      "schedule": "크론: 0 6 * * *",
+      "description": "YouTube output 폴더 자동 정리. exec로 python3 ~/clawd/scripts/clean...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-24T06:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "6b65afbd-eb03-4475-81cc-2697404bf1d5",
+      "name": "L1 투자 데일리 모닝 브리프",
+      "schedule": "크론: 30 8 * * 1-5",
+      "description": "투자 데일리 모닝 브리프 생성해. 먼저 데이터 수집: cd ~/clawd && ~/clawd/trace-al...",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-24T08:30:00",
+      "lastStatus": null
+    },
+    {
       "id": "001441b8-28d6-4d52-891a-02001233c2d5",
       "name": "YouTube 5채널 모닝 리포트 (09:00 KST) — 노화연구소 포함",
       "schedule": "매일 09:00",
@@ -401,6 +421,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "511ba696-d410-4532-ab50-52c970372290",
+      "name": "L2 투자 주간 딥다이브 (토요일)",
+      "schedule": "크론: 0 9 * * 6",
+      "description": "투자 주간 딥다이브 리포트 생성해.",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-28T09:00:00",
+      "lastStatus": null
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -447,7 +477,7 @@
     "next": 0,
     "waiting": 1,
     "completed": 75,
-    "cron": 30
+    "cron": 33
   },
   "flow_metrics": {
     "wip_count": 4,
@@ -457,6 +487,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-23T20:20:48.606031"
+    "timestamp": "2026-03-23T20:35:32.030521"
   }
 }
