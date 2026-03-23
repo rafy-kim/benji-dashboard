@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T21:45:51.885777",
+  "generated_at": "2026-03-24T00:19:17.974215",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-23T21:45:47.861865",
+        "last_updated": "2026-03-24T00:19:13.813373",
         "progress": 92
       },
       {
@@ -40,19 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-23T18:29:11.593396",
         "progress": 100
-      },
-      {
-        "id": "trump-longform-weekly",
-        "filename": "trump-longform-weekly.md",
-        "folder": "active",
-        "title": "트럼프 주간 롱폼 영상",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-23T06:31:28.781295",
-        "progress": 0
       }
     ],
     "next": [],
@@ -72,6 +59,19 @@
       }
     ],
     "completed": [
+      {
+        "id": "trump-longform-weekly",
+        "filename": "trump-longform-weekly.md",
+        "folder": "completed",
+        "title": "트럼프 주간 롱폼 영상",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-23T06:31:28.781295",
+        "progress": 0
+      },
       {
         "id": "financial-datasets-mcp-integration",
         "filename": "financial-datasets-mcp-integration.md",
@@ -123,19 +123,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-12T09:03:25.585898",
         "progress": 0
-      },
-      {
-        "id": "believe-it-or-not-channel",
-        "filename": "believe-it-or-not-channel.md",
-        "folder": "completed",
-        "title": "🎬 \"이거 실화?\" YouTube Shorts 채널",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-02-28T12:00:32.804851",
-        "progress": 62
       }
     ]
   },
@@ -146,8 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T21:30:08.995000",
-      "nextRun": "2026-03-23T21:45:00",
+      "lastRun": "2026-03-24T00:00:16.508000",
+      "nextRun": "2026-03-24T00:15:00",
       "lastStatus": "ok"
     },
     {
@@ -156,8 +143,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T21:40:00.029000",
-      "nextRun": "2026-03-23T21:45:00",
+      "lastRun": "2026-03-24T00:11:58.300000",
+      "nextRun": "2026-03-24T00:15:00",
       "lastStatus": "ok"
     },
     {
@@ -166,28 +153,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-23T21:30:15.737000",
-      "nextRun": "2026-03-23T21:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
-      "name": "육아일기 동기화 체크 (매일 22:00)",
-      "schedule": "크론: 0 22 * * *",
-      "description": "육아일기 동기화 체크 크론입니다.",
-      "enabled": true,
-      "lastRun": null,
-      "nextRun": "2026-03-23T22:00:00",
-      "lastStatus": null
-    },
-    {
-      "id": "c7698948-0eac-419e-9291-afe33e415406",
-      "name": "L3 뉴스/규제 모니터링",
-      "schedule": "크론: 0 9 * * 1-5",
-      "description": "L3 TSLA/GOOGL 중대 뉴스 모니터링을 수행해.",
-      "enabled": true,
-      "lastRun": "2026-03-23T21:36:34.359000",
-      "nextRun": "2026-03-23T22:00:00",
+      "lastRun": "2026-03-24T00:00:24.085000",
+      "nextRun": "2026-03-24T00:15:00",
       "lastStatus": "ok"
     },
     {
@@ -196,8 +163,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T21:30:00.027000",
-      "nextRun": "2026-03-23T22:00:00",
+      "lastRun": "2026-03-24T00:00:08.451000",
+      "nextRun": "2026-03-24T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -206,38 +173,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-23T21:01:32.964000",
-      "nextRun": "2026-03-23T22:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
-      "name": "media-cleanup-48h",
-      "schedule": "크론: 50 22 * * *",
-      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
-      "enabled": true,
-      "lastRun": "2026-03-22T22:50:00.032000",
-      "nextRun": "2026-03-23T22:50:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
-      "enabled": true,
-      "lastRun": "2026-03-23T00:00:00.034000",
-      "nextRun": "2026-03-24T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
-      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
-      "schedule": "크론: 0 0 * * *",
-      "description": "노화연구소 크론 파이프라인 실행.",
-      "enabled": true,
-      "lastRun": "2026-03-23T00:01:28.463000",
-      "nextRun": "2026-03-24T00:00:00",
+      "lastRun": "2026-03-24T00:12:28.286000",
+      "nextRun": "2026-03-24T01:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -441,6 +378,56 @@
       "lastStatus": "ok"
     },
     {
+      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
+      "name": "육아일기 동기화 체크 (매일 22:00)",
+      "schedule": "크론: 0 22 * * *",
+      "description": "육아일기 동기화 체크 크론입니다.",
+      "enabled": true,
+      "lastRun": "2026-03-23T22:01:18.176000",
+      "nextRun": "2026-03-24T22:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "c7698948-0eac-419e-9291-afe33e415406",
+      "name": "L3 뉴스/규제 모니터링",
+      "schedule": "크론: 0 9 * * 1-5",
+      "description": "L3 TSLA/GOOGL 중대 뉴스 모니터링을 수행해.",
+      "enabled": true,
+      "lastRun": "2026-03-23T22:01:43.167000",
+      "nextRun": "2026-03-24T22:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
+      "name": "media-cleanup-48h",
+      "schedule": "크론: 50 22 * * *",
+      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
+      "enabled": true,
+      "lastRun": "2026-03-23T22:50:00.031000",
+      "nextRun": "2026-03-24T22:50:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-24T00:00:00.027000",
+      "nextRun": "2026-03-25T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
+      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
+      "schedule": "크론: 0 0 * * *",
+      "description": "노화연구소 크론 파이프라인 실행.",
+      "enabled": true,
+      "lastRun": "2026-03-24T00:01:27.487000",
+      "nextRun": "2026-03-25T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "511ba696-d410-4532-ab50-52c970372290",
       "name": "L2 투자 주간 딥다이브 (토요일)",
       "schedule": "크론: 0 9 * * 6",
@@ -503,20 +490,20 @@
   ],
   "stats": {
     "total": 80,
-    "active": 4,
+    "active": 3,
     "next": 0,
     "waiting": 1,
-    "completed": 75,
+    "completed": 76,
     "cron": 36
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 60.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-23T21:45:51.908687"
+    "timestamp": "2026-03-24T00:19:17.990666"
   }
 }
