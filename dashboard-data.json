@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T16:48:17.602160",
+  "generated_at": "2026-03-23T16:54:23.846076",
   "tasks": {
     "active": [
       {
@@ -12,8 +12,8 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-23T16:48:12.449566",
-        "progress": 8
+        "last_updated": "2026-03-23T16:54:19.666111",
+        "progress": 17
       },
       {
         "id": "trump-longform-weekly",
@@ -133,8 +133,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T16:45:29.952000",
-      "nextRun": "2026-03-23T16:50:00",
+      "lastRun": "2026-03-23T16:50:00.033000",
+      "nextRun": "2026-03-23T16:55:00",
       "lastStatus": "ok"
     },
     {
@@ -214,16 +214,6 @@
       "description": "노화연구소 크론 파이프라인 실행.",
       "enabled": true,
       "lastRun": "2026-03-23T00:01:28.463000",
-      "nextRun": "2026-03-24T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6f7246b-8738-4a6c-84e6-6518f1a75936",
-      "name": "포트폴리오 가격 변동 알림 (±5%)",
-      "schedule": "크론: 0 0,2,4,6 * * 1-6",
-      "description": "포트폴리오 가격 변동 알림을 체크해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-23T06:01:04.092000",
       "nextRun": "2026-03-24T00:00:00",
       "lastStatus": "ok"
     },
@@ -348,26 +338,6 @@
       "lastStatus": "ok"
     },
     {
-      "id": "73074b13-b20a-44db-a46a-c30278065965",
-      "name": "Valley Town 데이터 수집 (Playwright)",
-      "schedule": "크론: 15 8 * * 1-5",
-      "description": "Valley Town 데이터를 Playwright로 수집해줘. 아래 명령어 실행만 하면 돼:",
-      "enabled": true,
-      "lastRun": "2026-03-23T08:15:50.900000",
-      "nextRun": "2026-03-24T08:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "1afb1ae4-8106-4f66-9a19-b3421bf85eb5",
-      "name": "벤지 CIO 데일리 브리핑 V6",
-      "schedule": "크론: 30 8 * * 1-5",
-      "description": "벤지 CIO V6 데일리 브리핑을 생성해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-23T08:30:08.927000",
-      "nextRun": "2026-03-24T08:30:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "001441b8-28d6-4d52-891a-02001233c2d5",
       "name": "YouTube 5채널 모닝 리포트 (09:00 KST) — 노화연구소 포함",
       "schedule": "매일 09:00",
@@ -428,16 +398,6 @@
       "lastStatus": "ok"
     },
     {
-      "id": "220b115e-d9fd-4046-b3f7-006f8770aabd",
-      "name": "나스닥 TOP 100 저평가 유망주 위클리 스크리너 (V6)",
-      "schedule": "크론: 0 9 * * 0",
-      "description": "나스닥 TOP 100 위클리 스크리너를 실행해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-22T09:02:52.599000",
-      "nextRun": "2026-03-29T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "c6c8de03-e536-4f43-ac91-75b64ffceca7",
       "name": "트럼프 주간 롱폼 자동 제작 (일요일 18:00→20:00 공개)",
       "schedule": "크론: 0 18 * * 0",
@@ -456,16 +416,6 @@
       "lastRun": "2026-03-22T20:00:46.701000",
       "nextRun": "2026-03-29T20:00:00",
       "lastStatus": "ok"
-    },
-    {
-      "id": "d84fc357-fab0-4a0f-aabe-d05f7e4a74f3",
-      "name": "weekly-portfolio-health",
-      "schedule": "크론: 0 9 * * 1",
-      "description": "python3 /Users/benji/clawd/scripts/investment/weekly_portfol...",
-      "enabled": true,
-      "lastRun": "2026-03-23T09:02:48.196000",
-      "nextRun": "2026-03-30T09:00:00",
-      "lastStatus": "ok"
     }
   ],
   "stats": {
@@ -474,7 +424,7 @@
     "next": 0,
     "waiting": 1,
     "completed": 75,
-    "cron": 34
+    "cron": 29
   },
   "flow_metrics": {
     "wip_count": 3,
@@ -486,6 +436,6 @@
     "aging_48h": [
       "tiktok-instagram-pipeline"
     ],
-    "timestamp": "2026-03-23T16:48:17.629449"
+    "timestamp": "2026-03-23T16:54:23.869874"
   }
 }
