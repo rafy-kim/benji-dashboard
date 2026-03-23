@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T20:35:31.999744",
+  "generated_at": "2026-03-23T21:34:05.162206",
   "tasks": {
     "active": [
       {
@@ -12,8 +12,8 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-23T20:35:26.983986",
-        "progress": 75
+        "last_updated": "2026-03-23T21:34:01.011192",
+        "progress": 84
       },
       {
         "id": "nyamnyam-pick-channel",
@@ -146,8 +146,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T20:30:52.633000",
-      "nextRun": "2026-03-23T20:35:00",
+      "lastRun": "2026-03-23T21:31:02.294000",
+      "nextRun": "2026-03-23T21:35:00",
       "lastStatus": "ok"
     },
     {
@@ -156,8 +156,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T20:30:10.981000",
-      "nextRun": "2026-03-23T20:45:00",
+      "lastRun": "2026-03-23T21:30:08.995000",
+      "nextRun": "2026-03-23T21:45:00",
       "lastStatus": "ok"
     },
     {
@@ -166,28 +166,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-23T20:30:17.891000",
-      "nextRun": "2026-03-23T20:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-23T20:30:00.011000",
-      "nextRun": "2026-03-23T21:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-23T20:02:39.056000",
-      "nextRun": "2026-03-23T21:00:26.882000",
+      "lastRun": "2026-03-23T21:30:15.737000",
+      "nextRun": "2026-03-23T21:45:00",
       "lastStatus": "ok"
     },
     {
@@ -199,6 +179,36 @@
       "lastRun": null,
       "nextRun": "2026-03-23T22:00:00",
       "lastStatus": null
+    },
+    {
+      "id": "c7698948-0eac-419e-9291-afe33e415406",
+      "name": "L3 뉴스/규제 모니터링",
+      "schedule": "크론: 0 9 * * 1-5",
+      "description": "L3 TSLA/GOOGL 중대 뉴스 모니터링을 수행해.",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-23T22:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-23T21:30:00.027000",
+      "nextRun": "2026-03-23T22:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-23T21:01:32.964000",
+      "nextRun": "2026-03-23T22:00:26.882000",
+      "lastStatus": "ok"
     },
     {
       "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
@@ -361,14 +371,24 @@
       "lastStatus": null
     },
     {
+      "id": "588b5d22-32a5-4d40-af85-ea6008604e4b",
+      "name": "L3 어닝 캘린더 체커",
+      "schedule": "매일 08:00",
+      "description": "L3 어닝 이벤트 체크를 수행해.",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-24T08:00:00",
+      "lastStatus": null
+    },
+    {
       "id": "6b65afbd-eb03-4475-81cc-2697404bf1d5",
       "name": "L1 투자 데일리 모닝 브리프",
       "schedule": "크론: 30 8 * * 1-5",
-      "description": "투자 데일리 모닝 브리프 생성해. 먼저 데이터 수집: cd ~/clawd && ~/clawd/trace-al...",
+      "description": "투자 데일리 모닝 브리프를 생성해.",
       "enabled": true,
-      "lastRun": null,
+      "lastRun": "2026-03-23T21:09:54.952000",
       "nextRun": "2026-03-24T08:30:00",
-      "lastStatus": null
+      "lastStatus": "ok"
     },
     {
       "id": "001441b8-28d6-4d52-891a-02001233c2d5",
@@ -424,11 +444,11 @@
       "id": "511ba696-d410-4532-ab50-52c970372290",
       "name": "L2 투자 주간 딥다이브 (토요일)",
       "schedule": "크론: 0 9 * * 6",
-      "description": "투자 주간 딥다이브 리포트 생성해.",
+      "description": "투자 주간 딥다이브 리포트를 생성해.",
       "enabled": true,
-      "lastRun": null,
+      "lastRun": "2026-03-23T21:13:13.159000",
       "nextRun": "2026-03-28T09:00:00",
-      "lastStatus": null
+      "lastStatus": "ok"
     },
     {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
@@ -477,7 +497,7 @@
     "next": 0,
     "waiting": 1,
     "completed": 75,
-    "cron": 33
+    "cron": 35
   },
   "flow_metrics": {
     "wip_count": 4,
@@ -487,6 +507,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-23T20:35:32.030521"
+    "timestamp": "2026-03-23T21:34:05.182918"
   }
 }
