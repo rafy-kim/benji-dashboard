@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T21:34:09.767341",
+  "generated_at": "2026-03-23T21:44:40.556135",
   "tasks": {
     "active": [
       {
@@ -12,8 +12,8 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-23T21:34:05.985790",
-        "progress": 84
+        "last_updated": "2026-03-23T21:44:36.523681",
+        "progress": 92
       },
       {
         "id": "nyamnyam-pick-channel",
@@ -141,22 +141,22 @@
   },
   "cron": [
     {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-23T21:31:02.294000",
-      "nextRun": "2026-03-23T21:35:00",
-      "lastStatus": "ok"
-    },
-    {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
       "lastRun": "2026-03-23T21:30:08.995000",
+      "nextRun": "2026-03-23T21:45:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-23T21:40:00.029000",
       "nextRun": "2026-03-23T21:45:00",
       "lastStatus": "ok"
     },
@@ -186,9 +186,9 @@
       "schedule": "크론: 0 9 * * 1-5",
       "description": "L3 TSLA/GOOGL 중대 뉴스 모니터링을 수행해.",
       "enabled": true,
-      "lastRun": null,
+      "lastRun": "2026-03-23T21:36:34.359000",
       "nextRun": "2026-03-23T22:00:00",
-      "lastStatus": null
+      "lastStatus": "ok"
     },
     {
       "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
@@ -376,9 +376,9 @@
       "schedule": "매일 08:00",
       "description": "L3 어닝 이벤트 체크를 수행해.",
       "enabled": true,
-      "lastRun": null,
+      "lastRun": "2026-03-23T21:36:21.056000",
       "nextRun": "2026-03-24T08:00:00",
-      "lastStatus": null
+      "lastStatus": "ok"
     },
     {
       "id": "6b65afbd-eb03-4475-81cc-2697404bf1d5",
@@ -489,6 +489,16 @@
       "lastRun": null,
       "nextRun": "2026-03-30T09:30:00",
       "lastStatus": null
+    },
+    {
+      "id": "ad2c475a-dfb2-4b03-86a0-1a1063fd622e",
+      "name": "Phase3 거장 13F + AI 스카우팅 (월간)",
+      "schedule": "크론: 0 10 1 * *",
+      "description": "Phase 3 월간 투자 발굴 리포트를 생성해.",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-04-01T10:00:00",
+      "lastStatus": null
     }
   ],
   "stats": {
@@ -497,7 +507,7 @@
     "next": 0,
     "waiting": 1,
     "completed": 75,
-    "cron": 35
+    "cron": 36
   },
   "flow_metrics": {
     "wip_count": 4,
@@ -507,6 +517,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-23T21:34:09.784964"
+    "timestamp": "2026-03-23T21:44:40.578532"
   }
 }
