@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T06:31:33.933576",
+  "generated_at": "2026-03-23T14:59:15.088294",
   "tasks": {
     "active": [
       {
@@ -16,19 +16,6 @@
         "progress": 0
       },
       {
-        "id": "nyamnyam-pick-channel",
-        "filename": "nyamnyam-pick-channel.md",
-        "folder": "active",
-        "title": "냠냠픽 — 음식 트렌드 데이터 큐레이션 채널",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-22T11:37:54.112331",
-        "progress": 0
-      },
-      {
         "id": "tiktok-instagram-pipeline",
         "filename": "tiktok-instagram-pipeline.md",
         "folder": "active",
@@ -40,49 +27,10 @@
         "waiting_for": null,
         "last_updated": "2026-03-19T11:37:04.180363",
         "progress": 86
-      },
-      {
-        "id": "youtube-shorts-improvement-plan",
-        "filename": "youtube-shorts-improvement-plan.md",
-        "folder": "active",
-        "title": "YouTube Shorts 채널 개선 작업 계획",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-19T11:31:02.855638",
-        "progress": 0
-      },
-      {
-        "id": "home-prep-before-postpartum",
-        "filename": "home-prep-before-postpartum.md",
-        "folder": "active",
-        "title": "🏠 집에서 해야 할 일 & 챙길 것",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBT9M8TE/p1770577474588279",
-        "waiting_for": null,
-        "last_updated": "2026-02-22T17:46:23.255801",
-        "progress": 0
       }
     ],
     "next": [],
     "waiting": [
-      {
-        "id": "trace-alpha-renewal",
-        "filename": "trace-alpha-renewal.md",
-        "folder": "waiting",
-        "title": "Trace Alpha 리뉴얼 프로젝트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-02T08:21:23.689112",
-        "progress": 0
-      },
       {
         "id": "iphone-voice-benji-setup",
         "filename": "iphone-voice-benji-setup.md",
@@ -99,32 +47,6 @@
     ],
     "completed": [
       {
-        "id": "aging-lab-oauth-content",
-        "filename": "aging-lab-oauth-content.md",
-        "folder": "completed",
-        "title": "노화연구소 OAuth + 영상 처리",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-21T14:31:07.107405",
-        "progress": 0
-      },
-      {
-        "id": "parenting-youtube-rag",
-        "filename": "parenting-youtube-rag.md",
-        "folder": "completed",
-        "title": "육아 유튜브 RAG 지식베이스 구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-21T06:28:26.023049",
-        "progress": 0
-      },
-      {
         "id": "financial-datasets-mcp-integration",
         "filename": "financial-datasets-mcp-integration.md",
         "folder": "completed",
@@ -138,30 +60,56 @@
         "progress": 75
       },
       {
-        "id": "parenting-rag-learning",
-        "filename": "parenting-rag-learning.md",
+        "id": "health-formula-pipeline",
+        "filename": "health-formula-pipeline.md",
         "folder": "completed",
-        "title": "육아 유튜브 RAG 학습 프로젝트",
+        "title": "건강공식 콘텐츠 파이프라인",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-20T21:53:42.914292",
+        "last_updated": "2026-03-17T18:50:53.794304",
         "progress": 0
       },
       {
-        "id": "morning-shorts-briefing-update",
-        "filename": "morning-shorts-briefing-update.md",
+        "id": "youtube-cron-restructure",
+        "filename": "youtube-cron-restructure.md",
         "folder": "completed",
-        "title": "모닝 쇼츠 브리핑 업데이트",
+        "title": "YouTube 3채널 크론 구조 전면 개편",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-20T02:46:32.149088",
+        "last_updated": "2026-03-14T16:01:02.820487",
         "progress": 0
+      },
+      {
+        "id": "initial-gift-transfer-process",
+        "filename": "initial-gift-transfer-process.md",
+        "folder": "completed",
+        "title": "초록이(김유현) 증여 절차",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://raomkr.slack.com/archives/C0ACBY1EW/p1772527986304319",
+        "waiting_for": null,
+        "last_updated": "2026-03-12T09:03:25.585898",
+        "progress": 0
+      },
+      {
+        "id": "believe-it-or-not-channel",
+        "filename": "believe-it-or-not-channel.md",
+        "folder": "completed",
+        "title": "🎬 \"이거 실화?\" YouTube Shorts 채널",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-02-28T12:00:32.804851",
+        "progress": 62
       }
     ]
   },
@@ -172,8 +120,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T06:15:00.031000",
-      "nextRun": "2026-03-23T06:30:00",
+      "lastRun": "2026-03-23T14:45:00.034000",
+      "nextRun": "2026-03-23T15:00:00",
       "lastStatus": "ok"
     },
     {
@@ -182,8 +130,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T06:00:00.032000",
-      "nextRun": "2026-03-23T06:30:00",
+      "lastRun": "2026-03-23T14:30:00.029000",
+      "nextRun": "2026-03-23T15:00:00",
       "lastStatus": "ok"
     },
     {
@@ -192,9 +140,9 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T06:25:00.026000",
-      "nextRun": "2026-03-23T06:30:00",
-      "lastStatus": "error"
+      "lastRun": "2026-03-23T14:55:00.031000",
+      "nextRun": "2026-03-23T15:00:00",
+      "lastStatus": "ok"
     },
     {
       "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
@@ -202,8 +150,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-23T06:15:04.843000",
-      "nextRun": "2026-03-23T06:30:00",
+      "lastRun": "2026-03-23T14:45:04.227000",
+      "nextRun": "2026-03-23T15:00:00",
       "lastStatus": "ok"
     },
     {
@@ -212,79 +160,19 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-23T06:03:02.576000",
-      "nextRun": "2026-03-23T07:00:26.882000",
+      "lastRun": "2026-03-23T14:01:23.268000",
+      "nextRun": "2026-03-23T15:00:26.882000",
       "lastStatus": "ok"
     },
     {
-      "id": "73074b13-b20a-44db-a46a-c30278065965",
-      "name": "Valley Town 데이터 수집 (Playwright)",
-      "schedule": "크론: 15 8 * * 1-5",
-      "description": "Valley Town 데이터를 Playwright로 수집해줘. 아래 명령어 실행만 하면 돼:",
+      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
+      "name": "육아일기 동기화 체크 (매일 22:00)",
+      "schedule": "크론: 0 22 * * *",
+      "description": "육아일기 동기화 체크 크론입니다.",
       "enabled": true,
-      "lastRun": "2026-03-20T08:15:34.535000",
-      "nextRun": "2026-03-23T08:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "1afb1ae4-8106-4f66-9a19-b3421bf85eb5",
-      "name": "벤지 CIO 데일리 브리핑 V6",
-      "schedule": "크론: 30 8 * * 1-5",
-      "description": "벤지 CIO V6 데일리 브리핑을 생성해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-20T08:30:09.792000",
-      "nextRun": "2026-03-23T08:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
-      "name": "YouTube 5채널 모닝 리포트 (09:00 KST) — 노화연구소 포함",
-      "schedule": "매일 09:00",
-      "description": "YouTube 5채널 모닝 쇼츠 브리핑을 생성해.",
-      "enabled": true,
-      "lastRun": "2026-03-22T09:00:47.583000",
-      "nextRun": "2026-03-23T09:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
-      "name": "Claude 사용량 체크 (매일 09:00)",
-      "schedule": "매일 09:00",
-      "description": "Claude Max 주간 한도 체크!",
-      "enabled": true,
-      "lastRun": "2026-03-22T09:00:07.795000",
-      "nextRun": "2026-03-23T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d84fc357-fab0-4a0f-aabe-d05f7e4a74f3",
-      "name": "weekly-portfolio-health",
-      "schedule": "크론: 0 9 * * 1",
-      "description": "python3 /Users/benji/clawd/scripts/investment/weekly_portfol...",
-      "enabled": true,
-      "lastRun": "2026-03-16T09:01:49.365000",
-      "nextRun": "2026-03-23T09:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
-      "schedule": "매일 10:00",
-      "description": "산책 조언 스크립트 실행 후 슬랙 전송.",
-      "enabled": true,
-      "lastRun": "2026-03-22T10:00:00.022000",
-      "nextRun": "2026-03-23T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d3b55a3a-a2e7-4f93-88a7-ac9d5561da11",
-      "name": "초보엄빠 백로그: Instagram (10:00)",
-      "schedule": "매일 10:00",
-      "description": "인스타 백로그 따라잡기.",
-      "enabled": true,
-      "lastRun": "2026-03-22T10:01:07.244000",
-      "nextRun": "2026-03-23T10:00:00",
-      "lastStatus": "error"
+      "lastRun": null,
+      "nextRun": "2026-03-23T22:00:00",
+      "lastStatus": null
     },
     {
       "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
@@ -447,6 +335,76 @@
       "lastStatus": "ok"
     },
     {
+      "id": "73074b13-b20a-44db-a46a-c30278065965",
+      "name": "Valley Town 데이터 수집 (Playwright)",
+      "schedule": "크론: 15 8 * * 1-5",
+      "description": "Valley Town 데이터를 Playwright로 수집해줘. 아래 명령어 실행만 하면 돼:",
+      "enabled": true,
+      "lastRun": "2026-03-23T08:15:50.900000",
+      "nextRun": "2026-03-24T08:15:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "1afb1ae4-8106-4f66-9a19-b3421bf85eb5",
+      "name": "벤지 CIO 데일리 브리핑 V6",
+      "schedule": "크론: 30 8 * * 1-5",
+      "description": "벤지 CIO V6 데일리 브리핑을 생성해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-23T08:30:08.927000",
+      "nextRun": "2026-03-24T08:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
+      "name": "YouTube 5채널 모닝 리포트 (09:00 KST) — 노화연구소 포함",
+      "schedule": "매일 09:00",
+      "description": "YouTube 5채널 모닝 쇼츠 브리핑을 생성해.",
+      "enabled": true,
+      "lastRun": "2026-03-23T09:00:26.693000",
+      "nextRun": "2026-03-24T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "1f229b11-7c5d-4716-988b-440b510e1957",
+      "name": "냠냠픽 데일리 메시지",
+      "schedule": "크론: 0 9 * * 1-5",
+      "description": "냠냠픽 데일리 메시지 발송. 오늘 요일에 맞는 콘텐츠를 생성해서 #생활(C0ABFB203BR)에 발송해줘.",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-03-24T09:00:00",
+      "lastStatus": null
+    },
+    {
+      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
+      "name": "Claude 사용량 체크 (매일 09:00)",
+      "schedule": "매일 09:00",
+      "description": "Claude Max 주간 한도 체크!",
+      "enabled": true,
+      "lastRun": "2026-03-23T09:00:09.415000",
+      "nextRun": "2026-03-24T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
+      "name": "산책 조언 (매일 10:00)",
+      "schedule": "매일 10:00",
+      "description": "산책 조언 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-23T10:00:00.034000",
+      "nextRun": "2026-03-24T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3b55a3a-a2e7-4f93-88a7-ac9d5561da11",
+      "name": "초보엄빠 백로그: Instagram (10:00)",
+      "schedule": "매일 10:00",
+      "description": "인스타 백로그 따라잡기.",
+      "enabled": true,
+      "lastRun": "2026-03-23T10:01:17.960000",
+      "nextRun": "2026-03-24T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -485,28 +443,36 @@
       "lastRun": "2026-03-22T20:00:46.701000",
       "nextRun": "2026-03-29T20:00:00",
       "lastStatus": "ok"
+    },
+    {
+      "id": "d84fc357-fab0-4a0f-aabe-d05f7e4a74f3",
+      "name": "weekly-portfolio-health",
+      "schedule": "크론: 0 9 * * 1",
+      "description": "python3 /Users/benji/clawd/scripts/investment/weekly_portfol...",
+      "enabled": true,
+      "lastRun": "2026-03-23T09:02:48.196000",
+      "nextRun": "2026-03-30T09:00:00",
+      "lastStatus": "ok"
     }
   ],
   "stats": {
-    "total": 173,
-    "active": 5,
+    "total": 78,
+    "active": 2,
     "next": 0,
-    "waiting": 2,
-    "completed": 166,
-    "cron": 32
+    "waiting": 1,
+    "completed": 75,
+    "cron": 34
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 2,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
-    "waiting_count": 2,
+    "wip_utilization": 40.0,
+    "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [
-      "tiktok-instagram-pipeline",
-      "youtube-shorts-improvement-plan",
-      "home-prep-before-postpartum"
+      "tiktok-instagram-pipeline"
     ],
-    "timestamp": "2026-03-23T06:31:33.974711"
+    "timestamp": "2026-03-23T14:59:15.123145"
   }
 }
