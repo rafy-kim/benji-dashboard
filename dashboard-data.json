@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-23T14:59:21.829629",
+  "generated_at": "2026-03-23T16:48:17.602160",
   "tasks": {
     "active": [
+      {
+        "id": "investment-system-rebuild",
+        "filename": "investment-system-rebuild.md",
+        "folder": "active",
+        "title": "투자 시스템 전면 재구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-23T16:48:12.449566",
+        "progress": 8
+      },
       {
         "id": "trump-longform-weekly",
         "filename": "trump-longform-weekly.md",
@@ -115,13 +128,23 @@
   },
   "cron": [
     {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-23T16:45:29.952000",
+      "nextRun": "2026-03-23T16:50:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T14:45:00.034000",
-      "nextRun": "2026-03-23T15:00:00",
+      "lastRun": "2026-03-23T16:45:00.031000",
+      "nextRun": "2026-03-23T17:00:00",
       "lastStatus": "ok"
     },
     {
@@ -130,18 +153,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-23T14:30:00.029000",
-      "nextRun": "2026-03-23T15:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-23T14:55:00.031000",
-      "nextRun": "2026-03-23T15:00:00",
+      "lastRun": "2026-03-23T16:30:00.024000",
+      "nextRun": "2026-03-23T17:00:00",
       "lastStatus": "ok"
     },
     {
@@ -150,8 +163,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-23T14:45:04.227000",
-      "nextRun": "2026-03-23T15:00:00",
+      "lastRun": "2026-03-23T16:45:04.798000",
+      "nextRun": "2026-03-23T17:00:00",
       "lastStatus": "ok"
     },
     {
@@ -160,8 +173,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-23T14:01:23.268000",
-      "nextRun": "2026-03-23T15:00:26.882000",
+      "lastRun": "2026-03-23T16:01:14.674000",
+      "nextRun": "2026-03-23T17:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -456,23 +469,23 @@
     }
   ],
   "stats": {
-    "total": 78,
-    "active": 2,
+    "total": 79,
+    "active": 3,
     "next": 0,
     "waiting": 1,
     "completed": 75,
     "cron": 34
   },
   "flow_metrics": {
-    "wip_count": 2,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 40.0,
+    "wip_utilization": 60.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [
       "tiktok-instagram-pipeline"
     ],
-    "timestamp": "2026-03-23T14:59:21.846119"
+    "timestamp": "2026-03-23T16:48:17.629449"
   }
 }
