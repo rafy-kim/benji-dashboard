@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T21:44:45.878546",
+  "generated_at": "2026-03-23T21:45:48.606848",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-23T21:44:43.843711",
+        "last_updated": "2026-03-23T21:45:47.861865",
         "progress": 92
       },
       {
@@ -496,9 +496,9 @@
       "schedule": "크론: 0 10 1 * *",
       "description": "Phase 3 월간 투자 발굴 리포트를 생성해.",
       "enabled": true,
-      "lastRun": null,
+      "lastRun": "2026-03-23T21:42:21.600000",
       "nextRun": "2026-04-01T10:00:00",
-      "lastStatus": null
+      "lastStatus": "ok"
     }
   ],
   "stats": {
@@ -517,6 +517,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-23T21:44:45.895455"
+    "timestamp": "2026-03-23T21:45:48.623218"
   }
 }
