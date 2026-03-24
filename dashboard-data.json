@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T06:31:19.230972",
+  "generated_at": "2026-03-25T06:41:12.649702",
   "tasks": {
     "active": [
       {
@@ -40,19 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-24T10:17:29.510104",
         "progress": 92
-      },
-      {
-        "id": "tiktok-instagram-pipeline",
-        "filename": "tiktok-instagram-pipeline.md",
-        "folder": "active",
-        "title": "틱톡 + 인스타 자동 업로드 파이프라인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-24T10:07:56.162523",
-        "progress": 100
       }
     ],
     "next": [],
@@ -72,6 +59,19 @@
       }
     ],
     "completed": [
+      {
+        "id": "tiktok-instagram-pipeline",
+        "filename": "tiktok-instagram-pipeline.md",
+        "folder": "completed",
+        "title": "틱톡 + 인스타 자동 업로드 파이프라인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-25T06:41:08.556637",
+        "progress": 100
+      },
       {
         "id": "youtube-shorts-improvement-plan",
         "filename": "youtube-shorts-improvement-plan.md",
@@ -123,19 +123,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-21T00:31:01.284651",
         "progress": 75
-      },
-      {
-        "id": "health-formula-pipeline",
-        "filename": "health-formula-pipeline.md",
-        "folder": "completed",
-        "title": "건강공식 콘텐츠 파이프라인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-17T18:50:53.794304",
-        "progress": 0
       }
     ]
   },
@@ -146,18 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-25T06:15:00.028000",
-      "nextRun": "2026-03-25T06:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-25T06:00:00.029000",
-      "nextRun": "2026-03-25T06:30:00",
+      "lastRun": "2026-03-25T06:30:10.977000",
+      "nextRun": "2026-03-25T06:45:00",
       "lastStatus": "ok"
     },
     {
@@ -166,8 +143,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-25T06:25:00.028000",
-      "nextRun": "2026-03-25T06:30:00",
+      "lastRun": "2026-03-25T06:40:00.027000",
+      "nextRun": "2026-03-25T06:45:00",
       "lastStatus": "ok"
     },
     {
@@ -176,8 +153,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-25T06:15:08.933000",
-      "nextRun": "2026-03-25T06:30:00",
+      "lastRun": "2026-03-25T06:30:15.748000",
+      "nextRun": "2026-03-25T06:45:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-25T06:30:00.030000",
+      "nextRun": "2026-03-25T07:00:00",
       "lastStatus": "ok"
     },
     {
@@ -503,20 +490,20 @@
   ],
   "stats": {
     "total": 83,
-    "active": 4,
+    "active": 3,
     "next": 0,
     "waiting": 1,
-    "completed": 78,
+    "completed": 79,
     "cron": 36
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 60.0,
     "waiting_count": 1,
-    "completed_today": 0,
+    "completed_today": 1,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-25T06:31:19.273415"
+    "timestamp": "2026-03-25T06:41:12.669468"
   }
 }
