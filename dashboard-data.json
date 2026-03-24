@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-24T09:16:53.017190",
+  "generated_at": "2026-03-24T10:08:01.220178",
   "tasks": {
     "active": [
+      {
+        "id": "tiktok-instagram-pipeline",
+        "filename": "tiktok-instagram-pipeline.md",
+        "folder": "active",
+        "title": "틱톡 + 인스타 자동 업로드 파이프라인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-24T10:07:56.162523",
+        "progress": 100
+      },
       {
         "id": "investment-system-rebuild",
         "filename": "investment-system-rebuild.md",
@@ -27,19 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-23T20:20:45.504975",
         "progress": 0
-      },
-      {
-        "id": "tiktok-instagram-pipeline",
-        "filename": "tiktok-instagram-pipeline.md",
-        "folder": "active",
-        "title": "틱톡 + 인스타 자동 업로드 파이프라인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-23T18:29:11.593396",
-        "progress": 100
       }
     ],
     "next": [],
@@ -133,38 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T09:02:04.343000",
-      "nextRun": "2026-03-24T09:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-24T09:10:00.029000",
-      "nextRun": "2026-03-24T09:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-24T09:02:10.972000",
-      "nextRun": "2026-03-24T09:15:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-24T09:00:00.028000",
-      "nextRun": "2026-03-24T09:30:00",
+      "lastRun": "2026-03-24T09:45:00.026000",
+      "nextRun": "2026-03-24T10:00:00",
       "lastStatus": "ok"
     },
     {
@@ -184,6 +154,36 @@
       "description": "초보엄빠 육아노트 Instagram 백로그 업로드 (하루 1편):",
       "enabled": true,
       "lastRun": "2026-03-23T10:01:17.960000",
+      "nextRun": "2026-03-24T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-24T09:30:00.015000",
+      "nextRun": "2026-03-24T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-24T09:55:00.029000",
+      "nextRun": "2026-03-24T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-24T09:45:18.407000",
       "nextRun": "2026-03-24T10:00:00",
       "lastStatus": "ok"
     },
@@ -504,6 +504,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-24T09:16:53.051482"
+    "timestamp": "2026-03-24T10:08:01.253568"
   }
 }
