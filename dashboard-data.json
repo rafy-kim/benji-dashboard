@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-24T16:03:02.849987",
+  "generated_at": "2026-03-24T20:36:57.704022",
   "tasks": {
     "active": [
       {
@@ -73,6 +73,19 @@
         "progress": 0
       },
       {
+        "id": "parenting-youtube-rag",
+        "filename": "parenting-youtube-rag.md",
+        "folder": "completed",
+        "title": "육아 유튜브 RAG 지식베이스 구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-21T06:28:26.023049",
+        "progress": 0
+      },
+      {
         "id": "financial-datasets-mcp-integration",
         "filename": "financial-datasets-mcp-integration.md",
         "folder": "completed",
@@ -110,41 +123,18 @@
         "waiting_for": null,
         "last_updated": "2026-03-14T16:01:02.820487",
         "progress": 0
-      },
-      {
-        "id": "initial-gift-transfer-process",
-        "filename": "initial-gift-transfer-process.md",
-        "folder": "completed",
-        "title": "초록이(김유현) 증여 절차",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://raomkr.slack.com/archives/C0ACBY1EW/p1772527986304319",
-        "waiting_for": null,
-        "last_updated": "2026-03-12T09:03:25.585898",
-        "progress": 0
       }
     ]
   },
   "cron": [
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-24T15:02:07.454000",
-      "nextRun": "2026-03-24T16:00:26.882000",
-      "lastStatus": "ok"
-    },
     {
       "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
       "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T16:01:07.057000",
-      "nextRun": "2026-03-24T16:05:00",
+      "lastRun": "2026-03-24T20:35:00.030000",
+      "nextRun": "2026-03-24T20:40:00",
       "lastStatus": "ok"
     },
     {
@@ -153,8 +143,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T16:00:08.906000",
-      "nextRun": "2026-03-24T16:15:00",
+      "lastRun": "2026-03-24T20:30:14.295000",
+      "nextRun": "2026-03-24T20:45:00",
       "lastStatus": "ok"
     },
     {
@@ -163,8 +153,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-24T16:00:17.676000",
-      "nextRun": "2026-03-24T16:15:00",
+      "lastRun": "2026-03-24T20:30:32.757000",
+      "nextRun": "2026-03-24T20:45:00",
       "lastStatus": "ok"
     },
     {
@@ -173,8 +163,18 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T16:00:00.033000",
-      "nextRun": "2026-03-24T16:30:00",
+      "lastRun": "2026-03-24T20:30:00.033000",
+      "nextRun": "2026-03-24T21:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-24T20:01:58.557000",
+      "nextRun": "2026-03-24T21:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -489,11 +489,11 @@
     }
   ],
   "stats": {
-    "total": 80,
+    "total": 81,
     "active": 3,
     "next": 0,
     "waiting": 1,
-    "completed": 76,
+    "completed": 77,
     "cron": 36
   },
   "flow_metrics": {
@@ -504,6 +504,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-24T16:03:02.880845"
+    "timestamp": "2026-03-24T20:36:57.732623"
   }
 }
