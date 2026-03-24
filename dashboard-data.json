@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-24T10:17:33.641469",
+  "generated_at": "2026-03-24T16:03:02.849987",
   "tasks": {
     "active": [
+      {
+        "id": "nyamnyam-pick-channel",
+        "filename": "nyamnyam-pick-channel.md",
+        "folder": "active",
+        "title": "냠냠픽 — 음식 트렌드 데이터 큐레이션 채널",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-24T16:02:57.765306",
+        "progress": 0
+      },
       {
         "id": "investment-system-rebuild",
         "filename": "investment-system-rebuild.md",
@@ -27,19 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-24T10:07:56.162523",
         "progress": 100
-      },
-      {
-        "id": "nyamnyam-pick-channel",
-        "filename": "nyamnyam-pick-channel.md",
-        "folder": "active",
-        "title": "냠냠픽 — 음식 트렌드 데이터 큐레이션 채널",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-23T20:20:45.504975",
-        "progress": 0
       }
     ],
     "next": [],
@@ -128,13 +128,23 @@
   },
   "cron": [
     {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-24T15:02:07.454000",
+      "nextRun": "2026-03-24T16:00:26.882000",
+      "lastStatus": "ok"
+    },
+    {
       "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
       "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T10:08:10.631000",
-      "nextRun": "2026-03-24T10:10:00",
+      "lastRun": "2026-03-24T16:01:07.057000",
+      "nextRun": "2026-03-24T16:05:00",
       "lastStatus": "ok"
     },
     {
@@ -143,8 +153,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T10:00:38.176000",
-      "nextRun": "2026-03-24T10:15:00",
+      "lastRun": "2026-03-24T16:00:08.906000",
+      "nextRun": "2026-03-24T16:15:00",
       "lastStatus": "ok"
     },
     {
@@ -153,8 +163,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-24T10:01:44.814000",
-      "nextRun": "2026-03-24T10:15:00",
+      "lastRun": "2026-03-24T16:00:17.676000",
+      "nextRun": "2026-03-24T16:15:00",
       "lastStatus": "ok"
     },
     {
@@ -163,18 +173,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-24T10:00:20.083000",
-      "nextRun": "2026-03-24T10:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-24T10:08:47.335000",
-      "nextRun": "2026-03-24T11:00:26.882000",
+      "lastRun": "2026-03-24T16:00:00.033000",
+      "nextRun": "2026-03-24T16:30:00",
       "lastStatus": "ok"
     },
     {
@@ -504,6 +504,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-24T10:17:33.664510"
+    "timestamp": "2026-03-24T16:03:02.880845"
   }
 }
