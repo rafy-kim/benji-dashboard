@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T16:45:32.729479",
+  "generated_at": "2026-03-25T17:00:58.128803",
   "tasks": {
     "active": [
       {
@@ -12,21 +12,8 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-25T16:45:28.028235",
+        "last_updated": "2026-03-25T17:00:53.430559",
         "progress": 92
-      },
-      {
-        "id": "home-prep-before-postpartum-backup",
-        "filename": "home-prep-before-postpartum-backup.md",
-        "folder": "active",
-        "title": "산후조리 집 준비",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-25T11:30:59.107456",
-        "progress": 0
       },
       {
         "id": "nyamnyam-pick-channel",
@@ -59,6 +46,19 @@
       }
     ],
     "completed": [
+      {
+        "id": "home-prep-before-postpartum-backup",
+        "filename": "home-prep-before-postpartum-backup.md",
+        "folder": "completed",
+        "title": "산후조리 집 준비",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-25T11:30:59.107456",
+        "progress": 0
+      },
       {
         "id": "tiktok-instagram-pipeline",
         "filename": "tiktok-instagram-pipeline.md",
@@ -110,19 +110,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-21T06:28:26.023049",
         "progress": 0
-      },
-      {
-        "id": "financial-datasets-mcp-integration",
-        "filename": "financial-datasets-mcp-integration.md",
-        "folder": "completed",
-        "title": "Financial Datasets MCP 통합",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-21T00:31:01.284651",
-        "progress": 75
       }
     ]
   },
@@ -133,28 +120,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-25T16:30:11.185000",
-      "nextRun": "2026-03-25T16:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-25T16:40:00.028000",
-      "nextRun": "2026-03-25T16:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-25T16:30:18.298000",
-      "nextRun": "2026-03-25T16:45:00",
+      "lastRun": "2026-03-25T16:45:00.028000",
+      "nextRun": "2026-03-25T17:00:00",
       "lastStatus": "ok"
     },
     {
@@ -164,6 +131,26 @@
       "description": "세션 모니터링.",
       "enabled": true,
       "lastRun": "2026-03-25T16:30:00.026000",
+      "nextRun": "2026-03-25T17:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-25T16:55:00.032000",
+      "nextRun": "2026-03-25T17:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-25T16:45:06.883000",
       "nextRun": "2026-03-25T17:00:00",
       "lastStatus": "ok"
     },
@@ -510,22 +497,22 @@
   ],
   "stats": {
     "total": 83,
-    "active": 3,
+    "active": 2,
     "next": 0,
     "waiting": 1,
-    "completed": 79,
+    "completed": 80,
     "cron": 38
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 2,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 40.0,
     "waiting_count": 1,
-    "completed_today": 1,
+    "completed_today": 2,
     "aging_24h": [
       "nyamnyam-pick-channel"
     ],
     "aging_48h": [],
-    "timestamp": "2026-03-25T16:45:32.759559"
+    "timestamp": "2026-03-25T17:00:58.158209"
   }
 }
