@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T13:00:48.083861",
+  "generated_at": "2026-03-25T14:00:51.348040",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-25T13:00:43.054668",
+        "last_updated": "2026-03-25T14:00:47.287372",
         "progress": 92
       },
       {
@@ -133,8 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-25T12:45:00.036000",
-      "nextRun": "2026-03-25T13:00:00",
+      "lastRun": "2026-03-25T13:45:00.028000",
+      "nextRun": "2026-03-25T14:00:00",
       "lastStatus": "ok"
     },
     {
@@ -143,8 +143,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-25T12:30:00.030000",
-      "nextRun": "2026-03-25T13:00:00",
+      "lastRun": "2026-03-25T13:30:00.029000",
+      "nextRun": "2026-03-25T14:00:00",
       "lastStatus": "ok"
     },
     {
@@ -153,8 +153,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-25T12:55:00.028000",
-      "nextRun": "2026-03-25T13:00:00",
+      "lastRun": "2026-03-25T13:55:00.029000",
+      "nextRun": "2026-03-25T14:00:00",
       "lastStatus": "ok"
     },
     {
@@ -163,8 +163,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-25T12:45:10.794000",
-      "nextRun": "2026-03-25T13:00:00",
+      "lastRun": "2026-03-25T13:45:05.993000",
+      "nextRun": "2026-03-25T14:00:00",
       "lastStatus": "ok"
     },
     {
@@ -173,8 +173,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-25T12:02:05.201000",
-      "nextRun": "2026-03-25T13:00:26.882000",
+      "lastRun": "2026-03-25T13:01:25.989000",
+      "nextRun": "2026-03-25T14:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -524,6 +524,6 @@
     "completed_today": 1,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-25T13:00:48.113025"
+    "timestamp": "2026-03-25T14:00:51.370285"
   }
 }
