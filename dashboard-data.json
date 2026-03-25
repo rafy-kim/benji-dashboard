@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T06:41:12.649702",
+  "generated_at": "2026-03-25T11:31:04.264410",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-24T22:46:14.429918",
+        "last_updated": "2026-03-25T11:30:59.107456",
         "progress": 0
       },
       {
@@ -133,28 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-25T06:30:10.977000",
-      "nextRun": "2026-03-25T06:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-25T06:40:00.027000",
-      "nextRun": "2026-03-25T06:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-25T06:30:15.748000",
-      "nextRun": "2026-03-25T06:45:00",
+      "lastRun": "2026-03-25T11:15:00.035000",
+      "nextRun": "2026-03-25T11:30:00",
       "lastStatus": "ok"
     },
     {
@@ -163,8 +143,28 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-25T06:30:00.030000",
-      "nextRun": "2026-03-25T07:00:00",
+      "lastRun": "2026-03-25T11:00:00.030000",
+      "nextRun": "2026-03-25T11:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-25T11:25:00.026000",
+      "nextRun": "2026-03-25T11:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-25T11:15:04.883000",
+      "nextRun": "2026-03-25T11:30:00",
       "lastStatus": "ok"
     },
     {
@@ -173,79 +173,29 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-25T06:03:26.581000",
-      "nextRun": "2026-03-25T07:00:26.882000",
+      "lastRun": "2026-03-25T11:01:10.985000",
+      "nextRun": "2026-03-25T12:00:26.882000",
       "lastStatus": "ok"
     },
     {
-      "id": "588b5d22-32a5-4d40-af85-ea6008604e4b",
-      "name": "L3 어닝 캘린더 체커",
-      "schedule": "매일 08:00",
-      "description": "L3 어닝 이벤트 체크를 수행해.",
+      "id": "e35ebd37-2910-4f15-a394-70149df96149",
+      "name": "노화연구소 출처 댓글 자동 작성",
+      "schedule": "크론: 15 12,20 * * *",
+      "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
       "enabled": true,
-      "lastRun": "2026-03-24T08:01:16.870000",
-      "nextRun": "2026-03-25T08:00:00",
-      "lastStatus": "ok"
+      "lastRun": null,
+      "nextRun": "2026-03-25T12:15:00",
+      "lastStatus": null
     },
     {
-      "id": "6b65afbd-eb03-4475-81cc-2697404bf1d5",
-      "name": "L1 투자 데일리 모닝 브리프",
-      "schedule": "크론: 30 8 * * 1-5",
-      "description": "투자 데일리 모닝 브리프를 생성해.",
+      "id": "30bcd847-27c4-4dd4-8c28-da0c58177af3",
+      "name": "육아꿀팁 RAG 출처 댓글 자동 게시",
+      "schedule": "크론: 30 21 * * *",
+      "description": "오늘 제작된 육아노트 영상 중 RAG 기반 영상에 출처 댓글을 게시해줘.",
       "enabled": true,
-      "lastRun": "2026-03-24T08:31:09.392000",
-      "nextRun": "2026-03-25T08:30:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
-      "name": "YouTube 5채널 모닝 리포트 (09:00 KST) — 노화연구소 포함",
-      "schedule": "매일 09:00",
-      "description": "YouTube 5채널 모닝 쇼츠 브리핑을 생성해.",
-      "enabled": true,
-      "lastRun": "2026-03-24T09:00:36.382000",
-      "nextRun": "2026-03-25T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "1f229b11-7c5d-4716-988b-440b510e1957",
-      "name": "냠냠픽 데일리 메시지",
-      "schedule": "크론: 0 9 * * 1-5",
-      "description": "냠냠픽 데일리 메시지 발송. 오늘 요일에 맞는 콘텐츠를 생성해서 #생활(C0ABFB203BR)에 발송해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-24T09:04:08.793000",
-      "nextRun": "2026-03-25T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
-      "name": "Claude 사용량 체크 (매일 09:00)",
-      "schedule": "매일 09:00",
-      "description": "Claude Max 주간 한도 체크!",
-      "enabled": true,
-      "lastRun": "2026-03-24T09:00:10.330000",
-      "nextRun": "2026-03-25T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
-      "name": "산책 조언 (매일 10:00)",
-      "schedule": "매일 10:00",
-      "description": "산책 조언 스크립트 실행 후 슬랙 전송.",
-      "enabled": true,
-      "lastRun": "2026-03-24T10:00:00.029000",
-      "nextRun": "2026-03-25T10:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d3b55a3a-a2e7-4f93-88a7-ac9d5561da11",
-      "name": "초보엄빠 백로그: Instagram (10:00)",
-      "schedule": "매일 10:00",
-      "description": "초보엄빠 육아노트 Instagram 백로그 업로드 (하루 1편):",
-      "enabled": true,
-      "lastRun": "2026-03-24T10:03:44.014000",
-      "nextRun": "2026-03-25T10:00:00",
-      "lastStatus": "ok"
+      "lastRun": null,
+      "nextRun": "2026-03-25T21:30:00",
+      "lastStatus": null
     },
     {
       "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
@@ -321,7 +271,7 @@
       "id": "fc053604-80b9-4c95-b03f-fe90ee30b935",
       "name": "육아꿀팁 Step1: 토픽 선정 + 스크립트 (하루 3편)",
       "schedule": "크론: 40 2 * * *",
-      "description": "육아꿀팁 V2 Step1: 토픽 선정 + 스크립트 작성 (하루 3편)",
+      "description": "육아꿀팁 Step1: 토픽 3개 선정 + 스크립트 생성",
       "enabled": true,
       "lastRun": "2026-03-25T02:40:00.027000",
       "nextRun": "2026-03-26T02:40:00",
@@ -428,6 +378,76 @@
       "lastStatus": "error"
     },
     {
+      "id": "588b5d22-32a5-4d40-af85-ea6008604e4b",
+      "name": "L3 어닝 캘린더 체커",
+      "schedule": "매일 08:00",
+      "description": "L3 어닝 이벤트 체크를 수행해.",
+      "enabled": true,
+      "lastRun": "2026-03-25T08:01:14.631000",
+      "nextRun": "2026-03-26T08:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "6b65afbd-eb03-4475-81cc-2697404bf1d5",
+      "name": "L1 투자 데일리 모닝 브리프",
+      "schedule": "크론: 30 8 * * 1-5",
+      "description": "투자 데일리 모닝 브리프를 생성해.",
+      "enabled": true,
+      "lastRun": "2026-03-25T08:31:18.856000",
+      "nextRun": "2026-03-26T08:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
+      "name": "YouTube 5채널 모닝 리포트 (09:00 KST) — 노화연구소 포함",
+      "schedule": "매일 09:00",
+      "description": "YouTube 5채널 모닝 쇼츠 브리핑을 생성해.",
+      "enabled": true,
+      "lastRun": "2026-03-25T09:00:34.090000",
+      "nextRun": "2026-03-26T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "1f229b11-7c5d-4716-988b-440b510e1957",
+      "name": "냠냠픽 데일리 메시지",
+      "schedule": "크론: 0 9 * * 1-5",
+      "description": "냠냠픽 데일리 메시지 발송. 오늘 요일에 맞는 콘텐츠를 생성해서 #생활(C0ABFB203BR)에 발송해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-25T09:02:15.033000",
+      "nextRun": "2026-03-26T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
+      "name": "Claude 사용량 체크 (매일 09:00)",
+      "schedule": "매일 09:00",
+      "description": "Claude Max 주간 한도 체크!",
+      "enabled": true,
+      "lastRun": "2026-03-25T09:00:08.105000",
+      "nextRun": "2026-03-26T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "8381da3b-6586-4f6e-a90f-74722cc9aa3f",
+      "name": "산책 조언 (매일 10:00)",
+      "schedule": "매일 10:00",
+      "description": "산책 조언 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-25T10:00:00.030000",
+      "nextRun": "2026-03-26T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3b55a3a-a2e7-4f93-88a7-ac9d5561da11",
+      "name": "초보엄빠 백로그: Instagram (10:00)",
+      "schedule": "매일 10:00",
+      "description": "초보엄빠 육아노트 Instagram 백로그 업로드 (하루 1편):",
+      "enabled": true,
+      "lastRun": "2026-03-25T10:00:38.937000",
+      "nextRun": "2026-03-26T10:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "511ba696-d410-4532-ab50-52c970372290",
       "name": "L2 투자 주간 딥다이브 (토요일)",
       "schedule": "크론: 0 9 * * 6",
@@ -494,7 +514,7 @@
     "next": 0,
     "waiting": 1,
     "completed": 79,
-    "cron": 36
+    "cron": 38
   },
   "flow_metrics": {
     "wip_count": 3,
@@ -502,8 +522,10 @@
     "wip_utilization": 60.0,
     "waiting_count": 1,
     "completed_today": 1,
-    "aging_24h": [],
+    "aging_24h": [
+      "investment-system-rebuild"
+    ],
     "aging_48h": [],
-    "timestamp": "2026-03-25T06:41:12.669468"
+    "timestamp": "2026-03-25T11:31:04.291072"
   }
 }
