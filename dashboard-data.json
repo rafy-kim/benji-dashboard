@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T22:46:31.326747",
+  "generated_at": "2026-03-26T23:15:41.481174",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-26T22:46:26.330365",
+        "last_updated": "2026-03-26T23:15:36.736316",
         "progress": 92
       },
       {
@@ -133,8 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-26T22:30:09.748000",
-      "nextRun": "2026-03-26T22:45:00",
+      "lastRun": "2026-03-26T23:00:18.616000",
+      "nextRun": "2026-03-26T23:15:00",
       "lastStatus": "ok"
     },
     {
@@ -143,8 +143,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-26T22:40:00.027000",
-      "nextRun": "2026-03-26T22:45:00",
+      "lastRun": "2026-03-26T23:09:52.832000",
+      "nextRun": "2026-03-26T23:15:00",
       "lastStatus": "ok"
     },
     {
@@ -153,18 +153,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-26T22:30:15.522000",
-      "nextRun": "2026-03-26T22:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
-      "name": "media-cleanup-48h",
-      "schedule": "크론: 50 22 * * *",
-      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
-      "enabled": true,
-      "lastRun": "2026-03-25T22:50:00.028000",
-      "nextRun": "2026-03-26T22:50:00",
+      "lastRun": "2026-03-26T23:00:29.658000",
+      "nextRun": "2026-03-26T23:15:00",
       "lastStatus": "ok"
     },
     {
@@ -173,18 +163,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-26T22:30:00.030000",
-      "nextRun": "2026-03-26T23:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-26T22:03:37.432000",
-      "nextRun": "2026-03-26T23:00:26.882000",
+      "lastRun": "2026-03-26T23:00:00.026000",
+      "nextRun": "2026-03-26T23:30:00",
       "lastStatus": "ok"
     },
     {
@@ -205,6 +185,16 @@
       "enabled": true,
       "lastRun": "2026-03-26T00:00:39.676000",
       "nextRun": "2026-03-27T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-26T23:04:00.491000",
+      "nextRun": "2026-03-27T00:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -448,6 +438,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
+      "name": "media-cleanup-48h",
+      "schedule": "크론: 50 22 * * *",
+      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
+      "enabled": true,
+      "lastRun": "2026-03-26T22:50:00.022000",
+      "nextRun": "2026-03-27T22:50:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "511ba696-d410-4532-ab50-52c970372290",
       "name": "L2 투자 주간 딥다이브 (토요일)",
       "schedule": "크론: 0 9 * * 6",
@@ -524,6 +524,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-26T22:46:31.351595"
+    "timestamp": "2026-03-26T23:15:41.505102"
   }
 }
