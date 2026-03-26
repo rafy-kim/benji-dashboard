@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T00:31:55.541962",
+  "generated_at": "2026-03-27T03:01:16.447454",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-27T00:31:50.401810",
+        "last_updated": "2026-03-27T03:01:11.612500",
         "progress": 92
       },
       {
@@ -133,79 +133,9 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T00:18:12.669000",
-      "nextRun": "2026-03-27T00:30:00",
+      "lastRun": "2026-03-27T02:45:00.028000",
+      "nextRun": "2026-03-27T03:00:00",
       "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-27T00:00:24.713000",
-      "nextRun": "2026-03-27T00:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-27T00:25:00.028000",
-      "nextRun": "2026-03-27T00:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-27T00:18:23.504000",
-      "nextRun": "2026-03-27T00:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-27T00:12:43.173000",
-      "nextRun": "2026-03-27T01:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "edeacff1-8db5-4e08-9217-7f4035ed3c6b",
-      "name": "노화연구소 Step4: 업로드+댓글+예약게시",
-      "schedule": "크론: 30 1 * * *",
-      "description": "노화연구소 영상 업로드 크론 (하루 2편: 당일 12시 + 20시 예약게시).",
-      "enabled": true,
-      "lastRun": "2026-03-26T01:30:30.803000",
-      "nextRun": "2026-03-27T01:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
-      "name": "육아꿀팁 Step0: 토픽 자동 발굴 (학습+Q&A)",
-      "schedule": "크론: 20 2 * * *",
-      "description": "육아꿀팁 V2 Step0: 토픽 증분 발굴 (새 데이터만 스캔)",
-      "enabled": true,
-      "lastRun": "2026-03-26T02:20:00.035000",
-      "nextRun": "2026-03-27T02:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fc053604-80b9-4c95-b03f-fe90ee30b935",
-      "name": "육아꿀팁 Step1: 토픽 선정 + 스크립트 (하루 3편)",
-      "schedule": "크론: 40 2 * * *",
-      "description": "육아꿀팁 Step1: 토픽 3개 선정 + 스크립트 생성",
-      "enabled": true,
-      "lastRun": "2026-03-26T10:56:51.329000",
-      "nextRun": "2026-03-27T02:40:00",
-      "lastStatus": "error"
     },
     {
       "id": "cd00fe58-fe21-4f82-a706-fe08420a6348",
@@ -215,6 +145,46 @@
       "enabled": true,
       "lastRun": "2026-03-26T11:02:56.920000",
       "nextRun": "2026-03-27T03:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-27T02:30:00.026000",
+      "nextRun": "2026-03-27T03:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-27T02:55:00.027000",
+      "nextRun": "2026-03-27T03:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-27T02:45:05.077000",
+      "nextRun": "2026-03-27T03:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-27T02:01:44.761000",
+      "nextRun": "2026-03-27T03:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -448,6 +418,36 @@
       "lastStatus": "ok"
     },
     {
+      "id": "edeacff1-8db5-4e08-9217-7f4035ed3c6b",
+      "name": "노화연구소 Step4: 업로드+댓글+예약게시",
+      "schedule": "크론: 30 1 * * *",
+      "description": "노화연구소 영상 업로드 크론 (하루 2편: 당일 12시 + 20시 예약게시).",
+      "enabled": true,
+      "lastRun": "2026-03-27T01:31:21.252000",
+      "nextRun": "2026-03-28T01:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
+      "name": "육아꿀팁 Step0: 토픽 자동 발굴 (학습+Q&A)",
+      "schedule": "크론: 20 2 * * *",
+      "description": "육아꿀팁 V2 Step0: 토픽 증분 발굴 (새 데이터만 스캔)",
+      "enabled": true,
+      "lastRun": "2026-03-27T02:20:00.029000",
+      "nextRun": "2026-03-28T02:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fc053604-80b9-4c95-b03f-fe90ee30b935",
+      "name": "육아꿀팁 Step1: 토픽 선정 + 스크립트 (하루 3편)",
+      "schedule": "크론: 40 2 * * *",
+      "description": "육아꿀팁 Step1: 토픽 3개 선정 + 스크립트 생성",
+      "enabled": true,
+      "lastRun": "2026-03-27T02:40:00.029000",
+      "nextRun": "2026-03-28T02:40:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "511ba696-d410-4532-ab50-52c970372290",
       "name": "L2 투자 주간 딥다이브 (토요일)",
       "schedule": "크론: 0 9 * * 6",
@@ -524,6 +524,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-27T00:31:55.575808"
+    "timestamp": "2026-03-27T03:01:16.476718"
   }
 }
