@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T21:31:05.145297",
+  "generated_at": "2026-03-26T22:46:31.326747",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-26T21:30:59.975943",
+        "last_updated": "2026-03-26T22:46:26.330365",
         "progress": 92
       },
       {
@@ -128,33 +128,13 @@
   },
   "cron": [
     {
-      "id": "30bcd847-27c4-4dd4-8c28-da0c58177af3",
-      "name": "육아꿀팁 RAG 출처 댓글 자동 게시",
-      "schedule": "크론: 30 21 * * *",
-      "description": "오늘 제작된 육아노트 영상 중 RAG 기반 영상에 출처 댓글을 게시해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-25T21:31:02.845000",
-      "nextRun": "2026-03-26T21:30:00",
-      "lastStatus": "error"
-    },
-    {
       "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
       "name": "토큰 핸드오프 모니터 (5분마다)",
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-26T21:15:00.030000",
-      "nextRun": "2026-03-26T21:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-26T21:00:00.018000",
-      "nextRun": "2026-03-26T21:30:00",
+      "lastRun": "2026-03-26T22:30:09.748000",
+      "nextRun": "2026-03-26T22:45:00",
       "lastStatus": "ok"
     },
     {
@@ -163,8 +143,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-26T21:25:00.027000",
-      "nextRun": "2026-03-26T21:30:00",
+      "lastRun": "2026-03-26T22:40:00.027000",
+      "nextRun": "2026-03-26T22:45:00",
       "lastStatus": "ok"
     },
     {
@@ -173,38 +153,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-26T21:15:04.821000",
-      "nextRun": "2026-03-26T21:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
-      "name": "육아일기 동기화 체크 (매일 22:00)",
-      "schedule": "크론: 0 22 * * *",
-      "description": "육아일기 동기화 체크 크론입니다.",
-      "enabled": true,
-      "lastRun": "2026-03-25T22:01:26.058000",
-      "nextRun": "2026-03-26T22:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "c7698948-0eac-419e-9291-afe33e415406",
-      "name": "L3 뉴스/규제 모니터링",
-      "schedule": "크론: 0 9 * * 1-5",
-      "description": "L3 TSLA/GOOGL 중대 뉴스 모니터링을 수행해.",
-      "enabled": true,
-      "lastRun": "2026-03-25T22:01:44.242000",
-      "nextRun": "2026-03-26T22:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-26T21:01:59.307000",
-      "nextRun": "2026-03-26T22:00:26.882000",
+      "lastRun": "2026-03-26T22:30:15.522000",
+      "nextRun": "2026-03-26T22:45:00",
       "lastStatus": "ok"
     },
     {
@@ -215,6 +165,26 @@
       "enabled": true,
       "lastRun": "2026-03-25T22:50:00.028000",
       "nextRun": "2026-03-26T22:50:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-26T22:30:00.030000",
+      "nextRun": "2026-03-26T23:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-26T22:03:37.432000",
+      "nextRun": "2026-03-26T23:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -448,6 +418,36 @@
       "lastStatus": "error"
     },
     {
+      "id": "30bcd847-27c4-4dd4-8c28-da0c58177af3",
+      "name": "육아꿀팁 RAG 출처 댓글 자동 게시",
+      "schedule": "크론: 30 21 * * *",
+      "description": "오늘 제작된 육아노트 영상 중 RAG 기반 영상에 출처 댓글을 게시해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-26T21:31:40.231000",
+      "nextRun": "2026-03-27T21:30:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
+      "name": "육아일기 동기화 체크 (매일 22:00)",
+      "schedule": "크론: 0 22 * * *",
+      "description": "육아일기 동기화 체크 크론입니다.",
+      "enabled": true,
+      "lastRun": "2026-03-26T22:02:07.553000",
+      "nextRun": "2026-03-27T22:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "c7698948-0eac-419e-9291-afe33e415406",
+      "name": "L3 뉴스/규제 모니터링",
+      "schedule": "크론: 0 9 * * 1-5",
+      "description": "L3 TSLA/GOOGL 중대 뉴스 모니터링을 수행해.",
+      "enabled": true,
+      "lastRun": "2026-03-26T22:02:24.888000",
+      "nextRun": "2026-03-27T22:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "511ba696-d410-4532-ab50-52c970372290",
       "name": "L2 투자 주간 딥다이브 (토요일)",
       "schedule": "크론: 0 9 * * 6",
@@ -524,6 +524,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-26T21:31:05.170937"
+    "timestamp": "2026-03-26T22:46:31.351595"
   }
 }
