@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-26T14:00:52.602858",
+  "generated_at": "2026-03-26T21:31:05.145297",
   "tasks": {
     "active": [
+      {
+        "id": "investment-system-rebuild",
+        "filename": "investment-system-rebuild.md",
+        "folder": "active",
+        "title": "투자 시스템 전면 재구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-26T21:30:59.975943",
+        "progress": 92
+      },
       {
         "id": "parenting-shorts-bug-fix",
         "filename": "parenting-shorts-bug-fix.md",
@@ -27,19 +40,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-26T09:03:55.849790",
         "progress": 0
-      },
-      {
-        "id": "investment-system-rebuild",
-        "filename": "investment-system-rebuild.md",
-        "folder": "active",
-        "title": "투자 시스템 전면 재구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-25T20:33:16.752374",
-        "progress": 92
       }
     ],
     "next": [],
@@ -128,66 +128,6 @@
   },
   "cron": [
     {
-      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
-      "name": "토큰 핸드오프 모니터 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "토큰 핸드오프 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-26T13:45:00.026000",
-      "nextRun": "2026-03-26T14:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-26T13:30:00.031000",
-      "nextRun": "2026-03-26T14:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-26T13:55:00.022000",
-      "nextRun": "2026-03-26T14:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-26T13:45:05.705000",
-      "nextRun": "2026-03-26T14:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-26T13:01:32.462000",
-      "nextRun": "2026-03-26T14:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e35ebd37-2910-4f15-a394-70149df96149",
-      "name": "노화연구소 출처 댓글 자동 작성",
-      "schedule": "크론: 15 12,20 * * *",
-      "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
-      "enabled": true,
-      "lastRun": "2026-03-26T12:15:43.658000",
-      "nextRun": "2026-03-26T20:15:00",
-      "lastStatus": "error"
-    },
-    {
       "id": "30bcd847-27c4-4dd4-8c28-da0c58177af3",
       "name": "육아꿀팁 RAG 출처 댓글 자동 게시",
       "schedule": "크론: 30 21 * * *",
@@ -196,6 +136,46 @@
       "lastRun": "2026-03-25T21:31:02.845000",
       "nextRun": "2026-03-26T21:30:00",
       "lastStatus": "error"
+    },
+    {
+      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
+      "name": "토큰 핸드오프 모니터 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "토큰 핸드오프 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-26T21:15:00.030000",
+      "nextRun": "2026-03-26T21:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-26T21:00:00.018000",
+      "nextRun": "2026-03-26T21:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-26T21:25:00.027000",
+      "nextRun": "2026-03-26T21:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-26T21:15:04.821000",
+      "nextRun": "2026-03-26T21:30:00",
+      "lastStatus": "ok"
     },
     {
       "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
@@ -215,6 +195,16 @@
       "enabled": true,
       "lastRun": "2026-03-25T22:01:44.242000",
       "nextRun": "2026-03-26T22:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-26T21:01:59.307000",
+      "nextRun": "2026-03-26T22:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -448,6 +438,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "e35ebd37-2910-4f15-a394-70149df96149",
+      "name": "노화연구소 출처 댓글 자동 작성",
+      "schedule": "크론: 15 12,20 * * *",
+      "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
+      "enabled": true,
+      "lastRun": "2026-03-26T20:15:56.211000",
+      "nextRun": "2026-03-27T12:15:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "511ba696-d410-4532-ab50-52c970372290",
       "name": "L2 투자 주간 딥다이브 (토요일)",
       "schedule": "크론: 0 9 * * 6",
@@ -524,6 +524,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-26T14:00:52.632763"
+    "timestamp": "2026-03-26T21:31:05.170937"
   }
 }
