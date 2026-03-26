@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T23:15:41.481174",
+  "generated_at": "2026-03-27T00:31:55.541962",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-26T23:15:36.736316",
+        "last_updated": "2026-03-27T00:31:50.401810",
         "progress": 92
       },
       {
@@ -133,28 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-26T23:00:18.616000",
-      "nextRun": "2026-03-26T23:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-26T23:09:52.832000",
-      "nextRun": "2026-03-26T23:15:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-26T23:00:29.658000",
-      "nextRun": "2026-03-26T23:15:00",
+      "lastRun": "2026-03-27T00:18:12.669000",
+      "nextRun": "2026-03-27T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -163,28 +143,28 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-26T23:00:00.026000",
-      "nextRun": "2026-03-26T23:30:00",
+      "lastRun": "2026-03-27T00:00:24.713000",
+      "nextRun": "2026-03-27T00:30:00",
       "lastStatus": "ok"
     },
     {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-26T00:00:00.022000",
-      "nextRun": "2026-03-27T00:00:00",
+      "lastRun": "2026-03-27T00:25:00.028000",
+      "nextRun": "2026-03-27T00:30:00",
       "lastStatus": "ok"
     },
     {
-      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
-      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
-      "schedule": "크론: 0 0 * * *",
-      "description": "노화연구소 크론 파이프라인 실행.",
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-26T00:00:39.676000",
-      "nextRun": "2026-03-27T00:00:00",
+      "lastRun": "2026-03-27T00:18:23.504000",
+      "nextRun": "2026-03-27T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -193,8 +173,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-26T23:04:00.491000",
-      "nextRun": "2026-03-27T00:00:26.882000",
+      "lastRun": "2026-03-27T00:12:43.173000",
+      "nextRun": "2026-03-27T01:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -448,6 +428,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-27T00:00:00.030000",
+      "nextRun": "2026-03-28T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
+      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
+      "schedule": "크론: 0 0 * * *",
+      "description": "노화연구소 크론 파이프라인 실행.",
+      "enabled": true,
+      "lastRun": "2026-03-27T00:01:38.701000",
+      "nextRun": "2026-03-28T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "511ba696-d410-4532-ab50-52c970372290",
       "name": "L2 투자 주간 딥다이브 (토요일)",
       "schedule": "크론: 0 9 * * 6",
@@ -524,6 +524,6 @@
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-03-26T23:15:41.505102"
+    "timestamp": "2026-03-27T00:31:55.575808"
   }
 }
