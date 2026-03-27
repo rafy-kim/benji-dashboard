@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-27T19:28:50.559110",
+  "generated_at": "2026-03-28T00:31:13.035821",
   "tasks": {
     "active": [
+      {
+        "id": "investment-system-rebuild",
+        "filename": "investment-system-rebuild.md",
+        "folder": "active",
+        "title": "투자 시스템 전면 재구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-28T00:31:08.922978",
+        "progress": 92
+      },
       {
         "id": "unlisted-stock-analysis",
         "filename": "unlisted-stock-analysis.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-27T19:28:46.480945",
         "progress": 0
-      },
-      {
-        "id": "investment-system-rebuild",
-        "filename": "investment-system-rebuild.md",
-        "folder": "active",
-        "title": "투자 시스템 전면 재구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-27T19:00:50.302069",
-        "progress": 92
       },
       {
         "id": "nyamnyam-pick-channel",
@@ -133,8 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T19:15:00.043000",
-      "nextRun": "2026-03-27T19:30:00",
+      "lastRun": "2026-03-28T00:15:00.037000",
+      "nextRun": "2026-03-28T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -143,8 +143,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T19:00:00.043000",
-      "nextRun": "2026-03-27T19:30:00",
+      "lastRun": "2026-03-28T00:00:08.712000",
+      "nextRun": "2026-03-28T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -153,8 +153,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T19:25:00.038000",
-      "nextRun": "2026-03-27T19:30:00",
+      "lastRun": "2026-03-28T00:25:00.036000",
+      "nextRun": "2026-03-28T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -163,8 +163,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-27T19:15:05.013000",
-      "nextRun": "2026-03-27T19:30:00",
+      "lastRun": "2026-03-28T00:15:05.017000",
+      "nextRun": "2026-03-28T00:30:00",
       "lastStatus": "ok"
     },
     {
@@ -173,78 +173,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-27T19:01:29.983000",
-      "nextRun": "2026-03-27T20:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e35ebd37-2910-4f15-a394-70149df96149",
-      "name": "노화연구소 출처 댓글 자동 작성",
-      "schedule": "크론: 15 12,20 * * *",
-      "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
-      "enabled": true,
-      "lastRun": "2026-03-27T12:16:23.590000",
-      "nextRun": "2026-03-27T20:15:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "30bcd847-27c4-4dd4-8c28-da0c58177af3",
-      "name": "육아꿀팁 RAG 출처 댓글 자동 게시",
-      "schedule": "크론: 30 21 * * *",
-      "description": "오늘 제작된 육아노트 영상 중 RAG 기반 영상에 출처 댓글을 게시해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-26T21:31:40.231000",
-      "nextRun": "2026-03-27T21:30:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
-      "name": "육아일기 동기화 체크 (매일 22:00)",
-      "schedule": "크론: 0 22 * * *",
-      "description": "육아일기 동기화 체크 크론입니다.",
-      "enabled": true,
-      "lastRun": "2026-03-26T22:02:07.553000",
-      "nextRun": "2026-03-27T22:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "c7698948-0eac-419e-9291-afe33e415406",
-      "name": "L3 뉴스/규제 모니터링",
-      "schedule": "크론: 0 9 * * 1-5",
-      "description": "L3 TSLA/GOOGL 중대 뉴스 모니터링을 수행해.",
-      "enabled": true,
-      "lastRun": "2026-03-26T22:02:24.888000",
-      "nextRun": "2026-03-27T22:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
-      "name": "media-cleanup-48h",
-      "schedule": "크론: 50 22 * * *",
-      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
-      "enabled": true,
-      "lastRun": "2026-03-26T22:50:00.022000",
-      "nextRun": "2026-03-27T22:50:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
-      "enabled": true,
-      "lastRun": "2026-03-27T00:00:00.030000",
-      "nextRun": "2026-03-28T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
-      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
-      "schedule": "크론: 0 0 * * *",
-      "description": "노화연구소 크론 파이프라인 실행.",
-      "enabled": true,
-      "lastRun": "2026-03-27T00:01:38.701000",
-      "nextRun": "2026-03-28T00:00:00",
+      "lastRun": "2026-03-28T00:03:05.362000",
+      "nextRun": "2026-03-28T01:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -418,6 +348,66 @@
       "lastStatus": "ok"
     },
     {
+      "id": "e35ebd37-2910-4f15-a394-70149df96149",
+      "name": "노화연구소 출처 댓글 자동 작성",
+      "schedule": "크론: 15 12,20 * * *",
+      "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
+      "enabled": true,
+      "lastRun": "2026-03-27T20:16:00.811000",
+      "nextRun": "2026-03-28T12:15:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "30bcd847-27c4-4dd4-8c28-da0c58177af3",
+      "name": "육아꿀팁 RAG 출처 댓글 자동 게시",
+      "schedule": "크론: 30 21 * * *",
+      "description": "오늘 제작된 육아노트 영상 중 RAG 기반 영상에 출처 댓글을 게시해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-27T21:31:08.454000",
+      "nextRun": "2026-03-28T21:30:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
+      "name": "육아일기 동기화 체크 (매일 22:00)",
+      "schedule": "크론: 0 22 * * *",
+      "description": "육아일기 동기화 체크 크론입니다.",
+      "enabled": true,
+      "lastRun": "2026-03-27T22:01:08.496000",
+      "nextRun": "2026-03-28T22:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
+      "name": "media-cleanup-48h",
+      "schedule": "크론: 50 22 * * *",
+      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
+      "enabled": true,
+      "lastRun": "2026-03-27T22:50:00.035000",
+      "nextRun": "2026-03-28T22:50:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-28T00:00:00.034000",
+      "nextRun": "2026-03-29T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
+      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
+      "schedule": "크론: 0 0 * * *",
+      "description": "노화연구소 크론 파이프라인 실행.",
+      "enabled": true,
+      "lastRun": "2026-03-28T00:00:50.741000",
+      "nextRun": "2026-03-29T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
       "name": "안전한 세션 정리 (매주 일요일 04:00)",
       "schedule": "크론: 0 4 * * 0",
@@ -478,6 +468,16 @@
       "lastStatus": null
     },
     {
+      "id": "c7698948-0eac-419e-9291-afe33e415406",
+      "name": "L3 뉴스/규제 모니터링",
+      "schedule": "크론: 0 9 * * 1-5",
+      "description": "L3 TSLA/GOOGL 중대 뉴스 모니터링을 수행해.",
+      "enabled": true,
+      "lastRun": "2026-03-27T22:01:23.682000",
+      "nextRun": "2026-03-30T22:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "ad2c475a-dfb2-4b03-86a0-1a1063fd622e",
       "name": "Phase3 거장 13F + AI 스카우팅 (월간)",
       "schedule": "크론: 0 10 1 * *",
@@ -506,6 +506,6 @@
       "nyamnyam-pick-channel"
     ],
     "aging_48h": [],
-    "timestamp": "2026-03-27T19:28:50.581064"
+    "timestamp": "2026-03-28T00:31:13.067342"
   }
 }
