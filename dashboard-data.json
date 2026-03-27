@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-27T19:00:55.035637",
+  "generated_at": "2026-03-27T19:28:02.654679",
   "tasks": {
     "active": [
+      {
+        "id": "unlisted-stock-analysis",
+        "filename": "unlisted-stock-analysis.md",
+        "folder": "active",
+        "title": "비상장 주식 분석 및 평가",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-27T19:27:58.552774",
+        "progress": 0
+      },
       {
         "id": "investment-system-rebuild",
         "filename": "investment-system-rebuild.md",
@@ -120,8 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T18:45:00.040000",
-      "nextRun": "2026-03-27T19:00:00",
+      "lastRun": "2026-03-27T19:15:00.043000",
+      "nextRun": "2026-03-27T19:30:00",
       "lastStatus": "ok"
     },
     {
@@ -130,8 +143,8 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T18:30:00.041000",
-      "nextRun": "2026-03-27T19:00:00",
+      "lastRun": "2026-03-27T19:00:00.043000",
+      "nextRun": "2026-03-27T19:30:00",
       "lastStatus": "ok"
     },
     {
@@ -140,8 +153,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T18:55:00.036000",
-      "nextRun": "2026-03-27T19:00:00",
+      "lastRun": "2026-03-27T19:25:00.038000",
+      "nextRun": "2026-03-27T19:30:00",
       "lastStatus": "ok"
     },
     {
@@ -150,8 +163,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-27T18:45:04.352000",
-      "nextRun": "2026-03-27T19:00:00",
+      "lastRun": "2026-03-27T19:15:05.013000",
+      "nextRun": "2026-03-27T19:30:00",
       "lastStatus": "ok"
     },
     {
@@ -160,8 +173,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-27T18:01:15.360000",
-      "nextRun": "2026-03-27T19:00:26.882000",
+      "lastRun": "2026-03-27T19:01:29.983000",
+      "nextRun": "2026-03-27T20:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -476,23 +489,23 @@
     }
   ],
   "stats": {
-    "total": 84,
-    "active": 2,
+    "total": 85,
+    "active": 3,
     "next": 0,
     "waiting": 1,
     "completed": 81,
     "cron": 36
   },
   "flow_metrics": {
-    "wip_count": 2,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 40.0,
+    "wip_utilization": 60.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
       "nyamnyam-pick-channel"
     ],
     "aging_48h": [],
-    "timestamp": "2026-03-27T19:00:55.066990"
+    "timestamp": "2026-03-27T19:28:02.677308"
   }
 }
