@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T11:46:05.703452",
+  "generated_at": "2026-03-27T19:00:55.035637",
   "tasks": {
     "active": [
       {
@@ -12,21 +12,8 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-27T11:46:00.661342",
+        "last_updated": "2026-03-27T19:00:50.302069",
         "progress": 92
-      },
-      {
-        "id": "parenting-shorts-bug-fix",
-        "filename": "parenting-shorts-bug-fix.md",
-        "folder": "active",
-        "title": "육아노트 크론 버그 긴급 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-26T14:00:47.590256",
-        "progress": 0
       },
       {
         "id": "nyamnyam-pick-channel",
@@ -59,6 +46,19 @@
       }
     ],
     "completed": [
+      {
+        "id": "parenting-shorts-bug-fix",
+        "filename": "parenting-shorts-bug-fix.md",
+        "folder": "completed",
+        "title": "육아노트 크론 버그 긴급 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-26T14:00:47.590256",
+        "progress": 0
+      },
       {
         "id": "home-prep-before-postpartum-backup",
         "filename": "home-prep-before-postpartum-backup.md",
@@ -110,19 +110,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-23T06:31:28.781295",
         "progress": 0
-      },
-      {
-        "id": "parenting-youtube-rag",
-        "filename": "parenting-youtube-rag.md",
-        "folder": "completed",
-        "title": "육아 유튜브 RAG 지식베이스 구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-21T06:28:26.023049",
-        "progress": 0
       }
     ]
   },
@@ -133,28 +120,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T11:30:14.613000",
-      "nextRun": "2026-03-27T11:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-27T11:40:00.028000",
-      "nextRun": "2026-03-27T11:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-27T11:30:19.769000",
-      "nextRun": "2026-03-27T11:45:00",
+      "lastRun": "2026-03-27T18:45:00.040000",
+      "nextRun": "2026-03-27T19:00:00",
       "lastStatus": "ok"
     },
     {
@@ -163,8 +130,28 @@
       "schedule": "크론: */30 * * * *",
       "description": "세션 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-27T11:30:00.027000",
-      "nextRun": "2026-03-27T12:00:00",
+      "lastRun": "2026-03-27T18:30:00.041000",
+      "nextRun": "2026-03-27T19:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-27T18:55:00.036000",
+      "nextRun": "2026-03-27T19:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-27T18:45:04.352000",
+      "nextRun": "2026-03-27T19:00:00",
       "lastStatus": "ok"
     },
     {
@@ -173,8 +160,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-27T11:02:19.304000",
-      "nextRun": "2026-03-27T12:00:26.882000",
+      "lastRun": "2026-03-27T18:01:15.360000",
+      "nextRun": "2026-03-27T19:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -183,8 +170,8 @@
       "schedule": "크론: 15 12,20 * * *",
       "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
       "enabled": true,
-      "lastRun": "2026-03-26T20:15:56.211000",
-      "nextRun": "2026-03-27T12:15:00",
+      "lastRun": "2026-03-27T12:16:23.590000",
+      "nextRun": "2026-03-27T20:15:00",
       "lastStatus": "error"
     },
     {
@@ -490,22 +477,22 @@
   ],
   "stats": {
     "total": 84,
-    "active": 3,
+    "active": 2,
     "next": 0,
     "waiting": 1,
-    "completed": 80,
+    "completed": 81,
     "cron": 36
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 2,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 40.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
       "nyamnyam-pick-channel"
     ],
     "aging_48h": [],
-    "timestamp": "2026-03-27T11:46:05.729475"
+    "timestamp": "2026-03-27T19:00:55.066990"
   }
 }
