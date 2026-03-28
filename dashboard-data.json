@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T15:45:32.664695",
+  "generated_at": "2026-03-28T16:01:07.900490",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-28T15:45:27.551836",
+        "last_updated": "2026-03-28T16:01:03.001612",
         "progress": 0
       },
       {
@@ -133,28 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-28T15:30:10.164000",
-      "nextRun": "2026-03-28T15:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
-      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
-      "schedule": "크론: */5 * * * *",
-      "description": "슬랙 채널 응답 타임아웃 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-28T15:40:00.033000",
-      "nextRun": "2026-03-28T15:45:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
-      "enabled": true,
-      "lastRun": "2026-03-28T15:30:15.056000",
-      "nextRun": "2026-03-28T15:45:00",
+      "lastRun": "2026-03-28T15:45:00.036000",
+      "nextRun": "2026-03-28T16:00:00",
       "lastStatus": "ok"
     },
     {
@@ -164,6 +144,26 @@
       "description": "세션 모니터링.",
       "enabled": true,
       "lastRun": "2026-03-28T15:30:00.038000",
+      "nextRun": "2026-03-28T16:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e6217ee8-324e-4e8b-9b9a-08d34bef0522",
+      "name": "슬랙 채널 응답 타임아웃 모니터링 (5분)",
+      "schedule": "크론: */5 * * * *",
+      "description": "슬랙 채널 응답 타임아웃 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-28T15:55:00.031000",
+      "nextRun": "2026-03-28T16:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
+      "name": "데드락 감지 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "데드락 감지 및 리마인더 크론.",
+      "enabled": true,
+      "lastRun": "2026-03-28T15:45:05.252000",
       "nextRun": "2026-03-28T16:00:00",
       "lastStatus": "ok"
     },
@@ -506,6 +506,6 @@
     "aging_48h": [
       "nyamnyam-pick-channel"
     ],
-    "timestamp": "2026-03-28T15:45:32.695596"
+    "timestamp": "2026-03-28T16:01:07.950791"
   }
 }
