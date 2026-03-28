@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-03-28T16:01:07.900490",
+  "generated_at": "2026-03-28T16:11:40.764658",
   "tasks": {
     "active": [
       {
         "id": "unlisted-stock-analysis",
         "filename": "unlisted-stock-analysis.md",
         "folder": "active",
-        "title": "비상장 주식 분석 및 평가",
+        "title": "비상장 주식 분석 및 매도 전략",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-28T16:01:03.001612",
-        "progress": 0
+        "last_updated": "2026-03-28T16:11:35.701109",
+        "progress": 73
       },
       {
         "id": "investment-system-rebuild",
@@ -133,18 +133,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-28T15:45:00.036000",
-      "nextRun": "2026-03-28T16:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-28T15:30:00.038000",
-      "nextRun": "2026-03-28T16:00:00",
+      "lastRun": "2026-03-28T16:00:09.888000",
+      "nextRun": "2026-03-28T16:15:00",
       "lastStatus": "ok"
     },
     {
@@ -153,18 +143,28 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-28T15:55:00.031000",
-      "nextRun": "2026-03-28T16:00:00",
+      "lastRun": "2026-03-28T16:10:00.031000",
+      "nextRun": "2026-03-28T16:15:00",
       "lastStatus": "ok"
     },
     {
       "id": "fbfcc845-265b-4cfa-9097-2b39c9085a1d",
-      "name": "데드락 감지 (5분마다)",
+      "name": "맥락 기반 리마인더 + 데드락 감지 (15분)",
       "schedule": "크론: */15 * * * *",
-      "description": "데드락 감지 및 리마인더 크론.",
+      "description": "데드락 감지 및 맥락 기반 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-28T15:45:05.252000",
-      "nextRun": "2026-03-28T16:00:00",
+      "lastRun": "2026-03-28T16:00:17.662000",
+      "nextRun": "2026-03-28T16:15:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-28T16:00:00.030000",
+      "nextRun": "2026-03-28T16:30:00",
       "lastStatus": "ok"
     },
     {
@@ -173,8 +173,8 @@
       "schedule": "크론: 0 * * * *",
       "description": "자기학습 시간!",
       "enabled": true,
-      "lastRun": "2026-03-28T15:01:31.221000",
-      "nextRun": "2026-03-28T16:00:26.882000",
+      "lastRun": "2026-03-28T16:01:41.535000",
+      "nextRun": "2026-03-28T17:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -369,7 +369,7 @@
     },
     {
       "id": "001441b8-28d6-4d52-891a-02001233c2d5",
-      "name": "YouTube 5채널 모닝 리포트 (09:00 KST) — 노화연구소 포함",
+      "name": "YouTube 4채널 모닝 리포트 (09:00 KST)",
       "schedule": "매일 09:00",
       "description": "YouTube 5채널 모닝 쇼츠 브리핑을 생성해.",
       "enabled": true,
@@ -506,6 +506,6 @@
     "aging_48h": [
       "nyamnyam-pick-channel"
     ],
-    "timestamp": "2026-03-28T16:01:07.950791"
+    "timestamp": "2026-03-28T16:11:40.800892"
   }
 }
