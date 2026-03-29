@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-03-28T16:11:40.764658",
+  "generated_at": "2026-03-29T09:33:44.445768",
   "tasks": {
     "active": [
+      {
+        "id": "investment-system-rebuild",
+        "filename": "investment-system-rebuild.md",
+        "folder": "active",
+        "title": "투자 시스템 전면 재구축",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-29T09:33:42.950188",
+        "progress": 92
+      },
       {
         "id": "unlisted-stock-analysis",
         "filename": "unlisted-stock-analysis.md",
@@ -14,19 +27,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-28T16:11:35.701109",
         "progress": 73
-      },
-      {
-        "id": "investment-system-rebuild",
-        "filename": "investment-system-rebuild.md",
-        "folder": "active",
-        "title": "투자 시스템 전면 재구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-28T00:31:08.922978",
-        "progress": 92
       },
       {
         "id": "nyamnyam-pick-channel",
@@ -133,8 +133,18 @@
       "schedule": "크론: */15 * * * *",
       "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-28T16:00:09.888000",
-      "nextRun": "2026-03-28T16:15:00",
+      "lastRun": "2026-03-29T09:15:00.026000",
+      "nextRun": "2026-03-29T09:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-03-29T09:00:00.030000",
+      "nextRun": "2026-03-29T09:30:00",
       "lastStatus": "ok"
     },
     {
@@ -143,8 +153,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-03-28T16:10:00.031000",
-      "nextRun": "2026-03-28T16:15:00",
+      "lastRun": "2026-03-29T09:25:00.028000",
+      "nextRun": "2026-03-29T09:30:00",
       "lastStatus": "ok"
     },
     {
@@ -153,238 +163,8 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 맥락 기반 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-03-28T16:00:17.662000",
-      "nextRun": "2026-03-28T16:15:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-03-28T16:00:00.030000",
-      "nextRun": "2026-03-28T16:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
-      "enabled": true,
-      "lastRun": "2026-03-28T16:01:41.535000",
-      "nextRun": "2026-03-28T17:00:26.882000",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "e35ebd37-2910-4f15-a394-70149df96149",
-      "name": "노화연구소 출처 댓글 자동 작성",
-      "schedule": "크론: 15 12,20 * * *",
-      "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
-      "enabled": true,
-      "lastRun": "2026-03-28T12:16:03.711000",
-      "nextRun": "2026-03-28T20:15:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "30bcd847-27c4-4dd4-8c28-da0c58177af3",
-      "name": "육아꿀팁 RAG 출처 댓글 자동 게시",
-      "schedule": "크론: 30 21 * * *",
-      "description": "오늘 제작된 육아노트 영상 중 RAG 기반 영상에 출처 댓글을 게시해줘.",
-      "enabled": true,
-      "lastRun": "2026-03-27T21:31:08.454000",
-      "nextRun": "2026-03-28T21:30:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
-      "name": "육아일기 동기화 체크 (매일 22:00)",
-      "schedule": "크론: 0 22 * * *",
-      "description": "육아일기 동기화 체크 크론입니다.",
-      "enabled": true,
-      "lastRun": "2026-03-27T22:01:08.496000",
-      "nextRun": "2026-03-28T22:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
-      "name": "media-cleanup-48h",
-      "schedule": "크론: 50 22 * * *",
-      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
-      "enabled": true,
-      "lastRun": "2026-03-27T22:50:00.035000",
-      "nextRun": "2026-03-28T22:50:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
-      "name": "Config 백업 (매일 자정)",
-      "schedule": "크론: 0 0 * * *",
-      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
-      "enabled": true,
-      "lastRun": "2026-03-28T00:00:00.034000",
-      "nextRun": "2026-03-29T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
-      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
-      "schedule": "크론: 0 0 * * *",
-      "description": "노화연구소 크론 파이프라인 실행.",
-      "enabled": true,
-      "lastRun": "2026-03-28T00:00:50.741000",
-      "nextRun": "2026-03-29T00:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "edeacff1-8db5-4e08-9217-7f4035ed3c6b",
-      "name": "노화연구소 Step4: 업로드+댓글+예약게시",
-      "schedule": "크론: 30 1 * * *",
-      "description": "노화연구소 영상 업로드 크론 (하루 2편: 당일 12시 + 20시 예약게시).",
-      "enabled": true,
-      "lastRun": "2026-03-28T01:30:39.021000",
-      "nextRun": "2026-03-29T01:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
-      "name": "육아꿀팁 Step0: 토픽 자동 발굴 (학습+Q&A)",
-      "schedule": "크론: 20 2 * * *",
-      "description": "육아꿀팁 V2 Step0: 토픽 증분 발굴 (새 데이터만 스캔)",
-      "enabled": true,
-      "lastRun": "2026-03-28T02:20:00.041000",
-      "nextRun": "2026-03-29T02:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "fc053604-80b9-4c95-b03f-fe90ee30b935",
-      "name": "육아꿀팁 Step1: 토픽 선정 + 스크립트 (하루 2편)",
-      "schedule": "크론: 40 2 * * *",
-      "description": "육아꿀팁 Step1: 토픽 2개 선정 + 스크립트 생성",
-      "enabled": true,
-      "lastRun": "2026-03-28T02:40:00.039000",
-      "nextRun": "2026-03-29T02:40:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "cd00fe58-fe21-4f82-a706-fe08420a6348",
-      "name": "육아꿀팁 Step2a: 이미지 생성 (1편째)",
-      "schedule": "크론: 0 3 * * *",
-      "description": "육아꿀팁 V2 Step2a: 이미지 생성 (1편째만)",
-      "enabled": true,
-      "lastRun": "2026-03-28T03:00:31.381000",
-      "nextRun": "2026-03-29T03:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "30d263b7-6ef9-46eb-8134-df438faa8a4a",
-      "name": "육아꿀팁 Step2b: 이미지 생성 (2편째)",
-      "schedule": "크론: 20 3 * * *",
-      "description": "육아꿀팁 V2 Step2b: 이미지 생성 (2편째만)",
-      "enabled": true,
-      "lastRun": "2026-03-28T03:20:00.035000",
-      "nextRun": "2026-03-29T03:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "05fa5589-1f3b-4ff9-817f-dd41495af512",
-      "name": "세션 정기 정리",
-      "schedule": "크론: 0 4 * * *",
-      "description": "새벽 정기 세션 정리.",
-      "enabled": true,
-      "lastRun": "2026-03-28T04:00:13.158000",
-      "nextRun": "2026-03-29T04:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "4aeb132e-786b-4b03-99b6-56321b92f5e6",
-      "name": "육아꿀팁 Step3a: TTS+렌더링 (1편째)",
-      "schedule": "크론: 0 4 * * *",
-      "description": "육아꿀팁 V2 Step3a: TTS + 영상 렌더링 (1편째만)",
-      "enabled": true,
-      "lastRun": "2026-03-28T04:01:17.646000",
-      "nextRun": "2026-03-29T04:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
-      "name": "안전한 세션 정리 (매주 일요일 04:00)",
-      "schedule": "크론: 0 4 * * 0",
-      "description": "주간 세션 정리.",
-      "enabled": true,
-      "lastRun": "2026-03-22T04:00:00.037000",
-      "nextRun": "2026-03-29T04:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "6e1161ee-5502-44b0-bad7-9f2702979ec4",
-      "name": "육아꿀팁 Step3b: TTS+렌더링 (2편째)",
-      "schedule": "크론: 20 4 * * *",
-      "description": "육아꿀팁 V2 Step3b: TTS + 영상 렌더링 (2편째만)",
-      "enabled": true,
-      "lastRun": "2026-03-28T04:20:00.040000",
-      "nextRun": "2026-03-29T04:20:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "4a070c76-4fc0-4719-86bf-c4f1b52c7871",
-      "name": "육아꿀팁 Step4: 예약 업로드 + 보고 (2편)",
-      "schedule": "크론: 0 5 * * *",
-      "description": "육아꿀팁 V2 Step4: YouTube 예약 업로드 + 검증 + 보고 (하루 2편)",
-      "enabled": true,
-      "lastRun": "2026-03-28T05:00:38.798000",
-      "nextRun": "2026-03-29T05:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "30b2f487-72d3-44e2-b7a6-30164f02dbab",
-      "name": "육아 RAG 신규영상 업데이트",
-      "schedule": "크론: 0 6 * * *",
-      "description": "python3 /Users/benji/clawd/knowledge/parenting-rag/scripts/u...",
-      "enabled": true,
-      "lastRun": "2026-03-28T06:00:30.015000",
-      "nextRun": "2026-03-29T06:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "d80b5f4e-e5cf-43e6-a345-87ee9c856be9",
-      "name": "output-cleanup-daily",
-      "schedule": "크론: 0 6 * * *",
-      "description": "YouTube output 폴더 자동 정리. exec로 python3 ~/clawd/scripts/clean...",
-      "enabled": true,
-      "lastRun": "2026-03-28T06:01:30.829000",
-      "nextRun": "2026-03-29T06:00:00",
-      "lastStatus": "error"
-    },
-    {
-      "id": "588b5d22-32a5-4d40-af85-ea6008604e4b",
-      "name": "L3 어닝 캘린더 체커",
-      "schedule": "매일 08:00",
-      "description": "L3 어닝 이벤트 체크를 수행해.",
-      "enabled": true,
-      "lastRun": "2026-03-28T08:01:35.615000",
-      "nextRun": "2026-03-29T08:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
-      "name": "YouTube 4채널 모닝 리포트 (09:00 KST)",
-      "schedule": "매일 09:00",
-      "description": "YouTube 5채널 모닝 쇼츠 브리핑을 생성해.",
-      "enabled": true,
-      "lastRun": "2026-03-28T09:00:24.624000",
-      "nextRun": "2026-03-29T09:00:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
-      "name": "Claude 사용량 체크 (매일 09:00)",
-      "schedule": "매일 09:00",
-      "description": "Claude Max 주간 한도 체크!",
-      "enabled": true,
-      "lastRun": "2026-03-28T09:00:07.845000",
-      "nextRun": "2026-03-29T09:00:00",
+      "lastRun": "2026-03-29T09:15:04.277000",
+      "nextRun": "2026-03-29T09:30:00",
       "lastStatus": "ok"
     },
     {
@@ -408,6 +188,26 @@
       "lastStatus": "ok"
     },
     {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-03-29T09:02:00.795000",
+      "nextRun": "2026-03-29T10:00:26.882000",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "e35ebd37-2910-4f15-a394-70149df96149",
+      "name": "노화연구소 출처 댓글 자동 작성",
+      "schedule": "크론: 15 12,20 * * *",
+      "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
+      "enabled": true,
+      "lastRun": "2026-03-28T20:15:52.197000",
+      "nextRun": "2026-03-29T12:15:00",
+      "lastStatus": "error"
+    },
+    {
       "id": "c6c8de03-e536-4f43-ac91-75b64ffceca7",
       "name": "트럼프 주간 롱폼 자동 제작 (일요일 18:00→20:00 공개)",
       "schedule": "크론: 0 18 * * 0",
@@ -428,6 +228,186 @@
       "lastStatus": "ok"
     },
     {
+      "id": "30bcd847-27c4-4dd4-8c28-da0c58177af3",
+      "name": "육아꿀팁 RAG 출처 댓글 자동 게시",
+      "schedule": "크론: 30 21 * * *",
+      "description": "오늘 제작된 육아노트 영상 중 RAG 기반 영상에 출처 댓글을 게시해줘.",
+      "enabled": true,
+      "lastRun": "2026-03-28T21:31:19.340000",
+      "nextRun": "2026-03-29T21:30:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "5e15ed2f-96eb-4162-9904-8ea6301a2b1a",
+      "name": "육아일기 동기화 체크 (매일 22:00)",
+      "schedule": "크론: 0 22 * * *",
+      "description": "육아일기 동기화 체크 크론입니다.",
+      "enabled": true,
+      "lastRun": "2026-03-28T22:01:07.788000",
+      "nextRun": "2026-03-29T22:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "c4363c16-d301-4ff6-a4dd-3f4e92c5a1bb",
+      "name": "media-cleanup-48h",
+      "schedule": "크론: 50 22 * * *",
+      "description": "48시간 이상 된 영상/재료 자동 정리. bash ~/clawd/scripts/cleanup_old_medi...",
+      "enabled": true,
+      "lastRun": "2026-03-28T22:50:00.025000",
+      "nextRun": "2026-03-29T22:50:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "b3216667-1ce1-433a-9bc0-81d316a6504e",
+      "name": "Config 백업 (매일 자정)",
+      "schedule": "크론: 0 0 * * *",
+      "description": "Config 백업 스크립트 실행 후 슬랙 전송.",
+      "enabled": true,
+      "lastRun": "2026-03-29T00:00:00.031000",
+      "nextRun": "2026-03-30T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d3bc65ee-5178-46eb-ab32-841ffc118fc7",
+      "name": "노화연구소 Step0~3: 토픽수집+영상2편 제작",
+      "schedule": "크론: 0 0 * * *",
+      "description": "노화연구소 크론 파이프라인 실행.",
+      "enabled": true,
+      "lastRun": "2026-03-29T00:00:33.520000",
+      "nextRun": "2026-03-30T00:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "edeacff1-8db5-4e08-9217-7f4035ed3c6b",
+      "name": "노화연구소 Step4: 업로드+댓글+예약게시",
+      "schedule": "크론: 30 1 * * *",
+      "description": "노화연구소 영상 업로드 크론 (하루 2편: 당일 12시 + 20시 예약게시).",
+      "enabled": true,
+      "lastRun": "2026-03-29T01:30:27.728000",
+      "nextRun": "2026-03-30T01:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "414d1477-4527-45e0-a8e4-a0082d7fc17e",
+      "name": "육아꿀팁 Step0: 토픽 자동 발굴 (학습+Q&A)",
+      "schedule": "크론: 20 2 * * *",
+      "description": "육아꿀팁 V2 Step0: 토픽 증분 발굴 (새 데이터만 스캔)",
+      "enabled": true,
+      "lastRun": "2026-03-29T02:20:00.027000",
+      "nextRun": "2026-03-30T02:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "fc053604-80b9-4c95-b03f-fe90ee30b935",
+      "name": "육아꿀팁 Step1: 토픽 선정 + 스크립트 (하루 2편)",
+      "schedule": "크론: 40 2 * * *",
+      "description": "육아꿀팁 Step1: 토픽 2개 선정 + 스크립트 생성",
+      "enabled": true,
+      "lastRun": "2026-03-29T02:40:00.030000",
+      "nextRun": "2026-03-30T02:40:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "cd00fe58-fe21-4f82-a706-fe08420a6348",
+      "name": "육아꿀팁 Step2a: 이미지 생성 (1편째)",
+      "schedule": "크론: 0 3 * * *",
+      "description": "육아꿀팁 V2 Step2a: 이미지 생성 (1편째만)",
+      "enabled": true,
+      "lastRun": "2026-03-29T03:00:22.055000",
+      "nextRun": "2026-03-30T03:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "30d263b7-6ef9-46eb-8134-df438faa8a4a",
+      "name": "육아꿀팁 Step2b: 이미지 생성 (2편째)",
+      "schedule": "크론: 20 3 * * *",
+      "description": "육아꿀팁 V2 Step2b: 이미지 생성 (2편째만)",
+      "enabled": true,
+      "lastRun": "2026-03-29T03:20:00.030000",
+      "nextRun": "2026-03-30T03:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "05fa5589-1f3b-4ff9-817f-dd41495af512",
+      "name": "세션 정기 정리",
+      "schedule": "크론: 0 4 * * *",
+      "description": "새벽 정기 세션 정리.",
+      "enabled": true,
+      "lastRun": "2026-03-29T04:00:24.426000",
+      "nextRun": "2026-03-30T04:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "4aeb132e-786b-4b03-99b6-56321b92f5e6",
+      "name": "육아꿀팁 Step3a: TTS+렌더링 (1편째)",
+      "schedule": "크론: 0 4 * * *",
+      "description": "육아꿀팁 V2 Step3a: TTS + 영상 렌더링 (1편째만)",
+      "enabled": true,
+      "lastRun": "2026-03-29T04:00:45.668000",
+      "nextRun": "2026-03-30T04:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "6e1161ee-5502-44b0-bad7-9f2702979ec4",
+      "name": "육아꿀팁 Step3b: TTS+렌더링 (2편째)",
+      "schedule": "크론: 20 4 * * *",
+      "description": "육아꿀팁 V2 Step3b: TTS + 영상 렌더링 (2편째만)",
+      "enabled": true,
+      "lastRun": "2026-03-29T04:20:00.026000",
+      "nextRun": "2026-03-30T04:20:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "4a070c76-4fc0-4719-86bf-c4f1b52c7871",
+      "name": "육아꿀팁 Step4: 예약 업로드 + 보고 (2편)",
+      "schedule": "크론: 0 5 * * *",
+      "description": "육아꿀팁 V2 Step4: YouTube 예약 업로드 + 검증 + 보고 (하루 2편)",
+      "enabled": true,
+      "lastRun": "2026-03-29T05:00:20.943000",
+      "nextRun": "2026-03-30T05:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "30b2f487-72d3-44e2-b7a6-30164f02dbab",
+      "name": "육아 RAG 신규영상 업데이트",
+      "schedule": "크론: 0 6 * * *",
+      "description": "python3 /Users/benji/clawd/knowledge/parenting-rag/scripts/u...",
+      "enabled": true,
+      "lastRun": "2026-03-29T06:00:23.108000",
+      "nextRun": "2026-03-30T06:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "7b7e19c3-7638-49b3-b046-f51b60b724c4",
+      "name": "옵시디언 Inbox 자동 태깅",
+      "schedule": "크론: 0 6 * * *",
+      "description": "라피 옵시디언 Inbox 자동 태깅. python3 ~/clawd/scripts/obsidian_auto_t...",
+      "enabled": true,
+      "lastRun": "2026-03-29T09:01:42.625000",
+      "nextRun": "2026-03-30T06:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "d80b5f4e-e5cf-43e6-a345-87ee9c856be9",
+      "name": "output-cleanup-daily",
+      "schedule": "크론: 0 6 * * *",
+      "description": "YouTube output 폴더 자동 정리. exec로 python3 ~/clawd/scripts/clean...",
+      "enabled": true,
+      "lastRun": "2026-03-29T06:01:25.804000",
+      "nextRun": "2026-03-30T06:00:00",
+      "lastStatus": "error"
+    },
+    {
+      "id": "588b5d22-32a5-4d40-af85-ea6008604e4b",
+      "name": "L3 어닝 캘린더 체커",
+      "schedule": "매일 08:00",
+      "description": "L3 어닝 이벤트 체크를 수행해.",
+      "enabled": true,
+      "lastRun": "2026-03-29T08:00:47.277000",
+      "nextRun": "2026-03-30T08:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "6b65afbd-eb03-4475-81cc-2697404bf1d5",
       "name": "L1 투자 데일리 모닝 브리프",
       "schedule": "크론: 30 8 * * 1-5",
@@ -438,12 +418,32 @@
       "lastStatus": "ok"
     },
     {
+      "id": "001441b8-28d6-4d52-891a-02001233c2d5",
+      "name": "YouTube 4채널 모닝 리포트 (09:00 KST)",
+      "schedule": "매일 09:00",
+      "description": "YouTube 4채널 모닝 쇼츠 브리핑을 생성해.",
+      "enabled": true,
+      "lastRun": "2026-03-29T09:00:27.575000",
+      "nextRun": "2026-03-30T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
       "id": "1f229b11-7c5d-4716-988b-440b510e1957",
       "name": "냠냠픽 데일리 메시지",
       "schedule": "크론: 0 9 * * 1-5",
       "description": "냠냠픽 데일리 메시지 발송. 오늘 요일에 맞는 콘텐츠를 생성해서 #생활(C0ABFB203BR)에 발송해줘.",
       "enabled": true,
       "lastRun": "2026-03-27T09:02:20.360000",
+      "nextRun": "2026-03-30T09:00:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ad3ef489-acb5-45f0-b68d-251b407ca79d",
+      "name": "Claude 사용량 체크 (매일 09:00)",
+      "schedule": "매일 09:00",
+      "description": "Claude Max 주간 한도 체크!",
+      "enabled": true,
+      "lastRun": "2026-03-29T09:00:07.637000",
       "nextRun": "2026-03-30T09:00:00",
       "lastStatus": "ok"
     },
@@ -468,6 +468,16 @@
       "lastStatus": "ok"
     },
     {
+      "id": "47f86a79-1d09-4445-a598-5ba8b6070119",
+      "name": "옵시디언 월간 태그 리뷰",
+      "schedule": "크론: 0 10 1 * *",
+      "description": "옵시디언 태그 월간 리뷰를 실행해줘.",
+      "enabled": true,
+      "lastRun": null,
+      "nextRun": "2026-04-01T10:00:00",
+      "lastStatus": null
+    },
+    {
       "id": "ad2c475a-dfb2-4b03-86a0-1a1063fd622e",
       "name": "Phase3 거장 13F + AI 스카우팅 (월간)",
       "schedule": "크론: 0 10 1 * *",
@@ -486,6 +496,16 @@
       "lastRun": "2026-03-28T09:03:12.793000",
       "nextRun": "2026-04-04T09:00:00",
       "lastStatus": "ok"
+    },
+    {
+      "id": "efe36402-b700-4a46-929a-25f60a7a90bd",
+      "name": "안전한 세션 정리 (매주 일요일 04:00)",
+      "schedule": "크론: 0 4 * * 0",
+      "description": "주간 세션 정리.",
+      "enabled": true,
+      "lastRun": "2026-03-29T04:00:00.037000",
+      "nextRun": "2026-04-05T04:00:00",
+      "lastStatus": "ok"
     }
   ],
   "stats": {
@@ -494,7 +514,7 @@
     "next": 0,
     "waiting": 1,
     "completed": 81,
-    "cron": 36
+    "cron": 38
   },
   "flow_metrics": {
     "wip_count": 3,
@@ -506,6 +526,6 @@
     "aging_48h": [
       "nyamnyam-pick-channel"
     ],
-    "timestamp": "2026-03-28T16:11:40.800892"
+    "timestamp": "2026-03-29T09:33:44.479785"
   }
 }
