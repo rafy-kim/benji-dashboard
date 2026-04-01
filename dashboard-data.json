@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T10:47:17.240134",
+  "generated_at": "2026-04-01T17:16:37.690327",
   "tasks": {
     "active": [
       {
@@ -12,7 +12,7 @@
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-04-01T10:47:13.067399",
+        "last_updated": "2026-04-01T17:16:33.535738",
         "progress": 0
       },
       {
@@ -128,13 +128,13 @@
   },
   "cron": [
     {
-      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
-      "name": "벤지 자기학습 (30분마다)",
-      "schedule": "크론: 0 * * * *",
-      "description": "자기학습 시간!",
+      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
+      "name": "토큰 핸드오프 모니터 (5분마다)",
+      "schedule": "크론: */15 * * * *",
+      "description": "토큰 핸드오프 모니터링.",
       "enabled": true,
-      "lastRun": "2026-04-01T08:01:27.474000",
-      "nextRun": "2026-04-01T10:00:26.882000",
+      "lastRun": "2026-04-01T17:00:08.013000",
+      "nextRun": "2026-04-01T17:15:00",
       "lastStatus": "ok"
     },
     {
@@ -143,28 +143,8 @@
       "schedule": "크론: */5 * * * *",
       "description": "슬랙 채널 응답 타임아웃 모니터링.",
       "enabled": true,
-      "lastRun": "2026-04-01T09:55:00.030000",
-      "nextRun": "2026-04-01T10:01:00.046000",
-      "lastStatus": "error"
-    },
-    {
-      "id": "523e2ba3-b8b4-461e-aa83-68aeaaf0c74d",
-      "name": "토큰 핸드오프 모니터 (5분마다)",
-      "schedule": "크론: */15 * * * *",
-      "description": "토큰 핸드오프 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-04-01T10:05:08.988000",
-      "nextRun": "2026-04-01T10:30:00",
-      "lastStatus": "ok"
-    },
-    {
-      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
-      "name": "세션 모니터링 (매 30분)",
-      "schedule": "크론: */30 * * * *",
-      "description": "세션 모니터링.",
-      "enabled": true,
-      "lastRun": "2026-04-01T10:00:37.679000",
-      "nextRun": "2026-04-01T10:30:00",
+      "lastRun": "2026-04-01T17:10:00.033000",
+      "nextRun": "2026-04-01T17:15:00",
       "lastStatus": "ok"
     },
     {
@@ -173,8 +153,28 @@
       "schedule": "크론: */15 * * * *",
       "description": "데드락 감지 및 맥락 기반 리마인더 크론.",
       "enabled": true,
-      "lastRun": "2026-04-01T10:15:15.296000",
-      "nextRun": "2026-04-01T10:30:00",
+      "lastRun": "2026-04-01T17:00:15.192000",
+      "nextRun": "2026-04-01T17:15:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "de9f0ef5-7b6c-4176-8f16-55bfe747858e",
+      "name": "세션 모니터링 (매 30분)",
+      "schedule": "크론: */30 * * * *",
+      "description": "세션 모니터링.",
+      "enabled": true,
+      "lastRun": "2026-04-01T17:00:00.031000",
+      "nextRun": "2026-04-01T17:30:00",
+      "lastStatus": "ok"
+    },
+    {
+      "id": "ca98583c-48dd-44f4-b446-4bf013e9511a",
+      "name": "벤지 자기학습 (30분마다)",
+      "schedule": "크론: 0 * * * *",
+      "description": "자기학습 시간!",
+      "enabled": true,
+      "lastRun": "2026-04-01T17:01:06.670000",
+      "nextRun": "2026-04-01T18:00:26.882000",
       "lastStatus": "ok"
     },
     {
@@ -183,8 +183,8 @@
       "schedule": "크론: 15 12,20 * * *",
       "description": "노화연구소 영상에 출처 댓글을 자동으로 달아야 해. 다음 스크립트를 실행해줘:",
       "enabled": true,
-      "lastRun": "2026-04-01T07:24:16.251000",
-      "nextRun": "2026-04-01T12:15:00",
+      "lastRun": "2026-04-01T12:17:50.050000",
+      "nextRun": "2026-04-01T20:15:00",
       "lastStatus": "ok"
     },
     {
@@ -547,6 +547,6 @@
       "unlisted-stock-analysis",
       "nyamnyam-pick-channel"
     ],
-    "timestamp": "2026-04-01T10:47:17.264661"
+    "timestamp": "2026-04-01T17:16:37.708859"
   }
 }
