@@ -1,57 +1,18 @@
 {
-  "generated_at": "2026-04-08T03:39:54.190787",
+  "generated_at": "2026-04-08T13:22:39.604932",
   "tasks": {
     "active": [
       {
-        "id": "claude-model-settings-restore",
-        "filename": "claude-model-settings-restore.md",
+        "id": "llm-wiki-migration",
+        "filename": "llm-wiki-migration.md",
         "folder": "active",
-        "title": "Claude 모델 기본 설정 복원",
+        "title": "LLM Wiki 구축 + knowledge/ 마이그레이션",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-04-08T03:39:50.002010",
-        "progress": 0
-      },
-      {
-        "id": "pltr-q1-earnings-monitoring",
-        "filename": "pltr-q1-earnings-monitoring.md",
-        "folder": "active",
-        "title": "PLTR Q1 FY2026 어닝 모니터링 & 투자 관리",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-03T06:15:58.079982",
-        "progress": 0
-      },
-      {
-        "id": "unlisted-stock-analysis",
-        "filename": "unlisted-stock-analysis.md",
-        "folder": "active",
-        "title": "비상장 주식 분석 및 매도 전략",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-28T16:11:35.701109",
-        "progress": 73
-      },
-      {
-        "id": "nyamnyam-pick-channel",
-        "filename": "nyamnyam-pick-channel.md",
-        "folder": "active",
-        "title": "냠냠픽 — 음식 트렌드 데이터 큐레이션 채널",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-26T09:03:55.849790",
+        "last_updated": "2026-04-08T13:22:34.753268",
         "progress": 0
       }
     ],
@@ -73,6 +34,19 @@
     ],
     "completed": [
       {
+        "id": "claude-model-settings-restore",
+        "filename": "claude-model-settings-restore.md",
+        "folder": "completed",
+        "title": "Claude 모델 기본 설정 복원",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-08T03:39:50.002010",
+        "progress": 0
+      },
+      {
         "id": "content-ops-healthcheck-apr-2026",
         "filename": "content-ops-healthcheck-apr-2026.md",
         "folder": "completed",
@@ -84,6 +58,19 @@
         "waiting_for": null,
         "last_updated": "2026-04-08T03:14:55.950806",
         "progress": 80
+      },
+      {
+        "id": "pltr-q1-earnings-monitoring",
+        "filename": "pltr-q1-earnings-monitoring.md",
+        "folder": "completed",
+        "title": "PLTR Q1 FY2026 어닝 모니터링 & 투자 관리",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-03T06:15:58.079982",
+        "progress": 0
       },
       {
         "id": "investment-system-rebuild",
@@ -99,43 +86,17 @@
         "progress": 92
       },
       {
-        "id": "parenting-shorts-bug-fix",
-        "filename": "parenting-shorts-bug-fix.md",
+        "id": "unlisted-stock-analysis",
+        "filename": "unlisted-stock-analysis.md",
         "folder": "completed",
-        "title": "육아노트 크론 버그 긴급 수정",
+        "title": "비상장 주식 분석 및 매도 전략",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-03-26T14:00:47.590256",
-        "progress": 0
-      },
-      {
-        "id": "home-prep-before-postpartum-backup",
-        "filename": "home-prep-before-postpartum-backup.md",
-        "folder": "completed",
-        "title": "산후조리 집 준비",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-25T11:30:59.107456",
-        "progress": 0
-      },
-      {
-        "id": "tiktok-instagram-pipeline",
-        "filename": "tiktok-instagram-pipeline.md",
-        "folder": "completed",
-        "title": "틱톡 + 인스타 자동 업로드 파이프라인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-25T06:41:08.556637",
-        "progress": 100
+        "last_updated": "2026-03-28T16:11:35.701109",
+        "progress": 73
       }
     ]
   },
@@ -202,25 +163,21 @@
     }
   ],
   "stats": {
-    "total": 88,
-    "active": 4,
+    "total": 89,
+    "active": 1,
     "next": 0,
     "waiting": 1,
-    "completed": 83,
+    "completed": 87,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 4,
+    "wip_count": 1,
     "wip_limit": 5,
-    "wip_utilization": 80.0,
+    "wip_utilization": 20.0,
     "waiting_count": 1,
-    "completed_today": 1,
+    "completed_today": 2,
     "aging_24h": [],
-    "aging_48h": [
-      "pltr-q1-earnings-monitoring",
-      "unlisted-stock-analysis",
-      "nyamnyam-pick-channel"
-    ],
-    "timestamp": "2026-04-08T03:39:54.216670"
+    "aging_48h": [],
+    "timestamp": "2026-04-08T13:22:39.636735"
   }
 }
