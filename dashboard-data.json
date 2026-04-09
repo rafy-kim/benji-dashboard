@@ -1,7 +1,34 @@
 {
-  "generated_at": "2026-04-09T11:00:27.266638",
+  "generated_at": "2026-04-09T11:16:04.125571",
   "tasks": {
-    "active": [],
+    "active": [
+      {
+        "id": "diary-gdocs-timeout-fix",
+        "filename": "diary-gdocs-timeout-fix.md",
+        "folder": "active",
+        "title": "육아일기 구글독스 동기화 타임아웃 수정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775655189962129",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T11:15:57.602337",
+        "progress": 67
+      },
+      {
+        "id": "paperclip-git-check-fix",
+        "filename": "paperclip-git-check-fix.md",
+        "folder": "active",
+        "title": "Paperclip Codex git 체크 우회 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775642765032389",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T11:15:57.602333",
+        "progress": 67
+      }
+    ],
     "next": [],
     "waiting": [
       {
@@ -149,21 +176,21 @@
     }
   ],
   "stats": {
-    "total": 92,
-    "active": 0,
+    "total": 94,
+    "active": 2,
     "next": 0,
     "waiting": 1,
     "completed": 91,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 0,
+    "wip_count": 2,
     "wip_limit": 5,
-    "wip_utilization": 0.0,
+    "wip_utilization": 40.0,
     "waiting_count": 1,
     "completed_today": 3,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T11:00:27.302389"
+    "timestamp": "2026-04-09T11:16:04.170871"
   }
 }
