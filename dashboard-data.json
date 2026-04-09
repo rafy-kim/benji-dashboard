@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-04-09T14:01:04.522540",
+  "generated_at": "2026-04-09T14:11:37.769942",
   "tasks": {
     "active": [
-      {
-        "id": "thread-1775705089-129159",
-        "filename": "thread-1775705089-129159.md",
-        "folder": "active",
-        "title": "paperclip 진행 상황 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T14:00:58.834841",
-        "progress": 100
-      },
       {
         "id": "diary-thread-1775706280",
         "filename": "diary-thread-1775706280.md",
@@ -99,6 +86,19 @@
     ],
     "completed": [
       {
+        "id": "thread-1775705089-129159",
+        "filename": "thread-1775705089-129159.md",
+        "folder": "completed",
+        "title": "paperclip 진행 상황 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T14:11:32.658301",
+        "progress": 100
+      },
+      {
         "id": "paperclip-git-check-fix",
         "filename": "paperclip-git-check-fix.md",
         "folder": "completed",
@@ -148,19 +148,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-09T10:07:27.333655",
-        "progress": 0
-      },
-      {
-        "id": "llm-wiki-migration",
-        "filename": "llm-wiki-migration.md",
-        "folder": "completed",
-        "title": "LLM Wiki 구축 + knowledge/ 마이그레이션",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-08T13:36:20.291239",
         "progress": 0
       }
     ]
@@ -229,20 +216,20 @@
   ],
   "stats": {
     "total": 99,
-    "active": 6,
+    "active": 5,
     "next": 0,
     "waiting": 1,
-    "completed": 92,
+    "completed": 93,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 5,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 100.0,
     "waiting_count": 1,
-    "completed_today": 4,
+    "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T14:01:04.559278"
+    "timestamp": "2026-04-09T14:11:37.809558"
   }
 }
