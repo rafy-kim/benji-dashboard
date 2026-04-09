@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-04-08T13:36:24.312794",
+  "generated_at": "2026-04-09T09:52:36.515717",
   "tasks": {
     "active": [
       {
-        "id": "llm-wiki-migration",
-        "filename": "llm-wiki-migration.md",
+        "id": "paperclip-pc-raom-kr",
+        "filename": "paperclip-pc-raom-kr.md",
         "folder": "active",
-        "title": "LLM Wiki 구축 + knowledge/ 마이그레이션",
+        "title": "paperclip 설치 및 pc.raom.kr 연결",
         "assignee": "벤지",
         "status": "",
         "channel": "",
         "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-04-08T13:36:20.291239",
+        "last_updated": "2026-04-09T09:52:30.637666",
         "progress": 0
       }
     ],
@@ -33,6 +33,19 @@
       }
     ],
     "completed": [
+      {
+        "id": "llm-wiki-migration",
+        "filename": "llm-wiki-migration.md",
+        "folder": "completed",
+        "title": "LLM Wiki 구축 + knowledge/ 마이그레이션",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-08T13:36:20.291239",
+        "progress": 0
+      },
       {
         "id": "claude-model-settings-restore",
         "filename": "claude-model-settings-restore.md",
@@ -84,19 +97,6 @@
         "waiting_for": null,
         "last_updated": "2026-03-29T11:45:41.253014",
         "progress": 92
-      },
-      {
-        "id": "unlisted-stock-analysis",
-        "filename": "unlisted-stock-analysis.md",
-        "folder": "completed",
-        "title": "비상장 주식 분석 및 매도 전략",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-28T16:11:35.701109",
-        "progress": 73
       }
     ]
   },
@@ -163,11 +163,11 @@
     }
   ],
   "stats": {
-    "total": 89,
+    "total": 90,
     "active": 1,
     "next": 0,
     "waiting": 1,
-    "completed": 87,
+    "completed": 88,
     "cron": 6
   },
   "flow_metrics": {
@@ -175,9 +175,9 @@
     "wip_limit": 5,
     "wip_utilization": 20.0,
     "waiting_count": 1,
-    "completed_today": 2,
+    "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-08T13:36:24.335522"
+    "timestamp": "2026-04-09T09:52:36.548373"
   }
 }
