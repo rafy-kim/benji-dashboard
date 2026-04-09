@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T10:07:33.467521",
+  "generated_at": "2026-04-09T10:15:52.810023",
   "tasks": {
     "active": [
+      {
+        "id": "baby-diary-sync-2026-04-08",
+        "filename": "baby-diary-sync-2026-04-08.md",
+        "folder": "active",
+        "title": "육아일기 2026-04-08 구글독스 동기화 점검",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ALLMB8HL3/p1775645075533089",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T10:15:45.193325",
+        "progress": 0
+      },
       {
         "id": "cron-yuk-a-diary-sync-failure",
         "filename": "cron-yuk-a-diary-sync-failure.md",
@@ -176,21 +189,21 @@
     }
   ],
   "stats": {
-    "total": 91,
-    "active": 2,
+    "total": 92,
+    "active": 3,
     "next": 0,
     "waiting": 1,
     "completed": 88,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 2,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 40.0,
+    "wip_utilization": 60.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T10:07:33.502837"
+    "timestamp": "2026-04-09T10:15:52.870657"
   }
 }
