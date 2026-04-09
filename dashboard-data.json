@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T03:13:09.840645",
+  "generated_at": "2026-04-10T03:17:06.961154",
   "tasks": {
     "active": [
       {
@@ -16,32 +16,6 @@
         "progress": 0
       },
       {
-        "id": "content-aginglab-step03-1775747310",
-        "filename": "content-aginglab-step03-1775747310.md",
-        "folder": "active",
-        "title": "노화연구소 Step0~3: 토픽수집 + 영상2편 제작",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T00:21:01.785634",
-        "progress": 0
-      },
-      {
-        "id": "yuka-fever-after-vaccine-1775742973",
-        "filename": "yuka-fever-after-vaccine-1775742973.md",
-        "folder": "active",
-        "title": "#육아 접종열 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-09T23:22:00.260858",
-        "progress": 0
-      },
-      {
         "id": "rafy-paperclip-agent-permissions-1775736644",
         "filename": "rafy-paperclip-agent-permissions-1775736644.md",
         "folder": "active",
@@ -52,32 +26,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-09T21:15:33.486546",
-        "progress": 0
-      },
-      {
-        "id": "rafy-mac-studio-roi-1775736598",
-        "filename": "rafy-mac-studio-roi-1775736598.md",
-        "folder": "active",
-        "title": "#라피-개인 Mac Studio 64GB ROI 분석 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-09T21:15:31.315348",
-        "progress": 0
-      },
-      {
-        "id": "yuka-moro-reflex-thread-1775734813",
-        "filename": "yuka-moro-reflex-thread-1775734813.md",
-        "folder": "active",
-        "title": "#육아 모로반사 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-09T20:45:35.888308",
         "progress": 0
       },
       {
@@ -229,6 +177,58 @@
     ],
     "completed": [
       {
+        "id": "content-aginglab-step03-1775747310",
+        "filename": "content-aginglab-step03-1775747310.md",
+        "folder": "completed",
+        "title": "노화연구소 Step0~3: 토픽수집 + 영상2편 제작",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T03:17:01.659215",
+        "progress": 0
+      },
+      {
+        "id": "rafy-mac-studio-roi-1775736598",
+        "filename": "rafy-mac-studio-roi-1775736598.md",
+        "folder": "completed",
+        "title": "#라피-개인 Mac Studio 64GB ROI 분석 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T03:17:01.658659",
+        "progress": 0
+      },
+      {
+        "id": "yuka-moro-reflex-thread-1775734813",
+        "filename": "yuka-moro-reflex-thread-1775734813.md",
+        "folder": "completed",
+        "title": "#육아 모로반사 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T03:17:01.658088",
+        "progress": 0
+      },
+      {
+        "id": "yuka-fever-after-vaccine-1775742973",
+        "filename": "yuka-fever-after-vaccine-1775742973.md",
+        "folder": "completed",
+        "title": "#육아 접종열 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T03:17:01.585764",
+        "progress": 0
+      },
+      {
         "id": "diary-gdocs-timeout-fix",
         "filename": "diary-gdocs-timeout-fix.md",
         "folder": "completed",
@@ -240,58 +240,6 @@
         "waiting_for": null,
         "last_updated": "2026-04-09T22:36:34.078682",
         "progress": 100
-      },
-      {
-        "id": "thread-1775705089-129159",
-        "filename": "thread-1775705089-129159.md",
-        "folder": "completed",
-        "title": "paperclip 진행 상황 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T14:11:32.658301",
-        "progress": 100
-      },
-      {
-        "id": "paperclip-git-check-fix",
-        "filename": "paperclip-git-check-fix.md",
-        "folder": "completed",
-        "title": "Paperclip Codex git 체크 우회 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T13:44:39.172698",
-        "progress": 100
-      },
-      {
-        "id": "paperclip-pc-raom-kr",
-        "filename": "paperclip-pc-raom-kr.md",
-        "folder": "completed",
-        "title": "paperclip 설치 및 pc.raom.kr 연결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-09T11:00:23.524635",
-        "progress": 100
-      },
-      {
-        "id": "baby-diary-sync-2026-04-08",
-        "filename": "baby-diary-sync-2026-04-08.md",
-        "folder": "completed",
-        "title": "육아일기 2026-04-08 구글독스 동기화 점검",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ALLMB8HL3/p1775645075533089",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T10:15:45.193325",
-        "progress": 0
       }
     ]
   },
@@ -359,20 +307,20 @@
   ],
   "stats": {
     "total": 111,
-    "active": 16,
+    "active": 12,
     "next": 0,
     "waiting": 1,
-    "completed": 94,
+    "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 16,
+    "wip_count": 12,
     "wip_limit": 5,
-    "wip_utilization": 320.0,
+    "wip_utilization": 240.0,
     "waiting_count": 1,
-    "completed_today": 0,
+    "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-10T03:13:09.911764"
+    "timestamp": "2026-04-10T03:17:06.993025"
   }
 }
