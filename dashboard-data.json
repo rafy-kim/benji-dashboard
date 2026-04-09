@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T15:13:46.563415",
+  "generated_at": "2026-04-09T15:19:03.951344",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-feeding-gap-thread-1775715095",
+        "filename": "yuka-feeding-gap-thread-1775715095.md",
+        "folder": "active",
+        "title": "육아 Q&A: 초록이 수유 텀 증가",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775715095486529",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T15:18:58.763374",
+        "progress": 0
+      },
       {
         "id": "yuka-vaccine-thread-1775665347",
         "filename": "yuka-vaccine-thread-1775665347.md",
@@ -254,21 +267,21 @@
     }
   ],
   "stats": {
-    "total": 102,
-    "active": 8,
+    "total": 103,
+    "active": 9,
     "next": 0,
     "waiting": 1,
     "completed": 93,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 8,
+    "wip_count": 9,
     "wip_limit": 5,
-    "wip_utilization": 160.0,
+    "wip_utilization": 180.0,
     "waiting_count": 1,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T15:13:46.636893"
+    "timestamp": "2026-04-09T15:19:03.991478"
   }
 }
