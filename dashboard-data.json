@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T22:36:40.364716",
+  "generated_at": "2026-04-09T23:22:06.248160",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-fever-after-vaccine-1775742973",
+        "filename": "yuka-fever-after-vaccine-1775742973.md",
+        "folder": "active",
+        "title": "#육아 접종열 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-09T23:22:00.260858",
+        "progress": 0
+      },
       {
         "id": "rafy-paperclip-agent-permissions-1775736644",
         "filename": "rafy-paperclip-agent-permissions-1775736644.md",
@@ -319,21 +332,21 @@
     }
   ],
   "stats": {
-    "total": 108,
-    "active": 13,
+    "total": 109,
+    "active": 14,
     "next": 0,
     "waiting": 1,
     "completed": 94,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 13,
+    "wip_count": 14,
     "wip_limit": 5,
-    "wip_utilization": 260.0,
+    "wip_utilization": 280.0,
     "waiting_count": 1,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T22:36:40.431199"
+    "timestamp": "2026-04-09T23:22:06.294393"
   }
 }
