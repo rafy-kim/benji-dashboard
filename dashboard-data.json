@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-04-09T13:44:09.574370",
+  "generated_at": "2026-04-09T13:44:44.041257",
   "tasks": {
     "active": [
-      {
-        "id": "paperclip-git-check-fix",
-        "filename": "paperclip-git-check-fix.md",
-        "folder": "active",
-        "title": "Paperclip Codex git 체크 우회 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T13:44:03.885094",
-        "progress": 100
-      },
       {
         "id": "diary-thread-1775706280",
         "filename": "diary-thread-1775706280.md",
@@ -112,6 +99,19 @@
     ],
     "completed": [
       {
+        "id": "paperclip-git-check-fix",
+        "filename": "paperclip-git-check-fix.md",
+        "folder": "completed",
+        "title": "Paperclip Codex git 체크 우회 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T13:44:39.172698",
+        "progress": 100
+      },
+      {
         "id": "paperclip-pc-raom-kr",
         "filename": "paperclip-pc-raom-kr.md",
         "folder": "completed",
@@ -161,19 +161,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-08T13:36:20.291239",
-        "progress": 0
-      },
-      {
-        "id": "claude-model-settings-restore",
-        "filename": "claude-model-settings-restore.md",
-        "folder": "completed",
-        "title": "Claude 모델 기본 설정 복원",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-08T03:39:50.002010",
         "progress": 0
       }
     ]
@@ -242,20 +229,20 @@
   ],
   "stats": {
     "total": 99,
-    "active": 7,
+    "active": 6,
     "next": 0,
     "waiting": 1,
-    "completed": 91,
+    "completed": 92,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 7,
+    "wip_count": 6,
     "wip_limit": 5,
-    "wip_utilization": 140.0,
+    "wip_utilization": 120.0,
     "waiting_count": 1,
-    "completed_today": 3,
+    "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T13:44:09.625513"
+    "timestamp": "2026-04-09T13:44:44.065508"
   }
 }
