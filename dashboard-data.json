@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T15:28:21.876330",
+  "generated_at": "2026-04-09T20:35:04.640727",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-breastfeeding-barley-bread-1775734266",
+        "filename": "yuka-breastfeeding-barley-bread-1775734266.md",
+        "folder": "active",
+        "title": "육아 스레드 1775734266 모유수유 음식 문의",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775734266260859",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T20:34:59.288812",
+        "progress": 50
+      },
       {
         "id": "rafy-llm-model-finder-1775705211",
         "filename": "rafy-llm-model-finder-1775705211.md",
@@ -280,21 +293,21 @@
     }
   ],
   "stats": {
-    "total": 104,
-    "active": 10,
+    "total": 105,
+    "active": 11,
     "next": 0,
     "waiting": 1,
     "completed": 93,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 10,
+    "wip_count": 11,
     "wip_limit": 5,
-    "wip_utilization": 200.0,
+    "wip_utilization": 220.0,
     "waiting_count": 1,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T15:28:21.924253"
+    "timestamp": "2026-04-09T20:35:04.670196"
   }
 }
