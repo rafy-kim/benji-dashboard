@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T13:16:21.484345",
+  "generated_at": "2026-04-09T13:30:38.142714",
   "tasks": {
     "active": [
+      {
+        "id": "diary-thread-1775706280",
+        "filename": "diary-thread-1775706280.md",
+        "folder": "active",
+        "title": "유현이 백신 기록 스레드 후속 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ALLMB8HL3/p1775706280046879",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T13:30:32.759697",
+        "progress": 50
+      },
       {
         "id": "content-thread-1775706980",
         "filename": "content-thread-1775706980.md",
@@ -228,21 +241,21 @@
     }
   ],
   "stats": {
-    "total": 98,
-    "active": 6,
+    "total": 99,
+    "active": 7,
     "next": 0,
     "waiting": 1,
     "completed": 91,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 7,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 140.0,
     "waiting_count": 1,
     "completed_today": 3,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T13:16:21.523013"
+    "timestamp": "2026-04-09T13:30:38.180093"
   }
 }
