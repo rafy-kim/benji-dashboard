@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T14:11:37.769942",
+  "generated_at": "2026-04-09T14:15:25.863307",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1775705089-129159",
+        "filename": "thread-1775705089-129159.md",
+        "folder": "active",
+        "title": "콘텐츠 스레드 1775705089 후속 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T14:15:20.121835",
+        "progress": 50
+      },
       {
         "id": "diary-thread-1775706280",
         "filename": "diary-thread-1775706280.md",
@@ -215,21 +228,21 @@
     }
   ],
   "stats": {
-    "total": 99,
-    "active": 5,
+    "total": 100,
+    "active": 6,
     "next": 0,
     "waiting": 1,
     "completed": 93,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 5,
+    "wip_count": 6,
     "wip_limit": 5,
-    "wip_utilization": 100.0,
+    "wip_utilization": 120.0,
     "waiting_count": 1,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T14:11:37.809558"
+    "timestamp": "2026-04-09T14:15:25.902742"
   }
 }
