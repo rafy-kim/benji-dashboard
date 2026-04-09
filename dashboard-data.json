@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-10T03:17:06.961154",
+  "generated_at": "2026-04-10T04:17:08.677350",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-vaccine-fever-followup-1775742973",
+        "filename": "yuka-vaccine-fever-followup-1775742973.md",
+        "folder": "active",
+        "title": "초록이 접종 후 체온 체크 후속 대응",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775742973979409",
+        "waiting_for": null,
+        "last_updated": "2026-04-10T04:17:02.857067",
+        "progress": 0
+      },
       {
         "id": "content-parenting-step2a-1775755512",
         "filename": "content-parenting-step2a-1775755512.md",
@@ -306,21 +319,21 @@
     }
   ],
   "stats": {
-    "total": 111,
-    "active": 12,
+    "total": 112,
+    "active": 13,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 12,
+    "wip_count": 13,
     "wip_limit": 5,
-    "wip_utilization": 240.0,
+    "wip_utilization": 260.0,
     "waiting_count": 1,
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-10T03:17:06.993025"
+    "timestamp": "2026-04-10T04:17:08.722819"
   }
 }
