@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T15:19:03.951344",
+  "generated_at": "2026-04-09T15:28:21.876330",
   "tasks": {
     "active": [
+      {
+        "id": "rafy-llm-model-finder-1775705211",
+        "filename": "rafy-llm-model-finder-1775705211.md",
+        "folder": "active",
+        "title": "라피-개인 Q&A: 사양별 LLM 모델 추천 사이트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775705211625409",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T15:28:15.806850",
+        "progress": 0
+      },
       {
         "id": "yuka-feeding-gap-thread-1775715095",
         "filename": "yuka-feeding-gap-thread-1775715095.md",
@@ -267,21 +280,21 @@
     }
   ],
   "stats": {
-    "total": 103,
-    "active": 9,
+    "total": 104,
+    "active": 10,
     "next": 0,
     "waiting": 1,
     "completed": 93,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 9,
+    "wip_count": 10,
     "wip_limit": 5,
-    "wip_utilization": 180.0,
+    "wip_utilization": 200.0,
     "waiting_count": 1,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T15:19:03.991478"
+    "timestamp": "2026-04-09T15:28:21.924253"
   }
 }
