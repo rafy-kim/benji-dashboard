@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-10T04:43:06.048796",
+  "generated_at": "2026-04-10T05:16:53.515108",
   "tasks": {
     "active": [
+      {
+        "id": "parenting-daily-thread-1775755512",
+        "filename": "parenting-daily-thread-1775755512.md",
+        "folder": "active",
+        "title": "초보엄빠 육아노트 데일리 스레드",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775755512300529",
+        "waiting_for": null,
+        "last_updated": "2026-04-10T05:16:47.777676",
+        "progress": 33
+      },
       {
         "id": "diary-moro-swaddle-1775763732",
         "filename": "diary-moro-swaddle-1775763732.md",
@@ -345,21 +358,21 @@
     }
   ],
   "stats": {
-    "total": 114,
-    "active": 15,
+    "total": 115,
+    "active": 16,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 15,
+    "wip_count": 16,
     "wip_limit": 5,
-    "wip_utilization": 300.0,
+    "wip_utilization": 320.0,
     "waiting_count": 1,
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-10T04:43:06.083257"
+    "timestamp": "2026-04-10T05:16:53.570011"
   }
 }
