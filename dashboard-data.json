@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T12:30:55.911454",
+  "generated_at": "2026-04-09T12:45:58.196056",
   "tasks": {
     "active": [
+      {
+        "id": "aginglab-source-comment-report",
+        "filename": "aginglab-source-comment-report.md",
+        "folder": "active",
+        "title": "노화연구소 출처 댓글 결과 공유",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775704695658949",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T12:45:52.465719",
+        "progress": 67
+      },
       {
         "id": "paperclip-git-check-fix",
         "filename": "paperclip-git-check-fix.md",
@@ -176,21 +189,21 @@
     }
   ],
   "stats": {
-    "total": 94,
-    "active": 2,
+    "total": 95,
+    "active": 3,
     "next": 0,
     "waiting": 1,
     "completed": 91,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 2,
+    "wip_count": 3,
     "wip_limit": 5,
-    "wip_utilization": 40.0,
+    "wip_utilization": 60.0,
     "waiting_count": 1,
     "completed_today": 3,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T12:30:55.942959"
+    "timestamp": "2026-04-09T12:45:58.248862"
   }
 }
