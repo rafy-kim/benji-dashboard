@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T11:16:04.125571",
+  "generated_at": "2026-04-09T12:30:55.911454",
   "tasks": {
     "active": [
+      {
+        "id": "paperclip-git-check-fix",
+        "filename": "paperclip-git-check-fix.md",
+        "folder": "active",
+        "title": "Paperclip Codex git 체크 우회 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T12:30:50.047391",
+        "progress": 67
+      },
       {
         "id": "diary-gdocs-timeout-fix",
         "filename": "diary-gdocs-timeout-fix.md",
@@ -13,19 +26,6 @@
         "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775655189962129",
         "waiting_for": null,
         "last_updated": "2026-04-09T11:15:57.602337",
-        "progress": 67
-      },
-      {
-        "id": "paperclip-git-check-fix",
-        "filename": "paperclip-git-check-fix.md",
-        "folder": "active",
-        "title": "Paperclip Codex git 체크 우회 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775642765032389",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T11:15:57.602333",
         "progress": 67
       }
     ],
@@ -191,6 +191,6 @@
     "completed_today": 3,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T11:16:04.170871"
+    "timestamp": "2026-04-09T12:30:55.942959"
   }
 }
