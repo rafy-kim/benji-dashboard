@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T12:45:58.196056",
+  "generated_at": "2026-04-09T13:00:23.357891",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1775705089-129159",
+        "filename": "thread-1775705089-129159.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T13:00:16.182626",
+        "progress": 0
+      },
       {
         "id": "aginglab-source-comment-report",
         "filename": "aginglab-source-comment-report.md",
@@ -189,21 +202,21 @@
     }
   ],
   "stats": {
-    "total": 95,
-    "active": 3,
+    "total": 96,
+    "active": 4,
     "next": 0,
     "waiting": 1,
     "completed": 91,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 4,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 80.0,
     "waiting_count": 1,
     "completed_today": 3,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T12:45:58.248862"
+    "timestamp": "2026-04-09T13:00:23.402788"
   }
 }
