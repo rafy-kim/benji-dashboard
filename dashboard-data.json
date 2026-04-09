@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-09T13:44:44.041257",
+  "generated_at": "2026-04-09T14:01:04.522540",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1775705089-129159",
+        "filename": "thread-1775705089-129159.md",
+        "folder": "active",
+        "title": "paperclip 진행 상황 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T14:00:58.834841",
+        "progress": 100
+      },
       {
         "id": "diary-thread-1775706280",
         "filename": "diary-thread-1775706280.md",
@@ -40,19 +53,6 @@
         "waiting_for": null,
         "last_updated": "2026-04-09T13:16:15.665547",
         "progress": 67
-      },
-      {
-        "id": "thread-1775705089-129159",
-        "filename": "thread-1775705089-129159.md",
-        "folder": "active",
-        "title": "작업명",
-        "assignee": "벤지",
-        "status": "🟢 진행 중",
-        "channel": "#채널명",
-        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T13:00:16.182626",
-        "progress": 0
       },
       {
         "id": "aginglab-source-comment-report",
@@ -243,6 +243,6 @@
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T13:44:44.065508"
+    "timestamp": "2026-04-09T14:01:04.559278"
   }
 }
