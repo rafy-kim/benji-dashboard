@@ -1,47 +1,7 @@
 {
-  "generated_at": "2026-04-09T10:15:52.810023",
+  "generated_at": "2026-04-09T11:00:27.266638",
   "tasks": {
-    "active": [
-      {
-        "id": "baby-diary-sync-2026-04-08",
-        "filename": "baby-diary-sync-2026-04-08.md",
-        "folder": "active",
-        "title": "육아일기 2026-04-08 구글독스 동기화 점검",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ALLMB8HL3/p1775645075533089",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T10:15:45.193325",
-        "progress": 0
-      },
-      {
-        "id": "cron-yuk-a-diary-sync-failure",
-        "filename": "cron-yuk-a-diary-sync-failure.md",
-        "folder": "active",
-        "title": "육아일기 동기화 크론 실패 처리",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-09T10:07:27.333655",
-        "progress": 0
-      },
-      {
-        "id": "paperclip-pc-raom-kr",
-        "filename": "paperclip-pc-raom-kr.md",
-        "folder": "active",
-        "title": "paperclip 설치 및 pc.raom.kr 연결",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-09T09:52:30.637666",
-        "progress": 0
-      }
-    ],
+    "active": [],
     "next": [],
     "waiting": [
       {
@@ -59,6 +19,45 @@
       }
     ],
     "completed": [
+      {
+        "id": "paperclip-pc-raom-kr",
+        "filename": "paperclip-pc-raom-kr.md",
+        "folder": "completed",
+        "title": "paperclip 설치 및 pc.raom.kr 연결",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-09T11:00:23.524635",
+        "progress": 100
+      },
+      {
+        "id": "baby-diary-sync-2026-04-08",
+        "filename": "baby-diary-sync-2026-04-08.md",
+        "folder": "completed",
+        "title": "육아일기 2026-04-08 구글독스 동기화 점검",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ALLMB8HL3/p1775645075533089",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T10:15:45.193325",
+        "progress": 0
+      },
+      {
+        "id": "cron-yuk-a-diary-sync-failure",
+        "filename": "cron-yuk-a-diary-sync-failure.md",
+        "folder": "completed",
+        "title": "육아일기 동기화 크론 실패 처리",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-09T10:07:27.333655",
+        "progress": 0
+      },
       {
         "id": "llm-wiki-migration",
         "filename": "llm-wiki-migration.md",
@@ -84,45 +83,6 @@
         "waiting_for": null,
         "last_updated": "2026-04-08T03:39:50.002010",
         "progress": 0
-      },
-      {
-        "id": "content-ops-healthcheck-apr-2026",
-        "filename": "content-ops-healthcheck-apr-2026.md",
-        "folder": "completed",
-        "title": "콘텐츠 운영판 재점검 — 2026-04-06",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-08T03:14:55.950806",
-        "progress": 80
-      },
-      {
-        "id": "pltr-q1-earnings-monitoring",
-        "filename": "pltr-q1-earnings-monitoring.md",
-        "folder": "completed",
-        "title": "PLTR Q1 FY2026 어닝 모니터링 & 투자 관리",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-03T06:15:58.079982",
-        "progress": 0
-      },
-      {
-        "id": "investment-system-rebuild",
-        "filename": "investment-system-rebuild.md",
-        "folder": "completed",
-        "title": "투자 시스템 전면 재구축",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-03-29T11:45:41.253014",
-        "progress": 92
       }
     ]
   },
@@ -190,20 +150,20 @@
   ],
   "stats": {
     "total": 92,
-    "active": 3,
+    "active": 0,
     "next": 0,
     "waiting": 1,
-    "completed": 88,
+    "completed": 91,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 3,
+    "wip_count": 0,
     "wip_limit": 5,
-    "wip_utilization": 60.0,
+    "wip_utilization": 0.0,
     "waiting_count": 1,
-    "completed_today": 0,
+    "completed_today": 3,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T10:15:52.870657"
+    "timestamp": "2026-04-09T11:00:27.302389"
   }
 }
