@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-04-09T14:15:25.863307",
+  "generated_at": "2026-04-09T15:13:40.184413",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-vaccine-thread-1775665347",
+        "filename": "yuka-vaccine-thread-1775665347.md",
+        "folder": "active",
+        "title": "육아 Q&A: 초록이 6가 종합백신 접종 시기",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775665347214609",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T15:13:36.877899",
+        "progress": 0
+      },
+      {
+        "id": "yuka-swaddle-thread-1775649240",
+        "filename": "yuka-swaddle-thread-1775649240.md",
+        "folder": "active",
+        "title": "육아 Q&A: 속싸개/스와들업 기간",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775649240868699",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T15:13:33.209322",
+        "progress": 0
+      },
       {
         "id": "thread-1775705089-129159",
         "filename": "thread-1775705089-129159.md",
@@ -228,21 +254,21 @@
     }
   ],
   "stats": {
-    "total": 100,
-    "active": 6,
+    "total": 102,
+    "active": 8,
     "next": 0,
     "waiting": 1,
     "completed": 93,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 6,
+    "wip_count": 8,
     "wip_limit": 5,
-    "wip_utilization": 120.0,
+    "wip_utilization": 160.0,
     "waiting_count": 1,
     "completed_today": 5,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-09T14:15:25.902742"
+    "timestamp": "2026-04-09T15:13:40.231721"
   }
 }
