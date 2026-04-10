@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-10T11:29:10.900009",
+  "generated_at": "2026-04-10T16:42:08.244186",
   "tasks": {
     "active": [
+      {
+        "id": "paperclip-status-bottleneck",
+        "filename": "paperclip-status-bottleneck.md",
+        "folder": "active",
+        "title": "PaperClip 진행상황·병목·토큰한도 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775782641896269",
+        "waiting_for": null,
+        "last_updated": "2026-04-10T16:42:02.459623",
+        "progress": 0
+      },
       {
         "id": "couple-conflict-postpartum-1775786081",
         "filename": "couple-conflict-postpartum-1775786081.md",
@@ -462,21 +475,30 @@
     }
   ],
   "stats": {
-    "total": 123,
-    "active": 24,
+    "total": 124,
+    "active": 25,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 24,
+    "wip_count": 25,
     "wip_limit": 5,
-    "wip_utilization": 480.0,
+    "wip_utilization": 500.0,
     "waiting_count": 1,
     "completed_today": 4,
-    "aging_24h": [],
+    "aging_24h": [
+      "rafy-llm-model-finder-1775705211",
+      "yuka-feeding-gap-thread-1775715095",
+      "yuka-vaccine-thread-1775665347",
+      "yuka-swaddle-thread-1775649240",
+      "diary-thread-1775706280",
+      "content-thread-1775706980",
+      "aginglab-comment-match-followup",
+      "aginglab-source-comment-report"
+    ],
     "aging_48h": [],
-    "timestamp": "2026-04-10T11:29:10.931069"
+    "timestamp": "2026-04-10T16:42:08.296336"
   }
 }
