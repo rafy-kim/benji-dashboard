@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-10T17:11:26.856570",
+  "generated_at": "2026-04-10T17:45:15.858440",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-night-cry-1775810534",
+        "filename": "yuka-night-cry-1775810534.md",
+        "folder": "active",
+        "title": "육아 수면 중 갑작스러운 울음 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T17:45:10.692464",
+        "progress": 0
+      },
       {
         "id": "paperclip-status-thread-1775782641",
         "filename": "paperclip-status-thread-1775782641.md",
@@ -488,17 +501,17 @@
     }
   ],
   "stats": {
-    "total": 125,
-    "active": 26,
+    "total": 126,
+    "active": 27,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 26,
+    "wip_count": 27,
     "wip_limit": 5,
-    "wip_utilization": 520.0,
+    "wip_utilization": 540.0,
     "waiting_count": 1,
     "completed_today": 4,
     "aging_24h": [
@@ -512,6 +525,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-10T17:11:26.894228"
+    "timestamp": "2026-04-10T17:45:15.893347"
   }
 }
