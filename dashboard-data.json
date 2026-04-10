@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-10T20:39:12.551360",
+  "generated_at": "2026-04-11T01:38:50.946042",
   "tasks": {
     "active": [
+      {
+        "id": "content-c0ac4sf7hmk-1775747310",
+        "filename": "content-c0ac4sf7hmk-1775747310.md",
+        "folder": "active",
+        "title": "태스크 카드: #콘텐츠 스레드 1775747310",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-11T01:38:43.737911",
+        "progress": 0
+      },
       {
         "id": "thread-1775810534-413569",
         "filename": "thread-1775810534-413569.md",
@@ -527,20 +540,21 @@
     }
   ],
   "stats": {
-    "total": 128,
-    "active": 29,
+    "total": 129,
+    "active": 30,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 29,
+    "wip_count": 30,
     "wip_limit": 5,
-    "wip_utilization": 580.0,
+    "wip_utilization": 600.0,
     "waiting_count": 1,
-    "completed_today": 4,
+    "completed_today": 0,
     "aging_24h": [
+      "rafy-paperclip-agent-permissions-1775736644",
       "yuka-breastfeeding-barley-bread-1775734266",
       "rafy-llm-model-finder-1775705211",
       "yuka-feeding-gap-thread-1775715095",
@@ -552,6 +566,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-10T20:39:12.602277"
+    "timestamp": "2026-04-11T01:38:50.999794"
   }
 }
