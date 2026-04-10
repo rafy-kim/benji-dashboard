@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-10T18:23:23.345142",
+  "generated_at": "2026-04-10T20:39:12.551360",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1775810534-413569",
+        "filename": "thread-1775810534-413569.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-10T20:39:06.768972",
+        "progress": 0
+      },
       {
         "id": "slack-c0abfb203br-1775812561",
         "filename": "slack-c0abfb203br-1775812561.md",
@@ -514,20 +527,21 @@
     }
   ],
   "stats": {
-    "total": 127,
-    "active": 28,
+    "total": 128,
+    "active": 29,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 28,
+    "wip_count": 29,
     "wip_limit": 5,
-    "wip_utilization": 560.0,
+    "wip_utilization": 580.0,
     "waiting_count": 1,
     "completed_today": 4,
     "aging_24h": [
+      "yuka-breastfeeding-barley-bread-1775734266",
       "rafy-llm-model-finder-1775705211",
       "yuka-feeding-gap-thread-1775715095",
       "yuka-vaccine-thread-1775665347",
@@ -538,6 +552,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-10T18:23:23.384115"
+    "timestamp": "2026-04-10T20:39:12.602277"
   }
 }
