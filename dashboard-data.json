@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-11T04:35:12.694015",
+  "generated_at": "2026-04-11T05:04:07.231809",
   "tasks": {
     "active": [
+      {
+        "id": "content-c0ac4sf7hmk-1775845375",
+        "filename": "content-c0ac4sf7hmk-1775845375.md",
+        "folder": "active",
+        "title": "태스크 카드: #콘텐츠 스레드 1775845375",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-11T05:04:00.193137",
+        "progress": 0
+      },
       {
         "id": "token-usage-stabilization",
         "filename": "token-usage-stabilization.md",
@@ -553,20 +566,21 @@
     }
   ],
   "stats": {
-    "total": 130,
-    "active": 31,
+    "total": 131,
+    "active": 32,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 31,
+    "wip_count": 32,
     "wip_limit": 5,
-    "wip_utilization": 620.0,
+    "wip_utilization": 640.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "diary-moro-swaddle-1775763732",
       "diary-thread-1775762940",
       "yuka-vaccine-fever-followup-1775742973",
       "content-parenting-step2a-1775755512",
@@ -582,6 +596,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-11T04:35:12.747652"
+    "timestamp": "2026-04-11T05:04:07.279266"
   }
 }
