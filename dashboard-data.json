@@ -1,7 +1,46 @@
 {
-  "generated_at": "2026-04-10T10:53:15.804723",
+  "generated_at": "2026-04-10T11:08:16.879833",
   "tasks": {
     "active": [
+      {
+        "id": "couple-conflict-postpartum-1775786081",
+        "filename": "couple-conflict-postpartum-1775786081.md",
+        "folder": "active",
+        "title": "부부 갈등/산후우울 상담",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T11:08:10.648412",
+        "progress": 0
+      },
+      {
+        "id": "yuka-nap-schedule-1775786025",
+        "filename": "yuka-nap-schedule-1775786025.md",
+        "folder": "active",
+        "title": "육아 낮잠 횟수 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T11:08:10.646566",
+        "progress": 0
+      },
+      {
+        "id": "yuka-mobile-brain-1775786006",
+        "filename": "yuka-mobile-brain-1775786006.md",
+        "folder": "active",
+        "title": "육아 모빌 뇌발달 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T11:08:10.643605",
+        "progress": 0
+      },
       {
         "id": "yuka-formula-storage-1775785416",
         "filename": "yuka-formula-storage-1775785416.md",
@@ -436,21 +475,21 @@
     }
   ],
   "stats": {
-    "total": 121,
-    "active": 22,
+    "total": 124,
+    "active": 25,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 22,
+    "wip_count": 25,
     "wip_limit": 5,
-    "wip_utilization": 440.0,
+    "wip_utilization": 500.0,
     "waiting_count": 1,
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-10T10:53:15.862244"
+    "timestamp": "2026-04-10T11:08:16.926592"
   }
 }
