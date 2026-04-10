@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-11T01:38:50.946042",
+  "generated_at": "2026-04-11T04:35:12.694015",
   "tasks": {
     "active": [
+      {
+        "id": "token-usage-stabilization",
+        "filename": "token-usage-stabilization.md",
+        "folder": "active",
+        "title": "토큰 사용량 최적화 안정화",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775845375297679",
+        "waiting_for": null,
+        "last_updated": "2026-04-11T04:35:07.063273",
+        "progress": 0
+      },
       {
         "id": "content-c0ac4sf7hmk-1775747310",
         "filename": "content-c0ac4sf7hmk-1775747310.md",
@@ -540,20 +553,23 @@
     }
   ],
   "stats": {
-    "total": 129,
-    "active": 30,
+    "total": 130,
+    "active": 31,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 30,
+    "wip_count": 31,
     "wip_limit": 5,
-    "wip_utilization": 600.0,
+    "wip_utilization": 620.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "diary-thread-1775762940",
+      "yuka-vaccine-fever-followup-1775742973",
+      "content-parenting-step2a-1775755512",
       "rafy-paperclip-agent-permissions-1775736644",
       "yuka-breastfeeding-barley-bread-1775734266",
       "rafy-llm-model-finder-1775705211",
@@ -566,6 +582,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-11T01:38:50.999794"
+    "timestamp": "2026-04-11T04:35:12.747652"
   }
 }
