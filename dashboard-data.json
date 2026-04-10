@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-10T17:45:15.858440",
+  "generated_at": "2026-04-10T18:23:23.345142",
   "tasks": {
     "active": [
+      {
+        "id": "slack-c0abfb203br-1775812561",
+        "filename": "slack-c0abfb203br-1775812561.md",
+        "folder": "active",
+        "title": "[#생활] 수면 방향 — 과학적 근거 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T18:23:15.523061",
+        "progress": 0
+      },
       {
         "id": "yuka-night-cry-1775810534",
         "filename": "yuka-night-cry-1775810534.md",
@@ -501,17 +514,17 @@
     }
   ],
   "stats": {
-    "total": 126,
-    "active": 27,
+    "total": 127,
+    "active": 28,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 27,
+    "wip_count": 28,
     "wip_limit": 5,
-    "wip_utilization": 540.0,
+    "wip_utilization": 560.0,
     "waiting_count": 1,
     "completed_today": 4,
     "aging_24h": [
@@ -525,6 +538,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-10T17:45:15.893347"
+    "timestamp": "2026-04-10T18:23:23.384115"
   }
 }
