@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-10T05:31:57.628626",
+  "generated_at": "2026-04-10T09:34:39.455652",
   "tasks": {
     "active": [
+      {
+        "id": "nyamnyampick-cron-timeout-1775780313",
+        "filename": "nyamnyampick-cron-timeout-1775780313.md",
+        "folder": "active",
+        "title": "냠냠픽 cron timeout 조정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ABFB203BR/p1775780313740539",
+        "waiting_for": null,
+        "last_updated": "2026-04-10T09:34:33.952697",
+        "progress": 67
+      },
       {
         "id": "parenting-youtube-schedule-check-1775755512",
         "filename": "parenting-youtube-schedule-check-1775755512.md",
@@ -371,21 +384,21 @@
     }
   ],
   "stats": {
-    "total": 116,
-    "active": 17,
+    "total": 117,
+    "active": 18,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 17,
+    "wip_count": 18,
     "wip_limit": 5,
-    "wip_utilization": 340.0,
+    "wip_utilization": 360.0,
     "waiting_count": 1,
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-10T05:31:57.679394"
+    "timestamp": "2026-04-10T09:34:39.492748"
   }
 }
