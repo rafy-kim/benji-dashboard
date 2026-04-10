@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-04-10T09:34:39.455652",
+  "generated_at": "2026-04-10T09:38:57.822477",
   "tasks": {
     "active": [
       {
         "id": "nyamnyampick-cron-timeout-1775780313",
         "filename": "nyamnyampick-cron-timeout-1775780313.md",
         "folder": "active",
-        "title": "냠냠픽 cron timeout 조정",
+        "title": "냠냠픽 데일리 크론 타임아웃",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ABFB203BR/p1775780313740539",
+        "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-04-10T09:34:33.952697",
-        "progress": 67
+        "last_updated": "2026-04-10T09:38:52.458344",
+        "progress": 0
       },
       {
         "id": "parenting-youtube-schedule-check-1775755512",
@@ -399,6 +399,6 @@
     "completed_today": 4,
     "aging_24h": [],
     "aging_48h": [],
-    "timestamp": "2026-04-10T09:34:39.492748"
+    "timestamp": "2026-04-10T09:38:57.853053"
   }
 }
