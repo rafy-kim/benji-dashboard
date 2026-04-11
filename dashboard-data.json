@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-04-12T01:50:07.314195",
+  "generated_at": "2026-04-12T01:50:21.746755",
   "tasks": {
     "active": [
-      {
-        "id": "vaccine-night-feed-shorter",
-        "filename": "vaccine-night-feed-shorter.md",
-        "folder": "active",
-        "title": "종합백신 6가 후 밤수 텀 짧아짐 안내",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775925673983979",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T01:50:01.929486",
-        "progress": 100
-      },
       {
         "id": "aginglab-step0-3-upload-followup",
         "filename": "aginglab-step0-3-upload-followup.md",
@@ -645,6 +632,19 @@
     ],
     "completed": [
       {
+        "id": "vaccine-night-feed-shorter",
+        "filename": "vaccine-night-feed-shorter.md",
+        "folder": "completed",
+        "title": "종합백신 6가 후 밤수 텀 짧아짐 안내",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775925673983979",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T01:50:18.461273",
+        "progress": 100
+      },
+      {
         "id": "content-aginglab-step03-1775747310",
         "filename": "content-aginglab-step03-1775747310.md",
         "folder": "completed",
@@ -695,19 +695,6 @@
         "waiting_for": null,
         "last_updated": "2026-04-10T03:17:01.585764",
         "progress": 0
-      },
-      {
-        "id": "diary-gdocs-timeout-fix",
-        "filename": "diary-gdocs-timeout-fix.md",
-        "folder": "completed",
-        "title": "육아일기 구글독스 동기화 타임아웃 수정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775655189962129",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T22:36:34.078682",
-        "progress": 100
       }
     ]
   },
@@ -775,18 +762,18 @@
   ],
   "stats": {
     "total": 147,
-    "active": 48,
+    "active": 47,
     "next": 0,
     "waiting": 1,
-    "completed": 98,
+    "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 48,
+    "wip_count": 47,
     "wip_limit": 5,
-    "wip_utilization": 960.0,
+    "wip_utilization": 940.0,
     "waiting_count": 1,
-    "completed_today": 0,
+    "completed_today": 1,
     "aging_24h": [
       "content-c0ac4sf7hmk-1775747310",
       "thread-1775810534-413569",
@@ -821,6 +808,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T01:50:07.353587"
+    "timestamp": "2026-04-12T01:50:21.778940"
   }
 }
