@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-11T15:06:43.042794",
+  "generated_at": "2026-04-11T15:22:00.831468",
   "tasks": {
     "active": [
+      {
+        "id": "paperclip-progress-check",
+        "filename": "paperclip-progress-check.md",
+        "folder": "active",
+        "title": "PaperClip 진행상황 및 병목 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775782641896269",
+        "waiting_for": null,
+        "last_updated": "2026-04-11T15:21:52.384853",
+        "progress": 40
+      },
       {
         "id": "paperclip-studio-split",
         "filename": "paperclip-studio-split.md",
@@ -657,17 +670,17 @@
     }
   ],
   "stats": {
-    "total": 138,
-    "active": 39,
+    "total": 139,
+    "active": 40,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 39,
+    "wip_count": 40,
     "wip_limit": 5,
-    "wip_utilization": 780.0,
+    "wip_utilization": 800.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
@@ -687,17 +700,17 @@
       "content-parenting-step2a-1775755512",
       "rafy-paperclip-agent-permissions-1775736644",
       "yuka-breastfeeding-barley-bread-1775734266",
-      "rafy-llm-model-finder-1775705211",
-      "yuka-feeding-gap-thread-1775715095",
-      "yuka-vaccine-thread-1775665347",
-      "yuka-swaddle-thread-1775649240"
+      "rafy-llm-model-finder-1775705211"
     ],
     "aging_48h": [
+      "yuka-feeding-gap-thread-1775715095",
+      "yuka-vaccine-thread-1775665347",
+      "yuka-swaddle-thread-1775649240",
       "diary-thread-1775706280",
       "content-thread-1775706980",
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-11T15:06:43.104140"
+    "timestamp": "2026-04-11T15:22:00.875176"
   }
 }
