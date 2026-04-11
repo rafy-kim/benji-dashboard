@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T01:50:21.746755",
+  "generated_at": "2026-04-12T02:05:53.375900",
   "tasks": {
     "active": [
+      {
+        "id": "vaccine-night-feed-followup-1775925673",
+        "filename": "vaccine-night-feed-followup-1775925673.md",
+        "folder": "active",
+        "title": "종합백신 6가 접종 후 밤수 텀 변화 후속 대응",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775925673983979",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T02:05:47.291316",
+        "progress": 0
+      },
       {
         "id": "aginglab-step0-3-upload-followup",
         "filename": "aginglab-step0-3-upload-followup.md",
@@ -761,17 +774,17 @@
     }
   ],
   "stats": {
-    "total": 147,
-    "active": 47,
+    "total": 148,
+    "active": 48,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 47,
+    "wip_count": 48,
     "wip_limit": 5,
-    "wip_utilization": 940.0,
+    "wip_utilization": 960.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
@@ -808,6 +821,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T01:50:21.778940"
+    "timestamp": "2026-04-12T02:05:53.424182"
   }
 }
