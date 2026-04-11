@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-04-11T11:28:59.063144",
+  "generated_at": "2026-04-11T11:43:42.349471",
   "tasks": {
     "active": [
+      {
+        "id": "milk-supply-boost",
+        "filename": "milk-supply-boost.md",
+        "folder": "active",
+        "title": "모유량 늘리는 핵심 방법 정리",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775873730253799",
+        "waiting_for": null,
+        "last_updated": "2026-04-11T11:43:36.179759",
+        "progress": 67
+      },
+      {
+        "id": "cluster-feeding-supplement",
+        "filename": "cluster-feeding-supplement.md",
+        "folder": "active",
+        "title": "클러스터 피딩 보충수유 기준 정리",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775873700375859",
+        "waiting_for": null,
+        "last_updated": "2026-04-11T11:43:36.179605",
+        "progress": 67
+      },
       {
         "id": "milk-supply-foods-and-strategy",
         "filename": "milk-supply-foods-and-strategy.md",
@@ -618,17 +644,17 @@
     }
   ],
   "stats": {
-    "total": 135,
-    "active": 36,
+    "total": 137,
+    "active": 38,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 36,
+    "wip_count": 38,
     "wip_limit": 5,
-    "wip_utilization": 720.0,
+    "wip_utilization": 760.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
@@ -658,6 +684,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-11T11:28:59.106013"
+    "timestamp": "2026-04-11T11:43:42.408308"
   }
 }
