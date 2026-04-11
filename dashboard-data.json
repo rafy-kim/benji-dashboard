@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-04-11T05:04:07.231809",
+  "generated_at": "2026-04-11T11:23:38.041041",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-miyeok-breastmilk-1775873730",
+        "filename": "yuka-miyeok-breastmilk-1775873730.md",
+        "folder": "active",
+        "title": "육아: 미역국/소고기가 모유량에 도움되나?",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-11T11:23:32.515495",
+        "progress": 0
+      },
+      {
+        "id": "yuka-night-milk-shortage-1775873700",
+        "filename": "yuka-night-milk-shortage-1775873700.md",
+        "folder": "active",
+        "title": "육아: 밤 수유 텀 짧아짐 / 모유 부족",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-11T11:23:31.652941",
+        "progress": 0
+      },
       {
         "id": "content-c0ac4sf7hmk-1775845375",
         "filename": "content-c0ac4sf7hmk-1775845375.md",
@@ -566,20 +592,30 @@
     }
   ],
   "stats": {
-    "total": 131,
-    "active": 32,
+    "total": 133,
+    "active": 34,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 32,
+    "wip_count": 34,
     "wip_limit": 5,
-    "wip_utilization": 640.0,
+    "wip_utilization": 680.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "couple-conflict-postpartum-1775786081",
+      "yuka-nap-schedule-1775786025",
+      "yuka-mobile-brain-1775786006",
+      "yuka-formula-storage-1775785416",
+      "popup-jamsil-1775785569",
+      "slack-c0ac9rklcbb-1775782641",
+      "popup-no-data-1775782734",
+      "nyamnyampick-cron-timeout-1775780313",
+      "parenting-youtube-schedule-check-1775755512",
+      "parenting-daily-thread-1775755512",
       "diary-moro-swaddle-1775763732",
       "diary-thread-1775762940",
       "yuka-vaccine-fever-followup-1775742973",
@@ -596,6 +632,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-11T05:04:07.279266"
+    "timestamp": "2026-04-11T11:23:38.103814"
   }
 }
