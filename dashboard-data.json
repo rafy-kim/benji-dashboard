@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-04-11T11:23:38.041041",
+  "generated_at": "2026-04-11T11:28:59.063144",
   "tasks": {
     "active": [
+      {
+        "id": "milk-supply-foods-and-strategy",
+        "filename": "milk-supply-foods-and-strategy.md",
+        "folder": "active",
+        "title": "모유량 증가 전략과 식단 질문",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775873730253799",
+        "waiting_for": null,
+        "last_updated": "2026-04-11T11:28:53.573738",
+        "progress": 67
+      },
+      {
+        "id": "cluster-feeding-supplementation",
+        "filename": "cluster-feeding-supplementation.md",
+        "folder": "active",
+        "title": "클러스터 피딩 시기 보충수유 판단",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775873700375859",
+        "waiting_for": null,
+        "last_updated": "2026-04-11T11:28:53.573738",
+        "progress": 67
+      },
       {
         "id": "yuka-miyeok-breastmilk-1775873730",
         "filename": "yuka-miyeok-breastmilk-1775873730.md",
@@ -592,17 +618,17 @@
     }
   ],
   "stats": {
-    "total": 133,
-    "active": 34,
+    "total": 135,
+    "active": 36,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 34,
+    "wip_count": 36,
     "wip_limit": 5,
-    "wip_utilization": 680.0,
+    "wip_utilization": 720.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
@@ -632,6 +658,6 @@
       "aginglab-source-comment-report"
     ],
     "aging_48h": [],
-    "timestamp": "2026-04-11T11:23:38.103814"
+    "timestamp": "2026-04-11T11:28:59.106013"
   }
 }
