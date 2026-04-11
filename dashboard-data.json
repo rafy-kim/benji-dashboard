@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-11T17:08:53.050183",
+  "generated_at": "2026-04-11T17:24:40.552878",
   "tasks": {
     "active": [
+      {
+        "id": "rafy-slack-thread-1775895063",
+        "filename": "rafy-slack-thread-1775895063.md",
+        "folder": "active",
+        "title": "라피 개인: 사용량 관련 스레드 1775895063",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-11T17:24:33.802721",
+        "progress": 0
+      },
       {
         "id": "rafy-slack-thread-1775894548",
         "filename": "rafy-slack-thread-1775894548.md",
@@ -683,20 +696,21 @@
     }
   ],
   "stats": {
-    "total": 140,
-    "active": 41,
+    "total": 141,
+    "active": 42,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 41,
+    "wip_count": 42,
     "wip_limit": 5,
-    "wip_utilization": 820.0,
+    "wip_utilization": 840.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "paperclip-status-thread-1775782641",
       "paperclip-status-bottleneck",
       "couple-conflict-postpartum-1775786081",
       "yuka-nap-schedule-1775786025",
@@ -725,6 +739,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-11T17:08:53.079035"
+    "timestamp": "2026-04-11T17:24:40.616205"
   }
 }
