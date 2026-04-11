@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T00:16:18.685412",
+  "generated_at": "2026-04-12T01:50:07.314195",
   "tasks": {
     "active": [
+      {
+        "id": "vaccine-night-feed-shorter",
+        "filename": "vaccine-night-feed-shorter.md",
+        "folder": "active",
+        "title": "종합백신 6가 후 밤수 텀 짧아짐 안내",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775925673983979",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T01:50:01.929486",
+        "progress": 100
+      },
       {
         "id": "aginglab-step0-3-upload-followup",
         "filename": "aginglab-step0-3-upload-followup.md",
@@ -761,20 +774,21 @@
     }
   ],
   "stats": {
-    "total": 146,
-    "active": 47,
+    "total": 147,
+    "active": 48,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 47,
+    "wip_count": 48,
     "wip_limit": 5,
-    "wip_utilization": 940.0,
+    "wip_utilization": 960.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "content-c0ac4sf7hmk-1775747310",
       "thread-1775810534-413569",
       "slack-c0abfb203br-1775812561",
       "yuka-night-cry-1775810534",
@@ -807,6 +821,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T00:16:18.719395"
+    "timestamp": "2026-04-12T01:50:07.353587"
   }
 }
