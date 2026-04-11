@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-11T18:16:44.106708",
+  "generated_at": "2026-04-11T21:53:48.523903",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-contact-nap-1775911598",
+        "filename": "yuka-contact-nap-1775911598.md",
+        "folder": "active",
+        "title": "육아: 안아야 깊게 자는 9주차 아기 낮잠 대응",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-11T21:53:43.267191",
+        "progress": 0
+      },
       {
         "id": "investment-cron-timeout-fix",
         "filename": "investment-cron-timeout-fix.md",
@@ -722,20 +735,22 @@
     }
   ],
   "stats": {
-    "total": 143,
-    "active": 44,
+    "total": 144,
+    "active": 45,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 44,
+    "wip_count": 45,
     "wip_limit": 5,
-    "wip_utilization": 880.0,
+    "wip_utilization": 900.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "thread-1775810534-413569",
+      "slack-c0abfb203br-1775812561",
       "yuka-night-cry-1775810534",
       "paperclip-status-thread-1775782641",
       "paperclip-status-bottleneck",
@@ -752,11 +767,11 @@
       "diary-moro-swaddle-1775763732",
       "diary-thread-1775762940",
       "yuka-vaccine-fever-followup-1775742973",
-      "content-parenting-step2a-1775755512",
-      "rafy-paperclip-agent-permissions-1775736644",
-      "yuka-breastfeeding-barley-bread-1775734266"
+      "content-parenting-step2a-1775755512"
     ],
     "aging_48h": [
+      "rafy-paperclip-agent-permissions-1775736644",
+      "yuka-breastfeeding-barley-bread-1775734266",
       "rafy-llm-model-finder-1775705211",
       "yuka-feeding-gap-thread-1775715095",
       "yuka-vaccine-thread-1775665347",
@@ -766,6 +781,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-11T18:16:44.144356"
+    "timestamp": "2026-04-11T21:53:48.568927"
   }
 }
