@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T02:51:31.115942",
+  "generated_at": "2026-04-12T04:29:49.763765",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1775935456-511689",
+        "filename": "thread-1775935456-511689.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T04:29:44.107868",
+        "progress": 0
+      },
       {
         "id": "diary-finger-sucking-1775926580",
         "filename": "diary-finger-sucking-1775926580.md",
@@ -787,17 +800,17 @@
     }
   ],
   "stats": {
-    "total": 149,
-    "active": 49,
+    "total": 150,
+    "active": 50,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 49,
+    "wip_count": 50,
     "wip_limit": 5,
-    "wip_utilization": 980.0,
+    "wip_utilization": 1000.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
@@ -818,11 +831,11 @@
       "parenting-youtube-schedule-check-1775755512",
       "parenting-daily-thread-1775755512",
       "diary-moro-swaddle-1775763732",
-      "diary-thread-1775762940",
-      "yuka-vaccine-fever-followup-1775742973",
-      "content-parenting-step2a-1775755512"
+      "diary-thread-1775762940"
     ],
     "aging_48h": [
+      "yuka-vaccine-fever-followup-1775742973",
+      "content-parenting-step2a-1775755512",
       "rafy-paperclip-agent-permissions-1775736644",
       "yuka-breastfeeding-barley-bread-1775734266",
       "rafy-llm-model-finder-1775705211",
@@ -834,6 +847,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T02:51:31.163037"
+    "timestamp": "2026-04-12T04:29:49.817138"
   }
 }
