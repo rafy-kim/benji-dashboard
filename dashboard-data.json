@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T04:29:49.763765",
+  "generated_at": "2026-04-12T04:45:15.388032",
   "tasks": {
     "active": [
+      {
+        "id": "parenting-step4-upload",
+        "filename": "parenting-step4-upload.md",
+        "folder": "active",
+        "title": "육아꿀팁 Step4 예약 업로드",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775935456511689",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T04:45:09.895091",
+        "progress": 0
+      },
       {
         "id": "thread-1775935456-511689",
         "filename": "thread-1775935456-511689.md",
@@ -800,20 +813,21 @@
     }
   ],
   "stats": {
-    "total": 150,
-    "active": 50,
+    "total": 151,
+    "active": 51,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 50,
+    "wip_count": 51,
     "wip_limit": 5,
-    "wip_utilization": 1000.0,
+    "wip_utilization": 1020.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
+      "token-usage-stabilization",
       "content-c0ac4sf7hmk-1775747310",
       "thread-1775810534-413569",
       "slack-c0abfb203br-1775812561",
@@ -829,11 +843,11 @@
       "popup-no-data-1775782734",
       "nyamnyampick-cron-timeout-1775780313",
       "parenting-youtube-schedule-check-1775755512",
-      "parenting-daily-thread-1775755512",
-      "diary-moro-swaddle-1775763732",
-      "diary-thread-1775762940"
+      "parenting-daily-thread-1775755512"
     ],
     "aging_48h": [
+      "diary-moro-swaddle-1775763732",
+      "diary-thread-1775762940",
       "yuka-vaccine-fever-followup-1775742973",
       "content-parenting-step2a-1775755512",
       "rafy-paperclip-agent-permissions-1775736644",
@@ -847,6 +861,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T04:29:49.817138"
+    "timestamp": "2026-04-12T04:45:15.429208"
   }
 }
