@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T04:59:56.875744",
+  "generated_at": "2026-04-12T05:32:41.273850",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1775936952-348539",
+        "filename": "thread-1775936952-348539.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T05:32:29.961751",
+        "progress": 0
+      },
       {
         "id": "tummy-time-arm-spread-1775936952",
         "filename": "tummy-time-arm-spread-1775936952.md",
@@ -826,20 +839,21 @@
     }
   ],
   "stats": {
-    "total": 152,
-    "active": 52,
+    "total": 153,
+    "active": 53,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 52,
+    "wip_count": 53,
     "wip_limit": 5,
-    "wip_utilization": 1040.0,
+    "wip_utilization": 1060.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
+      "content-c0ac4sf7hmk-1775845375",
       "token-usage-stabilization",
       "content-c0ac4sf7hmk-1775747310",
       "thread-1775810534-413569",
@@ -854,11 +868,11 @@
       "popup-jamsil-1775785569",
       "slack-c0ac9rklcbb-1775782641",
       "popup-no-data-1775782734",
-      "nyamnyampick-cron-timeout-1775780313",
-      "parenting-youtube-schedule-check-1775755512",
-      "parenting-daily-thread-1775755512"
+      "nyamnyampick-cron-timeout-1775780313"
     ],
     "aging_48h": [
+      "parenting-youtube-schedule-check-1775755512",
+      "parenting-daily-thread-1775755512",
       "diary-moro-swaddle-1775763732",
       "diary-thread-1775762940",
       "yuka-vaccine-fever-followup-1775742973",
@@ -874,6 +888,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T04:59:56.947430"
+    "timestamp": "2026-04-12T05:32:41.318750"
   }
 }
