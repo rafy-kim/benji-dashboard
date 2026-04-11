@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-11T17:38:50.034748",
+  "generated_at": "2026-04-11T18:16:44.106708",
   "tasks": {
     "active": [
+      {
+        "id": "investment-cron-timeout-fix",
+        "filename": "investment-cron-timeout-fix.md",
+        "folder": "active",
+        "title": "투자 크론 타임아웃 점검 및 복구",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ABQGG7RT5/p1775896473466639",
+        "waiting_for": null,
+        "last_updated": "2026-04-11T18:16:38.245537",
+        "progress": 0
+      },
       {
         "id": "invest-cron-timeout-1775896473",
         "filename": "invest-cron-timeout-1775896473.md",
@@ -709,20 +722,21 @@
     }
   ],
   "stats": {
-    "total": 142,
-    "active": 43,
+    "total": 143,
+    "active": 44,
     "next": 0,
     "waiting": 1,
     "completed": 98,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 43,
+    "wip_count": 44,
     "wip_limit": 5,
-    "wip_utilization": 860.0,
+    "wip_utilization": 880.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "yuka-night-cry-1775810534",
       "paperclip-status-thread-1775782641",
       "paperclip-status-bottleneck",
       "couple-conflict-postpartum-1775786081",
@@ -752,6 +766,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-11T17:38:50.083465"
+    "timestamp": "2026-04-11T18:16:44.144356"
   }
 }
