@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T06:03:55.650701",
+  "generated_at": "2026-04-12T06:36:22.568148",
   "tasks": {
     "active": [
+      {
+        "id": "yuka-sleep-breastmilk-thread-1775940492",
+        "filename": "yuka-sleep-breastmilk-thread-1775940492.md",
+        "folder": "active",
+        "title": "육아: 수면과 모유 분비",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-12T06:36:16.937243",
+        "progress": 0
+      },
       {
         "id": "milk-supply-food-vs-sleep-1775940492",
         "filename": "milk-supply-food-vs-sleep-1775940492.md",
@@ -852,17 +865,17 @@
     }
   ],
   "stats": {
-    "total": 154,
-    "active": 54,
+    "total": 155,
+    "active": 55,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 54,
+    "wip_count": 55,
     "wip_limit": 5,
-    "wip_utilization": 1080.0,
+    "wip_utilization": 1100.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
@@ -901,6 +914,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T06:03:55.682323"
+    "timestamp": "2026-04-12T06:36:22.625645"
   }
 }
