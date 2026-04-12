@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T10:29:37.112674",
+  "generated_at": "2026-04-12T12:20:13.790272",
   "tasks": {
     "active": [
+      {
+        "id": "openrouter-gemma31b-migration",
+        "filename": "openrouter-gemma31b-migration.md",
+        "folder": "active",
+        "title": "OpenRouter Gemma 31B 도입 및 e4b 대체",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775963252190529",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T12:20:07.985340",
+        "progress": 0
+      },
       {
         "id": "baby-nap-schedule-guidance",
         "filename": "baby-nap-schedule-guidance.md",
@@ -891,20 +904,26 @@
     }
   ],
   "stats": {
-    "total": 157,
-    "active": 57,
+    "total": 158,
+    "active": 58,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 57,
+    "wip_count": 58,
     "wip_limit": 5,
-    "wip_utilization": 1140.0,
+    "wip_utilization": 1160.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
+      "milk-supply-boost",
+      "cluster-feeding-supplement",
+      "milk-supply-foods-and-strategy",
+      "cluster-feeding-supplementation",
+      "yuka-miyeok-breastmilk-1775873730",
+      "yuka-night-milk-shortage-1775873700",
       "content-c0ac4sf7hmk-1775845375",
       "token-usage-stabilization",
       "content-c0ac4sf7hmk-1775747310",
@@ -912,14 +931,14 @@
       "slack-c0abfb203br-1775812561",
       "yuka-night-cry-1775810534",
       "paperclip-status-thread-1775782641",
-      "paperclip-status-bottleneck",
+      "paperclip-status-bottleneck"
+    ],
+    "aging_48h": [
       "couple-conflict-postpartum-1775786081",
       "yuka-nap-schedule-1775786025",
       "yuka-mobile-brain-1775786006",
       "yuka-formula-storage-1775785416",
-      "popup-jamsil-1775785569"
-    ],
-    "aging_48h": [
+      "popup-jamsil-1775785569",
       "slack-c0ac9rklcbb-1775782641",
       "popup-no-data-1775782734",
       "nyamnyampick-cron-timeout-1775780313",
@@ -940,6 +959,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T10:29:37.161179"
+    "timestamp": "2026-04-12T12:20:13.806884"
   }
 }
