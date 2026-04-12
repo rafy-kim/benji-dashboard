@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T14:25:00.779173",
+  "generated_at": "2026-04-12T14:39:55.017244",
   "tasks": {
     "active": [
+      {
+        "id": "openrouter-api-key-setup-1775963252",
+        "filename": "openrouter-api-key-setup-1775963252.md",
+        "folder": "active",
+        "title": "OpenRouter API 키 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775963252190529",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T14:39:49.825110",
+        "progress": 0
+      },
       {
         "id": "opus46-model-switch",
         "filename": "opus46-model-switch.md",
@@ -995,17 +1008,17 @@
     }
   ],
   "stats": {
-    "total": 165,
-    "active": 65,
+    "total": 166,
+    "active": 66,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 65,
+    "wip_count": 66,
     "wip_limit": 5,
-    "wip_utilization": 1300.0,
+    "wip_utilization": 1320.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
@@ -1050,6 +1063,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T14:25:00.869733"
+    "timestamp": "2026-04-12T14:39:55.059745"
   }
 }
