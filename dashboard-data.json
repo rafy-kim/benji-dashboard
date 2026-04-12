@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T16:30:12.836916",
+  "generated_at": "2026-04-13T07:12:02.728163",
   "tasks": {
     "active": [
+      {
+        "id": "content-parenting-step4-1776015613",
+        "filename": "content-parenting-step4-1776015613.md",
+        "folder": "active",
+        "title": "육아꿀팁 Step4 예약 업로드 (2편째)",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-13T07:11:56.604396",
+        "progress": 0
+      },
       {
         "id": "thread-1775976556-634929",
         "filename": "thread-1775976556-634929.md",
@@ -1047,20 +1060,35 @@
     }
   ],
   "stats": {
-    "total": 170,
-    "active": 69,
+    "total": 171,
+    "active": 70,
     "next": 0,
     "waiting": 1,
     "completed": 100,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 69,
+    "wip_count": 70,
     "wip_limit": 5,
-    "wip_utilization": 1380.0,
+    "wip_utilization": 1400.0,
     "waiting_count": 1,
-    "completed_today": 2,
+    "completed_today": 0,
     "aging_24h": [
+      "yuka-sleep-breastmilk-thread-1775940492",
+      "milk-supply-food-vs-sleep-1775940492",
+      "thread-1775936952-348539",
+      "tummy-time-arm-spread-1775936952",
+      "parenting-step4-upload",
+      "thread-1775935456-511689",
+      "diary-finger-sucking-1775926580",
+      "vaccine-night-feed-followup-1775925673",
+      "aginglab-step0-3-upload-followup",
+      "yuka-milk-supply-diet-1775912181",
+      "yuka-contact-nap-1775911598",
+      "investment-cron-timeout-fix",
+      "invest-cron-timeout-1775896473",
+      "rafy-slack-thread-1775895063",
+      "rafy-slack-thread-1775894548",
       "paperclip-progress-check",
       "paperclip-studio-split",
       "milk-supply-boost",
@@ -1068,7 +1096,9 @@
       "milk-supply-foods-and-strategy",
       "cluster-feeding-supplementation",
       "yuka-miyeok-breastmilk-1775873730",
-      "yuka-night-milk-shortage-1775873700",
+      "yuka-night-milk-shortage-1775873700"
+    ],
+    "aging_48h": [
       "content-c0ac4sf7hmk-1775845375",
       "token-usage-stabilization",
       "content-c0ac4sf7hmk-1775747310",
@@ -1076,9 +1106,7 @@
       "slack-c0abfb203br-1775812561",
       "yuka-night-cry-1775810534",
       "paperclip-status-thread-1775782641",
-      "paperclip-status-bottleneck"
-    ],
-    "aging_48h": [
+      "paperclip-status-bottleneck",
       "couple-conflict-postpartum-1775786081",
       "yuka-nap-schedule-1775786025",
       "yuka-mobile-brain-1775786006",
@@ -1104,6 +1132,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T16:30:12.891264"
+    "timestamp": "2026-04-13T07:12:02.795481"
   }
 }
