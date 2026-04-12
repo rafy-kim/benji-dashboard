@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T10:14:24.804378",
+  "generated_at": "2026-04-12T10:29:37.112674",
   "tasks": {
     "active": [
+      {
+        "id": "baby-nap-schedule-guidance",
+        "filename": "baby-nap-schedule-guidance.md",
+        "folder": "active",
+        "title": "유현이 시기 낮잠 스케줄 가이드",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775955947877999",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T10:29:31.410539",
+        "progress": 0
+      },
       {
         "id": "yuka-nap-schedule-1775955947",
         "filename": "yuka-nap-schedule-1775955947.md",
@@ -878,17 +891,17 @@
     }
   ],
   "stats": {
-    "total": 156,
-    "active": 56,
+    "total": 157,
+    "active": 57,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 56,
+    "wip_count": 57,
     "wip_limit": 5,
-    "wip_utilization": 1120.0,
+    "wip_utilization": 1140.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
@@ -927,6 +940,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T10:14:24.834012"
+    "timestamp": "2026-04-12T10:29:37.161179"
   }
 }
