@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T12:52:27.762078",
+  "generated_at": "2026-04-12T14:25:00.779173",
   "tasks": {
     "active": [
+      {
+        "id": "opus46-model-switch",
+        "filename": "opus46-model-switch.md",
+        "folder": "active",
+        "title": "Opus 4.6 모델 전환 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775963252190529",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T14:24:51.863407",
+        "progress": 0
+      },
       {
         "id": "thread-1775896473-466639",
         "filename": "thread-1775896473-466639.md",
@@ -982,17 +995,17 @@
     }
   ],
   "stats": {
-    "total": 164,
-    "active": 64,
+    "total": 165,
+    "active": 65,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 64,
+    "wip_count": 65,
     "wip_limit": 5,
-    "wip_utilization": 1280.0,
+    "wip_utilization": 1300.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
@@ -1037,6 +1050,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T12:52:27.815768"
+    "timestamp": "2026-04-12T14:25:00.869733"
   }
 }
