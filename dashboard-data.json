@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-04-12T16:14:10.853066",
+  "generated_at": "2026-04-12T16:30:12.836916",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1775976556-634929",
+        "filename": "thread-1775976556-634929.md",
+        "folder": "active",
+        "title": "Slack 스레드 작업 카드",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775976556634929",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T16:30:06.996721",
+        "progress": 50
+      },
+      {
+        "id": "thread-1775978769-026059",
+        "filename": "thread-1775978769-026059.md",
+        "folder": "active",
+        "title": "Slack 스레드 작업 카드",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775978769026059",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T16:30:06.996716",
+        "progress": 0
+      },
       {
         "id": "openrouter-api-key-thread",
         "filename": "openrouter-api-key-thread.md",
@@ -1021,17 +1047,17 @@
     }
   ],
   "stats": {
-    "total": 168,
-    "active": 67,
+    "total": 170,
+    "active": 69,
     "next": 0,
     "waiting": 1,
     "completed": 100,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 67,
+    "wip_count": 69,
     "wip_limit": 5,
-    "wip_utilization": 1340.0,
+    "wip_utilization": 1380.0,
     "waiting_count": 1,
     "completed_today": 2,
     "aging_24h": [
@@ -1078,6 +1104,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T16:14:10.902668"
+    "timestamp": "2026-04-12T16:30:12.891264"
   }
 }
