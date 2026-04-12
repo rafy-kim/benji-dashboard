@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-12T15:14:28.477782",
+  "generated_at": "2026-04-12T15:59:57.148120",
   "tasks": {
     "active": [
+      {
+        "id": "moro-reflex-normal-timeline-1775976556",
+        "filename": "moro-reflex-normal-timeline-1775976556.md",
+        "folder": "active",
+        "title": "모로 반사 정상 소실 시기 안내",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775976556634929",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T15:59:50.538396",
+        "progress": 100
+      },
       {
         "id": "openrouter-api-key-thread",
         "filename": "openrouter-api-key-thread.md",
@@ -1021,20 +1034,21 @@
     }
   ],
   "stats": {
-    "total": 167,
-    "active": 67,
+    "total": 168,
+    "active": 68,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 67,
+    "wip_count": 68,
     "wip_limit": 5,
-    "wip_utilization": 1340.0,
+    "wip_utilization": 1360.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
+      "paperclip-progress-check",
       "paperclip-studio-split",
       "milk-supply-boost",
       "cluster-feeding-supplement",
@@ -1077,6 +1091,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T15:14:28.517329"
+    "timestamp": "2026-04-12T15:59:57.196406"
   }
 }
