@@ -1,7 +1,85 @@
 {
-  "generated_at": "2026-04-12T12:20:13.790272",
+  "generated_at": "2026-04-12T12:52:27.762078",
   "tasks": {
     "active": [
+      {
+        "id": "thread-1775896473-466639",
+        "filename": "thread-1775896473-466639.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T12:52:22.764910",
+        "progress": 0
+      },
+      {
+        "id": "thread-1775911598-376109",
+        "filename": "thread-1775911598-376109.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T12:52:22.669130",
+        "progress": 0
+      },
+      {
+        "id": "thread-1775912181-152629",
+        "filename": "thread-1775912181-152629.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T12:52:22.573183",
+        "progress": 0
+      },
+      {
+        "id": "thread-1775925673-983979",
+        "filename": "thread-1775925673-983979.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T12:52:22.474376",
+        "progress": 0
+      },
+      {
+        "id": "thread-1775940492-509119",
+        "filename": "thread-1775940492-509119.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T12:52:22.297077",
+        "progress": 0
+      },
+      {
+        "id": "thread-1775955947-877999",
+        "filename": "thread-1775955947-877999.md",
+        "folder": "active",
+        "title": "작업명",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#채널명",
+        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T12:52:22.209465",
+        "progress": 0
+      },
       {
         "id": "openrouter-gemma31b-migration",
         "filename": "openrouter-gemma31b-migration.md",
@@ -904,17 +982,17 @@
     }
   ],
   "stats": {
-    "total": 158,
-    "active": 58,
+    "total": 164,
+    "active": 64,
     "next": 0,
     "waiting": 1,
     "completed": 99,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 58,
+    "wip_count": 64,
     "wip_limit": 5,
-    "wip_utilization": 1160.0,
+    "wip_utilization": 1280.0,
     "waiting_count": 1,
     "completed_today": 1,
     "aging_24h": [
@@ -959,6 +1037,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T12:20:13.806884"
+    "timestamp": "2026-04-12T12:52:27.815768"
   }
 }
