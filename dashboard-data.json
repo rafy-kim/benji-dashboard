@@ -1,20 +1,7 @@
 {
-  "generated_at": "2026-04-12T15:59:57.148120",
+  "generated_at": "2026-04-12T16:14:10.853066",
   "tasks": {
     "active": [
-      {
-        "id": "moro-reflex-normal-timeline-1775976556",
-        "filename": "moro-reflex-normal-timeline-1775976556.md",
-        "folder": "active",
-        "title": "모로 반사 정상 소실 시기 안내",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775976556634929",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T15:59:50.538396",
-        "progress": 100
-      },
       {
         "id": "openrouter-api-key-thread",
         "filename": "openrouter-api-key-thread.md",
@@ -905,6 +892,19 @@
     ],
     "completed": [
       {
+        "id": "moro-reflex-normal-timeline-1775976556",
+        "filename": "moro-reflex-normal-timeline-1775976556.md",
+        "folder": "completed",
+        "title": "모로 반사 정상 소실 시기 안내",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775976556634929",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T16:14:04.759283",
+        "progress": 100
+      },
+      {
         "id": "vaccine-night-feed-shorter",
         "filename": "vaccine-night-feed-shorter.md",
         "folder": "completed",
@@ -954,19 +954,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-10T03:17:01.658088",
-        "progress": 0
-      },
-      {
-        "id": "yuka-fever-after-vaccine-1775742973",
-        "filename": "yuka-fever-after-vaccine-1775742973.md",
-        "folder": "completed",
-        "title": "#육아 접종열 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T03:17:01.585764",
         "progress": 0
       }
     ]
@@ -1035,18 +1022,18 @@
   ],
   "stats": {
     "total": 168,
-    "active": 68,
+    "active": 67,
     "next": 0,
     "waiting": 1,
-    "completed": 99,
+    "completed": 100,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 68,
+    "wip_count": 67,
     "wip_limit": 5,
-    "wip_utilization": 1360.0,
+    "wip_utilization": 1340.0,
     "waiting_count": 1,
-    "completed_today": 1,
+    "completed_today": 2,
     "aging_24h": [
       "paperclip-progress-check",
       "paperclip-studio-split",
@@ -1091,6 +1078,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-12T15:59:57.196406"
+    "timestamp": "2026-04-12T16:14:10.902668"
   }
 }
