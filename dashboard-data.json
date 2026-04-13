@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-13T07:12:02.728163",
+  "generated_at": "2026-04-13T19:27:01.752163",
   "tasks": {
     "active": [
+      {
+        "id": "trump-longform-duplicate-upload-bug",
+        "filename": "trump-longform-duplicate-upload-bug.md",
+        "folder": "active",
+        "title": "트럼프 롱폼 중복 업로드 버그 수정",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#콘텐츠",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1776074187050159",
+        "waiting_for": null,
+        "last_updated": "2026-04-13T19:26:54.589902",
+        "progress": 0
+      },
       {
         "id": "content-parenting-step4-1776015613",
         "filename": "content-parenting-step4-1776015613.md",
@@ -1060,20 +1073,34 @@
     }
   ],
   "stats": {
-    "total": 171,
-    "active": 70,
+    "total": 172,
+    "active": 71,
     "next": 0,
     "waiting": 1,
     "completed": 100,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 70,
+    "wip_count": 71,
     "wip_limit": 5,
-    "wip_utilization": 1400.0,
+    "wip_utilization": 1420.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "thread-1775976556-634929",
+      "thread-1775978769-026059",
+      "openrouter-api-key-thread",
+      "openrouter-api-key-setup-1775963252",
+      "opus46-model-switch",
+      "thread-1775896473-466639",
+      "thread-1775911598-376109",
+      "thread-1775912181-152629",
+      "thread-1775925673-983979",
+      "thread-1775940492-509119",
+      "thread-1775955947-877999",
+      "openrouter-gemma31b-migration",
+      "baby-nap-schedule-guidance",
+      "yuka-nap-schedule-1775955947",
       "yuka-sleep-breastmilk-thread-1775940492",
       "milk-supply-food-vs-sleep-1775940492",
       "thread-1775936952-348539",
@@ -1084,7 +1111,9 @@
       "vaccine-night-feed-followup-1775925673",
       "aginglab-step0-3-upload-followup",
       "yuka-milk-supply-diet-1775912181",
-      "yuka-contact-nap-1775911598",
+      "yuka-contact-nap-1775911598"
+    ],
+    "aging_48h": [
       "investment-cron-timeout-fix",
       "invest-cron-timeout-1775896473",
       "rafy-slack-thread-1775895063",
@@ -1096,9 +1125,7 @@
       "milk-supply-foods-and-strategy",
       "cluster-feeding-supplementation",
       "yuka-miyeok-breastmilk-1775873730",
-      "yuka-night-milk-shortage-1775873700"
-    ],
-    "aging_48h": [
+      "yuka-night-milk-shortage-1775873700",
       "content-c0ac4sf7hmk-1775845375",
       "token-usage-stabilization",
       "content-c0ac4sf7hmk-1775747310",
@@ -1132,6 +1159,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-13T07:12:02.795481"
+    "timestamp": "2026-04-13T19:27:01.840762"
   }
 }
