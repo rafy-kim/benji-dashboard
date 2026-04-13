@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-13T20:05:20.781719",
+  "generated_at": "2026-04-14T08:49:27.466473",
   "tasks": {
     "active": [
+      {
+        "id": "learning-cron-timeout-1776111502",
+        "filename": "learning-cron-timeout-1776111502.md",
+        "folder": "active",
+        "title": "학습→시스템 적용 크론 타임아웃 수정",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#벤지-자기계발",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1776111502084159",
+        "waiting_for": null,
+        "last_updated": "2026-04-14T08:49:21.041553",
+        "progress": 0
+      },
       {
         "id": "trump-longform-duplicate-upload-bug",
         "filename": "trump-longform-duplicate-upload-bug.md",
@@ -995,20 +1008,21 @@
     }
   ],
   "stats": {
-    "total": 163,
-    "active": 65,
+    "total": 164,
+    "active": 66,
     "next": 0,
     "waiting": 1,
     "completed": 97,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 65,
+    "wip_count": 66,
     "wip_limit": 5,
-    "wip_utilization": 1300.0,
+    "wip_utilization": 1320.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
+      "content-parenting-step4-1776015613",
       "thread-1775976556-634929",
       "thread-1775978769-026059",
       "openrouter-api-key-thread",
@@ -1022,7 +1036,9 @@
       "thread-1775955947-877999",
       "openrouter-gemma31b-migration",
       "baby-nap-schedule-guidance",
-      "yuka-nap-schedule-1775955947",
+      "yuka-nap-schedule-1775955947"
+    ],
+    "aging_48h": [
       "yuka-sleep-breastmilk-thread-1775940492",
       "milk-supply-food-vs-sleep-1775940492",
       "thread-1775936952-348539",
@@ -1033,9 +1049,7 @@
       "vaccine-night-feed-followup-1775925673",
       "aginglab-step0-3-upload-followup",
       "yuka-milk-supply-diet-1775912181",
-      "yuka-contact-nap-1775911598"
-    ],
-    "aging_48h": [
+      "yuka-contact-nap-1775911598",
       "investment-cron-timeout-fix",
       "invest-cron-timeout-1775896473",
       "rafy-slack-thread-1775895063",
@@ -1075,6 +1089,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-13T20:05:20.846806"
+    "timestamp": "2026-04-14T08:49:27.510145"
   }
 }
