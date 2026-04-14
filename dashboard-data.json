@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-04-14T08:49:27.466473",
+  "generated_at": "2026-04-14T10:11:08.442580",
   "tasks": {
     "active": [
+      {
+        "id": "learning-cron-timeout-1776125368",
+        "filename": "learning-cron-timeout-1776125368.md",
+        "folder": "active",
+        "title": "학습→시스템 적용 크론 타임아웃 수정 (2차)",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#벤지-자기계발",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC14SM0UT/p1776125368514699",
+        "waiting_for": null,
+        "last_updated": "2026-04-14T10:11:07.883561",
+        "progress": 0
+      },
+      {
+        "id": "rag-comment-cron-timeout-1776096223",
+        "filename": "rag-comment-cron-timeout-1776096223.md",
+        "folder": "active",
+        "title": "육아꿀팁 RAG 출처 댓글 크론 타임아웃 수정",
+        "assignee": "벤지",
+        "status": "🟢 진행 중",
+        "channel": "#콘텐츠",
+        "thread_link": "https://raomkr.slack.com/archives/C0AC4SF7HMK/p1776096223082009",
+        "waiting_for": null,
+        "last_updated": "2026-04-14T10:11:00.663365",
+        "progress": 0
+      },
       {
         "id": "learning-cron-timeout-1776111502",
         "filename": "learning-cron-timeout-1776111502.md",
@@ -1008,17 +1034,17 @@
     }
   ],
   "stats": {
-    "total": 164,
-    "active": 66,
+    "total": 166,
+    "active": 68,
     "next": 0,
     "waiting": 1,
     "completed": 97,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 66,
+    "wip_count": 68,
     "wip_limit": 5,
-    "wip_utilization": 1320.0,
+    "wip_utilization": 1360.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [
@@ -1089,6 +1115,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-14T08:49:27.510145"
+    "timestamp": "2026-04-14T10:11:08.542084"
   }
 }
