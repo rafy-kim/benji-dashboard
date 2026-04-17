@@ -1,7 +1,20 @@
 {
-  "generated_at": "2026-04-14T14:08:58.638453",
+  "generated_at": "2026-04-18T07:14:32.763902",
   "tasks": {
     "active": [
+      {
+        "id": "paperclip-live-status",
+        "filename": "paperclip-live-status.md",
+        "folder": "active",
+        "title": "Paperclip 라이브 진행상황 점검",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-18T07:14:27.620150",
+        "progress": 0
+      },
       {
         "id": "learning-cron-timeout-1776125368",
         "filename": "learning-cron-timeout-1776125368.md",
@@ -1112,28 +1125,31 @@
     }
   ],
   "stats": {
-    "total": 172,
-    "active": 74,
+    "total": 173,
+    "active": 75,
     "next": 0,
     "waiting": 1,
     "completed": 97,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 74,
+    "wip_count": 75,
     "wip_limit": 5,
-    "wip_utilization": 1480.0,
+    "wip_utilization": 1500.0,
     "waiting_count": 1,
     "completed_today": 0,
-    "aging_24h": [
+    "aging_24h": [],
+    "aging_48h": [
+      "learning-cron-timeout-1776125368",
+      "rag-comment-cron-timeout-1776096223",
+      "learning-cron-timeout-1776111502",
+      "trump-longform-duplicate-upload-bug",
       "content-parenting-step4-1776015613",
       "thread-1775976556-634929",
       "thread-1775978769-026059",
       "openrouter-api-key-thread",
       "openrouter-api-key-setup-1775963252",
-      "opus46-model-switch"
-    ],
-    "aging_48h": [
+      "opus46-model-switch",
       "thread-1775896473-466639",
       "thread-1775911598-376109",
       "thread-1775912181-152629",
@@ -1199,6 +1215,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-14T14:08:58.672679"
+    "timestamp": "2026-04-18T07:14:32.823897"
   }
 }
