@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T07:14:32.763902",
+  "generated_at": "2026-04-18T20:05:00.772442",
   "tasks": {
     "active": [
       {
@@ -133,71 +133,6 @@
         "progress": 0
       },
       {
-        "id": "opus46-model-switch",
-        "filename": "opus46-model-switch.md",
-        "folder": "active",
-        "title": "Opus 4.6 모델 전환 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775963252190529",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T14:24:51.863407",
-        "progress": 0
-      },
-      {
-        "id": "thread-1775896473-466639",
-        "filename": "thread-1775896473-466639.md",
-        "folder": "active",
-        "title": "작업명",
-        "assignee": "벤지",
-        "status": "🟢 진행 중",
-        "channel": "#채널명",
-        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T12:52:22.764910",
-        "progress": 0
-      },
-      {
-        "id": "thread-1775911598-376109",
-        "filename": "thread-1775911598-376109.md",
-        "folder": "active",
-        "title": "작업명",
-        "assignee": "벤지",
-        "status": "🟢 진행 중",
-        "channel": "#채널명",
-        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T12:52:22.669130",
-        "progress": 0
-      },
-      {
-        "id": "thread-1775912181-152629",
-        "filename": "thread-1775912181-152629.md",
-        "folder": "active",
-        "title": "작업명",
-        "assignee": "벤지",
-        "status": "🟢 진행 중",
-        "channel": "#채널명",
-        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T12:52:22.573183",
-        "progress": 0
-      },
-      {
-        "id": "thread-1775925673-983979",
-        "filename": "thread-1775925673-983979.md",
-        "folder": "active",
-        "title": "작업명",
-        "assignee": "벤지",
-        "status": "🟢 진행 중",
-        "channel": "#채널명",
-        "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T12:52:22.474376",
-        "progress": 0
-      },
-      {
         "id": "thread-1775940492-509119",
         "filename": "thread-1775940492-509119.md",
         "folder": "active",
@@ -302,32 +237,6 @@
         "progress": 0
       },
       {
-        "id": "tummy-time-arm-spread-1775936952",
-        "filename": "tummy-time-arm-spread-1775936952.md",
-        "folder": "active",
-        "title": "육아 터미타임 팔 벌림 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-12T04:59:51.249521",
-        "progress": 0
-      },
-      {
-        "id": "parenting-step4-upload",
-        "filename": "parenting-step4-upload.md",
-        "folder": "active",
-        "title": "육아꿀팁 Step4 예약 업로드",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775935456511689",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T04:45:09.895091",
-        "progress": 0
-      },
-      {
         "id": "thread-1775935456-511689",
         "filename": "thread-1775935456-511689.md",
         "folder": "active",
@@ -338,19 +247,6 @@
         "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
         "waiting_for": null,
         "last_updated": "2026-04-12T04:29:44.107868",
-        "progress": 0
-      },
-      {
-        "id": "diary-finger-sucking-1775926580",
-        "filename": "diary-finger-sucking-1775926580.md",
-        "folder": "active",
-        "title": "손가락 빨기 반응이 귀여웠던 육아일기 스레드",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ALLMB8HL3/p1775926580718619",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T02:51:24.831856",
         "progress": 0
       },
       {
@@ -367,58 +263,6 @@
         "progress": 0
       },
       {
-        "id": "aginglab-step0-3-upload-followup",
-        "filename": "aginglab-step0-3-upload-followup.md",
-        "folder": "active",
-        "title": "노화연구소 Step0~3 업로드 후속 작업",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775919663228159",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T00:16:13.214897",
-        "progress": 0
-      },
-      {
-        "id": "yuka-milk-supply-diet-1775912181",
-        "filename": "yuka-milk-supply-diet-1775912181.md",
-        "folder": "active",
-        "title": "육아: 모유량 늘리려면 산모 식단에서 뭐가 제일 중요할까?",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-11T22:12:09.271538",
-        "progress": 0
-      },
-      {
-        "id": "yuka-contact-nap-1775911598",
-        "filename": "yuka-contact-nap-1775911598.md",
-        "folder": "active",
-        "title": "육아: 안아야 깊게 자는 9주차 아기 낮잠 대응",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-11T21:53:43.267191",
-        "progress": 0
-      },
-      {
-        "id": "investment-cron-timeout-fix",
-        "filename": "investment-cron-timeout-fix.md",
-        "folder": "active",
-        "title": "투자 크론 타임아웃 점검 및 복구",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ABQGG7RT5/p1775896473466639",
-        "waiting_for": null,
-        "last_updated": "2026-04-11T18:16:38.245537",
-        "progress": 0
-      },
-      {
         "id": "invest-cron-timeout-1775896473",
         "filename": "invest-cron-timeout-1775896473.md",
         "folder": "active",
@@ -429,58 +273,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-11T17:38:43.709862",
-        "progress": 0
-      },
-      {
-        "id": "rafy-slack-thread-1775895063",
-        "filename": "rafy-slack-thread-1775895063.md",
-        "folder": "active",
-        "title": "라피 개인: 사용량 관련 스레드 1775895063",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-11T17:24:33.802721",
-        "progress": 0
-      },
-      {
-        "id": "rafy-slack-thread-1775894548",
-        "filename": "rafy-slack-thread-1775894548.md",
-        "folder": "active",
-        "title": "라피 개인: Slack 스레드 1775894548",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-11T17:08:46.874560",
-        "progress": 0
-      },
-      {
-        "id": "paperclip-progress-check",
-        "filename": "paperclip-progress-check.md",
-        "folder": "active",
-        "title": "PaperClip 진행상황 및 병목 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775782641896269",
-        "waiting_for": null,
-        "last_updated": "2026-04-11T15:21:52.384853",
-        "progress": 40
-      },
-      {
-        "id": "paperclip-studio-split",
-        "filename": "paperclip-studio-split.md",
-        "folder": "active",
-        "title": "PaperClip 스튜디오 분리 운영안 정리",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775782641896269",
-        "waiting_for": null,
-        "last_updated": "2026-04-11T15:06:37.008626",
         "progress": 0
       },
       {
@@ -510,32 +302,6 @@
         "progress": 67
       },
       {
-        "id": "milk-supply-foods-and-strategy",
-        "filename": "milk-supply-foods-and-strategy.md",
-        "folder": "active",
-        "title": "모유량 증가 전략과 식단 질문",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775873730253799",
-        "waiting_for": null,
-        "last_updated": "2026-04-11T11:28:53.573738",
-        "progress": 67
-      },
-      {
-        "id": "cluster-feeding-supplementation",
-        "filename": "cluster-feeding-supplementation.md",
-        "folder": "active",
-        "title": "클러스터 피딩 시기 보충수유 판단",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775873700375859",
-        "waiting_for": null,
-        "last_updated": "2026-04-11T11:28:53.573738",
-        "progress": 67
-      },
-      {
         "id": "yuka-miyeok-breastmilk-1775873730",
         "filename": "yuka-miyeok-breastmilk-1775873730.md",
         "folder": "active",
@@ -546,32 +312,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-11T11:23:32.515495",
-        "progress": 0
-      },
-      {
-        "id": "yuka-night-milk-shortage-1775873700",
-        "filename": "yuka-night-milk-shortage-1775873700.md",
-        "folder": "active",
-        "title": "육아: 밤 수유 텀 짧아짐 / 모유 부족",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-11T11:23:31.652941",
-        "progress": 0
-      },
-      {
-        "id": "content-c0ac4sf7hmk-1775845375",
-        "filename": "content-c0ac4sf7hmk-1775845375.md",
-        "folder": "active",
-        "title": "태스크 카드: #콘텐츠 스레드 1775845375",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-11T05:04:00.193137",
         "progress": 0
       },
       {
@@ -588,19 +328,6 @@
         "progress": 0
       },
       {
-        "id": "content-c0ac4sf7hmk-1775747310",
-        "filename": "content-c0ac4sf7hmk-1775747310.md",
-        "folder": "active",
-        "title": "태스크 카드: #콘텐츠 스레드 1775747310",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-11T01:38:43.737911",
-        "progress": 0
-      },
-      {
         "id": "thread-1775810534-413569",
         "filename": "thread-1775810534-413569.md",
         "folder": "active",
@@ -611,45 +338,6 @@
         "thread_link": "https://raomkr.slack.com/archives/CHANNEL/pTIMESTAMP",
         "waiting_for": null,
         "last_updated": "2026-04-10T20:39:06.768972",
-        "progress": 0
-      },
-      {
-        "id": "slack-c0abfb203br-1775812561",
-        "filename": "slack-c0abfb203br-1775812561.md",
-        "folder": "active",
-        "title": "[#생활] 수면 방향 — 과학적 근거 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T18:23:15.523061",
-        "progress": 0
-      },
-      {
-        "id": "yuka-night-cry-1775810534",
-        "filename": "yuka-night-cry-1775810534.md",
-        "folder": "active",
-        "title": "육아 수면 중 갑작스러운 울음 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T17:45:10.692464",
-        "progress": 0
-      },
-      {
-        "id": "paperclip-status-thread-1775782641",
-        "filename": "paperclip-status-thread-1775782641.md",
-        "folder": "active",
-        "title": "PaperClip 진행상황 및 병목 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T17:11:21.310428",
         "progress": 0
       },
       {
@@ -705,19 +393,6 @@
         "progress": 0
       },
       {
-        "id": "yuka-formula-storage-1775785416",
-        "filename": "yuka-formula-storage-1775785416.md",
-        "folder": "active",
-        "title": "육아 분유 보관 기간 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T10:53:08.975367",
-        "progress": 0
-      },
-      {
         "id": "popup-jamsil-1775785569",
         "filename": "popup-jamsil-1775785569.md",
         "folder": "active",
@@ -728,19 +403,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-10T10:53:08.973655",
-        "progress": 0
-      },
-      {
-        "id": "slack-c0ac9rklcbb-1775782641",
-        "filename": "slack-c0ac9rklcbb-1775782641.md",
-        "folder": "active",
-        "title": "Slack 스레드 C0AC9RKLCBB",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T10:08:15.859189",
         "progress": 0
       },
       {
@@ -770,19 +432,6 @@
         "progress": 0
       },
       {
-        "id": "parenting-youtube-schedule-check-1775755512",
-        "filename": "parenting-youtube-schedule-check-1775755512.md",
-        "folder": "active",
-        "title": "초보엄빠 4/10 예약 업로드 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775755512300529",
-        "waiting_for": null,
-        "last_updated": "2026-04-10T05:31:51.765291",
-        "progress": 67
-      },
-      {
         "id": "parenting-daily-thread-1775755512",
         "filename": "parenting-daily-thread-1775755512.md",
         "folder": "active",
@@ -809,45 +458,6 @@
         "progress": 0
       },
       {
-        "id": "diary-thread-1775762940",
-        "filename": "diary-thread-1775762940.md",
-        "folder": "active",
-        "title": "육아일기 스레드 후속 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ALLMB8HL3/p1775762940433689",
-        "waiting_for": null,
-        "last_updated": "2026-04-10T04:32:41.843832",
-        "progress": 0
-      },
-      {
-        "id": "yuka-vaccine-fever-followup-1775742973",
-        "filename": "yuka-vaccine-fever-followup-1775742973.md",
-        "folder": "active",
-        "title": "초록이 접종 후 체온 체크 후속 대응",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775742973979409",
-        "waiting_for": null,
-        "last_updated": "2026-04-10T04:17:02.857067",
-        "progress": 0
-      },
-      {
-        "id": "content-parenting-step2a-1775755512",
-        "filename": "content-parenting-step2a-1775755512.md",
-        "folder": "active",
-        "title": "육아꿀팁 Step2a: 이미지 생성 (1편째)",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T03:13:03.809555",
-        "progress": 0
-      },
-      {
         "id": "rafy-paperclip-agent-permissions-1775736644",
         "filename": "rafy-paperclip-agent-permissions-1775736644.md",
         "folder": "active",
@@ -858,32 +468,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-09T21:15:33.486546",
-        "progress": 0
-      },
-      {
-        "id": "yuka-breastfeeding-barley-bread-1775734266",
-        "filename": "yuka-breastfeeding-barley-bread-1775734266.md",
-        "folder": "active",
-        "title": "육아 스레드 1775734266 모유수유 음식 문의",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775734266260859",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T20:34:59.288812",
-        "progress": 50
-      },
-      {
-        "id": "rafy-llm-model-finder-1775705211",
-        "filename": "rafy-llm-model-finder-1775705211.md",
-        "folder": "active",
-        "title": "라피-개인 Q&A: 사양별 LLM 모델 추천 사이트",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775705211625409",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T15:28:15.806850",
         "progress": 0
       },
       {
@@ -900,19 +484,6 @@
         "progress": 0
       },
       {
-        "id": "yuka-vaccine-thread-1775665347",
-        "filename": "yuka-vaccine-thread-1775665347.md",
-        "folder": "active",
-        "title": "육아 Q&A: 초록이 6가 종합백신 접종 시기",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775665347214609",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T15:13:36.877899",
-        "progress": 0
-      },
-      {
         "id": "yuka-swaddle-thread-1775649240",
         "filename": "yuka-swaddle-thread-1775649240.md",
         "folder": "active",
@@ -924,45 +495,6 @@
         "waiting_for": null,
         "last_updated": "2026-04-09T15:13:33.209322",
         "progress": 0
-      },
-      {
-        "id": "diary-thread-1775706280",
-        "filename": "diary-thread-1775706280.md",
-        "folder": "active",
-        "title": "유현이 백신 기록 스레드 후속 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ALLMB8HL3/p1775706280046879",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T13:30:32.759697",
-        "progress": 50
-      },
-      {
-        "id": "content-thread-1775706980",
-        "filename": "content-thread-1775706980.md",
-        "folder": "active",
-        "title": "콘텐츠 스레드 1775706980 후속 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775706980819979",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T13:16:15.665576",
-        "progress": 50
-      },
-      {
-        "id": "aginglab-comment-match-followup",
-        "filename": "aginglab-comment-match-followup.md",
-        "folder": "active",
-        "title": "노화연구소 논문 매칭 실패 후속 처리",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775704965729259",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T13:16:15.665547",
-        "progress": 67
       },
       {
         "id": "aginglab-source-comment-report",
@@ -995,32 +527,6 @@
       }
     ],
     "completed": [
-      {
-        "id": "moro-reflex-normal-timeline-1775976556",
-        "filename": "moro-reflex-normal-timeline-1775976556.md",
-        "folder": "completed",
-        "title": "모로 반사 정상 소실 시기 안내",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775976556634929",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T16:14:04.759283",
-        "progress": 100
-      },
-      {
-        "id": "vaccine-night-feed-shorter",
-        "filename": "vaccine-night-feed-shorter.md",
-        "folder": "completed",
-        "title": "종합백신 6가 후 밤수 텀 짧아짐 안내",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775925673983979",
-        "waiting_for": null,
-        "last_updated": "2026-04-12T01:50:18.461273",
-        "progress": 100
-      },
       {
         "id": "content-aginglab-step03-1775747310",
         "filename": "content-aginglab-step03-1775747310.md",
@@ -1059,6 +565,32 @@
         "waiting_for": null,
         "last_updated": "2026-04-10T03:17:01.658088",
         "progress": 0
+      },
+      {
+        "id": "thread-1775705089-129159",
+        "filename": "thread-1775705089-129159.md",
+        "folder": "completed",
+        "title": "paperclip 진행 상황 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T14:11:32.658301",
+        "progress": 100
+      },
+      {
+        "id": "paperclip-git-check-fix",
+        "filename": "paperclip-git-check-fix.md",
+        "folder": "completed",
+        "title": "Paperclip Codex git 체크 우회 설정",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
+        "waiting_for": null,
+        "last_updated": "2026-04-09T13:44:39.172698",
+        "progress": 100
       }
     ]
   },
@@ -1125,17 +657,17 @@
     }
   ],
   "stats": {
-    "total": 173,
-    "active": 75,
+    "total": 128,
+    "active": 39,
     "next": 0,
     "waiting": 1,
-    "completed": 97,
+    "completed": 88,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 75,
+    "wip_count": 39,
     "wip_limit": 5,
-    "wip_utilization": 1500.0,
+    "wip_utilization": 780.0,
     "waiting_count": 1,
     "completed_today": 0,
     "aging_24h": [],
@@ -1149,11 +681,6 @@
       "thread-1775978769-026059",
       "openrouter-api-key-thread",
       "openrouter-api-key-setup-1775963252",
-      "opus46-model-switch",
-      "thread-1775896473-466639",
-      "thread-1775911598-376109",
-      "thread-1775912181-152629",
-      "thread-1775925673-983979",
       "thread-1775940492-509119",
       "thread-1775955947-877999",
       "openrouter-gemma31b-migration",
@@ -1162,59 +689,28 @@
       "yuka-sleep-breastmilk-thread-1775940492",
       "milk-supply-food-vs-sleep-1775940492",
       "thread-1775936952-348539",
-      "tummy-time-arm-spread-1775936952",
-      "parenting-step4-upload",
       "thread-1775935456-511689",
-      "diary-finger-sucking-1775926580",
       "vaccine-night-feed-followup-1775925673",
-      "aginglab-step0-3-upload-followup",
-      "yuka-milk-supply-diet-1775912181",
-      "yuka-contact-nap-1775911598",
-      "investment-cron-timeout-fix",
       "invest-cron-timeout-1775896473",
-      "rafy-slack-thread-1775895063",
-      "rafy-slack-thread-1775894548",
-      "paperclip-progress-check",
-      "paperclip-studio-split",
       "milk-supply-boost",
       "cluster-feeding-supplement",
-      "milk-supply-foods-and-strategy",
-      "cluster-feeding-supplementation",
       "yuka-miyeok-breastmilk-1775873730",
-      "yuka-night-milk-shortage-1775873700",
-      "content-c0ac4sf7hmk-1775845375",
       "token-usage-stabilization",
-      "content-c0ac4sf7hmk-1775747310",
       "thread-1775810534-413569",
-      "slack-c0abfb203br-1775812561",
-      "yuka-night-cry-1775810534",
-      "paperclip-status-thread-1775782641",
       "paperclip-status-bottleneck",
       "couple-conflict-postpartum-1775786081",
       "yuka-nap-schedule-1775786025",
       "yuka-mobile-brain-1775786006",
-      "yuka-formula-storage-1775785416",
       "popup-jamsil-1775785569",
-      "slack-c0ac9rklcbb-1775782641",
       "popup-no-data-1775782734",
       "nyamnyampick-cron-timeout-1775780313",
-      "parenting-youtube-schedule-check-1775755512",
       "parenting-daily-thread-1775755512",
       "diary-moro-swaddle-1775763732",
-      "diary-thread-1775762940",
-      "yuka-vaccine-fever-followup-1775742973",
-      "content-parenting-step2a-1775755512",
       "rafy-paperclip-agent-permissions-1775736644",
-      "yuka-breastfeeding-barley-bread-1775734266",
-      "rafy-llm-model-finder-1775705211",
       "yuka-feeding-gap-thread-1775715095",
-      "yuka-vaccine-thread-1775665347",
       "yuka-swaddle-thread-1775649240",
-      "diary-thread-1775706280",
-      "content-thread-1775706980",
-      "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-18T07:14:32.823897"
+    "timestamp": "2026-04-18T20:05:00.806292"
   }
 }
