@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T20:05:04.145098",
+  "generated_at": "2026-04-19T12:04:30.495064",
   "tasks": {
     "active": [
       {
@@ -670,7 +670,9 @@
     "wip_utilization": 780.0,
     "waiting_count": 1,
     "completed_today": 0,
-    "aging_24h": [],
+    "aging_24h": [
+      "paperclip-live-status"
+    ],
     "aging_48h": [
       "learning-cron-timeout-1776125368",
       "rag-comment-cron-timeout-1776096223",
@@ -711,6 +713,6 @@
       "yuka-swaddle-thread-1775649240",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-18T20:05:04.161056"
+    "timestamp": "2026-04-19T12:04:30.537756"
   }
 }
