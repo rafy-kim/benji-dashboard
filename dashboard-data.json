@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T12:35:33.893398",
+  "generated_at": "2026-04-19T12:35:37.393361",
   "tasks": {
     "active": [
       {
@@ -541,6 +541,19 @@
     ],
     "completed": [
       {
+        "id": "moro-reflex-normal-timeline-1775976556",
+        "filename": "moro-reflex-normal-timeline-1775976556.md",
+        "folder": "completed",
+        "title": "모로 반사 정상 소실 시기 안내",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775976556634929",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T16:14:04",
+        "progress": 100
+      },
+      {
         "id": "vaccine-night-feed-shorter",
         "filename": "vaccine-night-feed-shorter.md",
         "folder": "completed",
@@ -590,19 +603,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-10T03:17:01.658088",
-        "progress": 0
-      },
-      {
-        "id": "yuka-fever-after-vaccine-1775742973",
-        "filename": "yuka-fever-after-vaccine-1775742973.md",
-        "folder": "completed",
-        "title": "#육아 접종열 Q&A",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T03:17:01",
         "progress": 0
       }
     ]
@@ -670,11 +670,11 @@
     }
   ],
   "stats": {
-    "total": 206,
+    "total": 226,
     "active": 39,
     "next": 0,
     "waiting": 2,
-    "completed": 165,
+    "completed": 185,
     "cron": 6
   },
   "flow_metrics": {
@@ -726,6 +726,6 @@
       "yuka-swaddle-thread-1775649240",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-19T12:35:33.922359"
+    "timestamp": "2026-04-19T12:35:37.419400"
   }
 }
