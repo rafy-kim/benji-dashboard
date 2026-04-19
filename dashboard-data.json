@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T12:33:10.181329",
+  "generated_at": "2026-04-19T12:34:50.468352",
   "tasks": {
     "active": [
       {
@@ -528,6 +528,19 @@
     ],
     "completed": [
       {
+        "id": "vaccine-night-feed-shorter",
+        "filename": "vaccine-night-feed-shorter.md",
+        "folder": "completed",
+        "title": "종합백신 6가 후 밤수 텀 짧아짐 안내",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0ACBT9M8TE/p1775925673983979",
+        "waiting_for": null,
+        "last_updated": "2026-04-12T01:50:18",
+        "progress": 100
+      },
+      {
         "id": "content-aginglab-step03-1775747310",
         "filename": "content-aginglab-step03-1775747310.md",
         "folder": "completed",
@@ -567,30 +580,17 @@
         "progress": 0
       },
       {
-        "id": "thread-1775705089-129159",
-        "filename": "thread-1775705089-129159.md",
+        "id": "yuka-fever-after-vaccine-1775742973",
+        "filename": "yuka-fever-after-vaccine-1775742973.md",
         "folder": "completed",
-        "title": "paperclip 진행 상황 확인",
+        "title": "#육아 접종열 Q&A",
         "assignee": "벤지",
         "status": "",
         "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
+        "thread_link": null,
         "waiting_for": null,
-        "last_updated": "2026-04-09T14:11:32.658301",
-        "progress": 100
-      },
-      {
-        "id": "paperclip-git-check-fix",
-        "filename": "paperclip-git-check-fix.md",
-        "folder": "completed",
-        "title": "Paperclip Codex git 체크 우회 설정",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC4SF7HMK/p1775705089129159",
-        "waiting_for": null,
-        "last_updated": "2026-04-09T13:44:39.172698",
-        "progress": 100
+        "last_updated": "2026-04-10T03:17:01",
+        "progress": 0
       }
     ]
   },
@@ -657,11 +657,11 @@
     }
   ],
   "stats": {
-    "total": 138,
+    "total": 157,
     "active": 39,
     "next": 0,
     "waiting": 1,
-    "completed": 98,
+    "completed": 117,
     "cron": 6
   },
   "flow_metrics": {
@@ -713,6 +713,6 @@
       "yuka-swaddle-thread-1775649240",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-19T12:33:10.206245"
+    "timestamp": "2026-04-19T12:34:50.495575"
   }
 }
