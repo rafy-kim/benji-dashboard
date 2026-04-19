@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T12:36:01.323956",
+  "generated_at": "2026-04-19T12:36:04.831199",
   "tasks": {
     "active": [
       {
@@ -445,6 +445,19 @@
         "progress": 0
       },
       {
+        "id": "rafy-slack-thread-1775894548",
+        "filename": "rafy-slack-thread-1775894548.md",
+        "folder": "active",
+        "title": "라피 개인: Slack 스레드 1775894548",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-11T17:08:46.874560",
+        "progress": 0
+      },
+      {
         "id": "paperclip-progress-check",
         "filename": "paperclip-progress-check.md",
         "folder": "active",
@@ -611,6 +624,19 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-10T18:23:15.523061",
+        "progress": 0
+      },
+      {
+        "id": "yuka-night-cry-1775810534",
+        "filename": "yuka-night-cry-1775810534.md",
+        "folder": "active",
+        "title": "육아 수면 중 갑작스러운 울음 Q&A",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-10T17:45:10.692464",
         "progress": 0
       },
       {
@@ -1112,17 +1138,17 @@
     }
   ],
   "stats": {
-    "total": 265,
-    "active": 73,
+    "total": 267,
+    "active": 75,
     "next": 0,
     "waiting": 2,
     "completed": 190,
     "cron": 6
   },
   "flow_metrics": {
-    "wip_count": 73,
+    "wip_count": 75,
     "wip_limit": 5,
-    "wip_utilization": 1460.0,
+    "wip_utilization": 1500.0,
     "waiting_count": 2,
     "completed_today": 0,
     "aging_24h": [
@@ -1162,6 +1188,7 @@
       "investment-cron-timeout-fix",
       "invest-cron-timeout-1775896473",
       "rafy-slack-thread-1775895063",
+      "rafy-slack-thread-1775894548",
       "paperclip-progress-check",
       "paperclip-studio-split",
       "milk-supply-boost",
@@ -1175,6 +1202,7 @@
       "content-c0ac4sf7hmk-1775747310",
       "thread-1775810534-413569",
       "slack-c0abfb203br-1775812561",
+      "yuka-night-cry-1775810534",
       "paperclip-status-thread-1775782641",
       "paperclip-status-bottleneck",
       "couple-conflict-postpartum-1775786081",
@@ -1202,6 +1230,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-19T12:36:01.352335"
+    "timestamp": "2026-04-19T12:36:04.856585"
   }
 }
