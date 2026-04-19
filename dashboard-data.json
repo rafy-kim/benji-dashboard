@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T12:35:10.922769",
+  "generated_at": "2026-04-19T12:35:14.466617",
   "tasks": {
     "active": [
       {
@@ -657,11 +657,11 @@
     }
   ],
   "stats": {
-    "total": 179,
+    "total": 194,
     "active": 39,
     "next": 0,
     "waiting": 1,
-    "completed": 139,
+    "completed": 154,
     "cron": 6
   },
   "flow_metrics": {
@@ -713,6 +713,6 @@
       "yuka-swaddle-thread-1775649240",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-19T12:35:10.949822"
+    "timestamp": "2026-04-19T12:35:14.494385"
   }
 }
