@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T12:35:21.628209",
+  "generated_at": "2026-04-19T12:35:28.847960",
   "tasks": {
     "active": [
       {
@@ -513,6 +513,19 @@
     "next": [],
     "waiting": [
       {
+        "id": "trace-alpha-renewal",
+        "filename": "trace-alpha-renewal.md",
+        "folder": "waiting",
+        "title": "Trace Alpha 리뉴얼 프로젝트",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-03-02T08:21:23",
+        "progress": 0
+      },
+      {
         "id": "iphone-voice-benji-setup",
         "filename": "iphone-voice-benji-setup.md",
         "folder": "waiting",
@@ -657,10 +670,10 @@
     }
   ],
   "stats": {
-    "total": 194,
+    "total": 195,
     "active": 39,
     "next": 0,
-    "waiting": 1,
+    "waiting": 2,
     "completed": 154,
     "cron": 6
   },
@@ -668,7 +681,7 @@
     "wip_count": 39,
     "wip_limit": 5,
     "wip_utilization": 780.0,
-    "waiting_count": 1,
+    "waiting_count": 2,
     "completed_today": 0,
     "aging_24h": [
       "paperclip-live-status"
@@ -713,6 +726,6 @@
       "yuka-swaddle-thread-1775649240",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-19T12:35:21.653863"
+    "timestamp": "2026-04-19T12:35:28.874329"
   }
 }
