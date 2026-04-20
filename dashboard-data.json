@@ -1,7 +1,33 @@
 {
-  "generated_at": "2026-04-20T11:47:57.934545",
+  "generated_at": "2026-04-20T11:48:01.754086",
   "tasks": {
     "active": [
+      {
+        "id": "paperclip-studio-split",
+        "filename": "paperclip-studio-split.md",
+        "folder": "active",
+        "title": "PaperClip 스튜디오 분리 운영안 정리",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775782641896269",
+        "waiting_for": null,
+        "last_updated": "2026-04-20T11:48:00.652605",
+        "progress": 0
+      },
+      {
+        "id": "paperclip-status-thread-1775782641",
+        "filename": "paperclip-status-thread-1775782641.md",
+        "folder": "active",
+        "title": "PaperClip 진행상황 및 병목 확인",
+        "assignee": "벤지",
+        "status": "",
+        "channel": "",
+        "thread_link": null,
+        "waiting_for": null,
+        "last_updated": "2026-04-20T11:47:58.678603",
+        "progress": 0
+      },
       {
         "id": "paperclip-status-bottleneck",
         "filename": "paperclip-status-bottleneck.md",
@@ -484,19 +510,6 @@
         "progress": 0
       },
       {
-        "id": "paperclip-studio-split",
-        "filename": "paperclip-studio-split.md",
-        "folder": "active",
-        "title": "PaperClip 스튜디오 분리 운영안 정리",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": "https://team.slack.com/archives/C0AC9RKLCBB/p1775782641896269",
-        "waiting_for": null,
-        "last_updated": "2026-04-11T15:06:37.008626",
-        "progress": 0
-      },
-      {
         "id": "milk-supply-boost",
         "filename": "milk-supply-boost.md",
         "folder": "active",
@@ -650,19 +663,6 @@
         "thread_link": null,
         "waiting_for": null,
         "last_updated": "2026-04-10T17:45:10.692464",
-        "progress": 0
-      },
-      {
-        "id": "paperclip-status-thread-1775782641",
-        "filename": "paperclip-status-thread-1775782641.md",
-        "folder": "active",
-        "title": "PaperClip 진행상황 및 병목 확인",
-        "assignee": "벤지",
-        "status": "",
-        "channel": "",
-        "thread_link": null,
-        "waiting_for": null,
-        "last_updated": "2026-04-10T17:11:21.310428",
         "progress": 0
       },
       {
@@ -1187,7 +1187,6 @@
       "invest-cron-timeout-1775896473",
       "rafy-slack-thread-1775895063",
       "rafy-slack-thread-1775894548",
-      "paperclip-studio-split",
       "milk-supply-boost",
       "cluster-feeding-supplement",
       "milk-supply-foods-and-strategy",
@@ -1200,7 +1199,6 @@
       "thread-1775810534-413569",
       "slack-c0abfb203br-1775812561",
       "yuka-night-cry-1775810534",
-      "paperclip-status-thread-1775782641",
       "couple-conflict-postpartum-1775786081",
       "yuka-nap-schedule-1775786025",
       "yuka-mobile-brain-1775786006",
@@ -1226,6 +1224,6 @@
       "aginglab-comment-match-followup",
       "aginglab-source-comment-report"
     ],
-    "timestamp": "2026-04-20T11:47:57.988773"
+    "timestamp": "2026-04-20T11:48:01.779180"
   }
 }
